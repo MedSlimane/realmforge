@@ -1,13 +1,16 @@
-# Directory ownership (bootstrap phase)
-Each agent writes ONLY inside its own paths. Nobody runs `git commit` (the coordinator commits).
-Each package is standalone (own package.json + lockfile, npm). No root workspaces.
+# Ownership (post-bootstrap)
 
-| Path | Owner |
-|---|---|
-| contracts/ | opus-contracts |
-| web/ (except web/public/assets/ and web/src/game/elements/) | opus-web |
-| server/ | opus-server |
-| game-core/ (pure TS physics + Mario-like controller) | codex-controller |
-| web/src/game/elements/ (Matter physics level elements) | codex-elements |
-| assets/ and web/public/assets/ | codex-assets |
-| docs/, root files | coordinator |
+The bootstrap agents are done; the repo is now owned by the two students. Each package stays a
+standalone npm project (no root workspaces). Shared files change only by agreement of both.
+
+| Area | Student A — levels & market | Student B — economy & runs |
+|---|---|---|
+| Contract | `contracts/src/LevelNFT.sol`, `test/LevelNFT.t.sol` | `contracts/src/ForgeCoin.sol`, `test/ForgeCoin.t.sol`, `src/mocks/` |
+| EIP-712 | `ClearProof` | `RunResult`, `RaceResult`, `SeasonResult`, ERC-2612 `Permit` |
+| Server | `/levels/pin`, `/levels/clear-proof`, level schema/analysis, indexer (LevelNFT events) | `/runs/validate`, plausibility/replay validation, rooms (race/co-op), indexer (ForgeCoin events) |
+| Web | editor + publish modal, browse, level detail, market (`usePublishLevel`, `useMarket`, `useLevel`) | play + race pages/scenes, profile/faucet (`useSettleRun`, `useFaucet`, `useForgeBalance`), Colyseus client |
+
+**Shared (both review):** `contracts/src/interfaces/`, `test/Integration.ts`, Ignition module,
+`game-core/` (controller + elements), `web/src/game/elements/bridge.ts`, `web/src/game/level/` (format +
+canonical JSON), `test-vectors/`, `docs/`, root scripts. Generated files (`web/src/contracts/generated/*`,
+`server/abi/*.json`) are only produced by `contracts/scripts/export-abi.ts` / `npm run deploy:local`.
