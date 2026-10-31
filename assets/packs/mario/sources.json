@@ -4533,5 +4533,29 @@
     "url": "https://assets.scratch.mit.edu/internalapi/asset/e9a2dfecfc343e8ad0b338c773396864.png/get/",
     "sha256": "85559145c21600c5ea455f1a56ea562c7ed1a1fcb12849402cb02fb9402a9df1",
     "credit": "Raster capture collection shared by PolskyGamer, Scratch project 829940955. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "resolution/NSMBUCoin.gif",
+    "url": "https://www.mariowiki.com/images/4/4c/NSMBUCoin.gif",
+    "sha256": "106571ce3840ca7a89498e1f1496fc583fa9048800820f17981ffaf8aaeb5f49",
+    "sourcePage": "https://www.mariowiki.com/File:NSMBUCoin.gif",
+    "credit": "TheMorningFlash; cropped by Cheese Head (2025); source credits The Spriters Resource",
+    "rights": "Nintendo proprietary; private team authorization is not a copyright licence."
+  },
+  {
+    "file": "resolution/SMM2-NSMBU-10Coin.gif",
+    "url": "https://www.mariowiki.com/images/0/0d/SMM2-NSMBU-10Coin.gif",
+    "sha256": "29cb757d29910e2a67671ebeddd6c9dfbbdcbc77a2f201946f8c5b7bc1182279",
+    "sourcePage": "https://www.mariowiki.com/File:SMM2-NSMBU-10Coin.gif",
+    "credit": "Thejohnston7 (2025); file history credits The Spriters Resource",
+    "rights": "Nintendo proprietary; private team authorization is not a copyright licence."
+  },
+  {
+    "file": "resolution/SMM-NSMBU-Locked-Door.png",
+    "url": "https://www.mariowiki.com/images/8/8c/SMM-NSMBU-Locked-Door.png",
+    "sha256": "f07b0c369439a6d7d6c30999e44a7de8a2c34562932cee2f36f2074ee6696cb0",
+    "sourcePage": "https://www.mariowiki.com/File:SMM-NSMBU-Locked-Door.png",
+    "credit": "Mario Wiki; source credits The Spriters Resource",
+    "rights": "Nintendo proprietary; private team authorization is not a copyright licence."
   }
 ]

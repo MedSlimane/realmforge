@@ -7,7 +7,7 @@ W=1920;M=24
 try:FONT=ImageFont.truetype('/System/Library/Fonts/Menlo.ttc',14);TITLE=ImageFont.truetype('/System/Library/Fonts/Menlo.ttc',23)
 except OSError:FONT=ImageFont.load_default();TITLE=FONT
 m=json.loads((OUT/'manifest.json').read_text());char_names=['mario','luigi','mario_small','luigi_small'];char_rows=sum(len(m['characters'][c]['animations']) for c in char_names)
-H=140+math.ceil(len(m['elements'])/12)*146+80+char_rows*120+4*520
+H=140+math.ceil(len(m['elements'])/12)*146+80+char_rows*120+4*520+300
 canvas=Image.new('RGB',(W,H),'#182438');d=ImageDraw.Draw(canvas);y=20
 
 def text(x,y,s,font=FONT,fill='#ffffff'):d.text((x,y),s,font=font,fill=fill)
@@ -22,6 +22,13 @@ for i,(id,e) in enumerate(m['elements'].items()):
  paste(Image.open(OUT/e['path']),(x+6,y+4,136,100))
  label=id if len(id)<=20 else id[:19]+'…';text(x+5,y+110,label,fill='#f3cf70')
 y=start+math.ceil(len(m['elements'])/12)*146+25
+text(M,y,'Sourced coin cycles — original order; no synthetic in-between frames',TITLE);y+=45
+for name in ['coin','big_coin']:
+ e=m['elements'][name];atlas=Image.open(OUT/e['image']).convert('RGBA');frames=json.loads((OUT/e['atlas']).read_text())['frames']
+ text(M,y,f'{name}: {len(e["animations"]["spin"]["frames"])} frames',fill='#ffc83d')
+ for i,f in enumerate(e['animations']['spin']['frames']):
+  r=frames[f]['frame'];im=atlas.crop((r['x'],r['y'],r['x']+r['w'],r['y']+r['h']));paste(im,(260+i*98,y,90,95))
+ y+=110
 text(M,y,'Character animation strips — common canvas, bottom-centred feet',TITLE);y+=45
 for name in char_names:
  e=m['characters'][name];atlas=Image.open(OUT/e['image']).convert('RGBA');frames=json.loads((OUT/e['atlas']).read_text())['frames']

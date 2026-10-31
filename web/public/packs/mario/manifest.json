@@ -592,6 +592,20 @@
       "source": "new-platformer-pack/Vector/Tiles/block_blue.svg",
       "pack": "new-platformer-pack",
       "svg": "/assets/icons/editor/svg/palette_switch_block.svg"
+    },
+    "palette_mushroom": {
+      "texture": "palette_mushroom",
+      "path": "/assets/icons/editor/palette_mushroom.png",
+      "width": 128,
+      "height": 128,
+      "source": "custom/kenney-mushroom/mushroom_red.svg",
+      "pack": "new-platformer-pack",
+      "note": "Authentic Kenney red mushroom SVG; transparent tile margins trimmed, proportionally rasterized to 128px and bottom-centered. Static art; movement and growth belong to game-core.",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "svg": "/assets/icons/editor/svg/palette_mushroom.svg"
     }
   },
   "sfx": {
@@ -913,21 +927,21 @@
       "texture": "mario-chain_bridge",
       "path": "dynamic/chain_bridge.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
-      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain."
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved."
     },
     "coin": {
       "texture": "mario-coin",
       "path": "items/coin.png",
-      "width": 128,
-      "height": 167,
-      "source": "hires/wiki/coin.png",
+      "width": 52,
+      "height": 60,
+      "source": "resolution/NSMBUCoin.gif",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -937,15 +951,53 @@
         "x": 0.5,
         "y": 0.5
       },
+      "note": "Native 16-frame NSMBU Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md.",
       "image": "items/coin/atlas.png",
       "atlas": "items/coin/atlas.json",
       "frame": "coin_0",
       "animations": {
         "idle": {
           "frames": [
-            "coin_0"
+            "coin_0",
+            "coin_1",
+            "coin_2",
+            "coin_3",
+            "coin_4",
+            "coin_5",
+            "coin_6",
+            "coin_7",
+            "coin_8",
+            "coin_9",
+            "coin_10",
+            "coin_11",
+            "coin_12",
+            "coin_13",
+            "coin_14",
+            "coin_15"
           ],
-          "frameRate": 1,
+          "frameRate": 20.0,
+          "repeat": -1
+        },
+        "spin": {
+          "frames": [
+            "coin_0",
+            "coin_1",
+            "coin_2",
+            "coin_3",
+            "coin_4",
+            "coin_5",
+            "coin_6",
+            "coin_7",
+            "coin_8",
+            "coin_9",
+            "coin_10",
+            "coin_11",
+            "coin_12",
+            "coin_13",
+            "coin_14",
+            "coin_15"
+          ],
+          "frameRate": 20.0,
           "repeat": -1
         }
       }
@@ -953,25 +1005,26 @@
     "coin_side": {
       "texture": "mario-coin_side",
       "path": "items/coin_side.png",
-      "width": 52,
+      "width": 46,
       "height": 60,
       "source": "hires/wiki/coin.gif",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 0.8846153846153846,
+        "h": 1.0
       },
       "anchor": {
         "x": 0.5,
         "y": 0.5
-      }
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "big_coin": {
       "texture": "mario-big_coin",
       "path": "items/big_coin.png",
-      "width": 120,
-      "height": 120,
-      "source": "hires/miyamoto/miyamotodata/sprites/star_coin.png",
+      "width": 118,
+      "height": 118,
+      "source": "resolution/SMM2-NSMBU-10Coin.gif",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -980,23 +1033,68 @@
       "anchor": {
         "x": 0.5,
         "y": 0.5
+      },
+      "note": "Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md.",
+      "image": "items/big_coin/atlas.png",
+      "atlas": "items/big_coin/atlas.json",
+      "frame": "big_coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5",
+            "big_coin_6",
+            "big_coin_7",
+            "big_coin_8",
+            "big_coin_9",
+            "big_coin_10",
+            "big_coin_11",
+            "big_coin_12"
+          ],
+          "frameRate": 16.666666666666668,
+          "repeat": -1
+        },
+        "spin": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5",
+            "big_coin_6",
+            "big_coin_7",
+            "big_coin_8",
+            "big_coin_9",
+            "big_coin_10",
+            "big_coin_11",
+            "big_coin_12"
+          ],
+          "frameRate": 16.666666666666668,
+          "repeat": -1
+        }
       }
     },
     "key": {
       "texture": "mario-key",
       "path": "items/key.png",
-      "width": 60,
-      "height": 60,
+      "width": 51,
+      "height": 58,
       "source": "hires/wiki/key.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 0.85,
+        "h": 0.9666666666666667
       },
       "anchor": {
         "x": 0.5,
         "y": 0.5
-      }
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "powerup_double_jump": {
       "texture": "mario-powerup_double_jump",
@@ -1179,9 +1277,9 @@
     "locked_door": {
       "texture": "mario-locked_door",
       "path": "flow/locked_door.png",
-      "width": 156,
-      "height": 308,
-      "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+      "width": 78,
+      "height": 154,
+      "source": "resolution/SMM-NSMBU-Locked-Door.png",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -1191,7 +1289,7 @@
         "x": 0.5,
         "y": 0.5
       },
-      "note": "Native closed door, with the separately supplied key indicating lock state in gameplay."
+      "note": "Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay."
     },
     "switch": {
       "texture": "mario-switch",
@@ -1584,13 +1682,14 @@
       "texture": "mario-grass_one_way",
       "path": "tiles/grass/grass_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.38333333333333336
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "grass_semi_solid": {
       "texture": "mario-grass_semi_solid",
@@ -1833,13 +1932,14 @@
       "texture": "mario-desert_one_way",
       "path": "tiles/desert/desert_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-7.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.38333333333333336
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "desert_semi_solid": {
       "texture": "mario-desert_semi_solid",
@@ -2082,13 +2182,14 @@
       "texture": "mario-snow_one_way",
       "path": "tiles/snow/snow_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-6.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.38333333333333336
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "snow_semi_solid": {
       "texture": "mario-snow_semi_solid",
@@ -2331,13 +2432,14 @@
       "texture": "mario-castle_one_way",
       "path": "tiles/castle/castle_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 24,
       "source": "tiles/21847-2.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.4
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "castle_semi_solid": {
       "texture": "mario-castle_semi_solid",
@@ -6920,52 +7022,56 @@
       "texture": "mario-grass_one_way",
       "path": "tiles/grass/grass_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
+      "note": " Transparent source margins removed; previous visible size preserved.",
       "aliasOf": "grass_one_way"
     },
     "one-way-platform": {
       "texture": "mario-grass_one_way",
       "path": "tiles/grass/grass_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
+      "note": " Transparent source margins removed; previous visible size preserved.",
       "aliasOf": "grass_one_way"
     },
     "one_way": {
       "texture": "mario-grass_one_way",
       "path": "tiles/grass/grass_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
+      "note": " Transparent source margins removed; previous visible size preserved.",
       "aliasOf": "grass_one_way"
     },
     "oneWay": {
       "texture": "mario-grass_one_way",
       "path": "tiles/grass/grass_one_way.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
+      "note": " Transparent source margins removed; previous visible size preserved.",
       "aliasOf": "grass_one_way"
     },
     "semi-solid": {
@@ -7099,28 +7205,28 @@
       "texture": "mario-chain_bridge",
       "path": "dynamic/chain_bridge.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
-      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain.",
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved.",
       "aliasOf": "chain_bridge"
     },
     "chain-bridge": {
       "texture": "mario-chain_bridge",
       "path": "dynamic/chain_bridge.png",
       "width": 60,
-      "height": 60,
+      "height": 23,
       "source": "tiles/21847-0.png",
       "pack": "mario-nsmbu",
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
-      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain.",
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved.",
       "aliasOf": "chain_bridge"
     },
     "trampoline": {
@@ -7285,9 +7391,9 @@
     "big-coin": {
       "texture": "mario-big_coin",
       "path": "items/big_coin.png",
-      "width": 120,
-      "height": 120,
-      "source": "hires/miyamoto/miyamotodata/sprites/star_coin.png",
+      "width": 118,
+      "height": 118,
+      "source": "resolution/SMM2-NSMBU-10Coin.gif",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -7296,15 +7402,59 @@
       "anchor": {
         "x": 0.5,
         "y": 0.5
+      },
+      "note": "Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md.",
+      "image": "items/big_coin/atlas.png",
+      "atlas": "items/big_coin/atlas.json",
+      "frame": "big_coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5",
+            "big_coin_6",
+            "big_coin_7",
+            "big_coin_8",
+            "big_coin_9",
+            "big_coin_10",
+            "big_coin_11",
+            "big_coin_12"
+          ],
+          "frameRate": 16.666666666666668,
+          "repeat": -1
+        },
+        "spin": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5",
+            "big_coin_6",
+            "big_coin_7",
+            "big_coin_8",
+            "big_coin_9",
+            "big_coin_10",
+            "big_coin_11",
+            "big_coin_12"
+          ],
+          "frameRate": 16.666666666666668,
+          "repeat": -1
+        }
       },
       "aliasOf": "big_coin"
     },
     "bigCoin": {
       "texture": "mario-big_coin",
       "path": "items/big_coin.png",
-      "width": 120,
-      "height": 120,
-      "source": "hires/miyamoto/miyamotodata/sprites/star_coin.png",
+      "width": 118,
+      "height": 118,
+      "source": "resolution/SMM2-NSMBU-10Coin.gif",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -7313,6 +7463,50 @@
       "anchor": {
         "x": 0.5,
         "y": 0.5
+      },
+      "note": "Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md.",
+      "image": "items/big_coin/atlas.png",
+      "atlas": "items/big_coin/atlas.json",
+      "frame": "big_coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5",
+            "big_coin_6",
+            "big_coin_7",
+            "big_coin_8",
+            "big_coin_9",
+            "big_coin_10",
+            "big_coin_11",
+            "big_coin_12"
+          ],
+          "frameRate": 16.666666666666668,
+          "repeat": -1
+        },
+        "spin": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5",
+            "big_coin_6",
+            "big_coin_7",
+            "big_coin_8",
+            "big_coin_9",
+            "big_coin_10",
+            "big_coin_11",
+            "big_coin_12"
+          ],
+          "frameRate": 16.666666666666668,
+          "repeat": -1
+        }
       },
       "aliasOf": "big_coin"
     },
@@ -7428,9 +7622,9 @@
     "key-lock-door": {
       "texture": "mario-locked_door",
       "path": "flow/locked_door.png",
-      "width": 156,
-      "height": 308,
-      "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+      "width": 78,
+      "height": 154,
+      "source": "resolution/SMM-NSMBU-Locked-Door.png",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -7440,15 +7634,15 @@
         "x": 0.5,
         "y": 0.5
       },
-      "note": "Native closed door, with the separately supplied key indicating lock state in gameplay.",
+      "note": "Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay.",
       "aliasOf": "locked_door"
     },
     "keyLockDoor": {
       "texture": "mario-locked_door",
       "path": "flow/locked_door.png",
-      "width": 156,
-      "height": 308,
-      "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+      "width": 78,
+      "height": 154,
+      "source": "resolution/SMM-NSMBU-Locked-Door.png",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -7458,15 +7652,15 @@
         "x": 0.5,
         "y": 0.5
       },
-      "note": "Native closed door, with the separately supplied key indicating lock state in gameplay.",
+      "note": "Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay.",
       "aliasOf": "locked_door"
     },
     "lockedDoor": {
       "texture": "mario-locked_door",
       "path": "flow/locked_door.png",
-      "width": 156,
-      "height": 308,
-      "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+      "width": 78,
+      "height": 154,
+      "source": "resolution/SMM-NSMBU-Locked-Door.png",
       "pack": "mario-nsmbu",
       "displaySize": {
         "w": 1,
@@ -7476,7 +7670,7 @@
         "x": 0.5,
         "y": 0.5
       },
-      "note": "Native closed door, with the separately supplied key indicating lock state in gameplay.",
+      "note": "Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay.",
       "aliasOf": "locked_door"
     },
     "switch-block": {

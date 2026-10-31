@@ -3,10 +3,11 @@ from pathlib import Path
 from PIL import Image
 import hashlib,json
 from build import crop
-from audit import audit, factor
+from audit import audit, factor, content_size, opaque_size, native_frames, read_image
 HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2];OUT=ROOT/'web/public/packs/mario';RAW=ROOT/'assets/_downloads/mario'
 def validate_display_scale(m):
- """Check logical frame sizes; atlas image size and extruded gutters don't count."""
+ """Check decoded opaque content; transparent padding/gutters never count."""
+ read_image.cache_clear()
  checked=0
  for section in ['elements','characters','enemies','items']:
   for name,e in m.get(section,{}).items():
@@ -18,6 +19,8 @@ def validate_display_scale(m):
     for key,v in a['frames'].items():
      f=v['frame'];d=e['displaySize'];scale=max(64*d['w']/f['w'],64*d['h']/f['h'])
      assert scale<=1.25+1e-5,f'Upscaled animation {section}.{name}/{key}: {scale:.3f}x > 1.25x'
+   scale=factor(e,content_size(e))
+   assert scale<=1.25+1e-5,f'Upscaled opaque content {section}.{name}: {scale:.3f}x > 1.25x'
    with Image.open(OUT/e['path']) as im:assert im.size==(e['width'],e['height']),(section,name,im.size)
    checked+=1
  return checked
@@ -110,7 +113,7 @@ def main():
  print(f'PASS files: {len(files)} manifest paths exist; all PNGs decode')
  print(f'PASS atlases: {len(atlases)} atlases; {frame_count} frames in bounds; animation references resolve')
  print('PASS characters: Mario/Luigi big + small have all 9 animation keys; walk/run >=3 frames; feet anchors')
- print(f'PASS native scale: {len(after)} sprite entries and every animation frame <=1.25x; {len(oldbad)} baseline violations removed')
+ print(f'PASS native scale: {len(after)} opaque-content envelopes and every animation canvas <=1.25x; {len(oldbad)} historical canvas violations')
  print('PASS terrain: 4 themes; complete cardinal/inner-corner/pillar/single variants; exact 2px extruded gutters')
  print('PASS mushroom: items.mushroom and elements.mushroom agree')
  print(f'PASS parallax: {sum(len(t["parallax"]) for t in m["themes"].values())} wide native-resolution layers; all horizontal seam texels match')

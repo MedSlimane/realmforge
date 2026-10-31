@@ -1,0 +1,175 @@
+{
+  "browser": "153.0.8010.12",
+  "summaries": [
+    {
+      "scenario": "rest",
+      "last": {
+        "scenario": "rest",
+        "frame": 480,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 338.85000000000014,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "footContacts": 120,
+      "verticalRange": 0,
+      "horizontalRange": 0,
+      "maxPenetration": 0,
+      "maxHingeError": 0,
+      "jumpVelocityFixed": -1024
+    },
+    {
+      "scenario": "left",
+      "last": {
+        "scenario": "left",
+        "frame": 480,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782221,
+          "y": 363.94818190068844,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.049999999999954525,
+        "parentBoundsContainMain": true
+      },
+      "footContacts": 120,
+      "verticalRange": 5.684341886080802e-14,
+      "horizontalRange": 0,
+      "maxPenetration": 0.05000000000006821,
+      "maxHingeError": 0,
+      "jumpVelocityFixed": -1024
+    },
+    {
+      "scenario": "right",
+      "last": {
+        "scenario": "right",
+        "frame": 480,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269258,
+          "y": 363.9339300581121,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.05000000000001137,
+        "parentBoundsContainMain": true
+      },
+      "footContacts": 120,
+      "verticalRange": 0,
+      "horizontalRange": 0,
+      "maxPenetration": 0.05000000000001137,
+      "maxHingeError": 0,
+      "jumpVelocityFixed": -1024
+    },
+    {
+      "scenario": "fall",
+      "last": {
+        "scenario": "fall",
+        "frame": 480,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 561.2972195135144,
+          "y": 371.48820969729644,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "footContacts": 120,
+      "verticalRange": 0,
+      "horizontalRange": 0,
+      "maxPenetration": 0,
+      "maxHingeError": 0,
+      "jumpVelocityFixed": -1024
+    }
+  ],
+  "growthDiagnostic": {
+    "scenario": "right",
+    "frame": 360,
+    "angleDegrees": 29.999999999999996,
+    "deck": {
+      "width": 384,
+      "thickness": 28.8
+    },
+    "mass": 6.144,
+    "inertia": 302514.1759999999,
+    "hingeError": 0,
+    "player": {
+      "x": 544.0000000000002,
+      "y": 337.32272947547483,
+      "form": "big",
+      "vy": 0
+    },
+    "footContact": true,
+    "mainPenetration": 4.468229997228661,
+    "parentBoundsContainMain": false
+  },
+  "isolatedGrowthBounds": {
+    "position": {
+      "x": 480,
+      "y": 170.00000000000003
+    },
+    "parent": {
+      "min": {
+        "x": 932,
+        "y": 306
+      },
+      "max": {
+        "x": 988,
+        "y": 434
+      }
+    },
+    "main": {
+      "min": {
+        "x": 456.00000000000045,
+        "y": 110.00000000000004
+      },
+      "max": {
+        "x": 504.00000000000045,
+        "y": 230.00000000000006
+      }
+    },
+    "parentBoundsContainMain": false
+  },
+  "consoleErrors": [],
+  "pageErrors": []
+}

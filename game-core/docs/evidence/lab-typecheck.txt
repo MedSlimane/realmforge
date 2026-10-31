@@ -1,0 +1,4 @@
+
+> @realmforge/game-core@0.1.0 typecheck:lab
+> tsc -p lab/tsconfig.json
+

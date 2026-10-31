@@ -1,0 +1,17 @@
+- main [ref=e2]:
+  - heading "Seesaw · physical deck and rider contacts" [level=1] [ref=e3]
+  - paragraph [ref=e4]: "0.45 tile deck · fixed axle · ±30° stops · original mass and inertia. Gold: main hull; cyan: foot sensor; violet: physical deck."
+  - button "Rest" [ref=e5]
+  - button "Left tilt" [ref=e6]
+  - button "Right tilt" [ref=e7]
+  - button "Landing on right" [ref=e8]
+  - button "Step 60 frames" [ref=e9]
+  - button "Jump 1 frame" [ref=e10]
+  - button "Grow / shrink" [ref=e11]
+  - button "Play / pause" [ref=e12]
+  - paragraph [ref=e13]:
+    - text: "While playing: arrows move, Shift runs, Space jumps. Scenarios start paused. Character is a diagnostic hull, not animation art. Nintendo deck/pivot art is loaded from the existing private-demo pack;"
+    - link "validation and limits" [ref=e14] [cursor=pointer]:
+      - /url: /docs/SEESAW_VALIDATION.md
+    - text: .
+  - generic [ref=e15]: Loading…

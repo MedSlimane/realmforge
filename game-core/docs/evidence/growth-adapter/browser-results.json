@@ -1,0 +1,701 @@
+{
+  "browser": "153.0.8010.12",
+  "isolated": {
+    "position": {
+      "x": 480,
+      "y": 170
+    },
+    "parent": {
+      "min": {
+        "x": 452,
+        "y": 106
+      },
+      "max": {
+        "x": 508,
+        "y": 234
+      }
+    },
+    "main": {
+      "min": {
+        "x": 456,
+        "y": 110
+      },
+      "max": {
+        "x": 504,
+        "y": 230
+      }
+    },
+    "parentBoundsContainMain": true
+  },
+  "scenarios": [
+    {
+      "scenario": "rest",
+      "resting": {
+        "last": {
+          "scenario": "rest",
+          "frame": 480,
+          "angleDegrees": 0,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 480,
+            "y": 308.85,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 0,
+        "maxPenetration": 0,
+        "maxHingeError": 0
+      },
+      "takeoff": {
+        "scenario": "rest",
+        "frame": 481,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 292.85,
+          "form": "big",
+          "vy": -1024
+        },
+        "footContact": false,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "relanding": {
+        "last": {
+          "scenario": "rest",
+          "frame": 781,
+          "angleDegrees": 3.9515855336219134,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 484.3633864959243,
+            "y": 306.7560375997187,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 1.859375,
+        "maxPenetration": 0,
+        "maxHingeError": 0
+      }
+    },
+    {
+      "scenario": "left",
+      "resting": {
+        "last": {
+          "scenario": "left",
+          "frame": 480,
+          "angleDegrees": -29.999999999999996,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 413.0413410782219,
+            "y": 333.9481819006883,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0.049999999999954525,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 5.684341886080802e-14,
+        "horizontalRange": 0,
+        "maxPenetration": 0.05000000000006821,
+        "maxHingeError": 0
+      },
+      "takeoff": {
+        "scenario": "left",
+        "frame": 481,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782219,
+          "y": 317.9481819006883,
+          "form": "big",
+          "vy": -1024
+        },
+        "footContact": false,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "relanding": {
+        "last": {
+          "scenario": "left",
+          "frame": 781,
+          "angleDegrees": -29.999999999999996,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 407.19365880246414,
+            "y": 336.8196990925559,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 0,
+        "maxPenetration": 0,
+        "maxHingeError": 0
+      }
+    },
+    {
+      "scenario": "right",
+      "resting": {
+        "last": {
+          "scenario": "right",
+          "frame": 480,
+          "angleDegrees": 29.999999999999996,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 546.9668872269256,
+            "y": 333.93393005811225,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0.05000000000003979,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 0,
+        "maxPenetration": 0.05000000000003979,
+        "maxHingeError": 0
+      },
+      "takeoff": {
+        "scenario": "right",
+        "frame": 481,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269256,
+          "y": 317.93393005811225,
+          "form": "big",
+          "vy": -1024
+        },
+        "footContact": false,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "relanding": {
+        "last": {
+          "scenario": "right",
+          "frame": 781,
+          "angleDegrees": 29.999999999999996,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 552.8145695026834,
+            "y": 336.8054472499798,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 0,
+        "maxPenetration": 0,
+        "maxHingeError": 0
+      }
+    },
+    {
+      "scenario": "fall",
+      "resting": {
+        "last": {
+          "scenario": "fall",
+          "frame": 480,
+          "angleDegrees": 29.999999999999996,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 574.1549821801639,
+            "y": 349.102793707327,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 0,
+        "maxPenetration": 0,
+        "maxHingeError": 0
+      },
+      "takeoff": {
+        "scenario": "fall",
+        "frame": 481,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 574.1549821801639,
+          "y": 333.102793707327,
+          "form": "big",
+          "vy": -1024
+        },
+        "footContact": false,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "relanding": {
+        "last": {
+          "scenario": "fall",
+          "frame": 781,
+          "angleDegrees": 29.999999999999996,
+          "deck": {
+            "width": 384,
+            "thickness": 28.8
+          },
+          "mass": 6.144,
+          "inertia": 302514.1759999999,
+          "hingeError": 0,
+          "player": {
+            "x": 579.7459031016999,
+            "y": 352.4190346101267,
+            "form": "big",
+            "vy": 0
+          },
+          "footContact": true,
+          "mainPenetration": 0,
+          "parentBoundsContainMain": true
+        },
+        "footContacts": 120,
+        "verticalRange": 0,
+        "horizontalRange": 0,
+        "maxPenetration": 0,
+        "maxHingeError": 0
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "scenario": "rest",
+      "small": {
+        "scenario": "rest",
+        "frame": 360,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 338.85000000000014,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "big": {
+        "scenario": "rest",
+        "frame": 360,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 308.85,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "crouch": {
+        "scenario": "rest",
+        "frame": 361,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 338.85,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "stand": {
+        "scenario": "rest",
+        "frame": 362,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 308.85,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "shrunk": {
+        "scenario": "rest",
+        "frame": 362,
+        "angleDegrees": 0,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 480,
+          "y": 338.85,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0,
+        "parentBoundsContainMain": true
+      },
+      "feet": [
+        368.85000000000014,
+        368.85,
+        368.85,
+        368.85,
+        368.85
+      ]
+    },
+    {
+      "scenario": "left",
+      "small": {
+        "scenario": "left",
+        "frame": 360,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782221,
+          "y": 363.94818190068844,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.049999999999954525,
+        "parentBoundsContainMain": true
+      },
+      "big": {
+        "scenario": "left",
+        "frame": 360,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782221,
+          "y": 333.94818190068844,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.05000000000006821,
+        "parentBoundsContainMain": true
+      },
+      "crouch": {
+        "scenario": "left",
+        "frame": 361,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782221,
+          "y": 363.94818190068844,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.05000000000006821,
+        "parentBoundsContainMain": true
+      },
+      "stand": {
+        "scenario": "left",
+        "frame": 362,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782221,
+          "y": 333.94818190068844,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.05000000000006821,
+        "parentBoundsContainMain": true
+      },
+      "shrunk": {
+        "scenario": "left",
+        "frame": 362,
+        "angleDegrees": -29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 413.0413410782221,
+          "y": 363.94818190068844,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.05000000000006821,
+        "parentBoundsContainMain": true
+      },
+      "feet": [
+        393.94818190068844,
+        393.94818190068844,
+        393.94818190068844,
+        393.94818190068844,
+        393.94818190068844
+      ]
+    },
+    {
+      "scenario": "right",
+      "small": {
+        "scenario": "right",
+        "frame": 360,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269258,
+          "y": 363.9339300581121,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.05000000000001137,
+        "parentBoundsContainMain": true
+      },
+      "big": {
+        "scenario": "right",
+        "frame": 360,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269258,
+          "y": 333.9339300581121,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.049999999999954525,
+        "parentBoundsContainMain": true
+      },
+      "crouch": {
+        "scenario": "right",
+        "frame": 361,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269258,
+          "y": 363.9339300581121,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.049999999999954525,
+        "parentBoundsContainMain": true
+      },
+      "stand": {
+        "scenario": "right",
+        "frame": 362,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269258,
+          "y": 333.9339300581121,
+          "form": "big",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.049999999999954525,
+        "parentBoundsContainMain": true
+      },
+      "shrunk": {
+        "scenario": "right",
+        "frame": 362,
+        "angleDegrees": 29.999999999999996,
+        "deck": {
+          "width": 384,
+          "thickness": 28.8
+        },
+        "mass": 6.144,
+        "inertia": 302514.1759999999,
+        "hingeError": 0,
+        "player": {
+          "x": 546.9668872269258,
+          "y": 363.9339300581121,
+          "form": "small",
+          "vy": 0
+        },
+        "footContact": true,
+        "mainPenetration": 0.049999999999954525,
+        "parentBoundsContainMain": true
+      },
+      "feet": [
+        393.9339300581121,
+        393.9339300581121,
+        393.9339300581121,
+        393.9339300581121,
+        393.9339300581121
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": []
+}

@@ -6,7 +6,7 @@ Nintendo property, authorized by the team only for a private educational class d
 
 - The Spriters Resource direct HTTP access and real Chromium 1243 both returned **403 / Cloudflare verification**. Retried during this pass using the Playwright CLI and the checked-in browser config. No successful TSR download is claimed.
 - Working routes: pinned GitHub image mirrors, content-addressed Scratch raster images (including original embedded PNG bytes inside SVG wrappers), and `www.mariowiki.com/images/...`. The newer `mario.wiki.gallery` image host returned 403 to Python; the original wiki image host served the exact files.
-- `sources.json` pins **all 656 retained download records**, including historical unused candidates, by SHA-256. Only the sources listed below are used by the final slicer. `npm run fetch` verifies every retained record; it never executes a downloaded project.
+- `sources.json` pins **all 659 retained download records**, including historical unused candidates, by SHA-256. Only the sources listed below are used by the final slicer. `npm run fetch` verifies every retained record; it never executes a downloaded project.
 
 ## Provenance and licences
 
@@ -24,6 +24,16 @@ Nintendo property, authorized by the team only for a private educational class d
 | [OpenWE image mirror](https://github.com/Sicraftails/SMM-WE-OpenWE/tree/2f84414054c576bf7ca03dfa33b244ee730d57da/sprites) | Maintainer **Sicraftails**, based on Andoyt's World Engine; exact original renderer/ripper of these captures not identified. Mirror software is AGPL; **no executable code is reused**. Nintendo images are not relicensed by that AGPL label. | Existing native backgrounds and a few already-adequate images. The earlier low-resolution character captures are no longer referenced. |
 
 Exact NSMBU Luigi and small-Mario HD pose coverage remains unresolved; see README.md. The source dimensions/scale audit does not conceal those fallbacks.
+
+## Reviewed replacements — 31 October 2026
+
+| Asset | Evidence and credit | Exact use |
+|---|---|---|
+| [NSMBU Coin](https://www.mariowiki.com/File:NSMBUCoin.gif) | Wiki identifies an NSMBU Coin sprite and credits The Spriters Resource. Uploaded by TheMorningFlash; border crop by Cheese Head, 28 April 2025. | All 16 native 52×60 GIF frames, 50 ms each. |
+| [SMM2 NSMBU 10-Coin](https://www.mariowiki.com/File:SMM2-NSMBU-10Coin.gif) | File history credits Thejohnston7, 16 April 2025: higher-quality TSR rip. | All 13 native 118×118 GIF frames, 60 ms each, for `big_coin`. |
+| [SMM NSMBU locked door](https://www.mariowiki.com/File:SMM-NSMBU-Locked-Door.png) | Wiki identifies a locked door in SMM NSMBU style, sourced from TSR; current image by MatiasNTRM, 21 September 2021, with bump maps applied. | Native 78×154 full locked-door texture with integrated keyhole. No separate overlay invented. |
+
+New images are Nintendo proprietary. Team authorization and the wiki’s own fair-use notice do not supply a Nintendo asset licence. See RESOLUTION_REPORT.md for unsuccessful candidates and retained fallbacks.
 
 ## Transformations
 
@@ -51,7 +61,6 @@ The SHA-256 covers the downloaded source file, including an SVG wrapper where it
 | `hires/miyamoto/miyamotodata/sprites/seesaw_mushroom_pivot.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/seesaw_mushroom_pivot.png) | `5016cae215fe405f72d11f5cef187150a54a5a00cd0edd7ea29bb35ce61b65b2` |
 | `hires/miyamoto/miyamotodata/sprites/seesaw_mushroom_right.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/seesaw_mushroom_right.png) | `f3482d9c62a0b3e3eb1a5211eae56c7de7e31be424e372d9d7e83f9707b2bd00` |
 | `hires/miyamoto/miyamotodata/sprites/springboard.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/springboard.png) | `a02893440495d0011a24fea95a6359272aa3ef862e5333b2042d8209c4e9aa0f` |
-| `hires/miyamoto/miyamotodata/sprites/star_coin.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/star_coin.png) | `97cc97eb83fa04750bd5b8e9c52b433786278acc22c8a2d9ea14a87518ed8ab7` |
 | `hires/miyamoto/miyamotodata/sprites/wood_platform_left.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/wood_platform_left.png) | `e9fe5c09a00f1b10c844e894206e7443bda10d83bfafa622935d6a526d8bbe09` |
 | `hires/miyamoto/miyamotodata/sprites/wood_platform_middle.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/wood_platform_middle.png) | `0d523a93973aa04f59381510036a37223b0ff3b999d153c5e54a08f398135416` |
 | `hires/miyamoto/miyamotodata/sprites/wood_platform_right.png` | [source](https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/wood_platform_right.png) | `dcfa4910a8acf69d67137a8f6565c1000770b8ec7ae8e542c0ece8876f6950ef` |
@@ -114,7 +123,6 @@ The SHA-256 covers the downloaded source file, including an SVG wrapper where it
 | `hires/wiki/acorn.png` | [source](https://www.mariowiki.com/images/6/65/SuperAcornNSMBU.png) | `fbc2d2dc71632a3a98ff19b85a01e69262203f58e183b27e4b17fc8b82160052` |
 | `hires/wiki/brick.png` | [source](https://www.mariowiki.com/images/f/fb/NSMBW_Brick_Block_Artwork.png) | `b2268c500a86d75e1275ca52b108eea0a0c462e36d0a920773a6b05811e45b03` |
 | `hires/wiki/coin.gif` | [source](https://www.mariowiki.com/images/4/4c/NSMBUCoin.gif) | `106571ce3840ca7a89498e1f1496fc583fa9048800820f17981ffaf8aaeb5f49` |
-| `hires/wiki/coin.png` | [source](https://www.mariowiki.com/images/2/22/NSMBU_Coin_Artwork.png) | `9024a3b9740e191d44a6591f1c2e686426e6aa45cea3d3003d26321646a9273f` |
 | `hires/wiki/goomba.png` | [source](https://www.mariowiki.com/images/e/eb/NSMBU_Goomba_Render.png) | `d2082794e455f5489b715cdfdc8a783e147dd6b6b3c2e7d20a3671d5a3f47b70` |
 | `hires/wiki/key.png` | [source](https://www.mariowiki.com/images/1/11/SMM-NSMBU-Key.png) | `d94ba72d25319ad240001cd1952825f3f857481b446569a5827c82c9d9409c4b` |
 | `hires/wiki/mushroom.png` | [source](https://www.mariowiki.com/images/b/b5/NSMBU_Mushroom_Artwork.png) | `a6936d85fa439abdaa092f9d2881fd69c79a0526ed3d6c8a36d25ba68e685170` |
@@ -148,6 +156,9 @@ The SHA-256 covers the downloaded source file, including an SVG wrapper where it
 | `mirror/spr_NSMBU_arrow_start_hd/8ce95128-5b21-4e59-a743-7ddf0db47e4d.png` | [source](https://raw.githubusercontent.com/Sicraftails/SMM-WE-OpenWE/2f84414054c576bf7ca03dfa33b244ee730d57da/sprites/spr_NSMBU_arrow_start_hd/8ce95128-5b21-4e59-a743-7ddf0db47e4d.png) | `cf6791eed14c1ff75d19c6f87d10701be76ae8a22e43d5b8b68c3a1b88375f11` |
 | `mirror/spr_NSMBU_arrow_start_hd/b2a0ee02-6113-4641-8ba5-64b9641a530b.png` | [source](https://raw.githubusercontent.com/Sicraftails/SMM-WE-OpenWE/2f84414054c576bf7ca03dfa33b244ee730d57da/sprites/spr_NSMBU_arrow_start_hd/b2a0ee02-6113-4641-8ba5-64b9641a530b.png) | `67840a2f496d1ad4ea18ebf40ff4b127764ef7fbdccf93a3ce8712819e13e220` |
 | `mirror/spr_NSMBU_arrow_start_hd/c9e6ff98-31ed-47b5-b5f2-9802c7537b0d.png` | [source](https://raw.githubusercontent.com/Sicraftails/SMM-WE-OpenWE/2f84414054c576bf7ca03dfa33b244ee730d57da/sprites/spr_NSMBU_arrow_start_hd/c9e6ff98-31ed-47b5-b5f2-9802c7537b0d.png) | `f9c7a52d71fed9ac42ab74da953271dde95cbde0b6d6b15575705670e4346c8b` |
+| `resolution/NSMBUCoin.gif` | [source](https://www.mariowiki.com/images/4/4c/NSMBUCoin.gif) | `106571ce3840ca7a89498e1f1496fc583fa9048800820f17981ffaf8aaeb5f49` |
+| `resolution/SMM-NSMBU-Locked-Door.png` | [source](https://www.mariowiki.com/images/8/8c/SMM-NSMBU-Locked-Door.png) | `f07b0c369439a6d7d6c30999e44a7de8a2c34562932cee2f36f2074ee6696cb0` |
+| `resolution/SMM2-NSMBU-10Coin.gif` | [source](https://www.mariowiki.com/images/0/0d/SMM2-NSMBU-10Coin.gif) | `29cb757d29910e2a67671ebeddd6c9dfbbdcbc77a2f201946f8c5b7bc1182279` |
 | `scratch/105733943/19d7779ffd963740abb2d0018115f972.png` | [source](https://assets.scratch.mit.edu/internalapi/asset/19d7779ffd963740abb2d0018115f972.png/get/) | `1af99a9e7e4d0909621bfdb13c341076297345c411a9d59e03ddb4da5eeddbaf` |
 | `scratch/105733943/20d5da442307fa8ef55a76c26281f3c5.png` | [source](https://assets.scratch.mit.edu/internalapi/asset/20d5da442307fa8ef55a76c26281f3c5.png/get/) | `7cefd5fe7ea14d7f9d0074ff712f5ef30e221052196d39e6e0f31c5c82ff5994` |
 | `scratch/105733943/721b7f0da9f5eebb0b612365feae7a99.png` | [source](https://assets.scratch.mit.edu/internalapi/asset/721b7f0da9f5eebb0b612365feae7a99.png/get/) | `cdd9b6f6f855d372c00e081cd1f08cec07e538cbc58ed58631f4749305109f05` |

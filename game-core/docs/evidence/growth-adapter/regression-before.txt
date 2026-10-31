@@ -1,0 +1,104 @@
+
+> @realmforge/game-core@0.1.0 test
+> vitest run test/adapterGrowth.test.ts
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/game-core
+
+stdout | test/adapterGrowth.test.ts > adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts
+isolated growth: {"position":{"x":480,"y":170.00000000000003},"parent":{"min":{"x":932,"y":306},"max":{"x":988,"y":434}},"main":{"min":{"x":456.00000000000045,"y":110.00000000000004},"max":{"x":504.00000000000045,"y":230.00000000000006}}}
+
+ ❯ test/adapterGrowth.test.ts (5 tests | 5 failed) 13ms
+   × adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts 5ms
+     → parent hull min.x: expected 932 to be close to 452, received difference is 480, but expected 5e-8
+   × adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 32 2ms
+     → parent hull min.x: expected 945.9999999999998 to be close to 465.9999999999999, received difference is 479.9999999999999, but expected 5e-8
+   × adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 48 2ms
+     → parent hull min.x: expected 938.9999999999997 to be close to 458.9999999999998, received difference is 479.9999999999999, but expected 5e-8
+   × adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 64 1ms
+     → parent hull min.x: expected 932 to be close to 452, received difference is 480, but expected 5e-8
+   × adapter form resize compound broadphase > collides through the grown upper hull in Matter broadphase, where the small hull was clear 2ms
+     → expected [] to have a length of 1 but got +0
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 5 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  test/adapterGrowth.test.ts > adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts
+AssertionError: parent hull min.x: expected 932 to be close to 452, received difference is 480, but expected 5e-8
+ ❯ expectCurrentCompound test/adapterGrowth.test.ts:18:61
+     16|   const hull = Bounds.create(body.vertices);
+     17|   for (const edge of ['min', 'max'] as const) for (const axis of ['x',…
+     18|     expect(hull[edge][axis], `parent hull ${edge}.${axis}`).toBeCloseT…
+       |                                                             ^
+     19|   }
+     20|   for (const part of body.parts) {
+ ❯ test/adapterGrowth.test.ts:51:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/5]⎯
+
+ FAIL  test/adapterGrowth.test.ts > adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 32
+AssertionError: parent hull min.x: expected 945.9999999999998 to be close to 465.9999999999999, received difference is 479.9999999999999, but expected 5e-8
+ ❯ expectCurrentCompound test/adapterGrowth.test.ts:18:61
+     16|   const hull = Bounds.create(body.vertices);
+     17|   for (const edge of ['min', 'max'] as const) for (const axis of ['x',…
+     18|     expect(hull[edge][axis], `parent hull ${edge}.${axis}`).toBeCloseT…
+       |                                                             ^
+     19|   }
+     20|   for (const part of body.parts) {
+ ❯ check test/adapterGrowth.test.ts:63:7
+ ❯ test/adapterGrowth.test.ts:70:30
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/5]⎯
+
+ FAIL  test/adapterGrowth.test.ts > adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 48
+AssertionError: parent hull min.x: expected 938.9999999999997 to be close to 458.9999999999998, received difference is 479.9999999999999, but expected 5e-8
+ ❯ expectCurrentCompound test/adapterGrowth.test.ts:18:61
+     16|   const hull = Bounds.create(body.vertices);
+     17|   for (const edge of ['min', 'max'] as const) for (const axis of ['x',…
+     18|     expect(hull[edge][axis], `parent hull ${edge}.${axis}`).toBeCloseT…
+       |                                                             ^
+     19|   }
+     20|   for (const part of body.parts) {
+ ❯ check test/adapterGrowth.test.ts:63:7
+ ❯ test/adapterGrowth.test.ts:70:30
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/5]⎯
+
+ FAIL  test/adapterGrowth.test.ts > adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 64
+AssertionError: parent hull min.x: expected 932 to be close to 452, received difference is 480, but expected 5e-8
+ ❯ expectCurrentCompound test/adapterGrowth.test.ts:18:61
+     16|   const hull = Bounds.create(body.vertices);
+     17|   for (const edge of ['min', 'max'] as const) for (const axis of ['x',…
+     18|     expect(hull[edge][axis], `parent hull ${edge}.${axis}`).toBeCloseT…
+       |                                                             ^
+     19|   }
+     20|   for (const part of body.parts) {
+ ❯ check test/adapterGrowth.test.ts:63:7
+ ❯ test/adapterGrowth.test.ts:70:30
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/5]⎯
+
+ FAIL  test/adapterGrowth.test.ts > adapter form resize compound broadphase > collides through the grown upper hull in Matter broadphase, where the small hull was clear
+AssertionError: expected [] to have a length of 1 but got +0
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ test/adapterGrowth.test.ts:90:49
+     88|     h.world.add(wall);
+     89|     expect(Query.collides(player.body.parts[1], [wall])).toHaveLength(…
+     90|     expect(Query.collides(player.body, [wall])).toHaveLength(1);
+       |                                                 ^
+     91|     const x = player.body.position.x;
+     92|     h.step();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/5]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  5 failed (5)
+   Start at  16:51:14
+   Duration  269ms (transform 44ms, setup 0ms, collect 58ms, tests 13ms, environment 0ms, prepare 34ms)
+

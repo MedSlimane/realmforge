@@ -1,0 +1,81 @@
+{
+  "notice": "Previous working asset specs; all source records remain pinned in sources.json. Restore by replacing the matching slicing.json assets entries and rebuilding.",
+  "assets": {
+    "coin": {
+      "path": "items/coin.png",
+      "frames": [
+        {
+          "source": "hires/wiki/coin.png",
+          "rect": [
+            0,
+            0,
+            1363,
+            1782
+          ],
+          "resize": [
+            128,
+            167
+          ]
+        }
+      ],
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "idle": [
+          0
+        ]
+      }
+    },
+    "big_coin": {
+      "path": "items/big_coin.png",
+      "frames": [
+        {
+          "source": "hires/miyamoto/miyamotodata/sprites/star_coin.png",
+          "rect": [
+            0,
+            0,
+            120,
+            120
+          ]
+        }
+      ],
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "locked_door": {
+      "path": "flow/locked_door.png",
+      "frames": [
+        {
+          "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+          "rect": [
+            0,
+            0,
+            156,
+            308
+          ]
+        }
+      ],
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Native closed door, with the separately supplied key indicating lock state in gameplay."
+    }
+  }
+}

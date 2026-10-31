@@ -1,0 +1,17 @@
+
+> @realmforge/game-core@0.1.0 test
+> vitest run test/adapterGrowth.test.ts
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/game-core
+
+stdout | test/adapterGrowth.test.ts > adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts
+isolated growth: {"position":{"x":480,"y":170},"parent":{"min":{"x":452,"y":106},"max":{"x":508,"y":234}},"main":{"min":{"x":456,"y":110},"max":{"x":504,"y":230}}}
+
+ ✓ test/adapterGrowth.test.ts (15 tests) 915ms
+
+ Test Files  1 passed (1)
+      Tests  15 passed (15)
+   Start at  16:52:56
+   Duration  1.16s (transform 63ms, setup 0ms, collect 79ms, tests 915ms, environment 0ms, prepare 26ms)
+

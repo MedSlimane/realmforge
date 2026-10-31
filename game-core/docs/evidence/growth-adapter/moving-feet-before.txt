@@ -1,0 +1,49 @@
+
+> @realmforge/game-core@0.1.0 test
+> vitest run test/adapterGrowth.test.ts
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/game-core
+
+stdout | test/adapterGrowth.test.ts > adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts
+isolated growth: {"position":{"x":480,"y":170},"parent":{"min":{"x":452,"y":106},"max":{"x":508,"y":234}},"main":{"min":{"x":456,"y":110},"max":{"x":504,"y":230}}}
+
+ ❯ test/adapterGrowth.test.ts (16 tests | 1 failed) 1099ms
+   ✓ adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts 5ms
+   ✓ adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 32 20ms
+   ✓ adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 48 16ms
+   ✓ adapter form resize compound broadphase > keeps feet, part identities, sensors and current hull through small → big → crouch → stand → small at tile 64 13ms
+   ✓ adapter form resize compound broadphase > collides through the grown upper hull in Matter broadphase, where the small hull was clear 2ms
+   ✓ adapter form resize compound broadphase > anchors physical feet at negative coordinates with velocity -512 and restored state 3ms
+   × adapter form resize compound broadphase > anchors physical feet at negative coordinates with velocity 512 and restored state 4ms
+     → expected -150.5 to be close to -160.25, received difference is 9.75, but expected 0.005
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt -1 at tile 32 136ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt +0 at tile 32 116ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt 1 at tile 32 113ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt -1 at tile 48 115ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt +0 at tile 48 110ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt 1 at tile 48 116ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt -1 at tile 64 111ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt +0 at tile 64 109ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt 1 at tile 64 109ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  test/adapterGrowth.test.ts > adapter form resize compound broadphase > anchors physical feet at negative coordinates with velocity 512 and restored state
+AssertionError: expected -150.5 to be close to -160.25, received difference is 9.75, but expected 0.005
+ ❯ test/adapterGrowth.test.ts:118:71
+    116|     player.setForm('big'); expectCurrentCompound(player, 48, 120);
+    117|     expect(player.body.velocity.x).toBeGreaterThan(0);
+    118|     expect(Math.max(...player.body.parts[1]!.vertices.map(v => v.y))).…
+       |                                                                       ^
+    119|     const snapshot = player.state;
+    120|     player.hurt(); expectCurrentCompound(player, 48, 60);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 15 passed (16)
+   Start at  16:54:17
+   Duration  1.45s (transform 76ms, setup 0ms, collect 103ms, tests 1.10s, environment 0ms, prepare 33ms)
+

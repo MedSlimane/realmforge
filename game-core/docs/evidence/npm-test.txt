@@ -1,0 +1,18 @@
+
+> @realmforge/game-core@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/game-core
+
+ ✓ test/controller.test.ts (21 tests) 22ms
+ ✓ test/playerForms.test.ts (13 tests) 31ms
+ ✓ test/elements/mushroom.test.ts (7 tests) 35ms
+ ✓ test/elements/elements.test.ts (12 tests) 73ms
+ ✓ test/elements/seesaw.test.ts (14 tests) 173ms
+
+ Test Files  5 passed (5)
+      Tests  67 passed (67)
+   Start at  16:47:58
+   Duration  692ms (transform 294ms, setup 0ms, collect 709ms, tests 334ms, environment 1ms, prepare 429ms)
+

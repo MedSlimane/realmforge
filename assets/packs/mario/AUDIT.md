@@ -1,10 +1,10 @@
 # Mario pack native-resolution audit
 
-Each row compares the native frame canvas to `displaySize × 64` gameplay pixels. Atlas padding is excluded. A uniform atlas canvas preserves pose scale and feet; transparent space is not detail. Individual source crop rectangles and any **downsampling** are in `slicing.json`. The builder forbids source upsampling. Background layers have no `displaySize` and are audited for native pixels/seams separately. No AI-generated art is used.
+Current factors compare **native opaque content** against `displaySize × 64`, excluding transparent margins and atlas gutters. For an animation the maximum opaque width/height over its genuine poses defines a common content envelope: a naturally narrow edge-on coin or crouch does not get enlarged independently. Every frame below also lists its own opaque dimensions and the opaque dimensions actually drawn by the canvas-based renderer. No transparent canvas counts as native detail. The builder rejects source upsampling.
 
-Before is frozen in `audit-before.json`, captured before this pass. Before/after factors include both axes; entries above 1.25 fail `npm run validate`. New entries have no before value. Compatibility aliases appear explicitly.
+The frozen baseline only recorded canvas dimensions; its factors are historical canvas measurements, not newly verified opaque-content measurements. A scale pass does not certify exact-game provenance. See RESOLUTION_REPORT.md.
 
-| Sprite | Before native → display px | Before factor | After native → display px | After factor | Status / caveat |
+| Sprite | Before canvas → display px | Historical factor | After opaque envelope → display px | Content factor | Status / caveat |
 |---|---|---:|---|---:|---|
 | `elements.spikes` | 14×14 → 64.0×64.0 | 4.571× | 96×97 → 64.0×64.0 | 0.667× | PASS; Native 128px SMM2 NSMBU Spike Trap editor render, replaces tiny mirror frames. |
 | `elements.lava` | 64×38 → 64.0×64.0 | 1.684× | 128×128 → 64.0×64.0 | 0.500× | PASS |
@@ -17,14 +17,14 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.chain_link` | 92×92 → 16.0×16.0 | 0.174× | 92×92 → 16.0×16.0 | 0.174× | PASS |
 | `elements.pendulum_ball` | 270×276 → 64.0×64.0 | 0.237× | 140×145 → 64.0×64.0 | 0.457× | PASS; Native NSMBU spiked pendulum ball, cropped from pendulum_0; replaces Chain Chomp. |
 | `elements.seesaw` | 80×14 → 320.0×56.0 | 4.000× | 300×30 → 320.0×32.0 | 1.067× | PASS; Five native 60px NSMBU mushroom-seesaw deck segments. Pivot is a separate seesaw_pivot entry. |
-| `elements.moving_platform` | 48×8 → 192.0×32.0 | 4.000× | 210×30 → 192.0×32.0 | 1.067× | PASS |
-| `elements.elevator` | 48×8 → 192.0×32.0 | 4.000× | 210×30 → 192.0×32.0 | 1.067× | PASS |
+| `elements.moving_platform` | 48×8 → 192.0×32.0 | 4.000× | 188×30 → 192.0×32.0 | 1.067× | PASS |
+| `elements.elevator` | 48×8 → 192.0×32.0 | 4.000× | 188×30 → 192.0×32.0 | 1.067× | PASS |
 | `elements.rotating_platform` | 80×14 → 320.0×56.0 | 4.000× | 300×30 → 320.0×32.0 | 1.067× | PASS; Five native 60px NSMBU mushroom-seesaw deck segments. Pivot is a separate seesaw_pivot entry. |
-| `elements.chain_bridge` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS; Native rope bridge plank segment; chain_link is supplied for the constraint chain. |
-| `elements.coin` | 14×16 → 64.0×64.0 | 4.571× | 128×167 → 64.0×64.0 | 0.500× | PASS |
-| `elements.coin_side` | 6×16 → 64.0×64.0 | 10.667× | 52×60 → 64.0×64.0 | 1.231× | PASS |
-| `elements.big_coin` | 29×29 → 64.0×64.0 | 2.207× | 120×120 → 64.0×64.0 | 0.533× | PASS |
-| `elements.key` | 14×16 → 64.0×64.0 | 4.571× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.chain_bridge` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS; Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved. |
+| `elements.coin` | 14×16 → 64.0×64.0 | 4.571× | 52×60 → 64.0×64.0 | 1.231× | PASS; Native 16-frame NSMBU Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md. |
+| `elements.coin_side` | 6×16 → 64.0×64.0 | 10.667× | 46×60 → 56.6×64.0 | 1.231× | PASS;  Transparent source margins removed; previous visible size preserved. |
+| `elements.big_coin` | 29×29 → 64.0×64.0 | 2.207× | 116×116 → 64.0×64.0 | 0.552× | PASS; Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md. |
+| `elements.key` | 14×16 → 64.0×64.0 | 4.571× | 51×58 → 54.4×61.9 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
 | `elements.powerup_double_jump` | 16×18 → 64.0×64.0 | 4.000× | 174×199 → 64.0×64.0 | 0.368× | PASS |
 | `elements.powerup_dash` | 196×186 → 64.0×64.0 | 0.344× | 196×186 → 64.0×64.0 | 0.344× | PASS; Super Star represents dash. |
 | `elements.start` | 76×92 → 64.0×64.0 | 0.842× | 76×92 → 64.0×64.0 | 0.842× | PASS |
@@ -32,11 +32,11 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.checkpoint_active` | 17×30 → 64.0×64.0 | 3.765× | 125×199 → 64.0×64.0 | 0.512× | PASS; Native checkpoint pole; same flag design pending an authentic activated-state render. |
 | `elements.door` | 156×308 → 64.0×128.0 | 0.416× | 156×308 → 64.0×128.0 | 0.416× | PASS |
 | `elements.door_open` | 156×308 → 64.0×128.0 | 0.416× | 156×308 → 64.0×128.0 | 0.416× | PASS |
-| `elements.locked_door` | 20×40 → 64.0×128.0 | 3.200× | 156×308 → 64.0×128.0 | 0.416× | PASS; Native closed door, with the separately supplied key indicating lock state in gameplay. |
+| `elements.locked_door` | 20×40 → 64.0×128.0 | 3.200× | 78×154 → 64.0×128.0 | 0.831× | PASS; Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay. |
 | `elements.switch` | 64×64 → 64.0×64.0 | 1.000× | 64×64 → 64.0×64.0 | 1.000× | PASS |
 | `elements.switch_on` | 64×64 → 64.0×64.0 | 1.000× | 64×64 → 64.0×64.0 | 1.000× | PASS |
 | `elements.switch_block` | 64×64 → 64.0×64.0 | 1.000× | 64×64 → 64.0×64.0 | 1.000× | PASS |
-| `elements.switch_block_off` | 64×64 → 64.0×64.0 | 1.000× | 64×64 → 64.0×64.0 | 1.000× | PASS |
+| `elements.switch_block_off` | 64×64 → 64.0×64.0 | 1.000× | 54×54 → 64.0×64.0 | 1.185× | PASS |
 | `elements.pswitch` | 16×16 → 64.0×64.0 | 4.000× | 66×73 → 64.0×64.0 | 0.970× | PASS |
 | `elements.goal` | 48×171 → 89.6×320.0 | 1.871× | 181×600 → 89.6×320.0 | 0.533× | PASS |
 | `elements.goal_wave` | 48×171 → 89.6×320.0 | 1.871× | 181×600 → 89.6×320.0 | 0.533× | PASS |
@@ -47,15 +47,15 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.slime` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS; NSMBU green mushroom-platform surface represents high-friction slime. |
 | `elements.grass_ground` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.grass_top` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_top_left` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_top_left` | 64×64 → 64.0×64.0 | 1.000× | 57×60 → 64.0×64.0 | 1.123× | PASS |
 | `elements.grass_top_right` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.grass_fill` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_left` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_right` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_left` | 64×64 → 64.0×64.0 | 1.000× | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.grass_right` | 64×64 → 64.0×64.0 | 1.000× | 57×60 → 64.0×64.0 | 1.123× | PASS |
 | `elements.grass_bottom` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.grass_brick` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.grass_question` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
-| `elements.grass_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
 | `elements.grass_semi_solid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.grass_hard_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.grass_used_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
@@ -71,7 +71,7 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.desert_bottom` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_brick` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.desert_question` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
-| `elements.desert_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.desert_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
 | `elements.desert_semi_solid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_hard_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.desert_used_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
@@ -79,15 +79,15 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.desert_slime` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS; NSMBU green mushroom-platform surface stands for sticky terrain; no native NSMBU slime/jelly rip found. |
 | `elements.snow_ground` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.snow_top` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_top_left` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_top_right` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.snow_top_left` | 64×64 → 64.0×64.0 | 1.000× | 59×60 → 64.0×64.0 | 1.085× | PASS |
+| `elements.snow_top_right` | 64×64 → 64.0×64.0 | 1.000× | 59×60 → 64.0×64.0 | 1.085× | PASS |
 | `elements.snow_fill` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_left` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_right` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.snow_left` | 64×64 → 64.0×64.0 | 1.000× | 54×60 → 64.0×64.0 | 1.185× | PASS |
+| `elements.snow_right` | 64×64 → 64.0×64.0 | 1.000× | 57×60 → 64.0×64.0 | 1.123× | PASS |
 | `elements.snow_bottom` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.snow_brick` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.snow_question` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
-| `elements.snow_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.snow_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
 | `elements.snow_semi_solid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.snow_hard_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.snow_used_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
@@ -103,7 +103,7 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.castle_bottom` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_brick` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.castle_question` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
-| `elements.castle_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.castle_one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×24 → 64.0×25.6 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
 | `elements.castle_semi_solid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_hard_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.castle_used_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
@@ -120,10 +120,10 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.question` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.question-block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.question_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
-| `elements.one-way` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.one-way-platform` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.oneWay` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.one-way` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
+| `elements.one-way-platform` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
+| `elements.one_way` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
+| `elements.oneWay` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS;  Transparent source margins removed; previous visible size preserved. |
 | `elements.semi-solid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.semi_solid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.semisolid` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
@@ -132,25 +132,25 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.pendulum` | 270×276 → 64.0×64.0 | 0.237× | 140×145 → 64.0×64.0 | 0.457× | PASS; Native NSMBU spiked pendulum ball, cropped from pendulum_0; replaces Chain Chomp. |
 | `elements.wrecking-ball` | 270×276 → 64.0×64.0 | 0.237× | 140×145 → 64.0×64.0 | 0.457× | PASS; Native NSMBU spiked pendulum ball, cropped from pendulum_0; replaces Chain Chomp. |
 | `elements.wrecking_ball` | 270×276 → 64.0×64.0 | 0.237× | 140×145 → 64.0×64.0 | 0.457× | PASS; Native NSMBU spiked pendulum ball, cropped from pendulum_0; replaces Chain Chomp. |
-| `elements.chain` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS; Native rope bridge plank segment; chain_link is supplied for the constraint chain. |
-| `elements.chain-bridge` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS; Native rope bridge plank segment; chain_link is supplied for the constraint chain. |
+| `elements.chain` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS; Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved. |
+| `elements.chain-bridge` | 64×64 → 64.0×64.0 | 1.000× | 60×23 → 64.0×24.5 | 1.067× | PASS; Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved. |
 | `elements.trampoline` | 16×16 → 64.0×64.0 | 4.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.conveyor` | 128×114 → 64.0×64.0 | 0.561× | 128×114 → 64.0×64.0 | 0.561× | PASS |
 | `elements.conveyor-belt` | 128×114 → 64.0×64.0 | 0.561× | 128×114 → 64.0×64.0 | 0.561× | PASS |
-| `elements.moving-platform` | 48×8 → 192.0×32.0 | 4.000× | 210×30 → 192.0×32.0 | 1.067× | PASS |
-| `elements.movingPlatform` | 48×8 → 192.0×32.0 | 4.000× | 210×30 → 192.0×32.0 | 1.067× | PASS |
+| `elements.moving-platform` | 48×8 → 192.0×32.0 | 4.000× | 188×30 → 192.0×32.0 | 1.067× | PASS |
+| `elements.movingPlatform` | 48×8 → 192.0×32.0 | 4.000× | 188×30 → 192.0×32.0 | 1.067× | PASS |
 | `elements.rotating-platform` | 80×14 → 320.0×56.0 | 4.000× | 300×30 → 320.0×32.0 | 1.067× | PASS; Five native 60px NSMBU mushroom-seesaw deck segments. Pivot is a separate seesaw_pivot entry. |
 | `elements.rotatingPlatform` | 80×14 → 320.0×56.0 | 4.000× | 300×30 → 320.0×32.0 | 1.067× | PASS; Five native 60px NSMBU mushroom-seesaw deck segments. Pivot is a separate seesaw_pivot entry. |
-| `elements.big-coin` | 29×29 → 64.0×64.0 | 2.207× | 120×120 → 64.0×64.0 | 0.533× | PASS |
-| `elements.bigCoin` | 29×29 → 64.0×64.0 | 2.207× | 120×120 → 64.0×64.0 | 0.533× | PASS |
+| `elements.big-coin` | 29×29 → 64.0×64.0 | 2.207× | 116×116 → 64.0×64.0 | 0.552× | PASS; Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md. |
+| `elements.bigCoin` | 29×29 → 64.0×64.0 | 2.207× | 116×116 → 64.0×64.0 | 0.552× | PASS; Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md. |
 | `elements.double-jump` | 16×18 → 64.0×64.0 | 4.000× | 174×199 → 64.0×64.0 | 0.368× | PASS |
 | `elements.doubleJump` | 16×18 → 64.0×64.0 | 4.000× | 174×199 → 64.0×64.0 | 0.368× | PASS |
 | `elements.dash` | 196×186 → 64.0×64.0 | 0.344× | 196×186 → 64.0×64.0 | 0.344× | PASS; Super Star represents dash. |
 | `elements.power-up` | 16×18 → 64.0×64.0 | 4.000× | 174×199 → 64.0×64.0 | 0.368× | PASS |
 | `elements.powerup` | 16×18 → 64.0×64.0 | 4.000× | 174×199 → 64.0×64.0 | 0.368× | PASS |
-| `elements.key-lock-door` | 20×40 → 64.0×128.0 | 3.200× | 156×308 → 64.0×128.0 | 0.416× | PASS; Native closed door, with the separately supplied key indicating lock state in gameplay. |
-| `elements.keyLockDoor` | 20×40 → 64.0×128.0 | 3.200× | 156×308 → 64.0×128.0 | 0.416× | PASS; Native closed door, with the separately supplied key indicating lock state in gameplay. |
-| `elements.lockedDoor` | 20×40 → 64.0×128.0 | 3.200× | 156×308 → 64.0×128.0 | 0.416× | PASS; Native closed door, with the separately supplied key indicating lock state in gameplay. |
+| `elements.key-lock-door` | 20×40 → 64.0×128.0 | 3.200× | 78×154 → 64.0×128.0 | 0.831× | PASS; Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay. |
+| `elements.keyLockDoor` | 20×40 → 64.0×128.0 | 3.200× | 78×154 → 64.0×128.0 | 0.831× | PASS; Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay. |
+| `elements.lockedDoor` | 20×40 → 64.0×128.0 | 3.200× | 78×154 → 64.0×128.0 | 0.831× | PASS; Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay. |
 | `elements.switch-block` | 64×64 → 64.0×64.0 | 1.000× | 64×64 → 64.0×64.0 | 1.000× | PASS |
 | `characters.mario` | 34×35 → 136.0×140.0 | 4.000× | 181×160 → 135.7×120.0 | 0.750× | PASS; NSMBU raster captures credited to PolskyGamer, Scratch project 839078033. Cropped extracted PNGs; pose scales normalized only by downsampling. Distinct fall capture. |
 | `characters.mario_small` | 22×25 → 64.0×72.7 | 2.909× | 64×87 → 51.2×69.6 | 0.800× | PASS; Authentic NSMB Wii raster captures shared by PolskyGamer (project 784192278); same-style fallback, NOT an NSMBU rip. Original ripper credited as Keira Sanchez. Distinct Fall capture; wallSlide holds the wall-jump capture.  |
@@ -168,25 +168,25 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.seesaw_pivot` | — | — | 42×42 → 48.0×48.0 | 1.143× | PASS |
 | `elements.mushroom` | — | — | 128×127 → 64.0×64.0 | 0.504× | PASS; Official NSMBU Super Mushroom artwork. Form behavior is implemented in game-core. |
 | `elements.grass_inner` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_bottom_left` | — | — | 56×60 → 64.0×64.0 | 1.143× | PASS |
+| `elements.grass_bottom_right` | — | — | 56×60 → 64.0×64.0 | 1.143× | PASS |
 | `elements.grass_pillar_top` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_pillar` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_pillar_bottom` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_pillar` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS |
+| `elements.grass_pillar_bottom` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS |
 | `elements.grass_single` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.grass_horizontal` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_single_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_single_left` | — | — | 58×60 → 64.0×64.0 | 1.103× | PASS |
 | `elements.grass_single_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_inner_top_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_inner_top_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_inner_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_inner_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.grass_inner_top_left` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.grass_inner_top_right` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.grass_inner_bottom_left` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.grass_inner_bottom_right` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
 | `elements.desert_inner` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_pillar_top` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_pillar` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.desert_pillar_bottom` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.desert_pillar_bottom` | — | — | 58×60 → 64.0×64.0 | 1.103× | PASS |
 | `elements.desert_single` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_horizontal` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_single_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
@@ -196,19 +196,19 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.desert_inner_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.desert_inner_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.snow_inner` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.snow_bottom_left` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.snow_bottom_right` | — | — | 56×60 → 64.0×64.0 | 1.143× | PASS |
 | `elements.snow_pillar_top` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_pillar` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_pillar_bottom` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.snow_pillar` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS |
+| `elements.snow_pillar_bottom` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS |
 | `elements.snow_single` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.snow_horizontal` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_single_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_single_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_inner_top_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_inner_top_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_inner_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.snow_inner_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
+| `elements.snow_single_left` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS |
+| `elements.snow_single_right` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS |
+| `elements.snow_inner_top_left` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.snow_inner_top_right` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.snow_inner_bottom_left` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
+| `elements.snow_inner_bottom_right` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS |
 | `elements.castle_inner` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
@@ -223,14 +223,14 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.castle_inner_top_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_inner_bottom_left` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_inner_bottom_right` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS |
-| `elements.grass_mask_0` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_1` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_2` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_3` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_4` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_5` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_6` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_7` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_0` | — | — | 57×59 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_1` | — | — | 57×59 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_2` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_3` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_4` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_5` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_6` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_7` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_8` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_9` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_10` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
@@ -239,15 +239,15 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.grass_mask_13` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_14` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_15` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_19` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_23` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_19` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_23` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_27` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_31` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_38` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_39` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_38` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_39` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_46` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_47` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.grass_mask_55` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.grass_mask_55` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_63` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_76` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.grass_mask_77` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
@@ -317,15 +317,15 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.desert_mask_223` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.desert_mask_239` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.desert_mask_255` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_0` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_1` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_2` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_3` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_4` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_5` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_6` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_7` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_8` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_0` | — | — | 58×59 → 64.0×64.0 | 1.103× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_1` | — | — | 57×59 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_2` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_3` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_4` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_5` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_6` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_7` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_8` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_9` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_10` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_11` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
@@ -333,15 +333,15 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 | `elements.snow_mask_13` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_14` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_15` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_19` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_23` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_19` | — | — | 57×60 → 64.0×64.0 | 1.123× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_23` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_27` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_31` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_38` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_39` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_38` | — | — | 59×60 → 64.0×64.0 | 1.085× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_39` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_46` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_47` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
-| `elements.snow_mask_55` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
+| `elements.snow_mask_55` | — | — | 54×60 → 64.0×64.0 | 1.185× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_63` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_76` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.snow_mask_77` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
@@ -416,9 +416,9 @@ Before is frozen in `audit-before.json`, captured before this pass. Before/after
 
 ## Animation frames
 
-Every current atlas frame is listed below. The factor applies to the full fixed native canvas, including deliberately transparent pose margins; no animation may use a different runtime scale. Frame names map to exact native source crops in `slicing.json`.
+Opaque display dimensions include the real fraction of each fixed canvas occupied by the pose. Frame names resolve to exact source crops in slicing.json. The final column checks the shared opaque envelope against the requested display size; it cannot be improved by adding transparent padding.
 
-| Sprite / frame | Native px | Display px | Upscale |
+| Sprite / frame | Native opaque px | Actual opaque display px | Content-envelope factor |
 |---|---|---|---:|
 | `elements.conveyor_belt/conveyor_belt_0` | 128×114 | 64.0×64.0 | 0.561× |
 | `elements.conveyor_belt/conveyor_belt_1` | 128×114 | 64.0×64.0 | 0.561× |
@@ -429,24 +429,52 @@ Every current atlas frame is listed below. The factor applies to the full fixed 
 | `elements.conveyor_belt/conveyor_belt_6` | 128×114 | 64.0×64.0 | 0.561× |
 | `elements.conveyor_belt/conveyor_belt_7` | 128×114 | 64.0×64.0 | 0.561× |
 | `elements.chain_link/chain_link_0` | 92×92 | 16.0×16.0 | 0.174× |
-| `elements.coin/coin_0` | 128×167 | 64.0×64.0 | 0.500× |
-| `elements.powerup_dash/powerup_dash_0` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_1` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_2` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_3` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_4` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_5` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_6` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_7` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_8` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_9` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_10` | 196×186 | 64.0×64.0 | 0.344× |
-| `elements.powerup_dash/powerup_dash_11` | 196×186 | 64.0×64.0 | 0.344× |
+| `elements.coin/coin_0` | 50×60 | 61.5×64.0 | 1.231× |
+| `elements.coin/coin_1` | 52×60 | 64.0×64.0 | 1.231× |
+| `elements.coin/coin_2` | 50×60 | 61.5×64.0 | 1.231× |
+| `elements.coin/coin_3` | 46×60 | 56.6×64.0 | 1.231× |
+| `elements.coin/coin_4` | 43×60 | 52.9×64.0 | 1.231× |
+| `elements.coin/coin_5` | 36×60 | 44.3×64.0 | 1.231× |
+| `elements.coin/coin_6` | 30×60 | 36.9×64.0 | 1.231× |
+| `elements.coin/coin_7` | 22×60 | 27.1×64.0 | 1.231× |
+| `elements.coin/coin_8` | 14×60 | 17.2×64.0 | 1.231× |
+| `elements.coin/coin_9` | 22×60 | 27.1×64.0 | 1.231× |
+| `elements.coin/coin_10` | 30×60 | 36.9×64.0 | 1.231× |
+| `elements.coin/coin_11` | 36×60 | 44.3×64.0 | 1.231× |
+| `elements.coin/coin_12` | 43×60 | 52.9×64.0 | 1.231× |
+| `elements.coin/coin_13` | 46×60 | 56.6×64.0 | 1.231× |
+| `elements.coin/coin_14` | 50×60 | 61.5×64.0 | 1.231× |
+| `elements.coin/coin_15` | 52×60 | 64.0×64.0 | 1.231× |
+| `elements.big_coin/big_coin_0` | 116×116 | 62.9×62.9 | 0.552× |
+| `elements.big_coin/big_coin_1` | 116×116 | 62.9×62.9 | 0.552× |
+| `elements.big_coin/big_coin_2` | 110×116 | 59.7×62.9 | 0.552× |
+| `elements.big_coin/big_coin_3` | 98×116 | 53.2×62.9 | 0.552× |
+| `elements.big_coin/big_coin_4` | 80×116 | 43.4×62.9 | 0.552× |
+| `elements.big_coin/big_coin_5` | 60×116 | 32.5×62.9 | 0.552× |
+| `elements.big_coin/big_coin_6` | 36×116 | 19.5×62.9 | 0.552× |
+| `elements.big_coin/big_coin_7` | 36×116 | 19.5×62.9 | 0.552× |
+| `elements.big_coin/big_coin_8` | 60×116 | 32.5×62.9 | 0.552× |
+| `elements.big_coin/big_coin_9` | 80×116 | 43.4×62.9 | 0.552× |
+| `elements.big_coin/big_coin_10` | 98×116 | 53.2×62.9 | 0.552× |
+| `elements.big_coin/big_coin_11` | 110×116 | 59.7×62.9 | 0.552× |
+| `elements.big_coin/big_coin_12` | 116×116 | 62.9×62.9 | 0.552× |
+| `elements.powerup_dash/powerup_dash_0` | 180×186 | 58.8×64.0 | 0.344× |
+| `elements.powerup_dash/powerup_dash_1` | 180×186 | 58.8×64.0 | 0.344× |
+| `elements.powerup_dash/powerup_dash_2` | 180×184 | 58.8×63.3 | 0.344× |
+| `elements.powerup_dash/powerup_dash_3` | 180×182 | 58.8×62.6 | 0.344× |
+| `elements.powerup_dash/powerup_dash_4` | 188×178 | 61.4×61.2 | 0.344× |
+| `elements.powerup_dash/powerup_dash_5` | 196×176 | 64.0×60.6 | 0.344× |
+| `elements.powerup_dash/powerup_dash_6` | 196×174 | 64.0×59.9 | 0.344× |
+| `elements.powerup_dash/powerup_dash_7` | 188×176 | 61.4×60.6 | 0.344× |
+| `elements.powerup_dash/powerup_dash_8` | 184×180 | 60.1×61.9 | 0.344× |
+| `elements.powerup_dash/powerup_dash_9` | 184×184 | 60.1×63.3 | 0.344× |
+| `elements.powerup_dash/powerup_dash_10` | 184×186 | 60.1×64.0 | 0.344× |
+| `elements.powerup_dash/powerup_dash_11` | 180×186 | 58.8×64.0 | 0.344× |
 | `elements.start/start_0` | 76×92 | 64.0×64.0 | 0.842× |
 | `elements.start/start_1` | 76×92 | 64.0×64.0 | 0.842× |
 | `elements.start/start_2` | 76×92 | 64.0×64.0 | 0.842× |
 | `elements.start/start_3` | 76×92 | 64.0×64.0 | 0.842× |
-| `elements.start/start_4` | 76×92 | 64.0×64.0 | 0.842× |
+| `elements.start/start_4` | 75×91 | 63.2×63.3 | 0.842× |
 | `elements.start/start_5` | 76×92 | 64.0×64.0 | 0.842× |
 | `elements.door/door_0` | 156×308 | 64.0×128.0 | 0.416× |
 | `elements.door_open/door_open_0` | 156×308 | 64.0×128.0 | 0.416× |
@@ -454,122 +482,122 @@ Every current atlas frame is listed below. The factor applies to the full fixed 
 | `elements.switch_on/switch_on_0` | 64×64 | 64.0×64.0 | 1.000× |
 | `elements.switch_block/switch_block_0` | 64×64 | 64.0×64.0 | 1.000× |
 | `elements.walker/walker_0` | 104×122 | 64.0×64.0 | 0.615× |
-| `elements.shell/shell_0` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_1` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_2` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_3` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_4` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_5` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_6` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_7` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_8` | 234×276 | 64.0×96.0 | 0.348× |
-| `elements.shell/shell_9` | 234×276 | 64.0×96.0 | 0.348× |
+| `elements.shell/shell_0` | 174×274 | 47.6×95.3 | 0.348× |
+| `elements.shell/shell_1` | 234×268 | 64.0×93.2 | 0.348× |
+| `elements.shell/shell_2` | 206×276 | 56.3×96.0 | 0.348× |
+| `elements.shell/shell_3` | 194×264 | 53.1×91.8 | 0.348× |
+| `elements.shell/shell_4` | 164×148 | 44.9×51.5 | 0.348× |
+| `elements.shell/shell_5` | 164×148 | 44.9×51.5 | 0.348× |
+| `elements.shell/shell_6` | 166×148 | 45.4×51.5 | 0.348× |
+| `elements.shell/shell_7` | 160×148 | 43.8×51.5 | 0.348× |
+| `elements.shell/shell_8` | 166×148 | 45.4×51.5 | 0.348× |
+| `elements.shell/shell_9` | 166×148 | 45.4×51.5 | 0.348× |
 | `elements.flyer/flyer_0` | 85×97 | 64.0×64.0 | 0.753× |
-| `elements.jumper/jumper_0` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_1` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_2` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_3` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_4` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_5` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_6` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_7` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_8` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_9` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_10` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.jumper/jumper_11` | 190×184 | 64.0×64.0 | 0.348× |
-| `elements.bullet_bill/bullet_bill_0` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_1` | 204×132 | 64.0×64.0 | 0.485× |
+| `elements.jumper/jumper_0` | 182×184 | 61.3×64.0 | 0.348× |
+| `elements.jumper/jumper_1` | 176×178 | 59.3×61.9 | 0.348× |
+| `elements.jumper/jumper_2` | 176×172 | 59.3×59.8 | 0.348× |
+| `elements.jumper/jumper_3` | 182×170 | 61.3×59.1 | 0.348× |
+| `elements.jumper/jumper_4` | 184×176 | 62.0×61.2 | 0.348× |
+| `elements.jumper/jumper_5` | 176×184 | 59.3×64.0 | 0.348× |
+| `elements.jumper/jumper_6` | 190×182 | 64.0×63.3 | 0.348× |
+| `elements.jumper/jumper_7` | 184×180 | 62.0×62.6 | 0.348× |
+| `elements.jumper/jumper_8` | 174×170 | 58.6×59.1 | 0.348× |
+| `elements.jumper/jumper_9` | 178×170 | 60.0×59.1 | 0.348× |
+| `elements.jumper/jumper_10` | 180×176 | 60.6×61.2 | 0.348× |
+| `elements.jumper/jumper_11` | 186×184 | 62.7×64.0 | 0.348× |
+| `elements.bullet_bill/bullet_bill_0` | 204×128 | 64.0×62.1 | 0.485× |
+| `elements.bullet_bill/bullet_bill_1` | 204×128 | 64.0×62.1 | 0.485× |
 | `elements.bullet_bill/bullet_bill_2` | 204×132 | 64.0×64.0 | 0.485× |
 | `elements.bullet_bill/bullet_bill_3` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_4` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_5` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_6` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_7` | 204×132 | 64.0×64.0 | 0.485× |
+| `elements.bullet_bill/bullet_bill_4` | 204×128 | 64.0×62.1 | 0.485× |
+| `elements.bullet_bill/bullet_bill_5` | 204×128 | 64.0×62.1 | 0.485× |
+| `elements.bullet_bill/bullet_bill_6` | 204×128 | 64.0×62.1 | 0.485× |
+| `elements.bullet_bill/bullet_bill_7` | 204×128 | 64.0×62.1 | 0.485× |
 | `elements.bullet_bill/bullet_bill_8` | 204×132 | 64.0×64.0 | 0.485× |
 | `elements.bullet_bill/bullet_bill_9` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_10` | 204×132 | 64.0×64.0 | 0.485× |
-| `elements.bullet_bill/bullet_bill_11` | 204×132 | 64.0×64.0 | 0.485× |
-| `characters.mario/mario_0` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_1` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_2` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_3` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_4` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_5` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_6` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_7` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_8` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_9` | 181×160 | 135.7×120.0 | 0.750× |
+| `elements.bullet_bill/bullet_bill_10` | 204×128 | 64.0×62.1 | 0.485× |
+| `elements.bullet_bill/bullet_bill_11` | 204×128 | 64.0×62.1 | 0.485× |
+| `characters.mario/mario_0` | 110×160 | 82.5×120.0 | 0.750× |
+| `characters.mario/mario_1` | 114×160 | 85.5×120.0 | 0.750× |
+| `characters.mario/mario_2` | 97×160 | 72.7×120.0 | 0.750× |
+| `characters.mario/mario_3` | 94×160 | 70.5×120.0 | 0.750× |
+| `characters.mario/mario_4` | 94×160 | 70.5×120.0 | 0.750× |
+| `characters.mario/mario_5` | 92×160 | 69.0×120.0 | 0.750× |
+| `characters.mario/mario_6` | 100×160 | 75.0×120.0 | 0.750× |
+| `characters.mario/mario_7` | 120×160 | 90.0×120.0 | 0.750× |
+| `characters.mario/mario_8` | 158×160 | 118.5×120.0 | 0.750× |
+| `characters.mario/mario_9` | 139×160 | 104.2×120.0 | 0.750× |
 | `characters.mario/mario_10` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_11` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_12` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_13` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_14` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_15` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_16` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_17` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_18` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_19` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario/mario_20` | 181×160 | 135.7×120.0 | 0.750× |
-| `characters.mario_small/mario_small_0` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_1` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_2` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_3` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_4` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_5` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_6` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_7` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_8` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_9` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_10` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_11` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_12` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_13` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_14` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_15` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_16` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_17` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.mario_small/mario_small_18` | 64×87 | 51.2×69.6 | 0.800× |
-| `characters.luigi/luigi_0` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_1` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_2` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_3` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_4` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_5` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_6` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_7` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_8` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_9` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_10` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_11` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_12` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_13` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_14` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_15` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_16` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_17` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi/luigi_18` | 98×144 | 81.7×120.0 | 0.833× |
-| `characters.luigi_small/luigi_small_0` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_1` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_2` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_3` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_4` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_5` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_6` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_7` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_8` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_9` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_10` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_11` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_12` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_13` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_14` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_15` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_16` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_17` | 76×108 | 49.0×69.7 | 0.645× |
-| `characters.luigi_small/luigi_small_18` | 76×108 | 49.0×69.7 | 0.645× |
+| `characters.mario/mario_11` | 114×150 | 85.5×112.5 | 0.750× |
+| `characters.mario/mario_12` | 83×160 | 62.2×120.0 | 0.750× |
+| `characters.mario/mario_13` | 107×160 | 80.2×120.0 | 0.750× |
+| `characters.mario/mario_14` | 77×160 | 57.7×120.0 | 0.750× |
+| `characters.mario/mario_15` | 77×160 | 57.7×120.0 | 0.750× |
+| `characters.mario/mario_16` | 93×96 | 69.7×72.0 | 0.750× |
+| `characters.mario/mario_17` | 70×160 | 52.5×120.0 | 0.750× |
+| `characters.mario/mario_18` | 85×85 | 63.7×63.8 | 0.750× |
+| `characters.mario/mario_19` | 84×90 | 63.0×67.5 | 0.750× |
+| `characters.mario/mario_20` | 84×85 | 63.0×63.8 | 0.750× |
+| `characters.mario_small/mario_small_0` | 56×75 | 44.8×60.0 | 0.800× |
+| `characters.mario_small/mario_small_1` | 50×73 | 40.0×58.4 | 0.800× |
+| `characters.mario_small/mario_small_2` | 50×75 | 40.0×60.0 | 0.800× |
+| `characters.mario_small/mario_small_3` | 58×79 | 46.4×63.2 | 0.800× |
+| `characters.mario_small/mario_small_4` | 58×79 | 46.4×63.2 | 0.800× |
+| `characters.mario_small/mario_small_5` | 52×85 | 41.6×68.0 | 0.800× |
+| `characters.mario_small/mario_small_6` | 54×75 | 43.2×60.0 | 0.800× |
+| `characters.mario_small/mario_small_7` | 62×71 | 49.6×56.8 | 0.800× |
+| `characters.mario_small/mario_small_8` | 62×74 | 49.6×59.2 | 0.800× |
+| `characters.mario_small/mario_small_9` | 48×63 | 38.4×50.4 | 0.800× |
+| `characters.mario_small/mario_small_10` | 62×61 | 49.6×48.8 | 0.800× |
+| `characters.mario_small/mario_small_11` | 44×87 | 35.2×69.6 | 0.800× |
+| `characters.mario_small/mario_small_12` | 52×87 | 41.6×69.6 | 0.800× |
+| `characters.mario_small/mario_small_13` | 52×85 | 41.6×68.0 | 0.800× |
+| `characters.mario_small/mario_small_14` | 48×82 | 38.4×65.6 | 0.800× |
+| `characters.mario_small/mario_small_15` | 44×48 | 35.2×38.4 | 0.800× |
+| `characters.mario_small/mario_small_16` | 52×79 | 41.6×63.2 | 0.800× |
+| `characters.mario_small/mario_small_17` | 62×72 | 49.6×57.6 | 0.800× |
+| `characters.mario_small/mario_small_18` | 64×73 | 51.2×58.4 | 0.800× |
+| `characters.luigi/luigi_0` | 80×144 | 66.7×120.0 | 0.833× |
+| `characters.luigi/luigi_1` | 74×142 | 61.7×118.3 | 0.833× |
+| `characters.luigi/luigi_2` | 68×143 | 56.7×119.2 | 0.833× |
+| `characters.luigi/luigi_3` | 57×136 | 47.5×113.3 | 0.833× |
+| `characters.luigi/luigi_4` | 83×132 | 69.2×110.0 | 0.833× |
+| `characters.luigi/luigi_5` | 73×132 | 60.8×110.0 | 0.833× |
+| `characters.luigi/luigi_6` | 78×134 | 65.0×111.7 | 0.833× |
+| `characters.luigi/luigi_7` | 98×121 | 81.7×100.8 | 0.833× |
+| `characters.luigi/luigi_8` | 65×132 | 54.2×110.0 | 0.833× |
+| `characters.luigi/luigi_9` | 98×121 | 81.7×100.8 | 0.833× |
+| `characters.luigi/luigi_10` | 53×137 | 44.2×114.2 | 0.833× |
+| `characters.luigi/luigi_11` | 63×135 | 52.5×112.5 | 0.833× |
+| `characters.luigi/luigi_12` | 76×133 | 63.3×110.8 | 0.833× |
+| `characters.luigi/luigi_13` | 61×126 | 50.8×105.0 | 0.833× |
+| `characters.luigi/luigi_14` | 64×85 | 53.3×70.8 | 0.833× |
+| `characters.luigi/luigi_15` | 68×137 | 56.7×114.2 | 0.833× |
+| `characters.luigi/luigi_16` | 64×87 | 53.3×72.5 | 0.833× |
+| `characters.luigi/luigi_17` | 70×88 | 58.3×73.3 | 0.833× |
+| `characters.luigi/luigi_18` | 52×76 | 43.3×63.3 | 0.833× |
+| `characters.luigi_small/luigi_small_0` | 64×93 | 41.3×60.0 | 0.645× |
+| `characters.luigi_small/luigi_small_1` | 62×91 | 40.0×58.7 | 0.645× |
+| `characters.luigi_small/luigi_small_2` | 60×91 | 38.7×58.7 | 0.645× |
+| `characters.luigi_small/luigi_small_3` | 58×94 | 37.4×60.6 | 0.645× |
+| `characters.luigi_small/luigi_small_4` | 66×91 | 42.6×58.7 | 0.645× |
+| `characters.luigi_small/luigi_small_5` | 58×94 | 37.4×60.6 | 0.645× |
+| `characters.luigi_small/luigi_small_6` | 66×94 | 42.6×60.6 | 0.645× |
+| `characters.luigi_small/luigi_small_7` | 68×98 | 43.9×63.2 | 0.645× |
+| `characters.luigi_small/luigi_small_8` | 76×94 | 49.0×60.6 | 0.645× |
+| `characters.luigi_small/luigi_small_9` | 68×98 | 43.9×63.2 | 0.645× |
+| `characters.luigi_small/luigi_small_10` | 56×105 | 36.1×67.7 | 0.645× |
+| `characters.luigi_small/luigi_small_11` | 58×108 | 37.4×69.7 | 0.645× |
+| `characters.luigi_small/luigi_small_12` | 66×106 | 42.6×68.4 | 0.645× |
+| `characters.luigi_small/luigi_small_13` | 64×104 | 41.3×67.1 | 0.645× |
+| `characters.luigi_small/luigi_small_14` | 62×65 | 40.0×41.9 | 0.645× |
+| `characters.luigi_small/luigi_small_15` | 56×97 | 36.1×62.6 | 0.645× |
+| `characters.luigi_small/luigi_small_16` | 64×87 | 41.3×56.1 | 0.645× |
+| `characters.luigi_small/luigi_small_17` | 70×88 | 45.2×56.8 | 0.645× |
+| `characters.luigi_small/luigi_small_18` | 52×76 | 33.5×49.0 | 0.645× |
 
 ## Result
 
-- Before: **50/159** sprite entries above 1.25×.
-- After: **0/407** sprite entries above 1.25×.
-- Known semantic substitutions are disclosed in README.md and the entry notes; a scale pass is not a provenance or pose-completeness claim.
+- Historical canvas baseline: **50/159** entries above 1.25×.
+- Current opaque-content audit: **0/407** entries above 1.25×.
+- Remaining semantic substitutions are disclosed in README.md and RESOLUTION_REPORT.md.

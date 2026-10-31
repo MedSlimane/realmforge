@@ -1,0 +1,32 @@
+### Result
+{
+  "position": {
+    "x": 480,
+    "y": 170.00000000000003
+  },
+  "parent": {
+    "min": {
+      "x": 932,
+      "y": 306
+    },
+    "max": {
+      "x": 988,
+      "y": 434
+    }
+  },
+  "main": {
+    "min": {
+      "x": 456.00000000000045,
+      "y": 110.00000000000004
+    },
+    "max": {
+      "x": 504.00000000000045,
+      "y": 230.00000000000006
+    }
+  },
+  "parentBoundsContainMain": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => window.seesawLab.isolatedGrowthBounds()');
+```

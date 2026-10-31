@@ -28,3 +28,16 @@ No files staged or committed. No dependencies added. Real command output, pack b
 - [x] 407 sprite entries and every animation frame ≤1.25×; all 50 baseline violations removed.
 - [x] Pack size 11,646,109 bytes, below the 25,000,000-byte limit.
 - [x] Owned-path git diff --check passes; staging area untouched.
+
+## Remaining-compromises pass — 31 October 2026
+
+- [x] Native NSMBU 16-frame Coin and SMM2 NSMBU 13-frame 10-Coin cycles, exact source timing.
+- [x] Native SMM NSMBU locked-door state with actual integrated keyhole; separate overlay still unavailable.
+- [x] Opaque-content audit, padded-canvas regression, thin legacy-tile regression; static visible sizes preserved.
+- [x] RESOLUTION_REPORT.md covers each requested gap and coordinator ownership handoff.
+- [~] Exact characters, skid/wall-slide and other requested object cycles remain unresolved; working fallbacks retained.
+- [~] Physical seesaw and Kenney replacement belong to concurrent owners, not this asset-only pass.
+
+The earlier verification counts above describe the previous pass. Current command output and hashes replace VALIDATION.txt and pack-sha256.json.
+
+Current verification: fetch/build/preview, **8 regression tests**, pack validation and real registry check pass. Repeated build/preview matches **435** output SHA-256 values. Pack: **12,016,410 bytes**. Owned-path `git diff --check` passes.

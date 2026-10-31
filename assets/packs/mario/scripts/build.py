@@ -86,6 +86,7 @@ def make_asset(id,spec):
   entry.update({'image':image,'atlas':atlas_path,'frame':f'{id}_{animations.get("idle",list(animations.values())[0])[0]}','animations':{}})
   for name,indices in animations.items():
    rate=14 if name=='run' else 10 if name in ('walk','move','bounce','spin','kick') else 8 if len(indices)>1 else 1
+   rate=spec.get('animationFrameRates',{}).get(name,rate)
    entry['animations'][name]={'frames':[f'{id}_{i}' for i in indices],'frameRate':rate,'repeat':-1 if name in ('idle','run','walk','move','spin') else 0}
  return entry
 
@@ -113,8 +114,14 @@ def build():
    id=f'{theme}_{variant}' if f'{theme}_{variant}' in entries else variant
    im=crop(c['assets'][id]['frames'][0])
    # Keep the legacy 64px grid; 60px native terrain carries 2px edge extrusion.
+   if im.width==60 and im.height<60:
+    # Thin one-way decks were alpha-trimmed for the content audit. Restore
+    # empty tile space here, never stretch the opaque deck to a full tile.
+    tile=Image.new('RGBA',(60,60));tile.alpha_composite(im,(0,0));im=tile
    if im.size==(60,60):im=extrude(im)
-   elif im.size!=(64,64):im=im.resize((64,64),Image.Resampling.LANCZOS)
+   elif im.size!=(64,64):
+    assert im.width>=64 and im.height>=64,'Upsampling terrain art is forbidden'
+    im=im.resize((64,64),Image.Resampling.LANCZOS)
    sheet.alpha_composite(im,(i%8*64,i//8*64))
   path=f'tiles/{theme}/tileset.png';save(sheet,path)
   layers=[]

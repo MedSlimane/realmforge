@@ -711,53 +711,172 @@
             66,
             194,
             60,
-            60
+            23
           ]
         }
       ],
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 1.0,
+        "h": 0.38333333333333336
       },
-      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain."
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain. Transparent source margins removed; previous visible size preserved."
     },
     "coin": {
       "path": "items/coin.png",
       "frames": [
         {
-          "source": "hires/wiki/coin.png",
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 0,
           "rect": [
             0,
             0,
-            1363,
-            1782
-          ],
-          "resize": [
-            128,
-            167
+            52,
+            60
           ]
-        }
-      ],
-      "displaySize": {
-        "w": 1,
-        "h": 1
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "animations": {
-        "idle": [
-          0
-        ]
-      }
-    },
-    "coin_side": {
-      "path": "items/coin_side.png",
-      "frames": [
+        },
         {
-          "source": "hires/wiki/coin.gif",
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 1,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 2,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
           "sourceFrame": 3,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 4,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 5,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 6,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 7,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 8,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 9,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 10,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 11,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 12,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 13,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 14,
+          "rect": [
+            0,
+            0,
+            52,
+            60
+          ]
+        },
+        {
+          "source": "resolution/NSMBUCoin.gif",
+          "sourceFrame": 15,
           "rect": [
             0,
             0,
@@ -773,18 +892,206 @@
       "anchor": {
         "x": 0.5,
         "y": 0.5
-      }
+      },
+      "animations": {
+        "idle": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "spin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "animationFrameRates": {
+        "idle": 20.0,
+        "spin": 20.0
+      },
+      "note": "Native 16-frame NSMBU Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md."
+    },
+    "coin_side": {
+      "path": "items/coin_side.png",
+      "frames": [
+        {
+          "source": "hires/wiki/coin.gif",
+          "sourceFrame": 3,
+          "rect": [
+            3,
+            0,
+            46,
+            60
+          ]
+        }
+      ],
+      "displaySize": {
+        "w": 0.8846153846153846,
+        "h": 1.0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "big_coin": {
       "path": "items/big_coin.png",
       "frames": [
         {
-          "source": "hires/miyamoto/miyamotodata/sprites/star_coin.png",
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 0,
           "rect": [
             0,
             0,
-            120,
-            120
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 1,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 2,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 3,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 4,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 5,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 6,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 7,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 8,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 9,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 10,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 11,
+          "rect": [
+            0,
+            0,
+            118,
+            118
+          ]
+        },
+        {
+          "source": "resolution/SMM2-NSMBU-10Coin.gif",
+          "sourceFrame": 12,
+          "rect": [
+            0,
+            0,
+            118,
+            118
           ]
         }
       ],
@@ -795,7 +1102,44 @@
       "anchor": {
         "x": 0.5,
         "y": 0.5
-      }
+      },
+      "animations": {
+        "idle": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "spin": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "animationFrameRates": {
+        "idle": 16.666666666666668,
+        "spin": 16.666666666666668
+      },
+      "note": "Native 13-frame SMM2 NSMBU 10-Coin cycle from Mario Wiki; original GIF order and timing, no interpolated or duplicated poses. See RESOLUTION_REPORT.md."
     },
     "key": {
       "path": "items/key.png",
@@ -803,21 +1147,22 @@
         {
           "source": "hires/wiki/key.png",
           "rect": [
-            0,
-            0,
-            60,
-            60
+            5,
+            1,
+            51,
+            58
           ]
         }
       ],
       "displaySize": {
-        "w": 1,
-        "h": 1
+        "w": 0.85,
+        "h": 0.9666666666666667
       },
       "anchor": {
         "x": 0.5,
         "y": 0.5
-      }
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "powerup_double_jump": {
       "path": "items/powerup_double_jump.png",
@@ -1163,12 +1508,12 @@
       "path": "flow/locked_door.png",
       "frames": [
         {
-          "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+          "source": "resolution/SMM-NSMBU-Locked-Door.png",
           "rect": [
             0,
             0,
-            156,
-            308
+            78,
+            154
           ]
         }
       ],
@@ -1180,7 +1525,7 @@
         "x": 0.5,
         "y": 0.5
       },
-      "note": "Native closed door, with the separately supplied key indicating lock state in gameplay."
+      "note": "Authentic SMM NSMBU locked-door state with integrated keyhole, sourced from Mario Wiki/TSR. Full texture, not a separately extracted transparent lock overlay."
     },
     "switch": {
       "path": "flow/switch.png",
@@ -1705,14 +2050,15 @@
             66,
             194,
             60,
-            60
+            23
           ]
         }
       ],
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.38333333333333336
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "grass_semi_solid": {
       "path": "tiles/grass/grass_semi_solid.png",
@@ -2066,14 +2412,15 @@
             66,
             194,
             60,
-            60
+            23
           ]
         }
       ],
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.38333333333333336
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "desert_semi_solid": {
       "path": "tiles/desert/desert_semi_solid.png",
@@ -2427,14 +2774,15 @@
             66,
             194,
             60,
-            60
+            23
           ]
         }
       ],
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.38333333333333336
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "snow_semi_solid": {
       "path": "tiles/snow/snow_semi_solid.png",
@@ -2788,14 +3136,15 @@
             66,
             194,
             60,
-            60
+            24
           ]
         }
       ],
       "displaySize": {
-        "w": 1,
-        "h": 1
-      }
+        "w": 1.0,
+        "h": 0.4
+      },
+      "note": " Transparent source margins removed; previous visible size preserved."
     },
     "castle_semi_solid": {
       "path": "tiles/castle/castle_semi_solid.png",
