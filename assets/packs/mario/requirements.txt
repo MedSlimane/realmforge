@@ -1,0 +1,2 @@
+# Pillow: MIT-CMU / HPND licence (https://github.com/python-pillow/Pillow/blob/main/LICENSE)
+Pillow==12.3.0

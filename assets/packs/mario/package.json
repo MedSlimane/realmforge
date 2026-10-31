@@ -1,0 +1,13 @@
+{
+  "name": "@realmforge/mario-assets",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "fetch": "python3 scripts/fetch.py",
+    "build": "python3 scripts/build.py",
+    "validate": "python3 scripts/validate.py",
+    "preview": "python3 scripts/preview.py",
+    "validate:registry": "../../node_modules/.bin/tsx scripts/validate-registry.ts"
+  }
+}

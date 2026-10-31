@@ -1,0 +1,253 @@
+{
+  "frames": {
+    "pendulum_ball_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_1": {
+      "frame": {
+        "x": 270,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_2": {
+      "frame": {
+        "x": 540,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_3": {
+      "frame": {
+        "x": 810,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_4": {
+      "frame": {
+        "x": 1080,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_5": {
+      "frame": {
+        "x": 1350,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_6": {
+      "frame": {
+        "x": 1620,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_7": {
+      "frame": {
+        "x": 1890,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_8": {
+      "frame": {
+        "x": 2160,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_9": {
+      "frame": {
+        "x": 2430,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_10": {
+      "frame": {
+        "x": 2700,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    },
+    "pendulum_ball_11": {
+      "frame": {
+        "x": 2970,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 276
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 276
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 3240,
+      "h": 276
+    },
+    "scale": "1"
+  }
+}

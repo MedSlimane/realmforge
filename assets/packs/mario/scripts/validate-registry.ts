@@ -1,0 +1,15 @@
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import assert from 'node:assert/strict';
+import { readManifest, elementTexture, getAnimations, themeLayers, isPixelArt, packSourceTile } from '../../../../web/src/game/assets/registry.ts';
+const json = (relative: string) => JSON.parse(readFileSync(fileURLToPath(new URL(relative, import.meta.url)), 'utf8'));
+const manifest = json('../../../../web/public/packs/mario/manifest.json');
+const original = json('../../../../web/public/assets/manifest.json');
+const files = readManifest(manifest, Object.keys(original.elements), '/packs/mario/');
+assert.equal(isPixelArt(), false);
+assert.equal(packSourceTile(), 64);
+for (const id of Object.keys(original.elements)) assert.ok(!elementTexture(id as never).key.startsWith('ph:'), id);
+for (const theme of Object.keys(original.themes)) assert.ok(themeLayers(theme).length >= 3, theme);
+for (const pose of ['idle', 'walk', 'run', 'skid', 'jump', 'fall', 'crouch', 'wallSlide', 'dead']) assert.ok(getAnimations().some(a => a.key === `mario-mario:${pose}`), pose);
+assert.ok(['mario-mario','mario-mario_small'].includes(elementTexture('player').key));
+console.log(`PASS real registry: ${files.length} loader records; all ${Object.keys(original.elements).length} legacy IDs resolve; ${elementTexture('player').key} selected; 9 player animations; 4 layered themes; linear filtering metadata`);

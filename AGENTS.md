@@ -24,7 +24,7 @@ Mockups: `docs/mockups/*.png`. Full spec: `docs/SPEC.md` (PDF version: `docs/Rea
 | Contracts | Exactly **2 minimum, one per student, each with a token**: Student A `LevelNFT.sol` (ERC-721 + ERC-2981), Student B `ForgeCoin.sol` (ERC-20 + Permit + Capped + Pausable) |
 | Chain | Hardhat local (31337) for development, **Sepolia** for the demo |
 | Level storage | Level JSON on IPFS; only `layoutHash = keccak256(canonical JSON)` is stored on-chain |
-| Assets | **CC0 only** (Kenney, OpenGameArt CC0). **No Nintendo assets, names or code.** Every source goes in `assets/CREDITS.md`. |
+| Assets | Two switchable packs (`VITE_ASSET_PACK`). **`mario`** (default for the class demo): Nintendo sprite rips, allowed by the team **only because the repo is private and the demo is educational**. Never deploy publicly or make the repo public with it; sources go in `assets/packs/mario/SOURCES.md`. **`kenney`**: CC0, the public-safe fallback (`assets/CREDITS.md`). Never AI-generate game art; fetch real assets. No Nintendo code. |
 | Code reuse | Prefer existing public code, but only MIT/Apache/BSD/CC0. Repos with GPL or no licence are for reference only; never copy from them. |
 
 ## Repo layout

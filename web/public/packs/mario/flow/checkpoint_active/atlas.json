@@ -1,0 +1,133 @@
+{
+  "frames": {
+    "checkpoint_active_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "checkpoint_active_1": {
+      "frame": {
+        "x": 17,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "checkpoint_active_2": {
+      "frame": {
+        "x": 34,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "checkpoint_active_3": {
+      "frame": {
+        "x": 51,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "checkpoint_active_4": {
+      "frame": {
+        "x": 68,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "checkpoint_active_5": {
+      "frame": {
+        "x": 85,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 102,
+      "h": 30
+    },
+    "scale": "1"
+  }
+}

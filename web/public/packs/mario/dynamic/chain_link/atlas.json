@@ -1,0 +1,33 @@
+{
+  "frames": {
+    "chain_link_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 92
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 92
+      },
+      "sourceSize": {
+        "w": 92,
+        "h": 92
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 92,
+      "h": 92
+    },
+    "scale": "1"
+  }
+}

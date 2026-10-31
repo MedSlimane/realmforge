@@ -1,0 +1,33 @@
+{
+  "frames": {
+    "seesaw_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 14
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 80,
+      "h": 14
+    },
+    "scale": "1"
+  }
+}

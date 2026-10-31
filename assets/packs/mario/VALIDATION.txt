@@ -1,0 +1,20 @@
+
+> @realmforge/mario-assets@1.0.0 validate
+> python3 scripts/validate.py
+
+PASS schema 1: original top-level sections/keys retained; pixelArt=false; sourceTile=64
+PASS coverage: 117/117 Kenney element IDs; 150 total Mario IDs; 4/4 themes
+PASS sources: 569 SHA-256 checksums; 499 source rectangles in bounds
+PASS files: 361 manifest paths exist; all PNGs decode
+PASS atlases: 42 atlases; 379 frames in bounds; animation references resolve
+PASS characters: Mario, Luigi colour variant and small Mario have all 9 poses; walk/run >=3 frames; feet anchors
+PASS parallax: 21 wide native-resolution layers; all horizontal seam texels match
+LIMITATIONS: Luigi big is a Mario recolour; fall reuses late jump poses; mirror character/enemy captures are low native resolution. See README.md.
+
+> @realmforge/mario-assets@1.0.0 validate:registry
+> ../../node_modules/.bin/tsx scripts/validate-registry.ts
+
+PASS real registry: 149 loader records; all 117 legacy IDs resolve; mario-mario_small selected; 9 player animations; 4 layered themes; linear filtering metadata
+9.2M	web/public/packs/mario
+ 33M	assets/_downloads/mario
+560K	assets/packs/mario

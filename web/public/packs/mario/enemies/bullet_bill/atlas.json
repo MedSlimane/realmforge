@@ -1,0 +1,253 @@
+{
+  "frames": {
+    "bullet_bill_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_1": {
+      "frame": {
+        "x": 204,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_2": {
+      "frame": {
+        "x": 408,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_3": {
+      "frame": {
+        "x": 612,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_4": {
+      "frame": {
+        "x": 816,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_5": {
+      "frame": {
+        "x": 1020,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_6": {
+      "frame": {
+        "x": 1224,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_7": {
+      "frame": {
+        "x": 1428,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_8": {
+      "frame": {
+        "x": 1632,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_9": {
+      "frame": {
+        "x": 1836,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_10": {
+      "frame": {
+        "x": 2040,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    },
+    "bullet_bill_11": {
+      "frame": {
+        "x": 2244,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 132
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 2448,
+      "h": 132
+    },
+    "scale": "1"
+  }
+}

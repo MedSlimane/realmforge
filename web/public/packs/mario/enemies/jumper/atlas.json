@@ -1,0 +1,253 @@
+{
+  "frames": {
+    "jumper_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_1": {
+      "frame": {
+        "x": 190,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_2": {
+      "frame": {
+        "x": 380,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_3": {
+      "frame": {
+        "x": 570,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_4": {
+      "frame": {
+        "x": 760,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_5": {
+      "frame": {
+        "x": 950,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_6": {
+      "frame": {
+        "x": 1140,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_7": {
+      "frame": {
+        "x": 1330,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_8": {
+      "frame": {
+        "x": 1520,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_9": {
+      "frame": {
+        "x": 1710,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_10": {
+      "frame": {
+        "x": 1900,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    },
+    "jumper_11": {
+      "frame": {
+        "x": 2090,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 184
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 2280,
+      "h": 184
+    },
+    "scale": "1"
+  }
+}

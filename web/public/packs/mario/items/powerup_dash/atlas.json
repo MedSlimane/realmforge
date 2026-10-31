@@ -1,0 +1,253 @@
+{
+  "frames": {
+    "powerup_dash_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_1": {
+      "frame": {
+        "x": 196,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_2": {
+      "frame": {
+        "x": 392,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_3": {
+      "frame": {
+        "x": 588,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_4": {
+      "frame": {
+        "x": 784,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_5": {
+      "frame": {
+        "x": 980,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_6": {
+      "frame": {
+        "x": 1176,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_7": {
+      "frame": {
+        "x": 1372,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_8": {
+      "frame": {
+        "x": 1568,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_9": {
+      "frame": {
+        "x": 1764,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_10": {
+      "frame": {
+        "x": 1960,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    },
+    "powerup_dash_11": {
+      "frame": {
+        "x": 2156,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 186
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 2352,
+      "h": 186
+    },
+    "scale": "1"
+  }
+}

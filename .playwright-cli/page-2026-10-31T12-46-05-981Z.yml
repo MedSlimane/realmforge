@@ -1,0 +1,467 @@
+- generic [ref=f12e1]:
+  - list:
+    - listitem:
+      - link "View all by Yuse Gamer" [ref=f12e2] [cursor=pointer]:
+        - /url: https://yuse-gamer.itch.io
+    - listitem:
+      - link "Follow Yuse Gamer" [ref=f12e6] [cursor=pointer]:
+        - /url: https://itch.io/login?intent=follow_user&return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu
+    - listitem:
+      - link "Add To Collection" [ref=f12e11] [cursor=pointer]:
+        - /url: https://itch.io/login?intent=add_to_collection&return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu
+    - listitem:
+      - link "More like this" [ref=f12e14] [cursor=pointer]:
+        - /url: https://itch.io/games-like/3495283/sprites-new-super-mario-brosu
+  - generic [ref=f12e19]:
+    - heading "Sprites New Super Mario Bros.U" [level=1] [ref=f12e21]
+    - generic [ref=f12e23]:
+      - generic [ref=f12e24]:
+        - link "More information" [ref=f12e27] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - generic [ref=f12e30]:
+          - heading "Download" [level=2] [ref=f12e31]
+          - generic [ref=f12e32]:
+            - generic [ref=f12e33]:
+              - link "Download" [ref=f12e34] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e36]:
+                - strong [ref=f12e37]: Mario de hilo.png
+                - generic [ref=f12e38]: 85 kB
+            - generic [ref=f12e39]:
+              - link "Download" [ref=f12e40] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e42]:
+                - strong [ref=f12e43]: Mario Animaciones Mejoradas.png
+                - generic [ref=f12e44]: 340 kB
+            - generic [ref=f12e45]:
+              - link "Download" [ref=f12e46] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e48]:
+                - strong [ref=f12e49]: Mario Jump.png
+                - generic [ref=f12e50]: 4.3 kB
+            - generic [ref=f12e51]:
+              - link "Download" [ref=f12e52] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e54]:
+                - strong [ref=f12e55]: Mario Walk.png
+                - generic [ref=f12e56]: 91 kB
+            - generic [ref=f12e57]:
+              - link "Download" [ref=f12e58] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e60]:
+                - strong [ref=f12e61]: Wii U - New Super Mario Bros U New Super Luigi U - Challenges - Placeholder Previews.png
+                - generic [ref=f12e62]: 172 kB
+        - generic [ref=f12e63]:
+          - heading "Leave a comment" [level=2] [ref=f12e64]
+          - paragraph [ref=f12e65]:
+            - link "Log in with itch.io" [ref=f12e66] [cursor=pointer]:
+              - /url: https://itch.io/login?return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu
+            - text: to leave a comment.
+      - link [ref=f12e71] [cursor=pointer]:
+        - /url: https://img.itch.zone/aW1nLzIwODYzNzIyLnBuZw==/original/y8Px3s.png
+    - generic [ref=f12e73]:
+      - link [ref=f12e74] [cursor=pointer]:
+        - /url: https://itch.io/
+      - link "itch.io" [ref=f12e77] [cursor=pointer]:
+        - /url: https://itch.io/
+      - generic [ref=f12e78]: ·
+      - link "View all by Yuse Gamer" [ref=f12e79] [cursor=pointer]:
+        - /url: https://yuse-gamer.itch.io
+      - generic [ref=f12e80]: ·
+      - link "Report" [ref=f12e81] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=f12e82]: ·
+      - link "Embed" [ref=f12e83] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=f12e84]:
+        - link "Game assets" [ref=f12e85] [cursor=pointer]:
+          - /url: https://itch.io/game-assets
+        - text: ›
+        - link "Free" [ref=f12e86] [cursor=pointer]:
+          - /url: https://itch.io/game-assets/free
+  - dialog [active] [ref=f12e88]:
+    - button "Close Dialog" [ref=f12e89] [cursor=pointer]
+    - heading "Thanks for downloading" [level=2] [ref=f12e93]
+    - paragraph [ref=f12e94]:
+      - text: Thanks for downloading
+      - emphasis [ref=f12e95]: Sprites New Super Mario Bros.U
+      - text: "by Yuse Gamer. You can find more from the same creator on their page:"
+      - link "Yuse Gamer" [ref=f12e96] [cursor=pointer]:
+        - /url: https://yuse-gamer.itch.io
+      - text: . The download should start momentarily. If it doesn't, check your popup blocker.
+    - insertion [ref=f12e98]
+    - paragraph [ref=f12e100]:
+      - strong [ref=f12e101]: New!
+      - text: Try out itch.io's desktop app to download and manage your library.
+      - link "Learn more →" [ref=f12e102] [cursor=pointer]:
+        - /url: https://itch.io/app
+    - generic [ref=f12e103]:
+      - link "Follow Yuse Gamer" [ref=f12e104] [cursor=pointer]:
+        - /url: https://itch.io/login?return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu%2Ffile%2F13461684%3Fsource%3Dview_game%26as_props%3D1%26after_download_lightbox%3Dtrue&intent=follow_user&user_id=11757384
+        - img [aria-hidden] [ref=f12e105]: 
+        - text: Follow Yuse Gamer
+      - generic [ref=f12e106]:
+        - generic [ref=f12e107]: 
+        - text: "Share this asset pack:"
+        - generic [ref=f12e108]:
+          - link "" [ref=f12e109] [cursor=pointer]:
+            - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu&text=I%20just%20downloaded%20Sprites%20New%20Super%20Mario%20Bros.U%20by%20Yuse%20Gamer&hashtags=indiegames
+          - link "" [ref=f12e111] [cursor=pointer]:
+            - /url: https://www.facebook.com/dialog/share?quote=I%20just%20downloaded%20Sprites%20New%20Super%20Mario%20Bros.U%20by%20Yuse%20Gamer&href=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu&app_id=537395183072744&display=popup
+    - generic [ref=f12e113]:
+      - heading "Check out more from itch.io" [level=3] [ref=f12e114]
+      - generic [ref=f12e117]:
+        - generic [ref=f12e118]:
+          - link [aria-hidden] [ref=f12e120] [cursor=pointer]:
+            - /url: https://aamatniekss.itch.io/free-pixelart-platformer-tileset
+          - generic [ref=f12e122]:
+            - generic [ref=f12e123]: Free
+            - link "Free Pixelart Platformer Tileset" [ref=f12e124] [cursor=pointer]:
+              - /url: https://aamatniekss.itch.io/free-pixelart-platformer-tileset
+          - link "aamatniekss" [ref=f12e126] [cursor=pointer]:
+            - /url: https://aamatniekss.itch.io
+          - 'generic "Average: 4.94" [ref=f12e127]':
+            - generic [ref=f12e128]: Average rating 4.94 out of 5
+            - generic [ref=f12e129]:
+              - generic [ref=f12e130]:
+                - generic [aria-hidden] [ref=f12e131]: 
+                - generic [aria-hidden] [ref=f12e132]: 
+                - generic [aria-hidden] [ref=f12e133]: 
+                - generic [aria-hidden] [ref=f12e134]: 
+                - generic [aria-hidden] [ref=f12e135]: 
+              - generic [ref=f12e136]:
+                - generic [aria-hidden] [ref=f12e137]: 
+                - generic [aria-hidden] [ref=f12e138]: 
+                - generic [aria-hidden] [ref=f12e139]: 
+                - generic [aria-hidden] [ref=f12e140]: 
+                - generic [aria-hidden] [ref=f12e141]: 
+            - generic [ref=f12e142]:
+              - text: (50
+              - generic [ref=f12e143]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e145] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+          - generic [ref=f12e146]: Free tileset for your game!
+        - generic [ref=f12e147]:
+          - link [aria-hidden] [ref=f12e149] [cursor=pointer]:
+            - /url: https://finalbossblues.itch.io/cloud-city-tileset
+          - generic [ref=f12e151]:
+            - generic [ref=f12e152]: Free
+            - link "Cloud City Tileset" [ref=f12e153] [cursor=pointer]:
+              - /url: https://finalbossblues.itch.io/cloud-city-tileset
+          - link "finalbossblues" [ref=f12e155] [cursor=pointer]:
+            - /url: https://finalbossblues.itch.io
+          - 'generic "Average: 4.90" [ref=f12e156]':
+            - generic [ref=f12e157]: Average rating 4.90 out of 5
+            - generic [ref=f12e158]:
+              - generic [ref=f12e159]:
+                - generic [aria-hidden] [ref=f12e160]: 
+                - generic [aria-hidden] [ref=f12e161]: 
+                - generic [aria-hidden] [ref=f12e162]: 
+                - generic [aria-hidden] [ref=f12e163]: 
+                - generic [aria-hidden] [ref=f12e164]: 
+              - generic [ref=f12e165]:
+                - generic [aria-hidden] [ref=f12e166]: 
+                - generic [aria-hidden] [ref=f12e167]: 
+                - generic [aria-hidden] [ref=f12e168]: 
+                - generic [aria-hidden] [ref=f12e169]: 
+                - generic [aria-hidden] [ref=f12e170]: 
+            - generic [ref=f12e171]:
+              - text: (40
+              - generic [ref=f12e172]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e174] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+          - generic [ref=f12e175]: FREE cloud city pixel RPG tiles!
+        - generic [ref=f12e176]:
+          - link [aria-hidden] [ref=f12e178] [cursor=pointer]:
+            - /url: https://finalbossblues.itch.io/halloween-graphics
+          - generic [ref=f12e180]:
+            - generic [ref=f12e181]: Free
+            - link "Halloween Graphics" [ref=f12e182] [cursor=pointer]:
+              - /url: https://finalbossblues.itch.io/halloween-graphics
+          - link "finalbossblues" [ref=f12e184] [cursor=pointer]:
+            - /url: https://finalbossblues.itch.io
+          - 'generic "Average: 4.86" [ref=f12e185]':
+            - generic [ref=f12e186]: Average rating 4.86 out of 5
+            - generic [ref=f12e187]:
+              - generic [ref=f12e188]:
+                - generic [aria-hidden] [ref=f12e189]: 
+                - generic [aria-hidden] [ref=f12e190]: 
+                - generic [aria-hidden] [ref=f12e191]: 
+                - generic [aria-hidden] [ref=f12e192]: 
+                - generic [aria-hidden] [ref=f12e193]: 
+              - generic [ref=f12e194]:
+                - generic [aria-hidden] [ref=f12e195]: 
+                - generic [aria-hidden] [ref=f12e196]: 
+                - generic [aria-hidden] [ref=f12e197]: 
+                - generic [aria-hidden] [ref=f12e198]: 
+                - generic [aria-hidden] [ref=f12e199]: 
+            - generic [ref=f12e200]:
+              - text: (35
+              - generic [ref=f12e201]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e203] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+          - generic [ref=f12e204]: FREE SNES-style pixel assets, for Halloween and Day of the Dead!
+        - generic [ref=f12e205]:
+          - link [aria-hidden] [ref=f12e207] [cursor=pointer]:
+            - /url: https://malibudarby.itch.io/hc-battlers-archive-content
+          - generic [ref=f12e209]:
+            - generic [ref=f12e210]: Free
+            - link "Horror City Battlers - Archive Content" [ref=f12e211] [cursor=pointer]:
+              - /url: https://malibudarby.itch.io/hc-battlers-archive-content
+          - link "MalibuDarby" [ref=f12e213] [cursor=pointer]:
+            - /url: https://malibudarby.itch.io
+          - 'generic "Average: 4.70" [ref=f12e214]':
+            - generic [ref=f12e215]: Average rating 4.70 out of 5
+            - generic [ref=f12e216]:
+              - generic [ref=f12e217]:
+                - generic [aria-hidden] [ref=f12e218]: 
+                - generic [aria-hidden] [ref=f12e219]: 
+                - generic [aria-hidden] [ref=f12e220]: 
+                - generic [aria-hidden] [ref=f12e221]: 
+                - generic [aria-hidden] [ref=f12e222]: 
+              - generic [ref=f12e223]:
+                - generic [aria-hidden] [ref=f12e224]: 
+                - generic [aria-hidden] [ref=f12e225]: 
+                - generic [aria-hidden] [ref=f12e226]: 
+                - generic [aria-hidden] [ref=f12e227]: 
+                - generic [aria-hidden] [ref=f12e228]: 
+            - generic [ref=f12e229]:
+              - text: (27
+              - generic [ref=f12e230]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e232] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+        - generic [ref=f12e233]:
+          - link [aria-hidden] [ref=f12e235] [cursor=pointer]:
+            - /url: https://wubs.itch.io/pixeltrees
+          - generic [ref=f12e237]:
+            - generic [ref=f12e238]: Free
+            - link "PixelTrees" [ref=f12e239] [cursor=pointer]:
+              - /url: https://wubs.itch.io/pixeltrees
+          - link "Wubs" [ref=f12e241] [cursor=pointer]:
+            - /url: https://wubs.itch.io
+          - 'generic "Average: 4.88" [ref=f12e242]':
+            - generic [ref=f12e243]: Average rating 4.88 out of 5
+            - generic [ref=f12e244]:
+              - generic [ref=f12e245]:
+                - generic [aria-hidden] [ref=f12e246]: 
+                - generic [aria-hidden] [ref=f12e247]: 
+                - generic [aria-hidden] [ref=f12e248]: 
+                - generic [aria-hidden] [ref=f12e249]: 
+                - generic [aria-hidden] [ref=f12e250]: 
+              - generic [ref=f12e251]:
+                - generic [aria-hidden] [ref=f12e252]: 
+                - generic [aria-hidden] [ref=f12e253]: 
+                - generic [aria-hidden] [ref=f12e254]: 
+                - generic [aria-hidden] [ref=f12e255]: 
+                - generic [aria-hidden] [ref=f12e256]: 
+            - generic [ref=f12e257]:
+              - text: (8
+              - generic [ref=f12e258]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e260] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+          - generic [ref=f12e261]: A pixel art tree generator
+        - generic [ref=f12e262]:
+          - link [aria-hidden] [ref=f12e264] [cursor=pointer]:
+            - /url: https://lunarsignals.itch.io/viewpoint-overhead-fantasy-violet-wizard
+          - generic [ref=f12e266]:
+            - generic [ref=f12e267]: Free
+            - link "VIEWPOINT Overhead Fantasy Violet Wizard" [ref=f12e268] [cursor=pointer]:
+              - /url: https://lunarsignals.itch.io/viewpoint-overhead-fantasy-violet-wizard
+          - link "lunarsignals" [ref=f12e270] [cursor=pointer]:
+            - /url: https://lunarsignals.itch.io
+          - link "#Game assets" [ref=f12e272] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+        - generic [ref=f12e273]:
+          - link [aria-hidden] [ref=f12e275] [cursor=pointer]:
+            - /url: https://hugues-laborde.itch.io/pack-character-pixel-art-03
+            - generic [ref=f12e277]: GIF
+          - generic [ref=f12e278]:
+            - generic [ref=f12e279]: Free
+            - link "Pack Character Pixel Art 03" [ref=f12e280] [cursor=pointer]:
+              - /url: https://hugues-laborde.itch.io/pack-character-pixel-art-03
+          - link "hugues laborde" [ref=f12e282] [cursor=pointer]:
+            - /url: https://hugues-laborde.itch.io
+          - 'generic "Average: 5.00" [ref=f12e283]':
+            - generic [ref=f12e284]: Average rating 5.00 out of 5
+            - generic [ref=f12e285]:
+              - generic [ref=f12e286]:
+                - generic [aria-hidden] [ref=f12e287]: 
+                - generic [aria-hidden] [ref=f12e288]: 
+                - generic [aria-hidden] [ref=f12e289]: 
+                - generic [aria-hidden] [ref=f12e290]: 
+                - generic [aria-hidden] [ref=f12e291]: 
+              - generic [ref=f12e292]:
+                - generic [aria-hidden] [ref=f12e293]: 
+                - generic [aria-hidden] [ref=f12e294]: 
+                - generic [aria-hidden] [ref=f12e295]: 
+                - generic [aria-hidden] [ref=f12e296]: 
+                - generic [aria-hidden] [ref=f12e297]: 
+            - generic [ref=f12e298]:
+              - text: (4
+              - generic [ref=f12e299]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e301] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+        - generic [ref=f12e302]:
+          - link [aria-hidden] [ref=f12e304] [cursor=pointer]:
+            - /url: https://elthen.itch.io/2d-pixel-art-mimic-sprites
+            - generic [ref=f12e306]: GIF
+          - generic [ref=f12e307]:
+            - generic [ref=f12e308]: Free
+            - link "2D Pixel Art Mimic Sprites" [ref=f12e309] [cursor=pointer]:
+              - /url: https://elthen.itch.io/2d-pixel-art-mimic-sprites
+          - link "Elthen's Pixel Art Shop" [ref=f12e311] [cursor=pointer]:
+            - /url: https://elthen.itch.io
+          - 'generic "Average: 5.00" [ref=f12e312]':
+            - generic [ref=f12e313]: Average rating 5.00 out of 5
+            - generic [ref=f12e314]:
+              - generic [ref=f12e315]:
+                - generic [aria-hidden] [ref=f12e316]: 
+                - generic [aria-hidden] [ref=f12e317]: 
+                - generic [aria-hidden] [ref=f12e318]: 
+                - generic [aria-hidden] [ref=f12e319]: 
+                - generic [aria-hidden] [ref=f12e320]: 
+              - generic [ref=f12e321]:
+                - generic [aria-hidden] [ref=f12e322]: 
+                - generic [aria-hidden] [ref=f12e323]: 
+                - generic [aria-hidden] [ref=f12e324]: 
+                - generic [aria-hidden] [ref=f12e325]: 
+                - generic [aria-hidden] [ref=f12e326]: 
+            - generic [ref=f12e327]:
+              - text: (2
+              - generic [ref=f12e328]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e330] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+        - generic [ref=f12e331]:
+          - link [aria-hidden] [ref=f12e333] [cursor=pointer]:
+            - /url: https://elthen.itch.io/2d-pixel-art-space-cadet-sprites
+            - generic [ref=f12e335]: GIF
+          - generic [ref=f12e336]:
+            - generic [ref=f12e337]: Free
+            - link "2D Pixel Art Space Cadet Sprites" [ref=f12e338] [cursor=pointer]:
+              - /url: https://elthen.itch.io/2d-pixel-art-space-cadet-sprites
+          - link "Elthen's Pixel Art Shop" [ref=f12e340] [cursor=pointer]:
+            - /url: https://elthen.itch.io
+          - 'generic "Average: 4.50" [ref=f12e341]':
+            - generic [ref=f12e342]: Average rating 4.50 out of 5
+            - generic [ref=f12e343]:
+              - generic [ref=f12e344]:
+                - generic [aria-hidden] [ref=f12e345]: 
+                - generic [aria-hidden] [ref=f12e346]: 
+                - generic [aria-hidden] [ref=f12e347]: 
+                - generic [aria-hidden] [ref=f12e348]: 
+                - generic [aria-hidden] [ref=f12e349]: 
+              - generic [ref=f12e350]:
+                - generic [aria-hidden] [ref=f12e351]: 
+                - generic [aria-hidden] [ref=f12e352]: 
+                - generic [aria-hidden] [ref=f12e353]: 
+                - generic [aria-hidden] [ref=f12e354]: 
+                - generic [aria-hidden] [ref=f12e355]: 
+            - generic [ref=f12e356]:
+              - text: (2
+              - generic [ref=f12e357]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e359] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+        - generic [ref=f12e360]:
+          - link [aria-hidden] [ref=f12e362] [cursor=pointer]:
+            - /url: https://daydev.itch.io/pirate-ship
+          - generic [ref=f12e364]:
+            - generic [ref=f12e365]: Free
+            - link "Pirate Ship" [ref=f12e366] [cursor=pointer]:
+              - /url: https://daydev.itch.io/pirate-ship
+          - link "DAYDEV" [ref=f12e368] [cursor=pointer]:
+            - /url: https://daydev.itch.io
+          - 'generic "Average: 5.00" [ref=f12e369]':
+            - generic [ref=f12e370]: Average rating 5.00 out of 5
+            - generic [ref=f12e371]:
+              - generic [ref=f12e372]:
+                - generic [aria-hidden] [ref=f12e373]: 
+                - generic [aria-hidden] [ref=f12e374]: 
+                - generic [aria-hidden] [ref=f12e375]: 
+                - generic [aria-hidden] [ref=f12e376]: 
+                - generic [aria-hidden] [ref=f12e377]: 
+              - generic [ref=f12e378]:
+                - generic [aria-hidden] [ref=f12e379]: 
+                - generic [aria-hidden] [ref=f12e380]: 
+                - generic [aria-hidden] [ref=f12e381]: 
+                - generic [aria-hidden] [ref=f12e382]: 
+                - generic [aria-hidden] [ref=f12e383]: 
+            - generic [ref=f12e384]:
+              - text: (1
+              - generic [ref=f12e385]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e387] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+          - generic [ref=f12e388]: Low Polygon Pirate Ship for Battle for Royale Team. With Love from Blender 2.81
+        - generic [ref=f12e389]:
+          - link [aria-hidden] [ref=f12e391] [cursor=pointer]:
+            - /url: https://sarajs.itch.io/saras-ghost-recorder
+            - generic [ref=f12e393]: GIF
+          - generic [ref=f12e394]:
+            - generic [ref=f12e395]: Free
+            - link "Sara's Ghost Recorder" [ref=f12e396] [cursor=pointer]:
+              - /url: https://sarajs.itch.io/saras-ghost-recorder
+          - link "SaraJS" [ref=f12e398] [cursor=pointer]:
+            - /url: https://sarajs.itch.io
+          - 'generic "Average: 5.00" [ref=f12e399]':
+            - generic [ref=f12e400]: Average rating 5.00 out of 5
+            - generic [ref=f12e401]:
+              - generic [ref=f12e402]:
+                - generic [aria-hidden] [ref=f12e403]: 
+                - generic [aria-hidden] [ref=f12e404]: 
+                - generic [aria-hidden] [ref=f12e405]: 
+                - generic [aria-hidden] [ref=f12e406]: 
+                - generic [aria-hidden] [ref=f12e407]: 
+              - generic [ref=f12e408]:
+                - generic [aria-hidden] [ref=f12e409]: 
+                - generic [aria-hidden] [ref=f12e410]: 
+                - generic [aria-hidden] [ref=f12e411]: 
+                - generic [aria-hidden] [ref=f12e412]: 
+                - generic [aria-hidden] [ref=f12e413]: 
+            - generic [ref=f12e414]:
+              - text: (1
+              - generic [ref=f12e415]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e417] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+        - generic [ref=f12e418]:
+          - link [aria-hidden] [ref=f12e420] [cursor=pointer]:
+            - /url: https://chasersgaming.itch.io/medical-examiner-female
+            - generic [ref=f12e422]: GIF
+          - generic [ref=f12e423]:
+            - generic [ref=f12e424]: Free
+            - link "Medical Examiner (female)" [ref=f12e425] [cursor=pointer]:
+              - /url: https://chasersgaming.itch.io/medical-examiner-female
+          - link "chasersgaming" [ref=f12e427] [cursor=pointer]:
+            - /url: https://chasersgaming.itch.io
+          - 'generic "Average: 4.00" [ref=f12e428]':
+            - generic [ref=f12e429]: Average rating 4.00 out of 5
+            - generic [ref=f12e430]:
+              - generic [ref=f12e431]:
+                - generic [aria-hidden] [ref=f12e432]: 
+                - generic [aria-hidden] [ref=f12e433]: 
+                - generic [aria-hidden] [ref=f12e434]: 
+                - generic [aria-hidden] [ref=f12e435]: 
+                - generic [aria-hidden] [ref=f12e436]: 
+              - generic [ref=f12e437]:
+                - generic [aria-hidden] [ref=f12e438]: 
+                - generic [aria-hidden] [ref=f12e439]: 
+                - generic [aria-hidden] [ref=f12e440]: 
+                - generic [aria-hidden] [ref=f12e441]: 
+                - generic [aria-hidden] [ref=f12e442]: 
+            - generic [ref=f12e443]:
+              - text: (1
+              - generic [ref=f12e444]: total ratings
+              - text: )
+          - link "#Game assets" [ref=f12e446] [cursor=pointer]:
+            - /url: https://itch.io/game-assets
+      - link "See everything" [ref=f12e448] [cursor=pointer]:
+        - /url: https://itch.io/games
+    - generic [ref=f12e449]: Powered by

@@ -1,0 +1,81 @@
+- generic [active] [ref=f12e1]:
+  - list:
+    - listitem:
+      - link "View all by Yuse Gamer" [ref=f12e2] [cursor=pointer]:
+        - /url: https://yuse-gamer.itch.io
+    - listitem:
+      - link "Follow Yuse Gamer" [ref=f12e6] [cursor=pointer]:
+        - /url: https://itch.io/login?intent=follow_user&return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu
+    - listitem:
+      - link "Add To Collection" [ref=f12e11] [cursor=pointer]:
+        - /url: https://itch.io/login?intent=add_to_collection&return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu
+    - listitem:
+      - link "More like this" [ref=f12e14] [cursor=pointer]:
+        - /url: https://itch.io/games-like/3495283/sprites-new-super-mario-brosu
+  - generic [ref=f12e19]:
+    - heading "Sprites New Super Mario Bros.U" [level=1] [ref=f12e21]
+    - generic [ref=f12e23]:
+      - generic [ref=f12e24]:
+        - link "More information" [ref=f12e27] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - generic [ref=f12e30]:
+          - heading "Download" [level=2] [ref=f12e31]
+          - generic [ref=f12e32]:
+            - generic [ref=f12e33]:
+              - link "Download" [ref=f12e34] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e36]:
+                - strong [ref=f12e37]: Mario de hilo.png
+                - generic [ref=f12e38]: 85 kB
+            - generic [ref=f12e39]:
+              - link "Download" [ref=f12e40] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e42]:
+                - strong [ref=f12e43]: Mario Animaciones Mejoradas.png
+                - generic [ref=f12e44]: 340 kB
+            - generic [ref=f12e45]:
+              - link "Download" [ref=f12e46] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e48]:
+                - strong [ref=f12e49]: Mario Jump.png
+                - generic [ref=f12e50]: 4.3 kB
+            - generic [ref=f12e51]:
+              - link "Download" [ref=f12e52] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e54]:
+                - strong [ref=f12e55]: Mario Walk.png
+                - generic [ref=f12e56]: 91 kB
+            - generic [ref=f12e57]:
+              - link "Download" [ref=f12e58] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=f12e60]:
+                - strong [ref=f12e61]: Wii U - New Super Mario Bros U New Super Luigi U - Challenges - Placeholder Previews.png
+                - generic [ref=f12e62]: 172 kB
+        - generic [ref=f12e63]:
+          - heading "Leave a comment" [level=2] [ref=f12e64]
+          - paragraph [ref=f12e65]:
+            - link "Log in with itch.io" [ref=f12e66] [cursor=pointer]:
+              - /url: https://itch.io/login?return_to=https%3A%2F%2Fyuse-gamer.itch.io%2Fsprites-new-super-mario-brosu
+            - text: to leave a comment.
+      - link [ref=f12e71] [cursor=pointer]:
+        - /url: https://img.itch.zone/aW1nLzIwODYzNzIyLnBuZw==/original/y8Px3s.png
+    - generic [ref=f12e73]:
+      - link [ref=f12e74] [cursor=pointer]:
+        - /url: https://itch.io/
+      - link "itch.io" [ref=f12e77] [cursor=pointer]:
+        - /url: https://itch.io/
+      - generic [ref=f12e78]: ·
+      - link "View all by Yuse Gamer" [ref=f12e79] [cursor=pointer]:
+        - /url: https://yuse-gamer.itch.io
+      - generic [ref=f12e80]: ·
+      - link "Report" [ref=f12e81] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=f12e82]: ·
+      - link "Embed" [ref=f12e83] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=f12e84]:
+        - link "Game assets" [ref=f12e85] [cursor=pointer]:
+          - /url: https://itch.io/game-assets
+        - text: ›
+        - link "Free" [ref=f12e86] [cursor=pointer]:
+          - /url: https://itch.io/game-assets/free

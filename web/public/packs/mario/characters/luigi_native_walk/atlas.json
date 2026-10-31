@@ -1,0 +1,133 @@
+{
+  "frames": {
+    "luigi_native_walk_0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 26
+      }
+    },
+    "luigi_native_walk_1": {
+      "frame": {
+        "x": 17,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 26
+      }
+    },
+    "luigi_native_walk_2": {
+      "frame": {
+        "x": 34,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 26
+      }
+    },
+    "luigi_native_walk_3": {
+      "frame": {
+        "x": 51,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 26
+      }
+    },
+    "luigi_native_walk_4": {
+      "frame": {
+        "x": 68,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 26
+      }
+    },
+    "luigi_native_walk_5": {
+      "frame": {
+        "x": 85,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 26
+      }
+    }
+  },
+  "meta": {
+    "app": "RealmForge native asset slicer",
+    "image": "atlas.png",
+    "size": {
+      "w": 102,
+      "h": 26
+    },
+    "scale": "1"
+  }
+}
