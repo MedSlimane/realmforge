@@ -4011,5 +4011,527 @@
     "index": 29,
     "sourcePage": "https://scratch.mit.edu/projects/107756944/",
     "credit": "Random Talking Bush; collection shared by MarioTheBest"
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/bullet_bill_cannon.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/bullet_bill_cannon.png",
+    "sha256": "c27b6e5ceb7a72d4ce0abbbbed2ac324a72a0a85744ca8b51975cd893018ae90",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/donut_lift.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/donut_lift.png",
+    "sha256": "ae2d862b1a12a36745e944a4fa25343900e847ed1f7c2e21488556f56c3a037a",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/flag_pole.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/flag_pole.png",
+    "sha256": "0e810a40887c3c26d5362a9de4552c4289d9cbfd2fedfcad6286142846124518",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/green_mushroom_middle.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/green_mushroom_middle.png",
+    "sha256": "8603a67ed36052592817bc4a16504e34f5d69615a7a62f6c9b41cfd6cb5f7269",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/liquid_lava.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/liquid_lava.png",
+    "sha256": "eebb6863565700654890555198b4ce44a4efe8d0c355fa7176c1b0d1f18c96b4",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/midway_flag.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/midway_flag.png",
+    "sha256": "c539d1b2780f9ae814ca197c216fbb1e61dbd83d50a951a35cdc95553c72cdef",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/p_switch_u.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/p_switch_u.png",
+    "sha256": "4d53f8dc4b4d290e07fd45d4e43a21e656b1ab8804b71802b32021e0f8ce5a4b",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/paragoomba.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/paragoomba.png",
+    "sha256": "38e9da08d1fa97f9a26fd7b288015010f3b636cd047717a7f6096acfdbfc1936",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/pendulum_0.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/pendulum_0.png",
+    "sha256": "d515414eaabf4ab2560f0f952ec09324bbef8d57b53bc09cf886efa96032d221",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/reg_box_2x2.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/reg_box_2x2.png",
+    "sha256": "772cd2c020fe5c5c99e7ec2f39677cd66c98dd930096a446918c2b8b239d6786",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/seesaw_mushroom_left.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/seesaw_mushroom_left.png",
+    "sha256": "c74a83f44c565104d546465f94dde3359b102f15494e5ddaad8beeec31fc5a98",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/seesaw_mushroom_middle.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/seesaw_mushroom_middle.png",
+    "sha256": "be14f1abb103e82bc4a2f19f3b4f05de166bc7ddce8ed90d12503dda41d1943f",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/seesaw_mushroom_pivot.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/seesaw_mushroom_pivot.png",
+    "sha256": "5016cae215fe405f72d11f5cef187150a54a5a00cd0edd7ea29bb35ce61b65b2",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/seesaw_mushroom_right.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/seesaw_mushroom_right.png",
+    "sha256": "f3482d9c62a0b3e3eb1a5211eae56c7de7e31be424e372d9d7e83f9707b2bd00",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/spike_pillar_up.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/spike_pillar_up.png",
+    "sha256": "a31c025d1647002f3d74ce30abdc3deca311cfcd2c99516977c74643a006aec5",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/springboard.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/springboard.png",
+    "sha256": "a02893440495d0011a24fea95a6359272aa3ef862e5333b2042d8209c4e9aa0f",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/star_coin.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/star_coin.png",
+    "sha256": "97cc97eb83fa04750bd5b8e9c52b433786278acc22c8a2d9ea14a87518ed8ab7",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/wood_platform_left.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/wood_platform_left.png",
+    "sha256": "e9fe5c09a00f1b10c844e894206e7443bda10d83bfafa622935d6a526d8bbe09",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/wood_platform_middle.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/wood_platform_middle.png",
+    "sha256": "0d523a93973aa04f59381510036a37223b0ff3b999d153c5e54a08f398135416",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/wood_platform_right.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/wood_platform_right.png",
+    "sha256": "dcfa4910a8acf69d67137a8f6565c1000770b8ec7ae8e542c0ece8876f6950ef",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/scratch/839078033/b6230b64e7270d4fc48fe43b3c08fc27.svg",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/b6230b64e7270d4fc48fe43b3c08fc27.svg/get/",
+    "sha256": "10f48a3d7ce0b75469398d993b69c7df943f1c842244ba516225767d90ed22c0",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 839078033. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/wiki/acorn.png",
+    "url": "https://www.mariowiki.com/images/6/65/SuperAcornNSMBU.png",
+    "sha256": "fbc2d2dc71632a3a98ff19b85a01e69262203f58e183b27e4b17fc8b82160052",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/brick.png",
+    "url": "https://www.mariowiki.com/images/f/fb/NSMBW_Brick_Block_Artwork.png",
+    "sha256": "b2268c500a86d75e1275ca52b108eea0a0c462e36d0a920773a6b05811e45b03",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/coin.gif",
+    "url": "https://www.mariowiki.com/images/4/4c/NSMBUCoin.gif",
+    "sha256": "106571ce3840ca7a89498e1f1496fc583fa9048800820f17981ffaf8aaeb5f49",
+    "credit": "Nintendo NSMBU coin animation; Super Mario Wiki."
+  },
+  {
+    "file": "hires/wiki/coin.png",
+    "url": "https://www.mariowiki.com/images/2/22/NSMBU_Coin_Artwork.png",
+    "sha256": "9024a3b9740e191d44a6591f1c2e686426e6aa45cea3d3003d26321646a9273f",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/goomba.png",
+    "url": "https://www.mariowiki.com/images/e/eb/NSMBU_Goomba_Render.png",
+    "sha256": "d2082794e455f5489b715cdfdc8a783e147dd6b6b3c2e7d20a3671d5a3f47b70",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/key.png",
+    "url": "https://www.mariowiki.com/images/1/11/SMM-NSMBU-Key.png",
+    "sha256": "d94ba72d25319ad240001cd1952825f3f857481b446569a5827c82c9d9409c4b",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/mushroom.png",
+    "url": "https://www.mariowiki.com/images/b/b5/NSMBU_Mushroom_Artwork.png",
+    "sha256": "a6936d85fa439abdaa092f9d2881fd69c79a0526ed3d6c8a36d25ba68e685170",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/question.png",
+    "url": "https://www.mariowiki.com/images/0/02/Question_Block_NSMB.png",
+    "sha256": "02d4d7c25e77a0a93c78b4ed9ee2556cd7e3ecf79df9a84063a137aaa546bcce",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/wiki/used.png",
+    "url": "https://www.mariowiki.com/images/9/97/NSMBW_Empty_Block_Artwork.png",
+    "sha256": "e660f7f59c718a03da7d4df8901afba24d0251152c811f28d08bf7a63def058f",
+    "credit": "Nintendo official artwork/native render, Super Mario Wiki NSMBU gallery. Block artwork reused from NSMB/NSMBW, as labelled by the gallery."
+  },
+  {
+    "file": "hires/scratch/784192278/06ff26384f40ea04f5351a5a2749d8b2.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/06ff26384f40ea04f5351a5a2749d8b2.png/get/",
+    "sha256": "391698cfa2d163312954e6370f3fda583d958839464bff001a57840258ca177c",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/121f9505dc716c40efe45e156beb726e.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/121f9505dc716c40efe45e156beb726e.png/get/",
+    "sha256": "11cd2c7af1e6fdaaf8ef5b720fb5769792e622e0fd343ea9cf6b7157afa18b20",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/1d679ab05a3dc64bb446114e2efe1b98.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/1d679ab05a3dc64bb446114e2efe1b98.png/get/",
+    "sha256": "c95b711176b8891ae3be1543585016f8457323b047c169ad1ea38bbdc52277cd",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/1eef20b1010979de8e25cfd2c5734f12.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/1eef20b1010979de8e25cfd2c5734f12.png/get/",
+    "sha256": "dcd4796707e6c02d94a539b4c243dc99b800e141201184893aad4f327bea0f06",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/3047c3e6b656d33a2ebac54f4eb02d68.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/3047c3e6b656d33a2ebac54f4eb02d68.png/get/",
+    "sha256": "e61dbf7151bb047d8d14be6d33e18a96bba90d2c6ed49fdb9063969853ee8a6a",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/35825d43586fb96059dcb99b4d7d90da.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/35825d43586fb96059dcb99b4d7d90da.png/get/",
+    "sha256": "ba8e80551612343d43ff39467dc6aadf26b8fa5bc2dad328958f7aa908bb0642",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/5cfc099fa275f89ca9727b76ed0246f7.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/5cfc099fa275f89ca9727b76ed0246f7.png/get/",
+    "sha256": "c884abe6c496bd0832a00ce9db2056fbbe65c39c21e7a1809218257552b1942e",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/64d17326bdc03ac5e117f42405f1e4a6.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/64d17326bdc03ac5e117f42405f1e4a6.png/get/",
+    "sha256": "a3bad3374c6180588cba5f0de5572420fcf8d7bde433f4ffda12fd55bdab9a64",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/88270d0c534601bd86ba9c8495e1e40a.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/88270d0c534601bd86ba9c8495e1e40a.png/get/",
+    "sha256": "bd482b7d40c55d26dde3b2168296ee159215283c5bbf3963fd6b7da7ec5a0317",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/9918c1b2446ed60637d551438f976538.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/9918c1b2446ed60637d551438f976538.png/get/",
+    "sha256": "ef040c07a1ecdcd249e2b3ff45cab0b79710ad87b35e598e28857fb7a8281d57",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/b8390af3d3017cb6fc9e463fc4ed2114.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/b8390af3d3017cb6fc9e463fc4ed2114.png/get/",
+    "sha256": "803f46a2b33780a492ca8bf5f06b9960db9e0852b2ae251c297b0f85bff82cb7",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/d2506a9b505f1f803cd7ba39fcacd4d5.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/d2506a9b505f1f803cd7ba39fcacd4d5.png/get/",
+    "sha256": "5a5950254309daa38688214b930a94492709c1ff650b42d9d2b70c6ba443aea3",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/d5e58d30e8c98c7eb625fac0562293fa.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/d5e58d30e8c98c7eb625fac0562293fa.png/get/",
+    "sha256": "6993c402fc6a53b2c836c7e613735c505ef08954688454476972a69192035958",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/da3f31861b8d5dafa5bf892da240bb2d.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/da3f31861b8d5dafa5bf892da240bb2d.png/get/",
+    "sha256": "3082841c6b24d92f4e9cf357d3e4717ed513517b444f60a5e07b4a5f9f748fbe",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/daefd669032ee3df80af6bd375c66c5a.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/daefd669032ee3df80af6bd375c66c5a.png/get/",
+    "sha256": "ef81c181efb58c49ee3f806e90e02951945a0d9b0ed4a2fa9d8c790ef2472361",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/dc9dae8087e78c63cf1a5f61231ecb02.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/dc9dae8087e78c63cf1a5f61231ecb02.png/get/",
+    "sha256": "0fc61fbb9cc1423d108305ad1ed0d977cbd0f3850d60c27232b00be14660adb3",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/e82b9ae94422870294c7732e478d29bc.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/e82b9ae94422870294c7732e478d29bc.png/get/",
+    "sha256": "54f5ecd754feaeed55b1bd18979f534161380e10d24af990a706ec7c1da33ea1",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/f3e62a599011d1e3aa1eaf61519e3695.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/f3e62a599011d1e3aa1eaf61519e3695.png/get/",
+    "sha256": "c02d0abbfffef2f955cf92e0e3e295c5f09e7ec2938dfd81c812007b21d85bb5",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/784192278/f4431da398aed3b180cf9da5752c5937.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/f4431da398aed3b180cf9da5752c5937.png/get/",
+    "sha256": "acb99096685f24af171c6b5c892be02412285058fec59286f6eb6121f68296eb",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 784192278. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/067b9a8b2a4ce0bae889deca9b792a94.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/067b9a8b2a4ce0bae889deca9b792a94.png/get/",
+    "sha256": "3ef7922c111edb18d76c65fe7a6289ab89594b0633f5336b0575ed287a5175b1",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/07112b74d1e6171fb9c4df7151977bea.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/07112b74d1e6171fb9c4df7151977bea.png/get/",
+    "sha256": "c35715eaf90a086eaf5c52d02d78f76fc9302bf643cf56ace989d58104be20ef",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/1f1a7ecb955f707e7511b1b6b562c6fb.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/1f1a7ecb955f707e7511b1b6b562c6fb.png/get/",
+    "sha256": "0848377a88103f14382b3d90250142f7787da297a49aacb44452dd04241ad212",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/2e8ae1b116863763e7940a5829260146.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/2e8ae1b116863763e7940a5829260146.png/get/",
+    "sha256": "32af44656fcfbbeef79b0fc6cf95df4986f4eb4aec8c03b549b7e82146ab5601",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/397506be63efddc002ba5014bf6155a3.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/397506be63efddc002ba5014bf6155a3.png/get/",
+    "sha256": "5387b90df5245096f5ab885ef62e28273e8fc2785d1ec36bc5b26efb5835a4fb",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/397edd48c910a31380dc14d49cb18383.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/397edd48c910a31380dc14d49cb18383.png/get/",
+    "sha256": "a798a139c078ac6beb5fa1481306533c1df87f8d6fbb773e25eac75685ad437e",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/472c7482ae22d94bee2c2c86029088fc.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/472c7482ae22d94bee2c2c86029088fc.png/get/",
+    "sha256": "f6ab5334cb1da28503d6938e9152c4173081c3f592dd799827f8a7748c299949",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/490938c1f5c2c6fbbdbb103d194d4e78.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/490938c1f5c2c6fbbdbb103d194d4e78.png/get/",
+    "sha256": "3fac95f53f7296a75197e1b0a82e9a8902cd7136967d991f65cbad43a299de22",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/496cd3945e25acdce84dd6ec6d6bc1b0.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/496cd3945e25acdce84dd6ec6d6bc1b0.png/get/",
+    "sha256": "518464abaf98dd24077bd14a44a3f6bc33dfc0d293a941a7f6c36717da6d5dba",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/4a1c4e6e42c5087e5001c3451813f4f3.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/4a1c4e6e42c5087e5001c3451813f4f3.png/get/",
+    "sha256": "9beb2e136136a821cdece99ad652278c507d0cdd5a77ad40874676280b88d3d6",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/4d6b11370a0789a50b0dc0b6ca399da9.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/4d6b11370a0789a50b0dc0b6ca399da9.png/get/",
+    "sha256": "1d423999714067490d271131ee541bd08a64043524d33e5d17c2f0cdcc29f4da",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/4d7d103338eb8f9155edcdfc88056358.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/4d7d103338eb8f9155edcdfc88056358.png/get/",
+    "sha256": "2d248f6a0659eb9255fe21273b393b232214c913c349aa8068a5086241577009",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/56b2b3bd1a8bff5a6ee8a01b238f18fe.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/56b2b3bd1a8bff5a6ee8a01b238f18fe.png/get/",
+    "sha256": "e5ef5b0da52b264fccf10b587a4d75aa6dac80bae1f0bbb8c46e2099cc6c5bdd",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/63827c12f063e6696f0ee3dd89d0da5e.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/63827c12f063e6696f0ee3dd89d0da5e.png/get/",
+    "sha256": "34bf0b152d381335704ae8012dd43d64cd3781e5e265c642bdcde40272d727d0",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/6bfff0c17f9e99a2b1a99d9d5b4f7fb8.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/6bfff0c17f9e99a2b1a99d9d5b4f7fb8.png/get/",
+    "sha256": "2facdc7132a42ce511d94cf53006e8bd434ac6e67dc17de297f9d94b0cca8a5f",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/6cd3a61281e4dca6835b30761b41ec06.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/6cd3a61281e4dca6835b30761b41ec06.png/get/",
+    "sha256": "156cf6b6ebae01c0cb32d39cab39a3bad99bbe68f8de681c804b57a20d7df4a3",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/70ee4a8a984f0852ffb223235ae58de6.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/70ee4a8a984f0852ffb223235ae58de6.png/get/",
+    "sha256": "8c2c527f3ae0e0baf2d4c2f07508ddfcf2cb19e14d839ccd0c059ccbe2d39d79",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/74417d5f4637abfcfd07625ecaa3f789.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/74417d5f4637abfcfd07625ecaa3f789.png/get/",
+    "sha256": "58d6a0b16aa5320fbdf18cad53c7bbb3f954ffc2d97b25f07686bd6b526628e2",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/7c8c9e13e6485917a31bdfab66ffcb00.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/7c8c9e13e6485917a31bdfab66ffcb00.png/get/",
+    "sha256": "20a3620d9263a2f18419ea859df02a478f3d7b47a027f8b631f7fb2f787110ec",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/878a2e5045ca7c6b0a11ae983dd305bf.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/878a2e5045ca7c6b0a11ae983dd305bf.png/get/",
+    "sha256": "ac829e1867909acc43b1f9e301c5e63f8b50d46adc58fc6448902e8bed54d789",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/8c111cfe1bc45c907fddf9f7044243ab.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/8c111cfe1bc45c907fddf9f7044243ab.png/get/",
+    "sha256": "9144f128f086ce906233bde685377b4e2513fcbebc7c931c83e35eb04c789d55",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/99c5db681f93fa324b553fbaa6a5521c.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/99c5db681f93fa324b553fbaa6a5521c.png/get/",
+    "sha256": "9177ce2b8ada0400f1de90628a1e38a4eb156852e1bbb7dbf569943a5ce88146",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/9c53153e5bde5d0b0d91742ac7aae205.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/9c53153e5bde5d0b0d91742ac7aae205.png/get/",
+    "sha256": "5578c7cc4ccac5826d24e8afd70a41bdf1eea4b8d21f42ae9e7c69caaca48aef",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/a2ad66c1ea03d15bd3b20a9a08830a75.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/a2ad66c1ea03d15bd3b20a9a08830a75.png/get/",
+    "sha256": "bb4e0c67202485e4def104e965cea464c90b7c167a337b49bdf509be5b008d27",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/a3c31f099ee29dc198a208dba9a851c6.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/a3c31f099ee29dc198a208dba9a851c6.png/get/",
+    "sha256": "2afdd10b29b9bc5ad61eefa3ac9a6bb23ae01a7b44ded9de913e71f4157dd748",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/a512481fc16e59bf98ea42c5484b92f9.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/a512481fc16e59bf98ea42c5484b92f9.png/get/",
+    "sha256": "bde0767a1bc6df58e31ffd4caeb53e2e2125cd0b5c102407a29e9ec4ea7f3957",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/ab1a349bcbc2f02fc52fa578b584c48f.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/ab1a349bcbc2f02fc52fa578b584c48f.png/get/",
+    "sha256": "6c3505169774c18621c515c933edb9158a279a286a84c4177c48672ae7990a26",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/b3793753b9b7c740584c2c94d3b0d49e.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/b3793753b9b7c740584c2c94d3b0d49e.png/get/",
+    "sha256": "c9a28d5ba59ea7f851b53ea1f6b1a37461c2288fe5a926a6ce8e86c0c921a882",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/b6d68b0860dc1e42972b56e02d222354.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/b6d68b0860dc1e42972b56e02d222354.png/get/",
+    "sha256": "e96e88a430a7f5566d86c83f6f1cf131d0fb9f2e216ae1a1d1fbb5895a02f67f",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/c27c3a0318b2efa00b14ae930cb2cae5.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/c27c3a0318b2efa00b14ae930cb2cae5.png/get/",
+    "sha256": "572f80cda9e0a104cb08463992c86c2ace15a5ebbed88d971e54733a315bb5be",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/cbb2ded0f6da1611bb8b79334a9f8790.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/cbb2ded0f6da1611bb8b79334a9f8790.png/get/",
+    "sha256": "1ba54decf4a4b0074ce318bf5fbee8dc646e034ee4f358b903a71caeeebe586b",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/d634902a19d8a6219504d1353026fe54.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/d634902a19d8a6219504d1353026fe54.png/get/",
+    "sha256": "8361351d7e321b4381d2ed2974b2b3e8046fa2526520250234e12aad1fe1fc58",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/797092569/fdf93d06c5d3aaeb50275c2c4d17c093.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/fdf93d06c5d3aaeb50275c2c4d17c093.png/get/",
+    "sha256": "b7e788bf66b65960a4b7284c6383f310160e2d38634108dd5901f5245443d4aa",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 797092569. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/wiki/spikes2.png",
+    "url": "https://www.mariowiki.com/images/2/24/SMM2_Spike_Trap_NSMBU_icon.png?810ba",
+    "sha256": "b9da08a95948956536340d4425f22fa16f529963f001c273d2df84cda051954f",
+    "credit": "Nintendo SMM2 NSMBU Spike Trap icon; Super Mario Wiki; source The Spriters Resource."
+  },
+  {
+    "file": "hires/miyamoto/miyamotodata/sprites/liquid_lava_crest.png",
+    "url": "https://raw.githubusercontent.com/aboood40091/Miyamoto/06c68b853208c7fcbdb6ed9657d0a6bb422d83c1/miyamotodata/sprites/liquid_lava_crest.png",
+    "sha256": "c623d42ac5ce65aab8c43a157ecbba6f9beab574d3679b35fa29795257fdb8a8",
+    "credit": "Nintendo NSMBU imagery; Miyamoto editor image collection, AboodXD/Gota7 and contributors. No GPL editor code copied."
+  },
+  {
+    "file": "hires/scratch/829940955/7c38468b045767859ff619093bd5ce96.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/7c38468b045767859ff619093bd5ce96.png/get/",
+    "sha256": "89382aae2e7101bcabb69f65eec830660eb69ddb795bb4b22ac99915a4992de5",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 829940955. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/829940955/e7776d00f98449d9d0941525c8fa0c2c.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/e7776d00f98449d9d0941525c8fa0c2c.png/get/",
+    "sha256": "9ee73ddddb2457fdb76ad72c2c0a704992a54151139c614ad1f3004a36de6c63",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 829940955. Source/game caveats in SOURCES.md."
+  },
+  {
+    "file": "hires/scratch/829940955/e9a2dfecfc343e8ad0b338c773396864.png",
+    "url": "https://assets.scratch.mit.edu/internalapi/asset/e9a2dfecfc343e8ad0b338c773396864.png/get/",
+    "sha256": "85559145c21600c5ea455f1a56ea562c7ed1a1fcb12849402cb02fb9402a9df1",
+    "credit": "Raster capture collection shared by PolskyGamer, Scratch project 829940955. Source/game caveats in SOURCES.md."
   }
 ]

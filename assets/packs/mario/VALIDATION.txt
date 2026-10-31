@@ -1,20 +1,69 @@
+$ npm run fetch
+
+> @realmforge/mario-assets@1.0.0 fetch
+> python3 scripts/fetch.py
+
+Fetched/verified 656 pinned source files.
+Exit: 0
+
+$ npm run build
+
+> @realmforge/mario-assets@1.0.0 build
+> python3 scripts/build.py
+
+Built 396 element IDs, 9 character keys, 5 enemies, 4 themes and 21 parallax layers.
+Exit: 0
+
+$ npm run preview
+
+> @realmforge/mario-assets@1.0.0 preview
+> python3 scripts/preview.py
+
+PREVIEW.png: 1920x11382; 396 element IDs, 36 character animation strips, 4 stacked backgrounds
+Exit: 0
+
+$ npm test
+
+> @realmforge/mario-assets@1.0.0 test
+> python3 scripts/test-validation.py
+
+test_real_pack_passes (__main__.NativeScaleValidation.test_real_pack_passes) ... ok
+test_rejects_native_pixel_enlargement (__main__.NativeScaleValidation.test_rejects_native_pixel_enlargement) ... ok
+test_rejects_undersized_animation_canvas (__main__.NativeScaleValidation.test_rejects_undersized_animation_canvas) ... ok
+test_rejects_undersized_static_sprite (__main__.NativeScaleValidation.test_rejects_undersized_static_sprite) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.046s
+
+OK
+Exit: 0
+
+$ npm run validate
 
 > @realmforge/mario-assets@1.0.0 validate
 > python3 scripts/validate.py
 
 PASS schema 1: original top-level sections/keys retained; pixelArt=false; sourceTile=64
-PASS coverage: 117/117 Kenney element IDs; 150 total Mario IDs; 4/4 themes
-PASS sources: 569 SHA-256 checksums; 499 source rectangles in bounds
-PASS files: 361 manifest paths exist; all PNGs decode
-PASS atlases: 42 atlases; 379 frames in bounds; animation references resolve
-PASS characters: Mario, Luigi colour variant and small Mario have all 9 poses; walk/run >=3 frames; feet anchors
+PASS coverage: 117/117 Kenney element IDs; 396 total Mario IDs; 4/4 themes
+PASS sources: 656 SHA-256 checksums; 1276 source rectangles in bounds
+PASS files: 569 manifest paths exist; all PNGs decode
+PASS atlases: 23 atlases; 423 frames in bounds; animation references resolve
+PASS characters: Mario/Luigi big + small have all 9 animation keys; walk/run >=3 frames; feet anchors
+PASS native scale: 407 sprite entries and every animation frame <=1.25x; 50 baseline violations removed
+PASS terrain: 4 themes; complete cardinal/inner-corner/pillar/single variants; exact 2px extruded gutters
+PASS mushroom: items.mushroom and elements.mushroom agree
 PASS parallax: 21 wide native-resolution layers; all horizontal seam texels match
-LIMITATIONS: Luigi big is a Mario recolour; fall reuses late jump poses; mirror character/enemy captures are low native resolution. See README.md.
+PASS pack budget: 11,646,109 bytes / 25,000,000 bytes
+PROVENANCE / POSE CAVEATS: see README.md and SOURCES.md; animation keys alone do not prove authentic poses.
+Exit: 0
+
+$ npm run validate:registry
 
 > @realmforge/mario-assets@1.0.0 validate:registry
 > ../../node_modules/.bin/tsx scripts/validate-registry.ts
 
-PASS real registry: 149 loader records; all 117 legacy IDs resolve; mario-mario_small selected; 9 player animations; 4 layered themes; linear filtering metadata
-9.2M	web/public/packs/mario
- 33M	assets/_downloads/mario
-560K	assets/packs/mario
+PASS real registry: 395 loader records; all 117 legacy IDs resolve; mario-mario_small selected; 9 player animations; 4 layered themes; linear filtering metadata
+Exit: 0
+
+REPRODUCIBILITY: 433 pack files; SHA-256 identical after second build/preview: True.
+PACK SIZE: 11,646,109 bytes.

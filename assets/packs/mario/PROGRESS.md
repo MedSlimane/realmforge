@@ -1,14 +1,30 @@
 # Asset-agent progress (owned paths only)
 
-- [x] Read AGENTS.md, SPEC §3.2, mockups, current manifest and consuming registry/scenes.
-- [x] Try Chromium and archive fallbacks for The Spriters Resource; record failed access.
-- [x] Fetch NSMBU native terrain sheets, character poses, object frames and background layers.
-- [x] Upgrade available object frames from explicitly credited larger NSMBU collections.
-- [x] Reproducible exact-rectangle slicing, Phaser atlases and schema-1 manifest.
-- [x] Cover every original element ID and four themes; supply 21 seamless parallax layers.
-- [x] Contact sheet, source attribution, substitutions and full coverage mapping.
-- [x] Validate source hashes, rectangle bounds, asset paths, animations and registry integration.
-- [ ] Replace the disclosed big Luigi colour substitute with an authentic full pose set.
-- [ ] Replace low-resolution mirror player/secondary captures with verified larger native renders.
+## High-resolution pass — 31 October 2026
 
-Shared `docs/CHECKLIST.md` and `assets/CREDITS.md` updates remain with the coordinator because this agent owns only the Mario pack and raw-download paths.
+- [x] Read AGENTS.md, SPEC.md, Assets checklist, screenshots, mockup and prior pack docs.
+- [x] Capture frozen baseline in audit-before.json; generate per-entry/per-animation-frame before/after AUDIT.md.
+- [x] Replace all 50 baseline native/display scale violations; validator rejects >1.25× and build rejects source enlargement.
+- [x] Replace Mario big with credited larger NSMBU raster captures, including distinct fall.
+- [x] Remove the Mario-recolour Luigi; supply genuine big/small Luigi atlases and small Mario as explicitly documented NSMB Wii same-style fallbacks.
+- [~] Exact NSMBU-only HD Luigi + small Mario pose sets remain missing. Luigi skid is a run-transition pose, wall-slide holds wall-contact art. Do not mark this exact-game requirement complete.
+- [x] Replace throw-block crate with NSMBU wooden crate; Chain Chomp pendulum with native spiked pendulum ball; Note Block slime with permitted green mushroom-platform sticky-tile substitute.
+- [x] Add native five-segment mushroom-seesaw plank and separate pivot; native Super Mushroom under elements.mushroom + items.mushroom.
+- [x] Correct terrain side/fill crops, add all named variants and all 47 legal blob masks per theme, verify 2px extruded atlas gutters.
+- [x] Update exact-rectangle config, pin used sources, regenerate coverage and PREVIEW.png.
+- [x] Four validator regression probes, pack validation and real web registry validation.
+- [~] Some high-resolution objects are stills replacing low-resolution cycles: spring extended, Goomba/Paragoomba, state-specific flags and lock overlay. Details in README.md.
+
+## Coordinator integration notes
+
+This agent owns only assets/packs/mario/, web/public/packs/mario/ and ignored downloads. The user's strict ownership rule overrides broad repo requests to edit shared docs. Coordinator must update docs/CHECKLIST.md and assets/CREDITS.md, preserving the exact-game and pose caveats above.
+
+No files staged or committed. No dependencies added. Real command output, pack bytes and deterministic rebuild evidence are recorded in VALIDATION.txt; every output SHA-256 is in pack-sha256.json.
+
+## Final verification
+
+- [x] fetch, build, preview, four validator regression tests, validate and validate:registry all exit 0 (VALIDATION.txt).
+- [x] Second build/preview: all 433 pack file SHA-256 values identical.
+- [x] 407 sprite entries and every animation frame ≤1.25×; all 50 baseline violations removed.
+- [x] Pack size 11,646,109 bytes, below the 25,000,000-byte limit.
+- [x] Owned-path git diff --check passes; staging area untouched.

@@ -8,6 +8,8 @@
     "build": "python3 scripts/build.py",
     "validate": "python3 scripts/validate.py",
     "preview": "python3 scripts/preview.py",
-    "validate:registry": "../../node_modules/.bin/tsx scripts/validate-registry.ts"
+    "validate:registry": "../../node_modules/.bin/tsx scripts/validate-registry.ts",
+    "audit": "python3 scripts/audit.py",
+    "test": "python3 scripts/test-validation.py"
   }
 }

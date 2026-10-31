@@ -1,68 +1,77 @@
 # RealmForge NSMBU demo pack
 
-Nintendo property, used for a private educational class demo only; do not distribute publicly; Kenney CC0 pack remains the public-safe fallback.
+Nintendo property, for the team's private educational class demo only. Never publish this pack or make a repository containing it public. Kenney remains the CC0 fallback. No AI-generated art, Nintendo executable code, ROMs or keys are included.
 
-This is a schema-1 pack at `/packs/mario/manifest.json`. It covers all 117 existing Kenney element IDs plus native terrain edges, pipes, used/hard blocks, Bullet Bill, P-switch and switch-block state helpers. All four themes use the New Super Mario Bros. U rendered style. No SMB1/SMB3/SMW pixel-art assets and no AI-generated artwork are included. Source attribution and download limitations are in [SOURCES.md](SOURCES.md). Every element-to-file mapping is in [COVERAGE.md](COVERAGE.md).
+The high-resolution pass removes all **50 baseline scale violations**: every manifest sprite and animation frame is now at or below **1.25×** at `displaySize × 64` pixels. See [AUDIT.md](AUDIT.md) for every before/after entry and current animation frame, and [PREVIEW.png](../../../web/public/packs/mario/PREVIEW.png) for the contact sheet. A scale pass does **not** imply complete exact-game or exact-pose fidelity: the remaining exceptions below are substantive.
 
 ## Rebuild and verify
-
-From this directory:
 
 ```sh
 python3 -m pip install -r requirements.txt
 npm run fetch
 npm run build
-npm run validate
 npm run preview
+npm run validate
 npm run validate:registry
 ```
 
-`fetch` restores the exact image/asset-metadata bytes listed in `sources.json` to the gitignored `assets/_downloads/mario/` directory, checks SHA-256, and uses immutable GitHub revisions or content-addressed Scratch image URLs. `build` slices only the checked-in `slicing.json`; it never searches the network. `validate` checks actual source crops, checksums, manifest paths, atlas rectangles, animation names, all legacy element IDs, and exact horizontal boundary texels for every background. `validate:registry` additionally uses the repository's existing `assets/node_modules/.bin/tsx` to exercise the real web registry; run `npm ci` in `assets/` if that tool is absent. The pack itself adds no npm dependencies. Pillow is the only build dependency (MIT-CMU/HPND).
+Run these from `assets/packs/mario/`. Pillow (MIT-CMU/HPND) is the only build dependency; there are no new npm dependencies. `fetch` restores and SHA-256-checks the exact source images in `sources.json` into gitignored `assets/_downloads/mario/`. GitHub images are pinned to immutable commits; Scratch images are content-addressed. Wiki URLs are mutable upstream, so the recorded checksum fails on changed bytes rather than silently adopting them. `build` is offline and reads only `slicing.json`; a clean fetch/build reproduces the output. It deletes obsolete generated pack files, retaining `PREVIEW.png` until `preview` regenerates it.
 
-`curate.py`, `upgrade-sources.py`, and `research-icons.py` record the initial curation/research workflow; they are not needed for a clean rebuild. `curate.py` can regenerate the crop config from the pinned source inventory. The two research helpers need research metadata in the gitignored raw directory; no executable code from those game projects is reused.
+`validate` checks source hashes, crop bounds, source downsampling, legacy coverage, manifest files, every animation reference, every sprite/frame's display scale, 47 autotile masks per theme, two-pixel atlas extrusion, background seams and the 25 MB pack budget. It regenerates `AUDIT.md`. `validate:registry` exercises the actual web registry using the existing `assets/node_modules/.bin/tsx`; install the existing `assets/` package if needed.
 
-## Schema additions and scale
+`curate.py`, `upgrade-sources.py`, `research-icons.py`, `curate-hires.py`, `curate-character-fallbacks.py`, `complete-autotiles.py` and `lock-hires-sources.py` are historical/research curation helpers, **not clean-build prerequisites**. The final, checked-in `slicing.json` is authoritative. They require research metadata in the ignored cache; build/fetch/validate do not.
 
-Existing schema-1 sections and original character animation names remain intact. These are the only added manifest **fields**:
+## Manifest and shared API
 
-| Field | Meaning |
+Schema stays **1**. Existing sections, IDs, paths and animation names remain compatible. Additions use the existing entry shape (`texture`, `path`, `width`, `height`, optional `atlas`, `image`, `frame`, `animations`, `displaySize`, `anchor`, `note`, `source`). `pixelArt: false` requests linear filtering, `sourceTile: 64` records the terrain source grid, and `tileSize` stays 64. `ui`, `editor`, `sfx` and `music` still reference the untouched public-safe `/assets/` pack.
+
+- `characters.mario` / `characters.mario_small`: big and small forms.
+- `characters.luigi` / `characters.luigi_small`: genuine Luigi, including his different head/body proportions; **no Mario recolouring**.
+- Each form exposes `idle`, `walk`, `run`, `skid`, `jump`, `fall`, `crouch`, `wallSlide`, `dead`; walk/run have at least three frames. All forms use one fixed native canvas and bottom-centred feet. Idle art is 120px big and 60px small; a taller jump extends above that without moving the feet. Pose authenticity caveats follow below.
+- `green` aliases Luigi; `pink`, `purple`, `beige` alias Mario. `luigi_native_walk` remains a compatibility alias of the genuine Luigi atlas. These are not extra characters.
+- `items.mushroom` and `elements.mushroom` are identical Super Mushroom entries. Static official NSMBU artwork; no invented two-frame animation. The `mushroom` gameplay behavior belongs to game-core.
+- `elements.seesaw`: 300×30 output deck (five native 60×60 NSMBU mushroom-seesaw segments, each downsampled to 60×30), displayed 320×32. `elements.seesaw_pivot`: native separate 42×42 pivot, displayed 48×48. Both are real NSMBU imagery. Render the pivot beneath the plank and rotate only the plank. The rotating-platform helper reuses the same deck.
+
+## Terrain variants and pit edges
+
+The old `left`, `right` and `fill` crops selected dark underside/slope cells. These are now mapped to the actual side and interior cells. Each original 64px source cell contains **60×60 content plus 2px repeated-edge source padding**. Standalone PNGs use the 60px content at display size 64px (1.067×); no source art is enlarged during the build.
+
+Every theme supplies flat element names `${theme}_${variant}`, so existing consumers can resolve variants without a schema change:
+
+| Variant | Intended use |
 |---|---|
-| Pack `pixelArt: false` | Use linear filtering; do not round sprite pixels. |
-| Pack `sourceTile: 64` | One tile in the full-resolution NSMBU terrain sheets is 64 source pixels. `tileSize` remains the existing 64px gameplay grid. |
-| Entry `displaySize: {w,h}` | Artwork display dimensions in gameplay tiles; does not alter controller physics. |
-| Entry `anchor: {x,y}` | Normalized origin. Characters/enemies use feet at bottom centre (`0.5,1`). |
-| Theme `parallax: [{file,scrollFactor}]` | Back-to-front horizontally repeating layers. `y` is supported by the consumer but is not needed here. |
-| Animation `frameRate` | Playback rate (already supported by schema-1's existing animation entries). |
+| `top_left`, `top`, `top_right` | Exposed upper corners/surface |
+| `left`, `fill` (`inner` alias), `right` | Vertical exposed sides and interior |
+| `bottom_left`, `bottom`, `bottom_right` | Exposed underside row |
+| `inner_top_left`, `inner_top_right`, `inner_bottom_left`, `inner_bottom_right` | Concave corners around a missing diagonal neighbour |
+| `pillar_top`, `pillar`, `pillar_bottom` | One-column vertical island |
+| `single_left`, `horizontal`, `single_right` | One-row horizontal island |
+| `single` | Isolated one-tile island |
+| `mask_N` | Full 47-mask blob topology, including multiple simultaneous concave corners |
 
-Existing `note`, `source`, `pack` and `aliasOf` fields document substitutions/provenance. New map entries reuse existing entry shapes; no new schema version or rendering code is required. `ui`, `editor`, `sfx` and `music` retain the exact original CC0 entries with absolute `/assets/` references, so the existing public-safe pack must remain installed.
+For `mask_N`, cardinal bits are N=1, E=2, S=4, W=8; diagonals are NE=16, SE=32, SW=64, NW=128. A diagonal bit is valid only if both adjacent cardinal neighbours exist. The 47 legal masks are assembled from native **30×30 quadrant crops**, without painting or enlarging art. `ground` aliases `top`.
 
-Terrain crops stay 64px. Larger native object rips (up to several hundred pixels per frame) also stay at their downloaded resolution. The first accessible mirror's player captures are **only 24–48px per pose**, and some secondary objects are 14–32px; they are not passed off as HD source captures. Runtime display metadata makes big Mario's visible idle art two 64px tiles tall. All character frames share a native canvas and bottom-centred feet, preventing pose-dependent scale and foot jitter. Images are trimmed/cropped/padded, never upscaled by the pack builder. At runtime the high-resolution terrain may be sharper than these lower-resolution character captures.
+`themes[theme].variants` also exposes the named entries. Additive `themes[theme].autotileAtlas` points to `tiles/<theme>/autotiles.{png,json}` with all named and mask frames. Atlas cells are 64×64; each frame rectangle is the inner 60×60 at offset (2,2), with **two exactly duplicated edge texels on all four sides**. Render from that rectangle, never include the gutter in the displayed content. Existing `themes[theme].path` and numeric `tiles` mappings keep their legacy 64px layout; they do not silently change to a padded sheet.
 
-Playable big Mario is `characters.mario`. Optional small Mario is named `characters.mario_small`. The concurrently updated web registry currently prioritizes `mario_small` over `mario`; selecting the preferred big Mario requires the coordinator to change that ordering in its owned code. This pack supplies both forms and does not change the consumer. Native Luigi's available walk capture is `luigi_native_walk`. Original `green`, `pink`, `purple`, `beige` keys remain compatibility aliases; green maps to Luigi and the other three map to Mario. They do not imply extra Toad/Toadette rips.
+## Remaining provenance and pose limitations
 
-## Backgrounds
-
-There are 21 original full-height source layers: grass/overworld 7, desert 5, snow 6, castle 3. Native transparent margins preserve source vertical alignment. To make each output wide and provably seamless, the script appends a horizontally mirrored copy and repeats that native period until the image is at least 1536px wide. No background is AI-generated, painted, rescaled or replaced with a flat fill. This mirror-repeat treatment is a disclosed derivative of the ripped layers, not a claim that the output is an untouched Nintendo texture. It can produce symmetrical scenery; the contact sheet shows the result.
-
-## Substitutions and remaining fidelity limits
-
-| Requested asset | Delivered choice / limitation |
+| Asset | Current delivery / remaining exception |
 |---|---|
-| Big Luigi, all poses | **Mario big colour variant**, not an authentic Luigi model capture. Real native Luigi walk is supplied separately. A complete authentic big Luigi pose set is still missing. |
-| Mario fall | Late frames of the native jump capture, rather than a separately ripped falling cycle. |
-| Small Mario | Supplied with all nine animation names. Toad/Toadette are not included. |
-| Goomba | Native lower-resolution mirror walk and squashed captures. The larger alternate Goomba was fan vector art and was rejected. |
-| Flyer | Native Koopa flight poses composited with native wings. These remain lower resolution than the upgraded walking Koopa. |
-| Slime | Native Note Block art represents the high-friction terrain; gameplay semantics remain slime. |
-| Crate | Native used/throw block; an authentic NSMBU crate rip was not found. |
-| Pendulum | Chain Chomp ball plus separately supplied native chain link. |
-| Chain bridge | Native rope-bridge plank; chain link is supplied separately. |
-| Falling block | Native Donut Block. |
-| Elevator / rotating platform | Native lift segment / seesaw deck reused for these mechanisms. |
-| Double jump / dash | Native Super Acorn / Super Star. |
-| Switch | Full-resolution ON/OFF switch and red solid/outline toggled blocks. The native P-switch animation is also included as a helper. |
-| Larger object rips | Downloadable diffuse sprites are used directly; this asset-only pack does not recreate the console normal/bump-map lighting. Some objects can look flatter than the lit console render. |
-| Theme variants | Authentic native top/edge/interior crops. Question blocks use the larger native animated block rip. Hard/used block helpers share the native used-block appearance in this version. |
-| Game-specific ripper credits for the first mirror | Not supplied by that mirror; explicitly marked unconfirmed in SOURCES.md rather than invented. |
+| Big Mario | Credited NSMBU raster captures from PolskyGamer's collection, extracted from embedded PNGs without tracing the SVG wrapper. Large frames are downsampled to normalize pose scale. Its death cycle uses the separately labelled NSMBU death captures in project 829940955. Source collection mixes lighting/view angles, visible in the preview. Distinct fall frame is included. |
+| **Luigi big + small** | **Authentic NSMB Wii captures**, shared by PolskyGamer, used as a same-style fallback. A full NSMBU-only high-resolution pose set was not found. Original ripper is not identified by this collection. This does **not** satisfy the exact NSMBU-provenance request. |
+| **Small Mario** | **NSMB Wii captures**, credited by PolskyGamer to **Keira Sanchez**. Same-style fallback; exact NSMBU-only HD poses remain missing. |
+| Luigi skid | A native run-transition pose, not a separately ripped braking pose. All nine animation keys exist, but exact skid art remains missing. |
+| Wall-slide | Holds the native wall-jump/wall-contact capture. A distinct sliding loop was not found. |
+| Big Mario crouch / skid | Native captures chosen for these actions; lighting/angle differs from idle. |
+| Slime | Native green NSMBU mushroom-platform tile represents the high-friction surface; no genuine NSMBU slime/jelly rip was found. The Note Block substitute is removed. |
+| Crate / pendulum | Authentic NSMBU wooden box and spiked pendulum ball; previous throw-block/Chain-Chomp substitutions are removed. Chain link remains a separate entry. |
+| Goomba / flyer | High-resolution native NSMBU Goomba / Paragoomba stills. They replace lower-resolution captures; genuine high-resolution animated walk/stomp/fly cycles remain unavailable. Static animations do not manufacture motion. |
+| Coin / big coin | Official NSMBU coin artwork plus native Star Coin; static. `coin_side` uses one native frame of the wiki coin capture. |
+| Spring | Native NSMBU springboard still. `spring_extended` currently shares the still; an authentic large extended pose is missing. |
+| Checkpoint / goal | Native NSMBU editor renders. Activated checkpoint and goal-wave helpers share their base appearance; state-specific large captures remain missing. |
+| Locked door | Native closed door at adequate resolution; a distinct high-resolution lock overlay is not supplied. |
+| Blocks | High-resolution official artwork from the NSMBU gallery. The gallery explicitly identifies brick/used artwork as originating in NSMB Wii and ? Block artwork in NSMB; Nintendo reused it for NSMBU. These are perspective promotional images, not claims of untouched gameplay texture rips. |
+| Backgrounds | 21 native layers remain. Each layer is mirrored and repeated horizontally to make matching boundary texels, with no upsampling. The disclosed treatment can produce symmetrical scenery. |
+| Source lighting | Diffuse sprites/editor renders do not recreate the original console normal-map lighting. |
 
-This is an asset-only delivery. It does not change `web/src`, gameplay physics, the original Kenney pack, or shared docs. The coordinator should update `docs/CHECKLIST.md` and `assets/CREDITS.md` when integrating, and verify the desired visual-to-collision relationship for the two-tile character. No files were staged or committed.
+Source URLs, credits, rights and exact SHA-256 values are in [SOURCES.md](SOURCES.md) and `sources.json`. Every mapping is in [COVERAGE.md](COVERAGE.md). This asset-only delivery modifies no game physics, web renderer, shared checklist or shared credits. The coordinator owns integration updates to `docs/CHECKLIST.md` and `assets/CREDITS.md`.

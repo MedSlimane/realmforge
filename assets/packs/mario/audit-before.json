@@ -1,0 +1,5337 @@
+{
+  "schema": 1,
+  "tileSize": 64,
+  "ui": {
+    "button_primary": {
+      "texture": "button_primary",
+      "path": "/assets/ui/button_primary.png",
+      "width": 192,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/button_rectangle_depth_flat.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/button_primary.svg"
+    },
+    "button_pressed": {
+      "texture": "button_pressed",
+      "path": "/assets/ui/button_pressed.png",
+      "width": 192,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/button_rectangle_flat.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/button_pressed.svg"
+    },
+    "button_square": {
+      "texture": "button_square",
+      "path": "/assets/ui/button_square.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/button_square_depth_flat.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/button_square.svg"
+    },
+    "checkmark": {
+      "texture": "checkmark",
+      "path": "/assets/ui/checkmark.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/icon_checkmark.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/checkmark.svg"
+    },
+    "close": {
+      "texture": "close",
+      "path": "/assets/ui/close.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/icon_cross.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/close.svg"
+    },
+    "arrow_left": {
+      "texture": "arrow_left",
+      "path": "/assets/ui/arrow_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/arrow_basic_w.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/arrow_left.svg"
+    },
+    "arrow_right": {
+      "texture": "arrow_right",
+      "path": "/assets/ui/arrow_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/arrow_basic_e.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/arrow_right.svg"
+    },
+    "star": {
+      "texture": "star",
+      "path": "/assets/ui/star.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/star.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/star.svg"
+    },
+    "checkbox": {
+      "texture": "checkbox",
+      "path": "/assets/ui/checkbox.png",
+      "width": 64,
+      "height": 64,
+      "source": "ui-pack/Vector/Green/check_square_color_checkmark.svg",
+      "pack": "ui-pack",
+      "svg": "/assets/ui/svg/checkbox.svg"
+    },
+    "hud_heart": {
+      "texture": "hud_heart",
+      "path": "/assets/ui/hud_heart.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/hud_heart.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/ui/svg/hud_heart.svg"
+    },
+    "hud_heart_empty": {
+      "texture": "hud_heart_empty",
+      "path": "/assets/ui/hud_heart_empty.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/hud_heart_empty.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/ui/svg/hud_heart_empty.svg"
+    },
+    "hud_coin": {
+      "texture": "hud_coin",
+      "path": "/assets/ui/hud_coin.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/hud_coin.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/ui/svg/hud_coin.svg"
+    },
+    "hud_key_yellow": {
+      "texture": "hud_key_yellow",
+      "path": "/assets/ui/hud_key_yellow.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/hud_key_yellow.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/ui/svg/hud_key_yellow.svg"
+    }
+  },
+  "editor": {
+    "tool_copy": {
+      "texture": "tool_copy",
+      "path": "/assets/icons/editor/tool_copy.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_copy.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_copy.svg"
+    },
+    "tool_delete": {
+      "texture": "tool_delete",
+      "path": "/assets/icons/editor/tool_delete.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_delete.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_delete.svg"
+    },
+    "tool_erase": {
+      "texture": "tool_erase",
+      "path": "/assets/icons/editor/tool_erase.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_erase.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_erase.svg"
+    },
+    "tool_grid": {
+      "texture": "tool_grid",
+      "path": "/assets/icons/editor/tool_grid.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_grid.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_grid.svg"
+    },
+    "tool_link": {
+      "texture": "tool_link",
+      "path": "/assets/icons/editor/tool_link.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_link.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_link.svg"
+    },
+    "tool_paste": {
+      "texture": "tool_paste",
+      "path": "/assets/icons/editor/tool_paste.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_paste.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_paste.svg"
+    },
+    "tool_place": {
+      "texture": "tool_place",
+      "path": "/assets/icons/editor/tool_place.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_place.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_place.svg"
+    },
+    "tool_play": {
+      "texture": "tool_play",
+      "path": "/assets/icons/editor/tool_play.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_play.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_play.svg"
+    },
+    "tool_properties": {
+      "texture": "tool_properties",
+      "path": "/assets/icons/editor/tool_properties.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_properties.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_properties.svg"
+    },
+    "tool_redo": {
+      "texture": "tool_redo",
+      "path": "/assets/icons/editor/tool_redo.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_redo.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_redo.svg"
+    },
+    "tool_rotate": {
+      "texture": "tool_rotate",
+      "path": "/assets/icons/editor/tool_rotate.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_rotate.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_rotate.svg"
+    },
+    "tool_save": {
+      "texture": "tool_save",
+      "path": "/assets/icons/editor/tool_save.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_save.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_save.svg"
+    },
+    "tool_select": {
+      "texture": "tool_select",
+      "path": "/assets/icons/editor/tool_select.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_select.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_select.svg"
+    },
+    "tool_undo": {
+      "texture": "tool_undo",
+      "path": "/assets/icons/editor/tool_undo.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/tool_undo.svg",
+      "pack": "realmforge-supplements",
+      "svg": "/assets/icons/editor/svg/tool_undo.svg"
+    },
+    "palette_ground": {
+      "texture": "palette_ground",
+      "path": "/assets/icons/editor/palette_ground.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/terrain_grass_block_top.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_ground.svg"
+    },
+    "palette_brick": {
+      "texture": "palette_brick",
+      "path": "/assets/icons/editor/palette_brick.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/bricks_brown.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_brick.svg"
+    },
+    "palette_question_block": {
+      "texture": "palette_question_block",
+      "path": "/assets/icons/editor/palette_question_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/block_coin.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_question_block.svg"
+    },
+    "palette_ice": {
+      "texture": "palette_ice",
+      "path": "/assets/icons/editor/palette_ice.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/ice.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_ice.svg"
+    },
+    "palette_slime": {
+      "texture": "palette_slime",
+      "path": "/assets/icons/editor/palette_slime.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/slime.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_slime.svg"
+    },
+    "palette_one_way": {
+      "texture": "palette_one_way",
+      "path": "/assets/icons/editor/palette_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/terrain_grass_horizontal_middle.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_one_way.svg"
+    },
+    "palette_semi_solid": {
+      "texture": "palette_semi_solid",
+      "path": "/assets/icons/editor/palette_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/terrain_grass_cloud_middle.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_semi_solid.svg"
+    },
+    "palette_spikes": {
+      "texture": "palette_spikes",
+      "path": "/assets/icons/editor/palette_spikes.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/spikes.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_spikes.svg"
+    },
+    "palette_lava": {
+      "texture": "palette_lava",
+      "path": "/assets/icons/editor/palette_lava.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/lava_top.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_lava.svg"
+    },
+    "palette_saw": {
+      "texture": "palette_saw",
+      "path": "/assets/icons/editor/palette_saw.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/saw.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_saw.svg"
+    },
+    "palette_falling_block": {
+      "texture": "palette_falling_block",
+      "path": "/assets/icons/editor/palette_falling_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Enemies/block_idle.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_falling_block.svg"
+    },
+    "palette_crate": {
+      "texture": "palette_crate",
+      "path": "/assets/icons/editor/palette_crate.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/block_planks.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_crate.svg"
+    },
+    "palette_seesaw": {
+      "texture": "palette_seesaw",
+      "path": "/assets/icons/editor/palette_seesaw.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/seesaw.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_seesaw.svg"
+    },
+    "palette_pendulum_ball": {
+      "texture": "palette_pendulum_ball",
+      "path": "/assets/icons/editor/palette_pendulum_ball.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/weight.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_pendulum_ball.svg"
+    },
+    "palette_chain_bridge": {
+      "texture": "palette_chain_bridge",
+      "path": "/assets/icons/editor/palette_chain_bridge.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/chain_bridge.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_chain_bridge.svg"
+    },
+    "palette_spring": {
+      "texture": "palette_spring",
+      "path": "/assets/icons/editor/palette_spring.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/spring.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_spring.svg"
+    },
+    "palette_conveyor_belt": {
+      "texture": "palette_conveyor_belt",
+      "path": "/assets/icons/editor/palette_conveyor_belt.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/conveyor.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_conveyor_belt.svg"
+    },
+    "palette_moving_platform": {
+      "texture": "palette_moving_platform",
+      "path": "/assets/icons/editor/palette_moving_platform.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/moving_platform.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_moving_platform.svg"
+    },
+    "palette_elevator": {
+      "texture": "palette_elevator",
+      "path": "/assets/icons/editor/palette_elevator.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/elevator.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_elevator.svg"
+    },
+    "palette_rotating_platform": {
+      "texture": "palette_rotating_platform",
+      "path": "/assets/icons/editor/palette_rotating_platform.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/rotating_platform.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_rotating_platform.svg"
+    },
+    "palette_walker": {
+      "texture": "palette_walker",
+      "path": "/assets/icons/editor/palette_walker.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Enemies/slime_normal_walk_a.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_walker.svg"
+    },
+    "palette_shell": {
+      "texture": "palette_shell",
+      "path": "/assets/icons/editor/palette_shell.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Enemies/snail_shell.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_shell.svg"
+    },
+    "palette_flyer": {
+      "texture": "palette_flyer",
+      "path": "/assets/icons/editor/palette_flyer.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Enemies/fly_a.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_flyer.svg"
+    },
+    "palette_jumper": {
+      "texture": "palette_jumper",
+      "path": "/assets/icons/editor/palette_jumper.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Enemies/frog_idle.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_jumper.svg"
+    },
+    "palette_cannon": {
+      "texture": "palette_cannon",
+      "path": "/assets/icons/editor/palette_cannon.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/cannon.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_cannon.svg"
+    },
+    "palette_coin": {
+      "texture": "palette_coin",
+      "path": "/assets/icons/editor/palette_coin.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/coin_gold.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_coin.svg"
+    },
+    "palette_big_coin": {
+      "texture": "palette_big_coin",
+      "path": "/assets/icons/editor/palette_big_coin.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/coin_gold.svg",
+      "pack": "new-platformer-pack",
+      "note": "Native coin enlarged to 96 px; gameplay value comes from the entity.",
+      "svg": "/assets/icons/editor/svg/palette_big_coin.svg"
+    },
+    "palette_key": {
+      "texture": "palette_key",
+      "path": "/assets/icons/editor/palette_key.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/key_yellow.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_key.svg"
+    },
+    "palette_powerup_double_jump": {
+      "texture": "palette_powerup_double_jump",
+      "path": "/assets/icons/editor/palette_powerup_double_jump.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/powerup_double_jump.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_powerup_double_jump.svg"
+    },
+    "palette_powerup_dash": {
+      "texture": "palette_powerup_dash",
+      "path": "/assets/icons/editor/palette_powerup_dash.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/powerup_dash.svg",
+      "pack": "realmforge-supplements",
+      "note": "Original RealmForge CC0 supplement.",
+      "svg": "/assets/icons/editor/svg/palette_powerup_dash.svg"
+    },
+    "palette_start": {
+      "texture": "palette_start",
+      "path": "/assets/icons/editor/palette_start.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/sign_right.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_start.svg"
+    },
+    "palette_checkpoint": {
+      "texture": "palette_checkpoint",
+      "path": "/assets/icons/editor/palette_checkpoint.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/flag_blue_a.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_checkpoint.svg"
+    },
+    "palette_goal": {
+      "texture": "palette_goal",
+      "path": "/assets/icons/editor/palette_goal.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/flag_green_a.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_goal.svg"
+    },
+    "palette_door": {
+      "texture": "palette_door",
+      "path": "/assets/icons/editor/palette_door.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/door.svg",
+      "pack": "new-platformer-pack (composition)",
+      "note": "Composition of Kenney New Platformer Pack CC0 sprites.",
+      "svg": "/assets/icons/editor/svg/palette_door.svg"
+    },
+    "palette_locked_door": {
+      "texture": "palette_locked_door",
+      "path": "/assets/icons/editor/palette_locked_door.png",
+      "width": 64,
+      "height": 64,
+      "source": "custom/locked_door.svg",
+      "pack": "new-platformer-pack (composition)",
+      "note": "Composition of Kenney New Platformer Pack CC0 sprites.",
+      "svg": "/assets/icons/editor/svg/palette_locked_door.svg"
+    },
+    "palette_switch": {
+      "texture": "palette_switch",
+      "path": "/assets/icons/editor/palette_switch.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/switch_blue.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_switch.svg"
+    },
+    "palette_switch_block": {
+      "texture": "palette_switch_block",
+      "path": "/assets/icons/editor/palette_switch_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "new-platformer-pack/Vector/Tiles/block_blue.svg",
+      "pack": "new-platformer-pack",
+      "svg": "/assets/icons/editor/svg/palette_switch_block.svg"
+    }
+  },
+  "sfx": {
+    "jump": {
+      "path": "/assets/sfx/jump.ogg",
+      "pack": "new-platformer-pack",
+      "loop": false
+    },
+    "coin": {
+      "path": "/assets/sfx/coin.ogg",
+      "pack": "new-platformer-pack",
+      "loop": false
+    },
+    "stomp": {
+      "path": "/assets/sfx/stomp.ogg",
+      "pack": "new-platformer-pack",
+      "loop": false
+    },
+    "spring": {
+      "path": "/assets/sfx/spring.ogg",
+      "pack": "new-platformer-pack",
+      "loop": false
+    },
+    "death": {
+      "path": "/assets/sfx/death.ogg",
+      "pack": "new-platformer-pack",
+      "loop": false
+    },
+    "goal": {
+      "path": "/assets/sfx/goal.ogg",
+      "pack": "music-jingles",
+      "loop": false
+    },
+    "ui_click": {
+      "path": "/assets/sfx/ui_click.ogg",
+      "pack": "interface-sounds",
+      "loop": false
+    }
+  },
+  "music": {
+    "grass_01": {
+      "path": "/assets/music/grass_01.ogg",
+      "pack": "music-overworld",
+      "loop": true
+    },
+    "snow_01": {
+      "path": "/assets/music/snow_01.ogg",
+      "pack": "music-bass",
+      "loop": true
+    },
+    "castle_01": {
+      "path": "/assets/music/castle_01.ogg",
+      "pack": "music-sprinter",
+      "loop": true
+    }
+  },
+  "baseUrl": "/packs/mario/",
+  "license": "Nintendo proprietary; private educational class demo only. Ancillary Kenney UI/audio: CC0-1.0.",
+  "pixelArt": false,
+  "sourceTile": 64,
+  "elements": {
+    "spikes": {
+      "texture": "mario-spikes",
+      "path": "hazards/spikes.png",
+      "width": 14,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_pinchos/a525725e-d729-456d-ae99-2d30f93c85ae.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "hazards/spikes/atlas.png",
+      "atlas": "hazards/spikes/atlas.json",
+      "frame": "spikes_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "spikes_0",
+            "spikes_1",
+            "spikes_2",
+            "spikes_3",
+            "spikes_4",
+            "spikes_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "lava": {
+      "texture": "mario-lava",
+      "path": "hazards/lava.png",
+      "width": 64,
+      "height": 38,
+      "source": "mirror/spr_NSMBU_lava/2b84c5c0-f663-4191-8089-8c8646743185.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "hazards/lava/atlas.png",
+      "atlas": "hazards/lava/atlas.json",
+      "frame": "lava_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "lava_0",
+            "lava_1",
+            "lava_2",
+            "lava_3",
+            "lava_4",
+            "lava_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "falling_block": {
+      "texture": "mario-falling_block",
+      "path": "hazards/falling_block.png",
+      "width": 16,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_donut/e672939c-dfec-4bb1-988f-17839058a7c3.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Donut Block represents the falling-block mechanic.",
+      "image": "hazards/falling_block/atlas.png",
+      "atlas": "hazards/falling_block/atlas.json",
+      "frame": "falling_block_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "falling_block_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "saw": {
+      "texture": "mario-saw",
+      "path": "hazards/saw.png",
+      "width": 149,
+      "height": 149,
+      "source": "grinder.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "crate": {
+      "texture": "mario-crate",
+      "path": "dynamic/crate.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "note": "Native used/throw block represents the pushable crate; no native NSMBU crate was found."
+    },
+    "spring": {
+      "texture": "mario-spring",
+      "path": "dynamic/spring.png",
+      "width": 16,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_spring/f1c224cd-4876-4980-933f-64c3cfd21ecf.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/spring/atlas.png",
+      "atlas": "dynamic/spring/atlas.json",
+      "frame": "spring_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "spring_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "bounce": {
+          "frames": [
+            "spring_0",
+            "spring_1",
+            "spring_2",
+            "spring_3",
+            "spring_4",
+            "spring_5"
+          ],
+          "frameRate": 10,
+          "repeat": 0
+        },
+        "move": {
+          "frames": [
+            "spring_0",
+            "spring_1",
+            "spring_2",
+            "spring_3",
+            "spring_4",
+            "spring_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "spring_extended": {
+      "texture": "mario-spring_extended",
+      "path": "dynamic/spring_extended.png",
+      "width": 16,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_spring/f1c224cd-4876-4980-933f-64c3cfd21ecf.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/spring_extended/atlas.png",
+      "atlas": "dynamic/spring_extended/atlas.json",
+      "frame": "spring_extended_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "spring_extended_0",
+            "spring_extended_1",
+            "spring_extended_2",
+            "spring_extended_3"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "conveyor_belt": {
+      "texture": "mario-conveyor_belt",
+      "path": "dynamic/conveyor_belt.png",
+      "width": 128,
+      "height": 114,
+      "source": "scratch/105789235/c633bc5a3a325e4c0bcee8c2ae764a05.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/conveyor_belt/atlas.png",
+      "atlas": "dynamic/conveyor_belt/atlas.json",
+      "frame": "conveyor_belt_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "conveyor_belt_0",
+            "conveyor_belt_1",
+            "conveyor_belt_2",
+            "conveyor_belt_3",
+            "conveyor_belt_4",
+            "conveyor_belt_5",
+            "conveyor_belt_6",
+            "conveyor_belt_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "chain_link": {
+      "texture": "mario-chain_link",
+      "path": "dynamic/chain_link.png",
+      "width": 92,
+      "height": 92,
+      "source": "scratch/107756944/caae2bf6e61469121a5944053440f7cd.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 0.25,
+        "h": 0.25
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/chain_link/atlas.png",
+      "atlas": "dynamic/chain_link/atlas.json",
+      "frame": "chain_link_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "chain_link_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "pendulum_ball": {
+      "texture": "mario-pendulum_ball",
+      "path": "dynamic/pendulum_ball.png",
+      "width": 270,
+      "height": 276,
+      "source": "scratch/107756944/cb40d0ab4612fe7139b221994436ef76.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Chained Chain Chomp ball represents a wrecking ball; chain_link is provided separately.",
+      "image": "dynamic/pendulum_ball/atlas.png",
+      "atlas": "dynamic/pendulum_ball/atlas.json",
+      "frame": "pendulum_ball_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "pendulum_ball_0",
+            "pendulum_ball_1",
+            "pendulum_ball_2",
+            "pendulum_ball_3",
+            "pendulum_ball_4",
+            "pendulum_ball_5",
+            "pendulum_ball_6",
+            "pendulum_ball_7",
+            "pendulum_ball_8",
+            "pendulum_ball_9",
+            "pendulum_ball_10",
+            "pendulum_ball_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "seesaw": {
+      "texture": "mario-seesaw",
+      "path": "dynamic/seesaw.png",
+      "width": 80,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_platform_seesaw/acc4d600-63e7-4209-8831-8c9bd9e97e1d.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 5,
+        "h": 0.875
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/seesaw/atlas.png",
+      "atlas": "dynamic/seesaw/atlas.json",
+      "frame": "seesaw_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "seesaw_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "moving_platform": {
+      "texture": "mario-moving_platform",
+      "path": "moving/moving_platform.png",
+      "width": 48,
+      "height": 8,
+      "source": "mirror/spr_NSMBU_platform/9913820c-bddc-4961-815e-3f48df8feb7f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 3,
+        "h": 0.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "moving/moving_platform/atlas.png",
+      "atlas": "moving/moving_platform/atlas.json",
+      "frame": "moving_platform_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "moving_platform_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "elevator": {
+      "texture": "mario-elevator",
+      "path": "moving/elevator.png",
+      "width": 48,
+      "height": 8,
+      "source": "mirror/spr_NSMBU_platform/9913820c-bddc-4961-815e-3f48df8feb7f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 3,
+        "h": 0.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Native lift segment reused for the elevator.",
+      "image": "moving/elevator/atlas.png",
+      "atlas": "moving/elevator/atlas.json",
+      "frame": "elevator_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "elevator_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "rotating_platform": {
+      "texture": "mario-rotating_platform",
+      "path": "moving/rotating_platform.png",
+      "width": 80,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_platform_seesaw/acc4d600-63e7-4209-8831-8c9bd9e97e1d.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 5,
+        "h": 0.875
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Native seesaw deck reused for the rotator.",
+      "image": "moving/rotating_platform/atlas.png",
+      "atlas": "moving/rotating_platform/atlas.json",
+      "frame": "rotating_platform_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "rotating_platform_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "chain_bridge": {
+      "texture": "mario-chain_bridge",
+      "path": "dynamic/chain_bridge.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain."
+    },
+    "coin": {
+      "texture": "mario-coin",
+      "path": "items/coin.png",
+      "width": 14,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_coin/ecc81a77-b17a-43ec-8799-15da6a56f5f3.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "items/coin/atlas.png",
+      "atlas": "items/coin/atlas.json",
+      "frame": "coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "coin_0",
+            "coin_1",
+            "coin_2",
+            "coin_3",
+            "coin_4",
+            "coin_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "coin_side": {
+      "texture": "mario-coin_side",
+      "path": "items/coin_side.png",
+      "width": 6,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_coin/2488d49a-24a6-444e-9216-0a3481efad9c.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "items/coin_side/atlas.png",
+      "atlas": "items/coin_side/atlas.json",
+      "frame": "coin_side_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "coin_side_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "big_coin": {
+      "texture": "mario-big_coin",
+      "path": "items/big_coin.png",
+      "width": 29,
+      "height": 29,
+      "source": "mirror/spr_NSMBU_coin_10/11889b64-85b2-43da-8afc-df45c7d02b49.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "items/big_coin/atlas.png",
+      "atlas": "items/big_coin/atlas.json",
+      "frame": "big_coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "key": {
+      "texture": "mario-key",
+      "path": "items/key.png",
+      "width": 14,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_key/23a981c8-a10f-4502-bbe5-3608a14e2b88.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "items/key/atlas.png",
+      "atlas": "items/key/atlas.json",
+      "frame": "key_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "key_0",
+            "key_1",
+            "key_2",
+            "key_3",
+            "key_4",
+            "key_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "powerup_double_jump": {
+      "texture": "mario-powerup_double_jump",
+      "path": "items/powerup_double_jump.png",
+      "width": 16,
+      "height": 18,
+      "source": "mirror/spr_NSMBU_superacorn/f6daf4e3-da00-4c6e-8f23-ff42be97cfca.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Acorn represents double jump.",
+      "image": "items/powerup_double_jump/atlas.png",
+      "atlas": "items/powerup_double_jump/atlas.json",
+      "frame": "powerup_double_jump_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_double_jump_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "powerup_dash": {
+      "texture": "mario-powerup_dash",
+      "path": "items/powerup_dash.png",
+      "width": 196,
+      "height": 186,
+      "source": "scratch/105789235/ac7ef1b1c19251c941c676fe8cd8edbf.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Star represents dash.",
+      "image": "items/powerup_dash/atlas.png",
+      "atlas": "items/powerup_dash/atlas.json",
+      "frame": "powerup_dash_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_dash_0",
+            "powerup_dash_1",
+            "powerup_dash_2",
+            "powerup_dash_3",
+            "powerup_dash_4",
+            "powerup_dash_5",
+            "powerup_dash_6",
+            "powerup_dash_7",
+            "powerup_dash_8",
+            "powerup_dash_9",
+            "powerup_dash_10",
+            "powerup_dash_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "start": {
+      "texture": "mario-start",
+      "path": "flow/start.png",
+      "width": 76,
+      "height": 92,
+      "source": "mirror/spr_NSMBU_arrow_start_hd/574e95bb-3ff7-4254-bfd7-ec4f9a530883.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/start/atlas.png",
+      "atlas": "flow/start/atlas.json",
+      "frame": "start_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "start_0",
+            "start_1",
+            "start_2",
+            "start_3",
+            "start_4",
+            "start_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "checkpoint": {
+      "texture": "mario-checkpoint",
+      "path": "flow/checkpoint.png",
+      "width": 18,
+      "height": 31,
+      "source": "mirror/spr_NSMBU_checkpoint/8c296a93-98b7-41ba-bb3e-889971d8f20d.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/checkpoint/atlas.png",
+      "atlas": "flow/checkpoint/atlas.json",
+      "frame": "checkpoint_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "checkpoint_0",
+            "checkpoint_1",
+            "checkpoint_2",
+            "checkpoint_3",
+            "checkpoint_4",
+            "checkpoint_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "checkpoint_active": {
+      "texture": "mario-checkpoint_active",
+      "path": "flow/checkpoint_active.png",
+      "width": 17,
+      "height": 30,
+      "source": "mirror/spr_NSMBU_checkpoint_mario/f13a083e-e45e-491c-9df6-f292d0f39144.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/checkpoint_active/atlas.png",
+      "atlas": "flow/checkpoint_active/atlas.json",
+      "frame": "checkpoint_active_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "checkpoint_active_0",
+            "checkpoint_active_1",
+            "checkpoint_active_2",
+            "checkpoint_active_3",
+            "checkpoint_active_4",
+            "checkpoint_active_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "door": {
+      "texture": "mario-door",
+      "path": "flow/door.png",
+      "width": 156,
+      "height": 308,
+      "source": "scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/door/atlas.png",
+      "atlas": "flow/door/atlas.json",
+      "frame": "door_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "door_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "door_open": {
+      "texture": "mario-door_open",
+      "path": "flow/door_open.png",
+      "width": 156,
+      "height": 308,
+      "source": "scratch/105733943/d2fe68f80fc0ce83a4c69474a3a63411.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/door_open/atlas.png",
+      "atlas": "flow/door_open/atlas.json",
+      "frame": "door_open_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "door_open_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "locked_door": {
+      "texture": "mario-locked_door",
+      "path": "flow/locked_door.png",
+      "width": 20,
+      "height": 40,
+      "source": "mirror/spr_NSMBU_doorlock_anim/fab74fde-342a-4949-9a4c-99acc1ccf29f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/locked_door/atlas.png",
+      "atlas": "flow/locked_door/atlas.json",
+      "frame": "locked_door_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "locked_door_0",
+            "locked_door_1",
+            "locked_door_2",
+            "locked_door_3",
+            "locked_door_4",
+            "locked_door_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "switch": {
+      "texture": "mario-switch",
+      "path": "flow/switch.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/switch/atlas.png",
+      "atlas": "flow/switch/atlas.json",
+      "frame": "switch_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "switch_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "switch_on": {
+      "texture": "mario-switch_on",
+      "path": "flow/switch_on.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/switch_on/atlas.png",
+      "atlas": "flow/switch_on/atlas.json",
+      "frame": "switch_on_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "switch_on_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "switch_block": {
+      "texture": "mario-switch_block",
+      "path": "flow/switch_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/switch_block/atlas.png",
+      "atlas": "flow/switch_block/atlas.json",
+      "frame": "switch_block_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "switch_block_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      }
+    },
+    "switch_block_off": {
+      "texture": "mario-switch_block_off",
+      "path": "flow/switch_block_off.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "pswitch": {
+      "texture": "mario-pswitch",
+      "path": "flow/pswitch.png",
+      "width": 16,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_pswitch/b2ef23c8-3f68-482c-b16d-9e8cb65b7281.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/pswitch/atlas.png",
+      "atlas": "flow/pswitch/atlas.json",
+      "frame": "pswitch_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "pswitch_0",
+            "pswitch_1",
+            "pswitch_2",
+            "pswitch_3",
+            "pswitch_4",
+            "pswitch_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "goal": {
+      "texture": "mario-goal",
+      "path": "flow/goal.png",
+      "width": 48,
+      "height": 171,
+      "source": "mirror/spr_NSMBU_flagpole/a96bf6d2-2df9-44d3-b6eb-f0d2e725fb87.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1.4,
+        "h": 5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "goal_wave": {
+      "texture": "mario-goal_wave",
+      "path": "flow/goal_wave.png",
+      "width": 48,
+      "height": 171,
+      "source": "mirror/spr_NSMBU_flagpole/a96bf6d2-2df9-44d3-b6eb-f0d2e725fb87.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1.4,
+        "h": 5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "pipe": {
+      "texture": "mario-pipe",
+      "path": "flow/pipe.png",
+      "width": 128,
+      "height": 128,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 2,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hard_block": {
+      "texture": "mario-hard_block",
+      "path": "tiles/shared/hard_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "used_block": {
+      "texture": "mario-used_block",
+      "path": "tiles/shared/used_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "ice": {
+      "texture": "mario-ice",
+      "path": "tiles/shared/ice.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "slime": {
+      "texture": "mario-slime",
+      "path": "tiles/shared/slime.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "note": "Native Note Block is the visual substitute for high-friction slime; physics stays slime."
+    },
+    "grass_ground": {
+      "texture": "mario-grass_ground",
+      "path": "tiles/grass/grass_ground.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_top": {
+      "texture": "mario-grass_top",
+      "path": "tiles/grass/grass_top.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_top_left": {
+      "texture": "mario-grass_top_left",
+      "path": "tiles/grass/grass_top_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_top_right": {
+      "texture": "mario-grass_top_right",
+      "path": "tiles/grass/grass_top_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_fill": {
+      "texture": "mario-grass_fill",
+      "path": "tiles/grass/grass_fill.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_left": {
+      "texture": "mario-grass_left",
+      "path": "tiles/grass/grass_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_right": {
+      "texture": "mario-grass_right",
+      "path": "tiles/grass/grass_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_bottom": {
+      "texture": "mario-grass_bottom",
+      "path": "tiles/grass/grass_bottom.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_brick": {
+      "texture": "mario-grass_brick",
+      "path": "tiles/grass/grass_brick.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_question": {
+      "texture": "mario-grass_question",
+      "path": "tiles/grass/grass_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/grass/grass_question/atlas.png",
+      "atlas": "tiles/grass/grass_question/atlas.json",
+      "frame": "grass_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "grass_question_0",
+            "grass_question_1",
+            "grass_question_2",
+            "grass_question_3",
+            "grass_question_4",
+            "grass_question_5",
+            "grass_question_6",
+            "grass_question_7",
+            "grass_question_8",
+            "grass_question_9",
+            "grass_question_10",
+            "grass_question_11",
+            "grass_question_12",
+            "grass_question_13",
+            "grass_question_14",
+            "grass_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "grass_one_way": {
+      "texture": "mario-grass_one_way",
+      "path": "tiles/grass/grass_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_semi_solid": {
+      "texture": "mario-grass_semi_solid",
+      "path": "tiles/grass/grass_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_hard_block": {
+      "texture": "mario-grass_hard_block",
+      "path": "tiles/grass/grass_hard_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_used_block": {
+      "texture": "mario-grass_used_block",
+      "path": "tiles/grass/grass_used_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_ice": {
+      "texture": "mario-grass_ice",
+      "path": "tiles/grass/grass_ice.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "grass_slime": {
+      "texture": "mario-grass_slime",
+      "path": "tiles/grass/grass_slime.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_ground": {
+      "texture": "mario-desert_ground",
+      "path": "tiles/desert/desert_ground.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_top": {
+      "texture": "mario-desert_top",
+      "path": "tiles/desert/desert_top.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_top_left": {
+      "texture": "mario-desert_top_left",
+      "path": "tiles/desert/desert_top_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_top_right": {
+      "texture": "mario-desert_top_right",
+      "path": "tiles/desert/desert_top_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_fill": {
+      "texture": "mario-desert_fill",
+      "path": "tiles/desert/desert_fill.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_left": {
+      "texture": "mario-desert_left",
+      "path": "tiles/desert/desert_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_right": {
+      "texture": "mario-desert_right",
+      "path": "tiles/desert/desert_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_bottom": {
+      "texture": "mario-desert_bottom",
+      "path": "tiles/desert/desert_bottom.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_brick": {
+      "texture": "mario-desert_brick",
+      "path": "tiles/desert/desert_brick.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_question": {
+      "texture": "mario-desert_question",
+      "path": "tiles/desert/desert_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/desert/desert_question/atlas.png",
+      "atlas": "tiles/desert/desert_question/atlas.json",
+      "frame": "desert_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "desert_question_0",
+            "desert_question_1",
+            "desert_question_2",
+            "desert_question_3",
+            "desert_question_4",
+            "desert_question_5",
+            "desert_question_6",
+            "desert_question_7",
+            "desert_question_8",
+            "desert_question_9",
+            "desert_question_10",
+            "desert_question_11",
+            "desert_question_12",
+            "desert_question_13",
+            "desert_question_14",
+            "desert_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "desert_one_way": {
+      "texture": "mario-desert_one_way",
+      "path": "tiles/desert/desert_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_semi_solid": {
+      "texture": "mario-desert_semi_solid",
+      "path": "tiles/desert/desert_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_hard_block": {
+      "texture": "mario-desert_hard_block",
+      "path": "tiles/desert/desert_hard_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_used_block": {
+      "texture": "mario-desert_used_block",
+      "path": "tiles/desert/desert_used_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_ice": {
+      "texture": "mario-desert_ice",
+      "path": "tiles/desert/desert_ice.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "desert_slime": {
+      "texture": "mario-desert_slime",
+      "path": "tiles/desert/desert_slime.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-7.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_ground": {
+      "texture": "mario-snow_ground",
+      "path": "tiles/snow/snow_ground.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_top": {
+      "texture": "mario-snow_top",
+      "path": "tiles/snow/snow_top.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_top_left": {
+      "texture": "mario-snow_top_left",
+      "path": "tiles/snow/snow_top_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_top_right": {
+      "texture": "mario-snow_top_right",
+      "path": "tiles/snow/snow_top_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_fill": {
+      "texture": "mario-snow_fill",
+      "path": "tiles/snow/snow_fill.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_left": {
+      "texture": "mario-snow_left",
+      "path": "tiles/snow/snow_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_right": {
+      "texture": "mario-snow_right",
+      "path": "tiles/snow/snow_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_bottom": {
+      "texture": "mario-snow_bottom",
+      "path": "tiles/snow/snow_bottom.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_brick": {
+      "texture": "mario-snow_brick",
+      "path": "tiles/snow/snow_brick.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_question": {
+      "texture": "mario-snow_question",
+      "path": "tiles/snow/snow_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/snow/snow_question/atlas.png",
+      "atlas": "tiles/snow/snow_question/atlas.json",
+      "frame": "snow_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "snow_question_0",
+            "snow_question_1",
+            "snow_question_2",
+            "snow_question_3",
+            "snow_question_4",
+            "snow_question_5",
+            "snow_question_6",
+            "snow_question_7",
+            "snow_question_8",
+            "snow_question_9",
+            "snow_question_10",
+            "snow_question_11",
+            "snow_question_12",
+            "snow_question_13",
+            "snow_question_14",
+            "snow_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "snow_one_way": {
+      "texture": "mario-snow_one_way",
+      "path": "tiles/snow/snow_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_semi_solid": {
+      "texture": "mario-snow_semi_solid",
+      "path": "tiles/snow/snow_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_hard_block": {
+      "texture": "mario-snow_hard_block",
+      "path": "tiles/snow/snow_hard_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_used_block": {
+      "texture": "mario-snow_used_block",
+      "path": "tiles/snow/snow_used_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_ice": {
+      "texture": "mario-snow_ice",
+      "path": "tiles/snow/snow_ice.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "snow_slime": {
+      "texture": "mario-snow_slime",
+      "path": "tiles/snow/snow_slime.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-6.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_ground": {
+      "texture": "mario-castle_ground",
+      "path": "tiles/castle/castle_ground.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_top": {
+      "texture": "mario-castle_top",
+      "path": "tiles/castle/castle_top.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_top_left": {
+      "texture": "mario-castle_top_left",
+      "path": "tiles/castle/castle_top_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_top_right": {
+      "texture": "mario-castle_top_right",
+      "path": "tiles/castle/castle_top_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_fill": {
+      "texture": "mario-castle_fill",
+      "path": "tiles/castle/castle_fill.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_left": {
+      "texture": "mario-castle_left",
+      "path": "tiles/castle/castle_left.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_right": {
+      "texture": "mario-castle_right",
+      "path": "tiles/castle/castle_right.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_bottom": {
+      "texture": "mario-castle_bottom",
+      "path": "tiles/castle/castle_bottom.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_brick": {
+      "texture": "mario-castle_brick",
+      "path": "tiles/castle/castle_brick.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_question": {
+      "texture": "mario-castle_question",
+      "path": "tiles/castle/castle_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/castle/castle_question/atlas.png",
+      "atlas": "tiles/castle/castle_question/atlas.json",
+      "frame": "castle_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "castle_question_0",
+            "castle_question_1",
+            "castle_question_2",
+            "castle_question_3",
+            "castle_question_4",
+            "castle_question_5",
+            "castle_question_6",
+            "castle_question_7",
+            "castle_question_8",
+            "castle_question_9",
+            "castle_question_10",
+            "castle_question_11",
+            "castle_question_12",
+            "castle_question_13",
+            "castle_question_14",
+            "castle_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "castle_one_way": {
+      "texture": "mario-castle_one_way",
+      "path": "tiles/castle/castle_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_semi_solid": {
+      "texture": "mario-castle_semi_solid",
+      "path": "tiles/castle/castle_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_hard_block": {
+      "texture": "mario-castle_hard_block",
+      "path": "tiles/castle/castle_hard_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_used_block": {
+      "texture": "mario-castle_used_block",
+      "path": "tiles/castle/castle_used_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_ice": {
+      "texture": "mario-castle_ice",
+      "path": "tiles/castle/castle_ice.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "castle_slime": {
+      "texture": "mario-castle_slime",
+      "path": "tiles/castle/castle_slime.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-2.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    "walker": {
+      "texture": "mario-walker",
+      "path": "enemies/walker.png",
+      "width": 21,
+      "height": 19,
+      "source": "mirror/spr_NSMBU_goomba/ba2ab1f6-ef50-4c8c-88b6-8cdc3250b3be.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/walker/atlas.png",
+      "atlas": "enemies/walker/atlas.json",
+      "frame": "walker_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "walker_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "walker_0",
+            "walker_1",
+            "walker_2",
+            "walker_3",
+            "walker_4",
+            "walker_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "stomp": {
+          "frames": [
+            "walker_6"
+          ],
+          "frameRate": 1,
+          "repeat": 0
+        }
+      }
+    },
+    "shell": {
+      "texture": "mario-shell",
+      "path": "enemies/shell.png",
+      "width": 234,
+      "height": 276,
+      "source": "scratch/107756944/010fa4a79921df1296c3eecb570feb40.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/shell/atlas.png",
+      "atlas": "enemies/shell/atlas.json",
+      "frame": "shell_4",
+      "animations": {
+        "idle": {
+          "frames": [
+            "shell_4"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "shell_0",
+            "shell_1",
+            "shell_2",
+            "shell_3"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "shell_0",
+            "shell_1",
+            "shell_2",
+            "shell_3"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "kick": {
+          "frames": [
+            "shell_4",
+            "shell_5",
+            "shell_6",
+            "shell_7",
+            "shell_8",
+            "shell_9"
+          ],
+          "frameRate": 10,
+          "repeat": 0
+        },
+        "spin": {
+          "frames": [
+            "shell_4",
+            "shell_5",
+            "shell_6",
+            "shell_7",
+            "shell_8",
+            "shell_9"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "flyer": {
+      "texture": "mario-flyer",
+      "path": "enemies/flyer.png",
+      "width": 48,
+      "height": 40,
+      "source": "mirror/spr_NSMBU_koopa_fly/50df9874-d5a8-4941-8b17-aa336b4934a4.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/flyer/atlas.png",
+      "atlas": "enemies/flyer/atlas.json",
+      "frame": "flyer_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "flyer_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "flyer_0",
+            "flyer_1",
+            "flyer_2",
+            "flyer_3",
+            "flyer_4",
+            "flyer_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "jumper": {
+      "texture": "mario-jumper",
+      "path": "enemies/jumper.png",
+      "width": 190,
+      "height": 184,
+      "source": "scratch/107756944/f65130a002a379aa60de58a902b263ad.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/jumper/atlas.png",
+      "atlas": "enemies/jumper/atlas.json",
+      "frame": "jumper_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "jumper_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "jumper_0",
+            "jumper_1",
+            "jumper_2",
+            "jumper_3",
+            "jumper_4",
+            "jumper_5",
+            "jumper_6",
+            "jumper_7",
+            "jumper_8",
+            "jumper_9",
+            "jumper_10",
+            "jumper_11"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "jump": {
+          "frames": [
+            "jumper_0",
+            "jumper_1",
+            "jumper_2",
+            "jumper_3",
+            "jumper_4",
+            "jumper_5",
+            "jumper_6",
+            "jumper_7",
+            "jumper_8",
+            "jumper_9",
+            "jumper_10",
+            "jumper_11"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      }
+    },
+    "cannon": {
+      "texture": "mario-cannon",
+      "path": "enemies/cannon.png",
+      "width": 16,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_bullebill_base/c65f1432-f414-4311-98f7-24a3aa2a13d8.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/cannon/atlas.png",
+      "atlas": "enemies/cannon/atlas.json",
+      "frame": "cannon_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "cannon_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "cannon_0",
+            "cannon_1",
+            "cannon_2"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "bullet_bill": {
+      "texture": "mario-bullet_bill",
+      "path": "enemies/bullet_bill.png",
+      "width": 204,
+      "height": 132,
+      "source": "scratch/105733943/19d7779ffd963740abb2d0018115f972.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/bullet_bill/atlas.png",
+      "atlas": "enemies/bullet_bill/atlas.json",
+      "frame": "bullet_bill_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "bullet_bill_0",
+            "bullet_bill_1",
+            "bullet_bill_2",
+            "bullet_bill_3",
+            "bullet_bill_4",
+            "bullet_bill_5",
+            "bullet_bill_6",
+            "bullet_bill_7",
+            "bullet_bill_8",
+            "bullet_bill_9",
+            "bullet_bill_10",
+            "bullet_bill_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      }
+    },
+    "background_grass": {
+      "texture": "background_grass",
+      "path": "backgrounds/grass/overworld_0.png",
+      "width": 1676,
+      "height": 432,
+      "source": "mirror/bg_NSMBU_overworld_0/705adb7f-3dc4-4374-8ca7-ff38987b5dcb.png",
+      "pack": "mario-nsmbu"
+    },
+    "background_desert": {
+      "texture": "background_desert",
+      "path": "backgrounds/desert/desert_1.png",
+      "width": 1788,
+      "height": 432,
+      "source": "mirror/bg_NSMBU_desert_1/f15f96e6-2a4b-493f-bc36-a36385bd2c98.png",
+      "pack": "mario-nsmbu"
+    },
+    "background_snow": {
+      "texture": "background_snow",
+      "path": "backgrounds/snow/snow_0.png",
+      "width": 1740,
+      "height": 432,
+      "source": "mirror/bg_NSMBU_snow_0/d7e9a76f-eb50-4b57-98d9-30b3d751b0c8.png",
+      "pack": "mario-nsmbu"
+    },
+    "background_castle": {
+      "texture": "background_castle",
+      "path": "backgrounds/castle/castle_1.png",
+      "width": 1740,
+      "height": 432,
+      "source": "mirror/bg_NSMBU_castle_1/fd17bb21-193d-4aaa-8ea8-63215fcbd096.png",
+      "pack": "mario-nsmbu"
+    },
+    "ground": {
+      "texture": "mario-grass_ground",
+      "path": "tiles/grass/grass_ground.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_ground"
+    },
+    "brick": {
+      "texture": "mario-grass_brick",
+      "path": "tiles/grass/grass_brick.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_brick"
+    },
+    "question": {
+      "texture": "mario-grass_question",
+      "path": "tiles/grass/grass_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/grass/grass_question/atlas.png",
+      "atlas": "tiles/grass/grass_question/atlas.json",
+      "frame": "grass_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "grass_question_0",
+            "grass_question_1",
+            "grass_question_2",
+            "grass_question_3",
+            "grass_question_4",
+            "grass_question_5",
+            "grass_question_6",
+            "grass_question_7",
+            "grass_question_8",
+            "grass_question_9",
+            "grass_question_10",
+            "grass_question_11",
+            "grass_question_12",
+            "grass_question_13",
+            "grass_question_14",
+            "grass_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "grass_question"
+    },
+    "question-block": {
+      "texture": "mario-grass_question",
+      "path": "tiles/grass/grass_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/grass/grass_question/atlas.png",
+      "atlas": "tiles/grass/grass_question/atlas.json",
+      "frame": "grass_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "grass_question_0",
+            "grass_question_1",
+            "grass_question_2",
+            "grass_question_3",
+            "grass_question_4",
+            "grass_question_5",
+            "grass_question_6",
+            "grass_question_7",
+            "grass_question_8",
+            "grass_question_9",
+            "grass_question_10",
+            "grass_question_11",
+            "grass_question_12",
+            "grass_question_13",
+            "grass_question_14",
+            "grass_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "grass_question"
+    },
+    "question_block": {
+      "texture": "mario-grass_question",
+      "path": "tiles/grass/grass_question.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "image": "tiles/grass/grass_question/atlas.png",
+      "atlas": "tiles/grass/grass_question/atlas.json",
+      "frame": "grass_question_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "grass_question_0",
+            "grass_question_1",
+            "grass_question_2",
+            "grass_question_3",
+            "grass_question_4",
+            "grass_question_5",
+            "grass_question_6",
+            "grass_question_7",
+            "grass_question_8",
+            "grass_question_9",
+            "grass_question_10",
+            "grass_question_11",
+            "grass_question_12",
+            "grass_question_13",
+            "grass_question_14",
+            "grass_question_15"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "grass_question"
+    },
+    "one-way": {
+      "texture": "mario-grass_one_way",
+      "path": "tiles/grass/grass_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_one_way"
+    },
+    "one-way-platform": {
+      "texture": "mario-grass_one_way",
+      "path": "tiles/grass/grass_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_one_way"
+    },
+    "one_way": {
+      "texture": "mario-grass_one_way",
+      "path": "tiles/grass/grass_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_one_way"
+    },
+    "oneWay": {
+      "texture": "mario-grass_one_way",
+      "path": "tiles/grass/grass_one_way.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_one_way"
+    },
+    "semi-solid": {
+      "texture": "mario-grass_semi_solid",
+      "path": "tiles/grass/grass_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_semi_solid"
+    },
+    "semi_solid": {
+      "texture": "mario-grass_semi_solid",
+      "path": "tiles/grass/grass_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_semi_solid"
+    },
+    "semisolid": {
+      "texture": "mario-grass_semi_solid",
+      "path": "tiles/grass/grass_semi_solid.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "aliasOf": "grass_semi_solid"
+    },
+    "falling-block": {
+      "texture": "mario-falling_block",
+      "path": "hazards/falling_block.png",
+      "width": 16,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_donut/e672939c-dfec-4bb1-988f-17839058a7c3.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Donut Block represents the falling-block mechanic.",
+      "image": "hazards/falling_block/atlas.png",
+      "atlas": "hazards/falling_block/atlas.json",
+      "frame": "falling_block_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "falling_block_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "falling_block"
+    },
+    "fallingBlock": {
+      "texture": "mario-falling_block",
+      "path": "hazards/falling_block.png",
+      "width": 16,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_donut/e672939c-dfec-4bb1-988f-17839058a7c3.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Donut Block represents the falling-block mechanic.",
+      "image": "hazards/falling_block/atlas.png",
+      "atlas": "hazards/falling_block/atlas.json",
+      "frame": "falling_block_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "falling_block_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "falling_block"
+    },
+    "pendulum": {
+      "texture": "mario-pendulum_ball",
+      "path": "dynamic/pendulum_ball.png",
+      "width": 270,
+      "height": 276,
+      "source": "scratch/107756944/cb40d0ab4612fe7139b221994436ef76.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Chained Chain Chomp ball represents a wrecking ball; chain_link is provided separately.",
+      "image": "dynamic/pendulum_ball/atlas.png",
+      "atlas": "dynamic/pendulum_ball/atlas.json",
+      "frame": "pendulum_ball_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "pendulum_ball_0",
+            "pendulum_ball_1",
+            "pendulum_ball_2",
+            "pendulum_ball_3",
+            "pendulum_ball_4",
+            "pendulum_ball_5",
+            "pendulum_ball_6",
+            "pendulum_ball_7",
+            "pendulum_ball_8",
+            "pendulum_ball_9",
+            "pendulum_ball_10",
+            "pendulum_ball_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "pendulum_ball"
+    },
+    "wrecking-ball": {
+      "texture": "mario-pendulum_ball",
+      "path": "dynamic/pendulum_ball.png",
+      "width": 270,
+      "height": 276,
+      "source": "scratch/107756944/cb40d0ab4612fe7139b221994436ef76.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Chained Chain Chomp ball represents a wrecking ball; chain_link is provided separately.",
+      "image": "dynamic/pendulum_ball/atlas.png",
+      "atlas": "dynamic/pendulum_ball/atlas.json",
+      "frame": "pendulum_ball_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "pendulum_ball_0",
+            "pendulum_ball_1",
+            "pendulum_ball_2",
+            "pendulum_ball_3",
+            "pendulum_ball_4",
+            "pendulum_ball_5",
+            "pendulum_ball_6",
+            "pendulum_ball_7",
+            "pendulum_ball_8",
+            "pendulum_ball_9",
+            "pendulum_ball_10",
+            "pendulum_ball_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "pendulum_ball"
+    },
+    "wrecking_ball": {
+      "texture": "mario-pendulum_ball",
+      "path": "dynamic/pendulum_ball.png",
+      "width": 270,
+      "height": 276,
+      "source": "scratch/107756944/cb40d0ab4612fe7139b221994436ef76.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Chained Chain Chomp ball represents a wrecking ball; chain_link is provided separately.",
+      "image": "dynamic/pendulum_ball/atlas.png",
+      "atlas": "dynamic/pendulum_ball/atlas.json",
+      "frame": "pendulum_ball_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "pendulum_ball_0",
+            "pendulum_ball_1",
+            "pendulum_ball_2",
+            "pendulum_ball_3",
+            "pendulum_ball_4",
+            "pendulum_ball_5",
+            "pendulum_ball_6",
+            "pendulum_ball_7",
+            "pendulum_ball_8",
+            "pendulum_ball_9",
+            "pendulum_ball_10",
+            "pendulum_ball_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "pendulum_ball"
+    },
+    "chain": {
+      "texture": "mario-chain_bridge",
+      "path": "dynamic/chain_bridge.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain.",
+      "aliasOf": "chain_bridge"
+    },
+    "chain-bridge": {
+      "texture": "mario-chain_bridge",
+      "path": "dynamic/chain_bridge.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "note": "Native rope bridge plank segment; chain_link is supplied for the constraint chain.",
+      "aliasOf": "chain_bridge"
+    },
+    "trampoline": {
+      "texture": "mario-spring",
+      "path": "dynamic/spring.png",
+      "width": 16,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_spring/f1c224cd-4876-4980-933f-64c3cfd21ecf.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/spring/atlas.png",
+      "atlas": "dynamic/spring/atlas.json",
+      "frame": "spring_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "spring_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "bounce": {
+          "frames": [
+            "spring_0",
+            "spring_1",
+            "spring_2",
+            "spring_3",
+            "spring_4",
+            "spring_5"
+          ],
+          "frameRate": 10,
+          "repeat": 0
+        },
+        "move": {
+          "frames": [
+            "spring_0",
+            "spring_1",
+            "spring_2",
+            "spring_3",
+            "spring_4",
+            "spring_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "spring"
+    },
+    "conveyor": {
+      "texture": "mario-conveyor_belt",
+      "path": "dynamic/conveyor_belt.png",
+      "width": 128,
+      "height": 114,
+      "source": "scratch/105789235/c633bc5a3a325e4c0bcee8c2ae764a05.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/conveyor_belt/atlas.png",
+      "atlas": "dynamic/conveyor_belt/atlas.json",
+      "frame": "conveyor_belt_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "conveyor_belt_0",
+            "conveyor_belt_1",
+            "conveyor_belt_2",
+            "conveyor_belt_3",
+            "conveyor_belt_4",
+            "conveyor_belt_5",
+            "conveyor_belt_6",
+            "conveyor_belt_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "conveyor_belt"
+    },
+    "conveyor-belt": {
+      "texture": "mario-conveyor_belt",
+      "path": "dynamic/conveyor_belt.png",
+      "width": 128,
+      "height": 114,
+      "source": "scratch/105789235/c633bc5a3a325e4c0bcee8c2ae764a05.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "dynamic/conveyor_belt/atlas.png",
+      "atlas": "dynamic/conveyor_belt/atlas.json",
+      "frame": "conveyor_belt_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "conveyor_belt_0",
+            "conveyor_belt_1",
+            "conveyor_belt_2",
+            "conveyor_belt_3",
+            "conveyor_belt_4",
+            "conveyor_belt_5",
+            "conveyor_belt_6",
+            "conveyor_belt_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "conveyor_belt"
+    },
+    "moving-platform": {
+      "texture": "mario-moving_platform",
+      "path": "moving/moving_platform.png",
+      "width": 48,
+      "height": 8,
+      "source": "mirror/spr_NSMBU_platform/9913820c-bddc-4961-815e-3f48df8feb7f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 3,
+        "h": 0.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "moving/moving_platform/atlas.png",
+      "atlas": "moving/moving_platform/atlas.json",
+      "frame": "moving_platform_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "moving_platform_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "moving_platform"
+    },
+    "movingPlatform": {
+      "texture": "mario-moving_platform",
+      "path": "moving/moving_platform.png",
+      "width": 48,
+      "height": 8,
+      "source": "mirror/spr_NSMBU_platform/9913820c-bddc-4961-815e-3f48df8feb7f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 3,
+        "h": 0.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "moving/moving_platform/atlas.png",
+      "atlas": "moving/moving_platform/atlas.json",
+      "frame": "moving_platform_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "moving_platform_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "moving_platform"
+    },
+    "rotating-platform": {
+      "texture": "mario-rotating_platform",
+      "path": "moving/rotating_platform.png",
+      "width": 80,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_platform_seesaw/acc4d600-63e7-4209-8831-8c9bd9e97e1d.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 5,
+        "h": 0.875
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Native seesaw deck reused for the rotator.",
+      "image": "moving/rotating_platform/atlas.png",
+      "atlas": "moving/rotating_platform/atlas.json",
+      "frame": "rotating_platform_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "rotating_platform_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "rotating_platform"
+    },
+    "rotatingPlatform": {
+      "texture": "mario-rotating_platform",
+      "path": "moving/rotating_platform.png",
+      "width": 80,
+      "height": 14,
+      "source": "mirror/spr_NSMBU_platform_seesaw/acc4d600-63e7-4209-8831-8c9bd9e97e1d.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 5,
+        "h": 0.875
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Native seesaw deck reused for the rotator.",
+      "image": "moving/rotating_platform/atlas.png",
+      "atlas": "moving/rotating_platform/atlas.json",
+      "frame": "rotating_platform_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "rotating_platform_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "rotating_platform"
+    },
+    "big-coin": {
+      "texture": "mario-big_coin",
+      "path": "items/big_coin.png",
+      "width": 29,
+      "height": 29,
+      "source": "mirror/spr_NSMBU_coin_10/11889b64-85b2-43da-8afc-df45c7d02b49.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "items/big_coin/atlas.png",
+      "atlas": "items/big_coin/atlas.json",
+      "frame": "big_coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "big_coin"
+    },
+    "bigCoin": {
+      "texture": "mario-big_coin",
+      "path": "items/big_coin.png",
+      "width": 29,
+      "height": 29,
+      "source": "mirror/spr_NSMBU_coin_10/11889b64-85b2-43da-8afc-df45c7d02b49.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "items/big_coin/atlas.png",
+      "atlas": "items/big_coin/atlas.json",
+      "frame": "big_coin_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "big_coin_0",
+            "big_coin_1",
+            "big_coin_2",
+            "big_coin_3",
+            "big_coin_4",
+            "big_coin_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "big_coin"
+    },
+    "double-jump": {
+      "texture": "mario-powerup_double_jump",
+      "path": "items/powerup_double_jump.png",
+      "width": 16,
+      "height": 18,
+      "source": "mirror/spr_NSMBU_superacorn/f6daf4e3-da00-4c6e-8f23-ff42be97cfca.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Acorn represents double jump.",
+      "image": "items/powerup_double_jump/atlas.png",
+      "atlas": "items/powerup_double_jump/atlas.json",
+      "frame": "powerup_double_jump_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_double_jump_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "powerup_double_jump"
+    },
+    "doubleJump": {
+      "texture": "mario-powerup_double_jump",
+      "path": "items/powerup_double_jump.png",
+      "width": 16,
+      "height": 18,
+      "source": "mirror/spr_NSMBU_superacorn/f6daf4e3-da00-4c6e-8f23-ff42be97cfca.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Acorn represents double jump.",
+      "image": "items/powerup_double_jump/atlas.png",
+      "atlas": "items/powerup_double_jump/atlas.json",
+      "frame": "powerup_double_jump_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_double_jump_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "powerup_double_jump"
+    },
+    "dash": {
+      "texture": "mario-powerup_dash",
+      "path": "items/powerup_dash.png",
+      "width": 196,
+      "height": 186,
+      "source": "scratch/105789235/ac7ef1b1c19251c941c676fe8cd8edbf.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Star represents dash.",
+      "image": "items/powerup_dash/atlas.png",
+      "atlas": "items/powerup_dash/atlas.json",
+      "frame": "powerup_dash_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_dash_0",
+            "powerup_dash_1",
+            "powerup_dash_2",
+            "powerup_dash_3",
+            "powerup_dash_4",
+            "powerup_dash_5",
+            "powerup_dash_6",
+            "powerup_dash_7",
+            "powerup_dash_8",
+            "powerup_dash_9",
+            "powerup_dash_10",
+            "powerup_dash_11"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "powerup_dash"
+    },
+    "power-up": {
+      "texture": "mario-powerup_double_jump",
+      "path": "items/powerup_double_jump.png",
+      "width": 16,
+      "height": 18,
+      "source": "mirror/spr_NSMBU_superacorn/f6daf4e3-da00-4c6e-8f23-ff42be97cfca.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Acorn represents double jump.",
+      "image": "items/powerup_double_jump/atlas.png",
+      "atlas": "items/powerup_double_jump/atlas.json",
+      "frame": "powerup_double_jump_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_double_jump_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "powerup_double_jump"
+    },
+    "powerup": {
+      "texture": "mario-powerup_double_jump",
+      "path": "items/powerup_double_jump.png",
+      "width": 16,
+      "height": 18,
+      "source": "mirror/spr_NSMBU_superacorn/f6daf4e3-da00-4c6e-8f23-ff42be97cfca.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Super Acorn represents double jump.",
+      "image": "items/powerup_double_jump/atlas.png",
+      "atlas": "items/powerup_double_jump/atlas.json",
+      "frame": "powerup_double_jump_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "powerup_double_jump_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "powerup_double_jump"
+    },
+    "key-lock-door": {
+      "texture": "mario-locked_door",
+      "path": "flow/locked_door.png",
+      "width": 20,
+      "height": 40,
+      "source": "mirror/spr_NSMBU_doorlock_anim/fab74fde-342a-4949-9a4c-99acc1ccf29f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/locked_door/atlas.png",
+      "atlas": "flow/locked_door/atlas.json",
+      "frame": "locked_door_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "locked_door_0",
+            "locked_door_1",
+            "locked_door_2",
+            "locked_door_3",
+            "locked_door_4",
+            "locked_door_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "locked_door"
+    },
+    "keyLockDoor": {
+      "texture": "mario-locked_door",
+      "path": "flow/locked_door.png",
+      "width": 20,
+      "height": 40,
+      "source": "mirror/spr_NSMBU_doorlock_anim/fab74fde-342a-4949-9a4c-99acc1ccf29f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/locked_door/atlas.png",
+      "atlas": "flow/locked_door/atlas.json",
+      "frame": "locked_door_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "locked_door_0",
+            "locked_door_1",
+            "locked_door_2",
+            "locked_door_3",
+            "locked_door_4",
+            "locked_door_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "locked_door"
+    },
+    "lockedDoor": {
+      "texture": "mario-locked_door",
+      "path": "flow/locked_door.png",
+      "width": 20,
+      "height": 40,
+      "source": "mirror/spr_NSMBU_doorlock_anim/fab74fde-342a-4949-9a4c-99acc1ccf29f.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/locked_door/atlas.png",
+      "atlas": "flow/locked_door/atlas.json",
+      "frame": "locked_door_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "locked_door_0",
+            "locked_door_1",
+            "locked_door_2",
+            "locked_door_3",
+            "locked_door_4",
+            "locked_door_5"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "locked_door"
+    },
+    "switch-block": {
+      "texture": "mario-switch_block",
+      "path": "flow/switch_block.png",
+      "width": 64,
+      "height": 64,
+      "source": "tiles/21847-0.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "image": "flow/switch_block/atlas.png",
+      "atlas": "flow/switch_block/atlas.json",
+      "frame": "switch_block_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "switch_block_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      },
+      "aliasOf": "switch_block"
+    }
+  },
+  "characters": {
+    "mario": {
+      "texture": "mario-mario",
+      "path": "characters/mario/idle.png",
+      "width": 34,
+      "height": 35,
+      "source": "mirror/spr_NSMBU_mario_big_idle/9a15f3b4-9924-4a1c-ba5e-1874dc21e761.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 2.125,
+        "h": 2.1875
+      },
+      "image": "characters/mario/atlas.png",
+      "atlas": "characters/mario/atlas.json",
+      "frame": "mario_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "mario_0",
+            "mario_1",
+            "mario_2",
+            "mario_3",
+            "mario_4",
+            "mario_5",
+            "mario_6",
+            "mario_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "mario_8",
+            "mario_9",
+            "mario_10",
+            "mario_11",
+            "mario_12",
+            "mario_13",
+            "mario_14",
+            "mario_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "mario_16",
+            "mario_17",
+            "mario_18",
+            "mario_19",
+            "mario_20",
+            "mario_21",
+            "mario_22",
+            "mario_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "mario_24",
+            "mario_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "mario_26",
+            "mario_27",
+            "mario_28",
+            "mario_29",
+            "mario_30",
+            "mario_31",
+            "mario_32",
+            "mario_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "mario_34",
+            "mario_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "mario_36",
+            "mario_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "mario_38",
+            "mario_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "mario_40",
+            "mario_41",
+            "mario_42",
+            "mario_43",
+            "mario_44",
+            "mario_45",
+            "mario_46",
+            "mario_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      }
+    },
+    "mario_small": {
+      "texture": "mario-mario_small",
+      "path": "characters/mario_small/idle.png",
+      "width": 22,
+      "height": 25,
+      "source": "mirror/spr_NSMBU_mario_small_idle/f6584ac8-9856-4c80-be14-16b1efdcf828.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1.0,
+        "h": 1.13636
+      },
+      "image": "characters/mario_small/atlas.png",
+      "atlas": "characters/mario_small/atlas.json",
+      "frame": "mario_small_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "mario_small_0",
+            "mario_small_1",
+            "mario_small_2",
+            "mario_small_3",
+            "mario_small_4",
+            "mario_small_5",
+            "mario_small_6",
+            "mario_small_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "mario_small_8",
+            "mario_small_9",
+            "mario_small_10",
+            "mario_small_11",
+            "mario_small_12",
+            "mario_small_13",
+            "mario_small_14",
+            "mario_small_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "mario_small_16",
+            "mario_small_17",
+            "mario_small_18",
+            "mario_small_19",
+            "mario_small_20",
+            "mario_small_21",
+            "mario_small_22",
+            "mario_small_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "mario_small_24",
+            "mario_small_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "mario_small_26",
+            "mario_small_27",
+            "mario_small_28",
+            "mario_small_29",
+            "mario_small_30",
+            "mario_small_31",
+            "mario_small_32",
+            "mario_small_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "mario_small_34",
+            "mario_small_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "mario_small_36",
+            "mario_small_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "mario_small_38",
+            "mario_small_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "mario_small_40",
+            "mario_small_41",
+            "mario_small_42",
+            "mario_small_43",
+            "mario_small_44",
+            "mario_small_45",
+            "mario_small_46",
+            "mario_small_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      }
+    },
+    "luigi": {
+      "texture": "mario-luigi",
+      "path": "characters/luigi/idle.png",
+      "width": 34,
+      "height": 35,
+      "source": "mirror/spr_NSMBU_mario_big_idle/9a15f3b4-9924-4a1c-ba5e-1874dc21e761.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "note": "Luigi colour variant of the big Mario capture; native Luigi walk is separately supplied as luigi_native_walk.",
+      "displaySize": {
+        "w": 2.125,
+        "h": 2.1875
+      },
+      "image": "characters/luigi/atlas.png",
+      "atlas": "characters/luigi/atlas.json",
+      "frame": "luigi_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "luigi_0",
+            "luigi_1",
+            "luigi_2",
+            "luigi_3",
+            "luigi_4",
+            "luigi_5",
+            "luigi_6",
+            "luigi_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "luigi_8",
+            "luigi_9",
+            "luigi_10",
+            "luigi_11",
+            "luigi_12",
+            "luigi_13",
+            "luigi_14",
+            "luigi_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "luigi_16",
+            "luigi_17",
+            "luigi_18",
+            "luigi_19",
+            "luigi_20",
+            "luigi_21",
+            "luigi_22",
+            "luigi_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "luigi_24",
+            "luigi_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "luigi_26",
+            "luigi_27",
+            "luigi_28",
+            "luigi_29",
+            "luigi_30",
+            "luigi_31",
+            "luigi_32",
+            "luigi_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "luigi_34",
+            "luigi_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "luigi_36",
+            "luigi_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "luigi_38",
+            "luigi_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "luigi_40",
+            "luigi_41",
+            "luigi_42",
+            "luigi_43",
+            "luigi_44",
+            "luigi_45",
+            "luigi_46",
+            "luigi_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      }
+    },
+    "luigi_native_walk": {
+      "texture": "mario-luigi_native_walk",
+      "path": "characters/luigi_native_walk.png",
+      "width": 17,
+      "height": 26,
+      "source": "mirror/spr_NSMBU_luigi_walk/956e0081-21fc-46c7-b824-56a7e22572df.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "note": "Native Luigi walk capture only; additional authentic Luigi poses were not available.",
+      "image": "characters/luigi_native_walk/atlas.png",
+      "atlas": "characters/luigi_native_walk/atlas.json",
+      "frame": "luigi_native_walk_0",
+      "animations": {
+        "walk": {
+          "frames": [
+            "luigi_native_walk_0",
+            "luigi_native_walk_1",
+            "luigi_native_walk_2",
+            "luigi_native_walk_3",
+            "luigi_native_walk_4",
+            "luigi_native_walk_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "green": {
+      "texture": "mario-luigi",
+      "path": "characters/luigi/idle.png",
+      "width": 34,
+      "height": 35,
+      "source": "mirror/spr_NSMBU_mario_big_idle/9a15f3b4-9924-4a1c-ba5e-1874dc21e761.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "note": "Schema-1 compatibility name mapped to luigi; not a separate character rip.",
+      "displaySize": {
+        "w": 2.125,
+        "h": 2.1875
+      },
+      "image": "characters/luigi/atlas.png",
+      "atlas": "characters/luigi/atlas.json",
+      "frame": "luigi_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "luigi_0",
+            "luigi_1",
+            "luigi_2",
+            "luigi_3",
+            "luigi_4",
+            "luigi_5",
+            "luigi_6",
+            "luigi_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "luigi_8",
+            "luigi_9",
+            "luigi_10",
+            "luigi_11",
+            "luigi_12",
+            "luigi_13",
+            "luigi_14",
+            "luigi_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "luigi_16",
+            "luigi_17",
+            "luigi_18",
+            "luigi_19",
+            "luigi_20",
+            "luigi_21",
+            "luigi_22",
+            "luigi_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "luigi_24",
+            "luigi_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "luigi_26",
+            "luigi_27",
+            "luigi_28",
+            "luigi_29",
+            "luigi_30",
+            "luigi_31",
+            "luigi_32",
+            "luigi_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "luigi_34",
+            "luigi_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "luigi_36",
+            "luigi_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "luigi_38",
+            "luigi_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "luigi_40",
+            "luigi_41",
+            "luigi_42",
+            "luigi_43",
+            "luigi_44",
+            "luigi_45",
+            "luigi_46",
+            "luigi_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      }
+    },
+    "pink": {
+      "texture": "mario-mario",
+      "path": "characters/mario/idle.png",
+      "width": 34,
+      "height": 35,
+      "source": "mirror/spr_NSMBU_mario_big_idle/9a15f3b4-9924-4a1c-ba5e-1874dc21e761.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 2.125,
+        "h": 2.1875
+      },
+      "image": "characters/mario/atlas.png",
+      "atlas": "characters/mario/atlas.json",
+      "frame": "mario_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "mario_0",
+            "mario_1",
+            "mario_2",
+            "mario_3",
+            "mario_4",
+            "mario_5",
+            "mario_6",
+            "mario_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "mario_8",
+            "mario_9",
+            "mario_10",
+            "mario_11",
+            "mario_12",
+            "mario_13",
+            "mario_14",
+            "mario_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "mario_16",
+            "mario_17",
+            "mario_18",
+            "mario_19",
+            "mario_20",
+            "mario_21",
+            "mario_22",
+            "mario_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "mario_24",
+            "mario_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "mario_26",
+            "mario_27",
+            "mario_28",
+            "mario_29",
+            "mario_30",
+            "mario_31",
+            "mario_32",
+            "mario_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "mario_34",
+            "mario_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "mario_36",
+            "mario_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "mario_38",
+            "mario_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "mario_40",
+            "mario_41",
+            "mario_42",
+            "mario_43",
+            "mario_44",
+            "mario_45",
+            "mario_46",
+            "mario_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      },
+      "note": "Schema-1 compatibility name mapped to mario; not a separate character rip."
+    },
+    "purple": {
+      "texture": "mario-mario",
+      "path": "characters/mario/idle.png",
+      "width": 34,
+      "height": 35,
+      "source": "mirror/spr_NSMBU_mario_big_idle/9a15f3b4-9924-4a1c-ba5e-1874dc21e761.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 2.125,
+        "h": 2.1875
+      },
+      "image": "characters/mario/atlas.png",
+      "atlas": "characters/mario/atlas.json",
+      "frame": "mario_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "mario_0",
+            "mario_1",
+            "mario_2",
+            "mario_3",
+            "mario_4",
+            "mario_5",
+            "mario_6",
+            "mario_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "mario_8",
+            "mario_9",
+            "mario_10",
+            "mario_11",
+            "mario_12",
+            "mario_13",
+            "mario_14",
+            "mario_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "mario_16",
+            "mario_17",
+            "mario_18",
+            "mario_19",
+            "mario_20",
+            "mario_21",
+            "mario_22",
+            "mario_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "mario_24",
+            "mario_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "mario_26",
+            "mario_27",
+            "mario_28",
+            "mario_29",
+            "mario_30",
+            "mario_31",
+            "mario_32",
+            "mario_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "mario_34",
+            "mario_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "mario_36",
+            "mario_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "mario_38",
+            "mario_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "mario_40",
+            "mario_41",
+            "mario_42",
+            "mario_43",
+            "mario_44",
+            "mario_45",
+            "mario_46",
+            "mario_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      },
+      "note": "Schema-1 compatibility name mapped to mario; not a separate character rip."
+    },
+    "beige": {
+      "texture": "mario-mario",
+      "path": "characters/mario/idle.png",
+      "width": 34,
+      "height": 35,
+      "source": "mirror/spr_NSMBU_mario_big_idle/9a15f3b4-9924-4a1c-ba5e-1874dc21e761.png",
+      "pack": "mario-nsmbu",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 2.125,
+        "h": 2.1875
+      },
+      "image": "characters/mario/atlas.png",
+      "atlas": "characters/mario/atlas.json",
+      "frame": "mario_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "mario_0",
+            "mario_1",
+            "mario_2",
+            "mario_3",
+            "mario_4",
+            "mario_5",
+            "mario_6",
+            "mario_7"
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "mario_8",
+            "mario_9",
+            "mario_10",
+            "mario_11",
+            "mario_12",
+            "mario_13",
+            "mario_14",
+            "mario_15"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "run": {
+          "frames": [
+            "mario_16",
+            "mario_17",
+            "mario_18",
+            "mario_19",
+            "mario_20",
+            "mario_21",
+            "mario_22",
+            "mario_23"
+          ],
+          "frameRate": 14,
+          "repeat": -1
+        },
+        "skid": {
+          "frames": [
+            "mario_24",
+            "mario_25"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "jump": {
+          "frames": [
+            "mario_26",
+            "mario_27",
+            "mario_28",
+            "mario_29",
+            "mario_30",
+            "mario_31",
+            "mario_32",
+            "mario_33"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "fall": {
+          "frames": [
+            "mario_34",
+            "mario_35"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "crouch": {
+          "frames": [
+            "mario_36",
+            "mario_37"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "wallSlide": {
+          "frames": [
+            "mario_38",
+            "mario_39"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        },
+        "dead": {
+          "frames": [
+            "mario_40",
+            "mario_41",
+            "mario_42",
+            "mario_43",
+            "mario_44",
+            "mario_45",
+            "mario_46",
+            "mario_47"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      },
+      "note": "Schema-1 compatibility name mapped to mario; not a separate character rip."
+    }
+  },
+  "enemies": {
+    "walker": {
+      "texture": "mario-walker",
+      "path": "enemies/walker.png",
+      "width": 21,
+      "height": 19,
+      "source": "mirror/spr_NSMBU_goomba/ba2ab1f6-ef50-4c8c-88b6-8cdc3250b3be.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/walker/atlas.png",
+      "atlas": "enemies/walker/atlas.json",
+      "frame": "walker_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "walker_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "walker_0",
+            "walker_1",
+            "walker_2",
+            "walker_3",
+            "walker_4",
+            "walker_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "stomp": {
+          "frames": [
+            "walker_6"
+          ],
+          "frameRate": 1,
+          "repeat": 0
+        }
+      }
+    },
+    "shell": {
+      "texture": "mario-shell",
+      "path": "enemies/shell.png",
+      "width": 234,
+      "height": 276,
+      "source": "scratch/107756944/010fa4a79921df1296c3eecb570feb40.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/shell/atlas.png",
+      "atlas": "enemies/shell/atlas.json",
+      "frame": "shell_4",
+      "animations": {
+        "idle": {
+          "frames": [
+            "shell_4"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "shell_0",
+            "shell_1",
+            "shell_2",
+            "shell_3"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "walk": {
+          "frames": [
+            "shell_0",
+            "shell_1",
+            "shell_2",
+            "shell_3"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "kick": {
+          "frames": [
+            "shell_4",
+            "shell_5",
+            "shell_6",
+            "shell_7",
+            "shell_8",
+            "shell_9"
+          ],
+          "frameRate": 10,
+          "repeat": 0
+        },
+        "spin": {
+          "frames": [
+            "shell_4",
+            "shell_5",
+            "shell_6",
+            "shell_7",
+            "shell_8",
+            "shell_9"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "flyer": {
+      "texture": "mario-flyer",
+      "path": "enemies/flyer.png",
+      "width": 48,
+      "height": 40,
+      "source": "mirror/spr_NSMBU_koopa_fly/50df9874-d5a8-4941-8b17-aa336b4934a4.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/flyer/atlas.png",
+      "atlas": "enemies/flyer/atlas.json",
+      "frame": "flyer_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "flyer_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "flyer_0",
+            "flyer_1",
+            "flyer_2",
+            "flyer_3",
+            "flyer_4",
+            "flyer_5"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    },
+    "jumper": {
+      "texture": "mario-jumper",
+      "path": "enemies/jumper.png",
+      "width": 190,
+      "height": 184,
+      "source": "scratch/107756944/f65130a002a379aa60de58a902b263ad.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/jumper/atlas.png",
+      "atlas": "enemies/jumper/atlas.json",
+      "frame": "jumper_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "jumper_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "jumper_0",
+            "jumper_1",
+            "jumper_2",
+            "jumper_3",
+            "jumper_4",
+            "jumper_5",
+            "jumper_6",
+            "jumper_7",
+            "jumper_8",
+            "jumper_9",
+            "jumper_10",
+            "jumper_11"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        },
+        "jump": {
+          "frames": [
+            "jumper_0",
+            "jumper_1",
+            "jumper_2",
+            "jumper_3",
+            "jumper_4",
+            "jumper_5",
+            "jumper_6",
+            "jumper_7",
+            "jumper_8",
+            "jumper_9",
+            "jumper_10",
+            "jumper_11"
+          ],
+          "frameRate": 8,
+          "repeat": 0
+        }
+      }
+    },
+    "cannon": {
+      "texture": "mario-cannon",
+      "path": "enemies/cannon.png",
+      "width": 16,
+      "height": 16,
+      "source": "mirror/spr_NSMBU_bullebill_base/c65f1432-f414-4311-98f7-24a3aa2a13d8.png",
+      "pack": "mario-nsmbu",
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "image": "enemies/cannon/atlas.png",
+      "atlas": "enemies/cannon/atlas.json",
+      "frame": "cannon_0",
+      "animations": {
+        "idle": {
+          "frames": [
+            "cannon_0"
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        "move": {
+          "frames": [
+            "cannon_0",
+            "cannon_1",
+            "cannon_2"
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      }
+    }
+  },
+  "themes": {
+    "grass": {
+      "texture": "tiles-grass",
+      "path": "tiles/grass/tileset.png",
+      "tileWidth": 64,
+      "tileHeight": 64,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 8,
+      "tiles": {
+        "ground": 0,
+        "fill": 1,
+        "left": 2,
+        "right": 3,
+        "bottom": 4,
+        "brick": 5,
+        "question": 6,
+        "one_way": 7,
+        "semi_solid": 8,
+        "ice": 9,
+        "slime": 10
+      },
+      "background": {
+        "texture": "background_grass",
+        "path": "backgrounds/grass/overworld_0.png",
+        "width": 1676,
+        "height": 432,
+        "source": "mirror/bg_NSMBU_overworld_0/705adb7f-3dc4-4374-8ca7-ff38987b5dcb.png",
+        "pack": "mario-nsmbu"
+      },
+      "parallax": [
+        {
+          "file": "backgrounds/grass/overworld_0.png",
+          "scrollFactor": 0.06
+        },
+        {
+          "file": "backgrounds/grass/overworld_1.png",
+          "scrollFactor": 0.125
+        },
+        {
+          "file": "backgrounds/grass/overworld_2.png",
+          "scrollFactor": 0.19
+        },
+        {
+          "file": "backgrounds/grass/overworld_3.png",
+          "scrollFactor": 0.255
+        },
+        {
+          "file": "backgrounds/grass/overworld_4.png",
+          "scrollFactor": 0.32
+        },
+        {
+          "file": "backgrounds/grass/overworld_5.png",
+          "scrollFactor": 0.385
+        },
+        {
+          "file": "backgrounds/grass/overworld_6.png",
+          "scrollFactor": 0.45
+        }
+      ]
+    },
+    "desert": {
+      "texture": "tiles-desert",
+      "path": "tiles/desert/tileset.png",
+      "tileWidth": 64,
+      "tileHeight": 64,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 8,
+      "tiles": {
+        "ground": 0,
+        "fill": 1,
+        "left": 2,
+        "right": 3,
+        "bottom": 4,
+        "brick": 5,
+        "question": 6,
+        "one_way": 7,
+        "semi_solid": 8,
+        "ice": 9,
+        "slime": 10
+      },
+      "background": {
+        "texture": "background_desert",
+        "path": "backgrounds/desert/desert_1.png",
+        "width": 1788,
+        "height": 432,
+        "source": "mirror/bg_NSMBU_desert_1/f15f96e6-2a4b-493f-bc36-a36385bd2c98.png",
+        "pack": "mario-nsmbu"
+      },
+      "parallax": [
+        {
+          "file": "backgrounds/desert/desert_1.png",
+          "scrollFactor": 0.06
+        },
+        {
+          "file": "backgrounds/desert/desert_2.png",
+          "scrollFactor": 0.125
+        },
+        {
+          "file": "backgrounds/desert/desert_3.png",
+          "scrollFactor": 0.19
+        },
+        {
+          "file": "backgrounds/desert/desert_4.png",
+          "scrollFactor": 0.255
+        },
+        {
+          "file": "backgrounds/desert/desert_5.png",
+          "scrollFactor": 0.32
+        }
+      ]
+    },
+    "snow": {
+      "texture": "tiles-snow",
+      "path": "tiles/snow/tileset.png",
+      "tileWidth": 64,
+      "tileHeight": 64,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 8,
+      "tiles": {
+        "ground": 0,
+        "fill": 1,
+        "left": 2,
+        "right": 3,
+        "bottom": 4,
+        "brick": 5,
+        "question": 6,
+        "one_way": 7,
+        "semi_solid": 8,
+        "ice": 9,
+        "slime": 10
+      },
+      "background": {
+        "texture": "background_snow",
+        "path": "backgrounds/snow/snow_0.png",
+        "width": 1740,
+        "height": 432,
+        "source": "mirror/bg_NSMBU_snow_0/d7e9a76f-eb50-4b57-98d9-30b3d751b0c8.png",
+        "pack": "mario-nsmbu"
+      },
+      "parallax": [
+        {
+          "file": "backgrounds/snow/snow_0.png",
+          "scrollFactor": 0.06
+        },
+        {
+          "file": "backgrounds/snow/snow_1.png",
+          "scrollFactor": 0.125
+        },
+        {
+          "file": "backgrounds/snow/snow_2.png",
+          "scrollFactor": 0.19
+        },
+        {
+          "file": "backgrounds/snow/snow_3.png",
+          "scrollFactor": 0.255
+        },
+        {
+          "file": "backgrounds/snow/snow_4.png",
+          "scrollFactor": 0.32
+        },
+        {
+          "file": "backgrounds/snow/snow_5.png",
+          "scrollFactor": 0.385
+        }
+      ]
+    },
+    "castle": {
+      "texture": "tiles-castle",
+      "path": "tiles/castle/tileset.png",
+      "tileWidth": 64,
+      "tileHeight": 64,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 8,
+      "tiles": {
+        "ground": 0,
+        "fill": 1,
+        "left": 2,
+        "right": 3,
+        "bottom": 4,
+        "brick": 5,
+        "question": 6,
+        "one_way": 7,
+        "semi_solid": 8,
+        "ice": 9,
+        "slime": 10
+      },
+      "background": {
+        "texture": "background_castle",
+        "path": "backgrounds/castle/castle_1.png",
+        "width": 1740,
+        "height": 432,
+        "source": "mirror/bg_NSMBU_castle_1/fd17bb21-193d-4aaa-8ea8-63215fcbd096.png",
+        "pack": "mario-nsmbu"
+      },
+      "parallax": [
+        {
+          "file": "backgrounds/castle/castle_1.png",
+          "scrollFactor": 0.06
+        },
+        {
+          "file": "backgrounds/castle/castle_2.png",
+          "scrollFactor": 0.125
+        },
+        {
+          "file": "backgrounds/castle/castle_3.png",
+          "scrollFactor": 0.19
+        }
+      ]
+    }
+  },
+  "credits": "credits.json"
+}

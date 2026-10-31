@@ -1,42 +1,60 @@
 """Rebuild native PNGs/Phaser atlases from exact checked-in source rectangles.
-Only crops, alpha trimming/padding, native-asset composites, recolouring and horizontal
+Only crops, alpha trimming/padding, native-asset composites, downsampling and horizontal
 mirror repeats are performed. There is no AI art, pixel upscaling, or copied game code.
 """
 from pathlib import Path
 from PIL import Image, ImageOps
-import copy, json, math
+import copy, json, math, base64, io, re
+from functools import lru_cache
 HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2]
 RAW=ROOT/'assets/_downloads/mario';OUT=ROOT/'web/public/packs/mario'
 
 def write_json(path,value):
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,indent=2)+'\n')
 
+@lru_cache(maxsize=128)
+def source_image(source,embedded=-1,frame=0):
+ if embedded>=0:
+  encoded=re.findall(rb'data:image/[^;]+;base64,([^"\s]+)',(RAW/source).read_bytes())[embedded]
+  im=Image.open(io.BytesIO(base64.b64decode(encoded)))
+ else:im=Image.open(RAW/source)
+ try:
+  im.seek(frame)
+  return im.convert('RGBA')
+ finally:im.close()
+
 def crop(ref):
  if 'compose' in ref:
   c=ref['compose'];im=Image.new('RGBA',tuple(c['canvas']))
   for part in c['parts']:im.alpha_composite(crop(part['frame']),tuple(part['at']))
   return im
- im=Image.open(RAW/ref['source']).convert('RGBA');x,y,w,h=ref['rect']
+ im=source_image(ref['source'],ref.get('embeddedImage',-1),ref.get('sourceFrame',0))
+ x,y,w,h=ref['rect']
  if x<0 or y<0 or w<=0 or h<=0 or x+w>im.width or y+h>im.height:raise ValueError(ref)
- return im.crop((x,y,x+w,y+h))
+ im=im.crop((x,y,x+w,y+h))
+ if ref.get('flipX'):im=ImageOps.mirror(im)
+ if 'resize' in ref:
+  size=tuple(ref['resize']);assert size[0]<=im.width and size[1]<=im.height, 'Upsampling source art is forbidden'
+  im=im.resize(size,Image.Resampling.LANCZOS)
+ return im
+
+def extrude(im,padding=2):
+ """Duplicate edge texels into a gutter, without stretching any artwork."""
+ w,h=im.size;out=Image.new('RGBA',(w+2*padding,h+2*padding));out.paste(im,(padding,padding))
+ for d in range(padding):
+  out.paste(im.crop((0,0,w,1)),(padding,d));out.paste(im.crop((0,h-1,w,h)),(padding,padding+h+d))
+  out.paste(im.crop((0,0,1,h)),(d,padding));out.paste(im.crop((w-1,0,w,h)),(padding+w+d,padding))
+ for x in range(padding):
+  for y in range(padding):
+   for dx,dy,sx,sy in [(x,y,0,0),(padding+w+x,y,w-1,0),(x,padding+h+y,0,h-1),(padding+w+x,padding+h+y,w-1,h-1)]:out.putpixel((dx,dy),im.getpixel((sx,sy)))
+ return out
 
 def save(im,path):
  p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True);im.save(p,optimize=True)
 
-def recolor(im):
- # Select red cloth in HSV, retaining highlights, shadows and all non-red art.
- import colorsys
- pixels=[]
- for r,g,b,a in im.get_flattened_data():
-  h,s,v=colorsys.rgb_to_hsv(r/255,g/255,b/255)
-  if (h<.06 or h>.96) and s>.52 and r>g*1.3 and r>b*1.25:
-   r,g,b=(round(v*255) for v in colorsys.hsv_to_rgb(.33,s,v))
-  pixels.append((r,g,b,a))
- out=Image.new('RGBA',im.size);out.putdata(pixels);return out
-
 def make_asset(id,spec):
  raw=[crop(r) for r in spec['frames']]
- if spec.get('recolor'):raw=[recolor(i) for i in raw]
+ assert not spec.get('recolor'), 'Recoloured character substitutes are forbidden'
  # A uniform native canvas prevents feet jitter. Cropped pixels are never scaled.
  w=max(i.width for i in raw);h=max(i.height for i in raw)
  frames=[]
@@ -86,13 +104,18 @@ def build():
  for name,target in [('green','luigi'),('pink','mario'),('purple','mario'),('beige','mario')]:
   m['characters'][name]=copy.deepcopy(entries[target]);m['characters'][name]['note']=f'Schema-1 compatibility name mapped to {target}; not a separate character rip.'
  for name,id in c['enemies'].items():m['enemies'][name]=entries[id]
+ m['items']={'mushroom':entries['mushroom']}
  # 64px native theme sheets retain the original Kenney tile indices.
  tile_order=list(old['themes']['grass']['tiles'])
  for theme,t in c['themes'].items():
   sheet=Image.new('RGBA',(8*64,2*64))
   for i,variant in enumerate(tile_order):
    id=f'{theme}_{variant}' if f'{theme}_{variant}' in entries else variant
-   im=crop(c['assets'][id]['frames'][0]);sheet.alpha_composite(im,(i%8*64,i//8*64))
+   im=crop(c['assets'][id]['frames'][0])
+   # Keep the legacy 64px grid; 60px native terrain carries 2px edge extrusion.
+   if im.size==(60,60):im=extrude(im)
+   elif im.size!=(64,64):im=im.resize((64,64),Image.Resampling.LANCZOS)
+   sheet.alpha_composite(im,(i%8*64,i//8*64))
   path=f'tiles/{theme}/tileset.png';save(sheet,path)
   layers=[]
   for layer in t['layers']:
@@ -105,6 +128,17 @@ def build():
   bg={'texture':f'background_{theme}','path':first,'width':im.width,'height':im.height,'source':t['layers'][0]['source'],'pack':'mario-nsmbu'}
   m['themes'][theme]={**copy.deepcopy(old['themes'][theme]),'path':path,'background':bg,'parallax':layers}
   m['elements'][f'background_{theme}']=bg
+  # An additive atlas for renderers that consume explicit autotile variants.
+  variants=t.get('variants',{})
+  if variants:
+   columns=8;cell=64;atlas=Image.new('RGBA',(columns*cell,math.ceil(len(variants)/columns)*cell));table={}
+   for i,(variant,id) in enumerate(variants.items()):
+    im=crop(c['assets'][id]['frames'][0]);assert im.size==(60,60),(id,im.size)
+    x=i%columns*cell;y=i//columns*cell;atlas.paste(extrude(im),(x,y))
+    table[variant]={'frame':{'x':x+2,'y':y+2,'w':60,'h':60},'rotated':False,'trimmed':False,'spriteSourceSize':{'x':0,'y':0,'w':60,'h':60},'sourceSize':{'w':60,'h':60}}
+   folder=f'tiles/{theme}';save(atlas,f'{folder}/autotiles.png');write_json(OUT/f'{folder}/autotiles.json',{'frames':table,'meta':{'image':'autotiles.png','size':{'w':atlas.width,'h':atlas.height},'scale':'1','padding':2}})
+   m['themes'][theme]['autotileAtlas']={'texture':f'mario-{theme}-autotiles','image':f'{folder}/autotiles.png','atlas':f'{folder}/autotiles.json','padding':2}
+   m['themes'][theme]['variants']={name:entries[id] for name,id in variants.items()}
  # Compatibility aliases are fully materialized: the existing registry need not understand aliasOf.
  for id,entry in old['elements'].items():
   if id not in m['elements']:
@@ -114,6 +148,19 @@ def build():
  # pipe deliberately remains a real pipe rather than the legacy Kenney door alias.
  write_json(OUT/'manifest.json',m)
  write_json(OUT/'credits.json',{'notice':'Nintendo property, used for a private educational class demo only; do not distribute publicly; Kenney CC0 pack remains the public-safe fallback.','provenance':'See assets/packs/mario/SOURCES.md and sources.json for source URLs and SHA-256 checksums.','ancillary':'/assets/credits.json'})
+ # Remove obsolete generated rips, including unused low-resolution atlases. Only
+ # this pack is owned by the slicer; absolute ancillary /assets URLs are untouched.
+ keep={'manifest.json','credits.json','PREVIEW.png'}
+ def referenced(v):
+  if isinstance(v,dict):
+   for k,x in v.items():
+    if k in ['path','image','atlas','file'] and isinstance(x,str) and not x.startswith('/'):keep.add(x)
+    elif isinstance(x,(dict,list)):referenced(x)
+  elif isinstance(v,list):
+   for x in v:referenced(x)
+ referenced(m)
+ for p in OUT.rglob('*'):
+  if p.is_file() and p.relative_to(OUT).as_posix() not in keep:p.unlink()
  # Every actual element and compatibility alias is reviewable without reading code.
  lines=['# Mario pack coverage','', '| Element | File |','|---|---|']
  lines += [f'| `{id}` | `{e["path"]}` |' for id,e in m['elements'].items()]

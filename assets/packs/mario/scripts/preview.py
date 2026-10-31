@@ -6,7 +6,7 @@ HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2];OUT=ROOT/'web/publ
 W=1920;M=24
 try:FONT=ImageFont.truetype('/System/Library/Fonts/Menlo.ttc',14);TITLE=ImageFont.truetype('/System/Library/Fonts/Menlo.ttc',23)
 except OSError:FONT=ImageFont.load_default();TITLE=FONT
-m=json.loads((OUT/'manifest.json').read_text());char_names=['mario','luigi','mario_small','luigi_native_walk'];char_rows=sum(len(m['characters'][c]['animations']) for c in char_names)
+m=json.loads((OUT/'manifest.json').read_text());char_names=['mario','luigi','mario_small','luigi_small'];char_rows=sum(len(m['characters'][c]['animations']) for c in char_names)
 H=140+math.ceil(len(m['elements'])/12)*146+80+char_rows*120+4*520
 canvas=Image.new('RGB',(W,H),'#182438');d=ImageDraw.Draw(canvas);y=20
 
@@ -15,7 +15,7 @@ def paste(im,box):
  x,y,w,h=box;im=im.convert('RGBA');scale=min(w/im.width,h/im.height);im=im.resize((max(1,round(im.width*scale)),max(1,round(im.height*scale))),Image.Resampling.LANCZOS);canvas.paste(im,(x+(w-im.width)//2,y+(h-im.height)//2),im)
 text(M,y,'RealmForge — NSMBU private class demo pack',TITLE);y+=38
 text(M,y,'Nintendo property. No public distribution. Native source pixels; linear filtering; sourceTile = 64.');y+=24
-text(M,y,'Luigi big = disclosed Mario colour variant. Pink/purple/beige = Mario aliases; green = Luigi.');y+=32
+text(M,y,'Big Mario = NSMBU. Luigi + small Mario = authentic NSMB Wii capture fallback; details in README.');y+=32
 start=y
 for i,(id,e) in enumerate(m['elements'].items()):
  x=M+i%12*156;y=start+i//12*146;d.rounded_rectangle((x,y,x+148,y+138),radius=8,fill='#30435a')
