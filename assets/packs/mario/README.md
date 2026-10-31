@@ -2,7 +2,7 @@
 
 Nintendo property, for the team's private educational class demo only. Never publish this pack or make a repository containing it public. Kenney remains the CC0 fallback. No AI-generated art, Nintendo executable code, ROMs or keys are included.
 
-The current audit checks **opaque native content**, excluding transparent borders and atlas gutters, against `displaySize × 64` pixels. Every sprite content envelope is at or below **1.25×**; animations share a pose envelope so edge-on coins and crouches keep one scale. The old 50-violation baseline measured canvas dimensions and is labelled historical. See [AUDIT.md](AUDIT.md) for every before/after entry and current animation frame, and [PREVIEW.png](../../../web/public/packs/mario/PREVIEW.png) for the contact sheet. A scale pass does **not** imply complete exact-game or exact-pose fidelity: the remaining exceptions below are substantive.
+The current audit checks **opaque native content**, excluding transparent borders and atlas gutters, against `displaySize × 64` pixels. Every sprite content envelope is at or below **1.25×**; animations share a pose envelope so edge-on coins and crouches keep one scale. The old 50-violation baseline measured canvas dimensions and is labelled historical. See [AUDIT.md](AUDIT.md) for every before/after entry and current animation frame, and [PREVIEW.png](PREVIEW.png) for the contact sheet. A scale pass does **not** imply complete exact-game or exact-pose fidelity: the remaining exceptions below are substantive.
 
 ## Rebuild and verify
 
@@ -17,9 +17,9 @@ npm run validate:registry
 python3 scripts/verify-rebuild.py
 ```
 
-Run these from `assets/packs/mario/`. Pillow (MIT-CMU/HPND) is the only build dependency; there are no new npm dependencies. `fetch` restores and SHA-256-checks the exact source images in `sources.json` into gitignored `assets/_downloads/mario/`. GitHub images are pinned to immutable commits; Scratch images are content-addressed. Wiki URLs are mutable upstream, so the recorded checksum fails on changed bytes rather than silently adopting them. `build` is offline and reads only `slicing.json`; a clean fetch/build reproduces the output. It deletes obsolete generated pack files, retaining `PREVIEW.png` until `preview` regenerates it.
+Run these from `assets/packs/mario/`. Pillow (MIT-CMU/HPND) is the only build dependency; there are no new npm dependencies. `fetch` restores and SHA-256-checks the exact source images in `sources.json` into gitignored `assets/_downloads/mario/`. GitHub images are pinned to immutable commits; Scratch images are content-addressed. Wiki URLs are mutable upstream, so the recorded checksum fails on changed bytes rather than silently adopting them. `build` is offline and reads `slicing.json` plus the optional completed staging fragment; a clean fetch/build reproduces the output. During this parallel pass it writes/deletes only character/enemy outputs and the manifest. It preserves other agents’ public object/FX files. After parallel work ends, a maintainer can run `npm run build -- --full` for the original full-pack rebuild; this agent does not use that option. `preview` writes `assets/packs/mario/PREVIEW.png`. Completed object/FX manifest entries are merged from the DONE-gated inbox described in `INTEGRATION.md`.
 
-`validate` checks source hashes, crop bounds, source downsampling, legacy coverage, manifest files, every animation reference, every sprite/frame's display scale, 47 autotile masks per theme, two-pixel atlas extrusion, background seams and the 25 MB pack budget. It regenerates `AUDIT.md`. `validate:registry` exercises the actual web registry using the existing `assets/node_modules/.bin/tsx`; install the existing `assets/` package if needed.
+`validate` checks source hashes, crop bounds, source downsampling, legacy coverage, manifest files, every animation reference, every sprite/frame's display scale, 47 autotile masks per theme, two-pixel atlas extrusion, background seams and the 30 MB pack budget. It also requires every character/alias to have at least six distinct walk/run pixel frames and no fallback flag; **the current pack fails that fidelity gate**. It regenerates `AUDIT.md`. `validate:registry` exercises the actual web registry using the existing `assets/node_modules/.bin/tsx`; install the existing `assets/` package if needed.
 
 `resolve-native-gaps.py`, `curate.py`, `upgrade-sources.py`, `research-icons.py`, `curate-hires.py`, `curate-character-fallbacks.py`, `complete-autotiles.py` and `lock-hires-sources.py` are historical/research curation helpers, **not clean-build prerequisites**. The final, checked-in `slicing.json` is authoritative. They require research metadata in the ignored cache; build/fetch/validate do not.
 
@@ -83,3 +83,22 @@ Source URLs, credits, rights and exact SHA-256 values are in [SOURCES.md](SOURCE
 See [RESOLUTION_REPORT.md](RESOLUTION_REPORT.md) for every requested gap, evidence, blockers and coordinator handoff. Coin cycles and the locked-door state were replaced with sourced gameplay imagery; the exact character and other animation gaps remain open. Previous working specs for the three replacements are retained in `resolution-fallbacks.json`, and their old sources remain pinned. New source fetches are separate from the offline build; a failed fetch does not delete existing generated assets.
 
 Private class-demo authorization is a team restriction, **not a copyright licence**. Educational use does not itself grant permission from Nintendo. No new dependency, AI image, recoloured character, model render or invented animation frame was added.
+
+## Model-render follow-up — blocked
+
+No character/enemy art was replaced in this follow-up. Models Resource and the
+actual TSR Goomba fallback PNG return HTTP 403 in configured Chromium. The
+indexed Mario model has no animations; no original matching clip set was
+obtained. Blender 5.2.1 LTS runs headless with FBX support but lacks Collada
+import. `blender/README.md` records the actual probe and missing inputs; no
+verified render pipeline or renders are claimed.
+
+Existing short cycles and source/pose fallbacks are retained and now carry
+`fallback` / `fallbackReasons`. `npm run validate` exits 1 on these unmet
+requirements, even though structural, registry and native-scale checks pass.
+Keep exact NSMBU fidelity open in the shared checklist.
+
+Object staging completed after 403 seconds. The independently verified 15 object
+entries and 3 FX entries are packed into `integrated/` (54 files); public
+publication awaits the user’s ownership clarification. See `INTEGRATION.md` for
+the concrete runtime fragment, publication command and remaining failures.

@@ -1,12 +1,13 @@
-Remaining-compromises pass — 31 October 2026
-Source fetch verifies the retained local cache against pinned checksums; not a claim of a fresh remote download of every historical source.
+Character/model follow-up — 31 October 2026
+No character/enemy replacements or renders delivered. Object staging DONE arrived after 403 seconds; prepared but public publication awaits ownership clarification.
+The initial overlapping test/build attempt was rerun sequentially. Results below are the current sequential verification.
 
-$ npm run fetch
-
-> @realmforge/mario-assets@1.0.0 fetch
-> python3 scripts/fetch.py
-
-Fetched/verified 659 pinned source files.
+$ python3 staging/objects/validate.py
+PASS: 15 object entries + 3 fx entries; 114 source-matched RGBA PNGs.
+PASS: 10 real animation sequences; 22 explicitly labelled still states; consistent canvases per entry.
+PASS: 70 original files SHA-256 verified; 51 outputs restore verified exact 2x source duplication.
+PASS: max opaque-content display scale 1.2075x <= 1.25x; zero source enlargement, recolouring, synthetic frames or pixel mismatches.
+PASS: total staging 1,076,230 bytes <= 12,000,000 bytes.
 
 Exit: 0
 
@@ -15,6 +16,8 @@ $ npm run build
 > @realmforge/mario-assets@1.0.0 build
 > python3 scripts/build.py
 
+PREPARED staging: 15 object entries + 3 FX entries; 54 files; all atlas frames match staged RGBA bytes
+STAGING BLOCKED: reviewed atlases prepared in assets/packs/mario/integrated; public objects/ publication requires ownership approval
 Built 396 element IDs, 9 character keys, 5 enemies, 4 themes and 21 parallax layers.
 
 Exit: 0
@@ -33,6 +36,8 @@ $ npm test
 > @realmforge/mario-assets@1.0.0 test
 > python3 scripts/test-validation.py
 
+test_character_fidelity_rejects_disclosed_fallback_with_long_cycle (__main__.NativeScaleValidation.test_character_fidelity_rejects_disclosed_fallback_with_long_cycle) ... ok
+test_character_fidelity_rejects_renamed_identical_frames (__main__.NativeScaleValidation.test_character_fidelity_rejects_renamed_identical_frames) ... ok
 test_legacy_one_way_tile_keeps_empty_space_below_deck (__main__.NativeScaleValidation.test_legacy_one_way_tile_keeps_empty_space_below_deck) ... ok
 test_native_coin_frames_are_distinct_and_keep_source_timing (__main__.NativeScaleValidation.test_native_coin_frames_are_distinct_and_keep_source_timing) ... ok
 test_real_pack_passes (__main__.NativeScaleValidation.test_real_pack_passes) ... ok
@@ -41,9 +46,14 @@ test_rejects_padding_around_entire_animation_cycle (__main__.NativeScaleValidati
 test_rejects_transparent_padding_as_resolution (__main__.NativeScaleValidation.test_rejects_transparent_padding_as_resolution) ... ok
 test_rejects_undersized_animation_canvas (__main__.NativeScaleValidation.test_rejects_undersized_animation_canvas) ... ok
 test_rejects_undersized_static_sprite (__main__.NativeScaleValidation.test_rejects_undersized_static_sprite) ... ok
+test_staging_ignores_incomplete_fragment (__main__.NativeScaleValidation.test_staging_ignores_incomplete_fragment) ... STAGING: objects/DONE absent; existing object art retained
+ok
+test_staging_merges_finished_fragment_without_publishing_art (__main__.NativeScaleValidation.test_staging_merges_finished_fragment_without_publishing_art) ... STAGING: integrated 1 object entries and 0 fx entries
+ok
+test_staging_rejects_unpublished_art (__main__.NativeScaleValidation.test_staging_rejects_unpublished_art) ... ok
 
 ----------------------------------------------------------------------
-Ran 8 tests in 0.210s
+Ran 13 tests in 0.221s
 
 OK
 
@@ -59,15 +69,42 @@ PASS coverage: 118/118 Kenney element IDs; 396 total Mario IDs; 4/4 themes
 PASS sources: 659 SHA-256 checksums; 1303 source rectangles in bounds
 PASS files: 573 manifest paths exist; all PNGs decode
 PASS atlases: 24 atlases; 451 frames in bounds; animation references resolve
-PASS characters: Mario/Luigi big + small have all 9 animation keys; walk/run >=3 frames; feet anchors
+PASS character structure: Mario/Luigi big + small have all 9 animation keys; feet anchors
 PASS native scale: 407 opaque-content envelopes and every animation canvas <=1.25x; 50 historical canvas violations
 PASS terrain: 4 themes; complete cardinal/inner-corner/pillar/single variants; exact 2px extruded gutters
 PASS mushroom: items.mushroom and elements.mushroom agree
 PASS parallax: 21 wide native-resolution layers; all horizontal seam texels match
-PASS pack budget: 12,016,410 bytes / 25,000,000 bytes
+PASS pack budget: 12,018,305 bytes / 30,000,000 bytes
 PROVENANCE / POSE CAVEATS: see README.md and SOURCES.md; animation keys alone do not prove authentic poses.
+FAIL character fidelity: mario: fallback remains: wallSlide holds wall-contact/jump capture; distinct slide pose unavailable
+FAIL character fidelity: mario.walk: 4 distinct frame names; need >=6
+FAIL character fidelity: mario.run: 4 distinct frame names; need >=6
+FAIL character fidelity: mario_small: fallback remains: NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable
+FAIL character fidelity: mario_small.walk: 3 distinct frame names; need >=6
+FAIL character fidelity: mario_small.run: 3 distinct frame names; need >=6
+FAIL character fidelity: luigi: fallback remains: NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable
+FAIL character fidelity: luigi.walk: 3 distinct frame names; need >=6
+FAIL character fidelity: luigi.run: 3 distinct frame names; need >=6
+FAIL character fidelity: luigi_native_walk: fallback remains: NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable
+FAIL character fidelity: luigi_native_walk.walk: 3 distinct frame names; need >=6
+FAIL character fidelity: luigi_native_walk.run: 3 distinct frame names; need >=6
+FAIL character fidelity: luigi_small: fallback remains: NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable
+FAIL character fidelity: luigi_small.walk: 3 distinct frame names; need >=6
+FAIL character fidelity: luigi_small.run: 3 distinct frame names; need >=6
+FAIL character fidelity: green: fallback remains: NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable
+FAIL character fidelity: green.walk: 3 distinct frame names; need >=6
+FAIL character fidelity: green.run: 3 distinct frame names; need >=6
+FAIL character fidelity: pink: fallback remains: wallSlide holds wall-contact/jump capture; distinct slide pose unavailable
+FAIL character fidelity: pink.walk: 4 distinct frame names; need >=6
+FAIL character fidelity: pink.run: 4 distinct frame names; need >=6
+FAIL character fidelity: purple: fallback remains: wallSlide holds wall-contact/jump capture; distinct slide pose unavailable
+FAIL character fidelity: purple.walk: 4 distinct frame names; need >=6
+FAIL character fidelity: purple.run: 4 distinct frame names; need >=6
+FAIL character fidelity: beige: fallback remains: wallSlide holds wall-contact/jump capture; distinct slide pose unavailable
+FAIL character fidelity: beige.walk: 4 distinct frame names; need >=6
+FAIL character fidelity: beige.run: 4 distinct frame names; need >=6
 
-Exit: 0
+Exit: 1
 
 $ npm run validate:registry
 
@@ -78,22 +115,6 @@ PASS real registry: 395 loader records; all 118 legacy IDs resolve; mario-mario_
 
 Exit: 0
 
-$ npm run build
-
-> @realmforge/mario-assets@1.0.0 build
-> python3 scripts/build.py
-
-Built 396 element IDs, 9 character keys, 5 enemies, 4 themes and 21 parallax layers.
-
-Exit: 0
-
-$ npm run preview
-
-> @realmforge/mario-assets@1.0.0 preview
-> python3 scripts/preview.py
-
-PREVIEW.png: 1920x11647; 396 element IDs, 36 character animation strips, 4 stacked backgrounds
-
-Exit: 0
-
-PASS deterministic rebuild: all 435 output SHA-256 values identical across two build/preview passes.
+Prepared-only verification (not public publication):
+PASS prepared object/FX native-scale audit: 18 entries; every frame and opaque envelope <=1.25x. Public files not written.
+PASS proposed schema-1 integration: 397 element IDs; 15 object + 3 FX replacements; mushroom/cannon consumers synchronized; aliases preserved; debris remains independent stills. No public files written.

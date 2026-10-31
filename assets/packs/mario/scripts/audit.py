@@ -6,7 +6,7 @@ import json
 HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2];OUT=ROOT/'web/public/packs/mario'
 
 def entries(m):
- return {f'{section}.{name}':e for section in ['elements','characters','enemies','items'] for name,e in m.get(section,{}).items() if 'displaySize' in e}
+ return {f'{section}.{name}':e for section in ['elements','characters','enemies','items','fx'] for name,e in m.get(section,{}).items() if 'displaySize' in e}
 
 def factor(e,native=None):
  w,h=native or (e['width'],e['height']);d=e['displaySize']

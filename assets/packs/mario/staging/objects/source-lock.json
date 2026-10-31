@@ -1,0 +1,2763 @@
+{
+  "schema": 1,
+  "sources": {
+    "assets/_downloads/objects/SMM-NSMBU-Spring.png": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-Spring.png",
+      "sha256": "80547edb25337235a432601bd0629cec0369abdebf6202535161956b43c47f93",
+      "size": [
+        78,
+        77
+      ]
+    },
+    "assets/_downloads/objects/SMM-NSMBU-Checkpoint-Flag.png": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-Checkpoint-Flag.png",
+      "sha256": "b4fae80eb55650fb07c1cba97a27fc5f1c83f14c0532c0d13c51ee702915e59f",
+      "size": [
+        106,
+        171
+      ]
+    },
+    "assets/_downloads/objects/NSMBU_Flagpole.png": {
+      "path": "assets/_downloads/objects/NSMBU_Flagpole.png",
+      "sha256": "621185c2ceadad60f537579aecc2ce8e5e97337cac800b08d6cffed9eeb783ee",
+      "size": [
+        312,
+        1015
+      ]
+    },
+    "assets/_downloads/objects/NSMBU_Ground_Big_Brick_Block.png": {
+      "path": "assets/_downloads/objects/NSMBU_Ground_Big_Brick_Block.png",
+      "sha256": "6cb43e9fcaa53d8d06b9e00f8788e2972f19ca29da298ad81de13341cac0fb9a",
+      "size": [
+        120,
+        120
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f78ad79aac7150bc3e570e9b22b65834.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f78ad79aac7150bc3e570e9b22b65834.png",
+      "sha256": "c57f063bf2a578bf36aa072df726dacf914e8922667b5c79decd127eb77e9518",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f06f9544c5b110f72d4201a7681a269f.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f06f9544c5b110f72d4201a7681a269f.png",
+      "sha256": "cdbd28023314697680c1e97fdcd87c39d7e399d80bca12a1d85c5f139ca7b747",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/0c2f29ee5cb6ffd6bce22f30a229385c.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/0c2f29ee5cb6ffd6bce22f30a229385c.png",
+      "sha256": "186ca98c42b2bbabca4fec9cb458dd670a609024c0f0610201673aa426ab2323",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/bdeb9fd63afdfbdafa1f0599470cd50b.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/bdeb9fd63afdfbdafa1f0599470cd50b.png",
+      "sha256": "59c3b12a0150024ce1aeb0eed124156703cf5b8cf523634e3aa9e321facf9d81",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/7115de9fb0d784b7a25a4a632be1de2a.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/7115de9fb0d784b7a25a4a632be1de2a.png",
+      "sha256": "ab349dbeab385ad59ea3779d2735a70f9fae32b6473f5fddd513117efe330c47",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/43265a583eb58a144fb016b83f80e892.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/43265a583eb58a144fb016b83f80e892.png",
+      "sha256": "98d301d120a98a3fae7a28d05b254f47c63a7f69805fe2311dfaad85b08105b7",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/812bd8457cbaf8f38089b012d36b994d.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/812bd8457cbaf8f38089b012d36b994d.png",
+      "sha256": "b60c6c65c1369c9f5bfe7d96f8a8ba50622760948ba623d9ab6356a03c0e10b2",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/a4552e3bfccdd9ab6414f5e72c85522b.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/a4552e3bfccdd9ab6414f5e72c85522b.png",
+      "sha256": "69cdb82cdb031cb8e05b8e08d4274f42e053b54a74e8f81461c8b2bfe3091277",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/60caf8ff333dcc08d191cc8314d05f6c.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/60caf8ff333dcc08d191cc8314d05f6c.png",
+      "sha256": "5ac2137ff3d0073d23ceb6661819aba35d05d9ba802fd1c102d62d508edb8f65",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/0f81ac66d549c5702a82bfcbe0d11c22.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/0f81ac66d549c5702a82bfcbe0d11c22.png",
+      "sha256": "855998c6eb20321aad6cbd47b189520cdf7a9e6871d72a64dd70c2c46ad7ab65",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/0b627ce713f48666b74fbab86c5adb56.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/0b627ce713f48666b74fbab86c5adb56.png",
+      "sha256": "7de1909ce9901dac3241cdafbf9ec4f19ac2173cc0a20af8729963b90b74f017",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/2f60e0cbbf69c4051b733256dbfec0a2.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/2f60e0cbbf69c4051b733256dbfec0a2.png",
+      "sha256": "b4f4408e921c5a11886c2a48fa5edcf764cbf6aa06cd0103d2253e30872e6627",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f2c536feb9d3962eb00c4d4f7944bd53.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f2c536feb9d3962eb00c4d4f7944bd53.png",
+      "sha256": "9ebd4b8b91e50344e3b9cdf8af83b9b42cfdcfe128b2a66c0ffef83294e6edaf",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/c213acf3a3be3fa3ac23311f78c722ed.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/c213acf3a3be3fa3ac23311f78c722ed.png",
+      "sha256": "9add2d745d3563ebc245aca79f7c8746e0400f7b776d307b1a871dbc322b575a",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/1c2363381426285659bc8fbfdb387982.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/1c2363381426285659bc8fbfdb387982.png",
+      "sha256": "103a7fc68b73d39b8a1623dccd37fe2381aa6f0e019872ee55665fda220eecac",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/64a3195fb10a133e1c09e79ae2969eaf.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/64a3195fb10a133e1c09e79ae2969eaf.png",
+      "sha256": "f2c86658df59ebd926b7c02f181eb97ffdd1d5ac055bd7e63ef189ff4fabd3d4",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "assets/_downloads/objects/NSMBU_Ground_Big_Empty_Block.png": {
+      "path": "assets/_downloads/objects/NSMBU_Ground_Big_Empty_Block.png",
+      "sha256": "8356dcc3604df0bb1e8c4e4e956012be03d8307c8480b8c0afc3fadcb2e403b3",
+      "size": [
+        120,
+        120
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+      "sha256": "edb0fd87efd82ecc8978d4de529e41beb09872bd69a81c3f287cc2478c875bd4",
+      "size": [
+        82,
+        91
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-OnSwitch.png": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-OnSwitch.png",
+      "sha256": "b71bf451de2054f4dd8c1bd367989f59ee7d3f709456954b975984e29aa0429b",
+      "size": [
+        60,
+        60
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-OffSwitch.png": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-OffSwitch.png",
+      "sha256": "e30bdfa1260d800de23f2e63d3eb01fd91569df841cf8a03b940b849ab6de44f",
+      "size": [
+        60,
+        60
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-RedBlock.png": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-RedBlock.png",
+      "sha256": "b49688209724690a0fbd0bbe07179749eebbd4b489cbdb7fdeb721f5f7cbc1e4",
+      "size": [
+        60,
+        60
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-RedDottedLineBlock.png": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-RedDottedLineBlock.png",
+      "sha256": "5f3bfdf47d3405105a6567297c6b9aec6b739122b4c0e5a45e0759e3d7015e61",
+      "size": [
+        54,
+        54
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-BlueBlock.png": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-BlueBlock.png",
+      "sha256": "e2d6278150b8a3d81ba3b3e95c5ba5c555d49100c443dec65ef631ad1f6f1c1b",
+      "size": [
+        60,
+        60
+      ]
+    },
+    "assets/_downloads/objects/SMM2-NSMBU-BlueDottedLineBlock.png": {
+      "path": "assets/_downloads/objects/SMM2-NSMBU-BlueDottedLineBlock.png",
+      "sha256": "0c51009e1b40b57d4120e7d902ba43d628d76c49e033b5185409e5cc42257eeb",
+      "size": [
+        54,
+        54
+      ]
+    },
+    "assets/_downloads/objects/SMM-NSMBU-DonutBlock.png": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-DonutBlock.png",
+      "sha256": "75b4dc3967446f7441493a3805c0904b3da839ade8d28a1b5f9f8e856b19f8dd",
+      "size": [
+        60,
+        60
+      ]
+    },
+    "assets/_downloads/objects/SMM-NSMBU-Grinder.png": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-Grinder.png",
+      "sha256": "d4d72b181ad2d99c3bdf57a3f1ffb8af75c891ac112532a688847aedcba8b57d",
+      "size": [
+        149,
+        149
+      ]
+    },
+    "assets/_downloads/objects/scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png": {
+      "path": "assets/_downloads/objects/scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+      "sha256": "4543859ae4acddce37bc38afa7c780dd8f2ae7b86dab1f536def4da827ff8f46",
+      "size": [
+        156,
+        308
+      ]
+    },
+    "assets/_downloads/objects/scratch/105733943/6ec6d298848b783cc9bb126d9a801636.png": {
+      "path": "assets/_downloads/objects/scratch/105733943/6ec6d298848b783cc9bb126d9a801636.png",
+      "sha256": "8f3873bcdce9635347eb8d11563459b983192a0e6e1368fb7e8e2b51df723c4f",
+      "size": [
+        156,
+        308
+      ]
+    },
+    "assets/_downloads/objects/scratch/105733943/0bcb7a14f62639d2d53f47f853e1d4fe.png": {
+      "path": "assets/_downloads/objects/scratch/105733943/0bcb7a14f62639d2d53f47f853e1d4fe.png",
+      "sha256": "6615d7adc23eebeb0697ce79ad03726ce3cbd68cce1a1842a266ae30453105d9",
+      "size": [
+        156,
+        308
+      ]
+    },
+    "assets/_downloads/objects/scratch/105733943/1efc5007b28b9408383524d7abaa3a65.png": {
+      "path": "assets/_downloads/objects/scratch/105733943/1efc5007b28b9408383524d7abaa3a65.png",
+      "sha256": "d15e63ef6b42d9db125a7b6d7e843aa7ceef18d617fcff31573b9d7036567846",
+      "size": [
+        156,
+        308
+      ]
+    },
+    "assets/_downloads/objects/scratch/105733943/c04bfbec799850715a816ef320c269cf.png": {
+      "path": "assets/_downloads/objects/scratch/105733943/c04bfbec799850715a816ef320c269cf.png",
+      "sha256": "20fecc3259983e56695c35b442113d8e5d1e4db275da298978151dc923be7edb",
+      "size": [
+        156,
+        308
+      ]
+    },
+    "assets/_downloads/objects/scratch/105733943/d2fe68f80fc0ce83a4c69474a3a63411.png": {
+      "path": "assets/_downloads/objects/scratch/105733943/d2fe68f80fc0ce83a4c69474a3a63411.png",
+      "sha256": "1c1b4cb3c86f0ecb04e2006f945b116c6410593e8f981b7d234803e0bff81174",
+      "size": [
+        156,
+        308
+      ]
+    },
+    "assets/_downloads/objects/SMM-NSMBU-WarpPipe.png": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-WarpPipe.png",
+      "sha256": "bdbeea52e26b16c9853dcd9c9a136eb382a1e6152813d0775dca847b4b156f2c",
+      "size": [
+        120,
+        120
+      ]
+    },
+    "assets/_downloads/objects/SMM-NSMBU-BillBlaster.png": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-BillBlaster.png",
+      "sha256": "75db72d0910358538873022465890e05fc62146c6bb574b19f3e9acfbaff2733",
+      "size": [
+        78,
+        154
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/c633bc5a3a325e4c0bcee8c2ae764a05.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/c633bc5a3a325e4c0bcee8c2ae764a05.png",
+      "sha256": "0756057c2a8fdb17464b7b92e17a2831d8ef5af71ffff188c93a89ac8543c479",
+      "size": [
+        372,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f99c41e13f18491c7fbbb31b43cbcfab.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f99c41e13f18491c7fbbb31b43cbcfab.png",
+      "sha256": "f3507281f3754e5f5c5fe0e3ae87841198dc047530599cc9fb9a0e811a2504f4",
+      "size": [
+        372,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/47f9f37c1fa6ac5776143f3a93dd034b.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/47f9f37c1fa6ac5776143f3a93dd034b.png",
+      "sha256": "69eb6a4974ab307c25d8aa43831b4725a0eabbf457e88141aa4a67f6717d9580",
+      "size": [
+        368,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/1e803f8a7d3e62b73b69af914a690d83.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/1e803f8a7d3e62b73b69af914a690d83.png",
+      "sha256": "bfdb76c8db5b4349af2aa03bcd6759dd1274897876c0f3e2f64837cd99c54c45",
+      "size": [
+        364,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/bbc19d62e5bf7ff8271e74dd66d8893b.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/bbc19d62e5bf7ff8271e74dd66d8893b.png",
+      "sha256": "f14529bfdf7e35f80d98450d2e860c1ec5965610b4daaf50979c6641ab99241e",
+      "size": [
+        352,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f7c8a5418b652c24b3e5a1ecaa698d0e.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f7c8a5418b652c24b3e5a1ecaa698d0e.png",
+      "sha256": "1364814a3d753a6a37c7f0905b8169df4af7643150c9b27e4b707e1da2e8e3b3",
+      "size": [
+        364,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/64c43bf4287f204089816308e9249de8.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/64c43bf4287f204089816308e9249de8.png",
+      "sha256": "3f9ef87e8367b162b1c846f3af1193d5ca03be88ff31ffde873899f11a61ea80",
+      "size": [
+        368,
+        114
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/898e63032296d8f6b7146a0db46fa1b8.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/898e63032296d8f6b7146a0db46fa1b8.png",
+      "sha256": "d6a0ab3742bd34d4d3ee0d831662a1f15c01fcaa3099c30ac8fde497ce783b3e",
+      "size": [
+        372,
+        114
+      ]
+    },
+    "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif": {
+      "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+      "sha256": "e7d4e228409bd54e31c4ecf72b6e34a85ea489ad1a674b35ecb2aeb73661ebc5",
+      "size": [
+        92,
+        90
+      ]
+    },
+    "assets/_downloads/objects/NSMBUCoin.gif": {
+      "path": "assets/_downloads/objects/NSMBUCoin.gif",
+      "sha256": "106571ce3840ca7a89498e1f1496fc583fa9048800820f17981ffaf8aaeb5f49",
+      "size": [
+        52,
+        60
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/ac7ef1b1c19251c941c676fe8cd8edbf.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/ac7ef1b1c19251c941c676fe8cd8edbf.png",
+      "sha256": "c63a7a82c5f7d1a92061bb95f992666cbdba0aa1186a10a420e5bddd84604bee",
+      "size": [
+        180,
+        186
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/7d3003176d2340bb9c286e7edca46a0b.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/7d3003176d2340bb9c286e7edca46a0b.png",
+      "sha256": "ab33078c0048c4e2fbfae1ee0dd4a365096ae6e0fee64862cd540279a891ed46",
+      "size": [
+        180,
+        188
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/10bb61d0a0ee8d546aae9a31ff09cd53.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/10bb61d0a0ee8d546aae9a31ff09cd53.png",
+      "sha256": "42a5b79afa18c3aee39e6a4071c0abe5770dd79556217da1bbd4234c6697692e",
+      "size": [
+        180,
+        186
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/4e2266d99d0281a3e49d65aab0b12c97.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/4e2266d99d0281a3e49d65aab0b12c97.png",
+      "sha256": "4ae8ddb7e17d848ce800ccbf769170d75a778901c89dae2ed66c7e77ced76ccf",
+      "size": [
+        180,
+        184
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/1c162afc964b68fa99e058fdae0c0abc.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/1c162afc964b68fa99e058fdae0c0abc.png",
+      "sha256": "bc12803c5c6fbe52a63c5916aa76ce288e10ad9bc6b2f966cad0051fc6403c80",
+      "size": [
+        180,
+        184
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/110b4650c3a103234fccf202266f6a67.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/110b4650c3a103234fccf202266f6a67.png",
+      "sha256": "b61de7f269467bee7fdc6e11c7ac9d38a93ca21b46df1f949f9b2569448fe94e",
+      "size": [
+        180,
+        182
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/5bf28e2a5ae06440e1ecead5dcb88fb6.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/5bf28e2a5ae06440e1ecead5dcb88fb6.png",
+      "sha256": "b0df75b92ae52da700c380c918122c644df9c2d5ead0f4b603209ebdad8b2c22",
+      "size": [
+        184,
+        178
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/31fd0648245f3e6b8e1e067b6264f932.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/31fd0648245f3e6b8e1e067b6264f932.png",
+      "sha256": "058d17bd1fbd36fb3e278e6934ae392dd55fe2c1763381ddc10714cd29ffb763",
+      "size": [
+        188,
+        178
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f193042c9bae549622c6fcdf980bf78c.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f193042c9bae549622c6fcdf980bf78c.png",
+      "sha256": "1e7aa43a775237b4f3d09ba80c2a90fda025c565a4954421f214f0b8d0016f6b",
+      "size": [
+        192,
+        176
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/2e432643729b84f0cc09ec6d127534f3.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/2e432643729b84f0cc09ec6d127534f3.png",
+      "sha256": "b50c9da1a6aebfc9efc8938520da96a70c19277b55bca206f8c298b3af7c9099",
+      "size": [
+        196,
+        176
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/50ba2e472505c6e1e79ab55d9114cc28.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/50ba2e472505c6e1e79ab55d9114cc28.png",
+      "sha256": "02aa80790554fb6db0022833b589762e3a9db7530a4c3ad0c6d1db263a8ada5c",
+      "size": [
+        196,
+        174
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/70a286193aa8c6a0cf6636402073ebe7.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/70a286193aa8c6a0cf6636402073ebe7.png",
+      "sha256": "2721a2df2eb9600cc4b13e619b6d261913971302ecd71840c25fbf9e6654901c",
+      "size": [
+        196,
+        174
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/f8738c2f7dcc90478be25d8e33721b90.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/f8738c2f7dcc90478be25d8e33721b90.png",
+      "sha256": "5244f78107ea5be12bf1d85e4c7f8813924191b7891f41408302a53f9f0c5bb9",
+      "size": [
+        192,
+        176
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/8c51a2cb6bb07a46624c21de2ba73e1d.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/8c51a2cb6bb07a46624c21de2ba73e1d.png",
+      "sha256": "62bfe3f6a85de6bcc6c1627c2a9260b628f08d7aa3ddd4830290c1e031c5f62d",
+      "size": [
+        188,
+        176
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/12f42c90019155bf163535a621082ebc.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/12f42c90019155bf163535a621082ebc.png",
+      "sha256": "225e27a1bbb5b5477ee277b674b60632dcae7f6462d6d8307c697cc96bbe879b",
+      "size": [
+        188,
+        178
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/9f34a1a5c44dd2ce58895cde628f3ad1.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/9f34a1a5c44dd2ce58895cde628f3ad1.png",
+      "sha256": "7bfed816a125b6a5733bf95797fd382b1254c28d51cf4292609eaf89310e8d17",
+      "size": [
+        184,
+        180
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/9ecf96550387cfe8e9b1d33150efc866.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/9ecf96550387cfe8e9b1d33150efc866.png",
+      "sha256": "8fe8bf2ae744cb768b13317276611b02ee020442875cd581f78a1462670e3e25",
+      "size": [
+        184,
+        184
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/e89eb5bb774c073044581d56ad0848b2.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/e89eb5bb774c073044581d56ad0848b2.png",
+      "sha256": "b74ba9e6138b2405a694ad217d9180aa56b0fa28d10b83fd5245d308d8e488c0",
+      "size": [
+        184,
+        184
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/1da24621a6cb46800e8853da199a4d51.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/1da24621a6cb46800e8853da199a4d51.png",
+      "sha256": "bb098dbf659a1b608e2f040ba5ba476170f126f02813fefd95fedb0455d5a697",
+      "size": [
+        184,
+        186
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/d0299ed79682022231c5027453694e52.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/d0299ed79682022231c5027453694e52.png",
+      "sha256": "a3d17531866a1c3c454c780ea9536d1f9f9a1a1b338ec4e4ad013d4798658708",
+      "size": [
+        184,
+        186
+      ]
+    },
+    "assets/_downloads/objects/scratch/105789235/a86a41ccd303e4d4917ebe971647ce2f.png": {
+      "path": "assets/_downloads/objects/scratch/105789235/a86a41ccd303e4d4917ebe971647ce2f.png",
+      "sha256": "7767ba00e7accddec2b60091bac75f5bf98fc03b483b0a43aa00d1d7d36f0316",
+      "size": [
+        180,
+        186
+      ]
+    },
+    "assets/_downloads/mario/tiles/21847-0.png": {
+      "path": "assets/_downloads/mario/tiles/21847-0.png",
+      "sha256": "18afd7d5f6a619950d408c83d26eedc063484bc8362193dd6e0ec6dc830bd911",
+      "size": [
+        1024,
+        3072
+      ]
+    }
+  },
+  "wikiSources": {
+    "SMM2-NSMBU-BlueBlock.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-BlueBlock.png",
+      "imageUrl": "https://www.mariowiki.com/images/e/e9/SMM2-NSMBU-BlueBlock.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A Blue Block in the [[New Super Mario Bros. U]] theme of [[Super Mario Maker 2]]\n|2=The Spriters Resource\n|3=Nintendo\n}}\n[[Category:Super Mario Maker 2 assets]]"
+    },
+    "SMM2-NSMBU-BlueDottedLineBlock.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-BlueDottedLineBlock.png",
+      "imageUrl": "https://www.mariowiki.com/images/b/ba/SMM2-NSMBU-BlueDottedLineBlock.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader Wynn Liaw; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A blue [[Dotted Line Block]] in the [[New Super Mario Bros. U]] theme of [[Super Mario Maker 2]]\n|2=The Spriters Resource\n|3=Nintendo\n}}\n[[Category:Super Mario Maker 2 assets]]"
+    },
+    "SMM2-NSMBU-Checkpoint-Flag.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-Checkpoint-Flag.png",
+      "imageUrl": "https://www.mariowiki.com/images/f/f1/SMM2-NSMBU-Checkpoint-Flag.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader RHG1951; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A smaller [[Checkpoint Flag]] in the ''[[New Super Mario Bros. U]]'' theme of ''[[Super Mario Maker 2]]''.\n|2=Self-taken\n|4=Cropped\n}}\n[[Category:Super Mario Maker 2 screenshots]]"
+    },
+    "SMM2-NSMBU-OffSwitch.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-OffSwitch.png",
+      "imageUrl": "https://www.mariowiki.com/images/0/06/SMM2-NSMBU-OffSwitch.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader Trig Jegman; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=An OFF Switch in ''[[Super Mario Maker 2]]''\n|2=May 15 2019 ''Super Mario Maker 2'' Direct\n}}\n[[Category:Super Mario Maker 2 assets]]"
+    },
+    "SMM2-NSMBU-OnSwitch.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-OnSwitch.png",
+      "imageUrl": "https://www.mariowiki.com/images/4/46/SMM2-NSMBU-OnSwitch.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader Trig Jegman; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=An ON Switch in ''[[Super Mario Maker 2]]''\n|2=[https://www.nintendo.co.jp/switch/baaqa/pc/assets/images/make/parts01_slide_thumb04_28_off.png]\n}}\n[[Category:Super Mario Maker 2 assets]]"
+    },
+    "SMM2-NSMBU-PSwitch.gif": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-PSwitch.gif",
+      "imageUrl": "https://www.mariowiki.com/images/5/55/SMM2-NSMBU-PSwitch.gif",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A [[P Switch]] in ''[[Super Mario Maker 2]]''\n|2=[https://www.spriters-resource.com/resources/sheet_icons/146/149248.gif]\n|4=Compressed\n}}\n[[Category:Super Mario Maker 2 assets]]"
+    },
+    "SMM2-NSMBU-RedBlock.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-RedBlock.png",
+      "imageUrl": "https://www.mariowiki.com/images/a/a8/SMM2-NSMBU-RedBlock.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "==Summary==\n{{aboutfile\n|1=A red [[Dotted-Line Block]] in ''[[Super Mario Maker 2]]''\n|2=The Spriters Resource\n}}"
+    },
+    "SMM2-NSMBU-RedDottedLineBlock.png": {
+      "url": "https://www.mariowiki.com/File:SMM2-NSMBU-RedDottedLineBlock.png",
+      "imageUrl": "https://www.mariowiki.com/images/5/51/SMM2-NSMBU-RedDottedLineBlock.png",
+      "game": "Super Mario Maker 2 (NSMBU style)",
+      "ripper": "Mario Wiki uploader Wynn Liaw; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A red [[Dotted Line Block]] in the [[New Super Mario Bros. U]] Theme of [[Super Mario Maker 2]]\n|2=The Spriters Resource\n|3=Nintendo\n}}\n[[Category:Super Mario Maker 2 assets]]"
+    },
+    "NSMBUCoin.gif": {
+      "url": "https://www.mariowiki.com/File:NSMBUCoin.gif",
+      "imageUrl": "https://www.mariowiki.com/images/4/4c/NSMBUCoin.gif",
+      "game": "New Super Mario Bros. U",
+      "ripper": "Mario Wiki uploader Cheese Head; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=Sprite of a [[Coin]] in [[New Super Mario Bros. U]]\n|2=The Spriter's Resource\n}}\n[[Category:New Super Mario Bros. U assets]]"
+    },
+    "NSMBU_Flagpole.png": {
+      "url": "https://www.mariowiki.com/File:NSMBU_Flagpole.png",
+      "imageUrl": "https://www.mariowiki.com/images/f/f1/NSMBU_Flagpole.png",
+      "game": "New Super Mario Bros. U",
+      "ripper": "Mario Wiki uploader Nintendo101; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A [[Goal Pole]] as seen in ''[[New Super Mario Bros. U]]''\n}}\n[[Category:New Super Mario Bros. U assets]]"
+    },
+    "NSMBU_Ground_Big_Brick_Block.png": {
+      "url": "https://www.mariowiki.com/File:NSMBU_Ground_Big_Brick_Block.png",
+      "imageUrl": "https://www.mariowiki.com/images/3/39/NSMBU_Ground_Big_Brick_Block.png",
+      "game": "New Super Mario Bros. U",
+      "ripper": "Mario Wiki uploader Alexo; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=Sprite of a [[Mega Block]] in ''[[New Super Mario Bros. U]]''\n|2=The Spriter's Resource\n|3=Nintendo\n}}\n[[Category:New Super Mario Bros. U assets]]"
+    },
+    "NSMBU_Ground_Big_Empty_Block.png": {
+      "url": "https://www.mariowiki.com/File:NSMBU_Ground_Big_Empty_Block.png",
+      "imageUrl": "https://www.mariowiki.com/images/8/8f/NSMBU_Ground_Big_Empty_Block.png",
+      "game": "New Super Mario Bros. U",
+      "ripper": "Mario Wiki uploader Alexo; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=Sprite of a Big [[Empty Block]] in ''[[New Super Mario Bros. U]]''\n|2=The Spriter's Resource\n|3=Nintendo\n}}\n[[Category:New Super Mario Bros. U assets]]"
+    },
+    "NSMBU_Ground_Big_Question_Block.png": {
+      "url": "https://www.mariowiki.com/File:NSMBU_Ground_Big_Question_Block.png",
+      "imageUrl": "https://www.mariowiki.com/images/1/11/NSMBU_Ground_Big_Question_Block.png",
+      "game": "New Super Mario Bros. U",
+      "ripper": "Mario Wiki uploader Alexo; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=Sprite of a [[Mega ? Block]] in ''[[New Super Mario Bros. U]]''\n|2=The Spriter's Resource\n|3=Nintendo\n}}\n[[Category:New Super Mario Bros. U assets]]"
+    },
+    "SMM-NSMBU-BillBlaster.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-BillBlaster.png",
+      "imageUrl": "https://www.mariowiki.com/images/b/b5/SMM-NSMBU-BillBlaster.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[Bill Blaster]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-Checkpoint-Flag.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-Checkpoint-Flag.png",
+      "imageUrl": "https://www.mariowiki.com/images/6/64/SMM-NSMBU-Checkpoint-Flag.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[Checkpoint Flag]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-Conveyor.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-Conveyor.png",
+      "imageUrl": "https://www.mariowiki.com/images/d/d1/SMM-NSMBU-Conveyor.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[Conveyor Belt]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-DonutBlock.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-DonutBlock.png",
+      "imageUrl": "https://www.mariowiki.com/images/a/a5/SMM-NSMBU-DonutBlock.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[Donut Block]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-Grinder.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-Grinder.png",
+      "imageUrl": "https://www.mariowiki.com/images/7/7a/SMM-NSMBU-Grinder.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[Grinder]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-Mushroom.gif": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-Mushroom.gif",
+      "imageUrl": "https://www.mariowiki.com/images/7/7d/SMM-NSMBU-Mushroom.gif",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|1=[[Super Mushroom]]|2=''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)|5=[https://www.mariowiki.com/File:SMM-NSMBU-SuperMushroom.png SMM-NSMBU-SuperMushroom.png]}}"
+    },
+    "SMM-NSMBU-PSwitch.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-PSwitch.png",
+      "imageUrl": "https://www.mariowiki.com/images/b/bf/SMM-NSMBU-PSwitch.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[P Switch]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-Spring.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-Spring.png",
+      "imageUrl": "https://www.mariowiki.com/images/5/55/SMM-NSMBU-Spring.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "==Summary==\n{{aboutfile|[[Trampoline]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}"
+    },
+    "SMM-NSMBU-Star.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-Star.png",
+      "imageUrl": "https://www.mariowiki.com/images/c/c3/SMM-NSMBU-Star.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile|[[Super Star]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU-WarpPipe.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU-WarpPipe.png",
+      "imageUrl": "https://www.mariowiki.com/images/3/3f/SMM-NSMBU-WarpPipe.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=[[Warp Pipe]] from ''[[Super Mario Maker]]'' (''New Super Mario Bros. U'' style)\n}}\n[[Category:Super Mario Maker assets]]"
+    },
+    "SMM-NSMBU_Door.png": {
+      "url": "https://www.mariowiki.com/File:SMM-NSMBU_Door.png",
+      "imageUrl": "https://www.mariowiki.com/images/2/2a/SMM-NSMBU_Door.png",
+      "game": "Super Mario Maker (NSMBU style)",
+      "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+      "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+      "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A ''[[New Super Mario Bros. U]]''-styled [[Warp Door]] in ''[[Super Mario Maker]]''.\n|2=Ripped from [https://www.spriters-resource.com/wii_u/supermariomaker/sheet/71472/ this sheet]\n|3=[[Nintendo]]\n}}\n[[Category:Super Mario Maker images]]"
+    }
+  },
+  "outputs": {
+    "elements/spring/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Spring.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        77
+      ],
+      "sha256": "2913c0c2461373daa0c4eafb1b8baf5637ef5916573d32b317600393df2e58a7"
+    },
+    "elements/checkpoint/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Checkpoint-Flag.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        106,
+        171
+      ],
+      "sha256": "8e65762d71ba2c3bd456c94194862b2bd05fa1448e15b4f1de1107169b37a0f9"
+    },
+    "elements/goal/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBU_Flagpole.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        312,
+        1015
+      ],
+      "sha256": "80de3c225194468e3c6ea57686abf231c3e98fc840c603c05d275e29a5ec1cef"
+    },
+    "elements/brick/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBU_Ground_Big_Brick_Block.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        120,
+        120
+      ],
+      "sha256": "f788101c651dc4095f0adfe501fdab0eac9bb9f0cbe168014ee9f8d8f4266c92"
+    },
+    "elements/question_block/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f78ad79aac7150bc3e570e9b22b65834.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "c60c1a97e443dcef5cdaebbb5a2685f1a7ac4f14087e89d0c337a6927994d025"
+    },
+    "elements/question_block/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f06f9544c5b110f72d4201a7681a269f.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "de74ab8c7a889e1e8ffb2ef2a54438ee0a1d0dbc7397257980ba42372d875d6f"
+    },
+    "elements/question_block/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/0c2f29ee5cb6ffd6bce22f30a229385c.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "390cade4b6cc6d91e0c8dffc7f38bd37f4c4af310a7938647624e4194944b794"
+    },
+    "elements/question_block/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/bdeb9fd63afdfbdafa1f0599470cd50b.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "006124a14ceb8d7121b5d00449732e10d97e7320c9662d0f27dca6d675ec5343"
+    },
+    "elements/question_block/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/7115de9fb0d784b7a25a4a632be1de2a.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "51e77a597e8251e6cf7d696bbd277d10b4cc020bf5367dc393b24586f28a2c23"
+    },
+    "elements/question_block/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/43265a583eb58a144fb016b83f80e892.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "ad772385075af6b845427f5028697c0508e01b7c37bb62bfb5111d7ba0137afc"
+    },
+    "elements/question_block/006.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/812bd8457cbaf8f38089b012d36b994d.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "8401e8e0195ad6c3266fdf9f3825a6eb95715242db052b24d2562bf1c2d5ca98"
+    },
+    "elements/question_block/007.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/a4552e3bfccdd9ab6414f5e72c85522b.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "048084005ec941841e139e58839ca7dca5073af47bfab017be8796a85aeda300"
+    },
+    "elements/question_block/008.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/60caf8ff333dcc08d191cc8314d05f6c.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "39a1a24fc2bc59b0ab6d7afc543d67bd52beb6a5b0d363911b723f7dc11b1924"
+    },
+    "elements/question_block/009.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/0f81ac66d549c5702a82bfcbe0d11c22.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "70db0c97f8ee8c369699243c1a5a752019e1f1cf34226fdb38e59b71a33bed26"
+    },
+    "elements/question_block/010.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/0b627ce713f48666b74fbab86c5adb56.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "4de431b92db839a35850f8d9815d2563f1e9698ddc552db1edeef7469470fed3"
+    },
+    "elements/question_block/011.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/2f60e0cbbf69c4051b733256dbfec0a2.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "1e452d0f622f7298368217bac3626e7ba51412b79391c2d51ccebc02f0efa6e3"
+    },
+    "elements/question_block/012.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f2c536feb9d3962eb00c4d4f7944bd53.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "815200240ace855ee7e1a773d56911d6c9ef6d4b157b53e62e272fcb3c973345"
+    },
+    "elements/question_block/013.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/c213acf3a3be3fa3ac23311f78c722ed.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "a1a5e4da70998a580151f1ee80c0e0cdef3a865892b78509a611956a1e081564"
+    },
+    "elements/question_block/014.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/1c2363381426285659bc8fbfdb387982.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "7c0091f12eac3464ae597fc2288ee9702e11a66857a4d488d5f75c60ba55a6be"
+    },
+    "elements/question_block/015.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/64a3195fb10a133e1c09e79ae2969eaf.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "a198bd4a8865c2b227a61863b9fcc2ae8d682b45f6a5056afa0f469771be31cc"
+    },
+    "elements/question_block/016.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBU_Ground_Big_Empty_Block.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null,
+        "resize": [
+          64,
+          64
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "45b9c61fed2f407ee9696d1ce835ba819ea42943177f4b2fb71a931ff9c58ab8"
+    },
+    "elements/pswitch/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "80dd3146e3124bfb4caa089c7343e7f49a29eb6f7e8cb68dfcdc92a01037fa33"
+    },
+    "elements/pswitch/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 1,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "8db502ef3ea31fb89119a8ed80346457aaf100a86c016b845915d44039f9f96a"
+    },
+    "elements/pswitch/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 2,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "4ed62bda19c9b553cc06ce59d5a98783c58a77f01c08e241ea98d47c972286b0"
+    },
+    "elements/pswitch/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 3,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "9e1799da7be4d28d88425e9e63ff0fd008ecd9971aceed2a9560f69301c1daeb"
+    },
+    "elements/pswitch/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 4,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "4ed62bda19c9b553cc06ce59d5a98783c58a77f01c08e241ea98d47c972286b0"
+    },
+    "elements/pswitch/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 5,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "8db502ef3ea31fb89119a8ed80346457aaf100a86c016b845915d44039f9f96a"
+    },
+    "elements/pswitch/006.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 6,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "c4867f0177271203d3dd03682de6ad8973bebb1acbf8acbc63ea98d82fc32a16"
+    },
+    "elements/pswitch/007.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 7,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "a77e36303cb829914eabb6443705a4fefb50f2ac8b81909535156e8b794ded94"
+    },
+    "elements/pswitch/008.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 8,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "9759c8be4f314d6b947e9496bac59e0ef7c68d35006200e3dc13d6007a472cc3"
+    },
+    "elements/pswitch/009.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 9,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "a692d1ec379dc71e4e4bc411dec59745d2730a61c36ce73eec38ddc0dc6244f9"
+    },
+    "elements/pswitch/010.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 10,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "4ae0894ae665e024e37dd4b7187fabd502a2511839694fa6205b0781d13b1945"
+    },
+    "elements/pswitch/011.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-PSwitch.gif",
+        "sourceFrame": 11,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        82,
+        91
+      ],
+      "sha256": "89e176afc60255db0e37c6c0e795e57637e4feffa3d7fc34fa417c9595348ac0"
+    },
+    "elements/switch/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-OnSwitch.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "a7bdd6a4dd82266cb2faf4370d7671c0a7ccc49d57da2361206958fd5d72f40f"
+    },
+    "elements/switch/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-OffSwitch.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "424c39d5075cc383708d64c7acf490b7ba00b5199c432c2000cc784040ec7ec0"
+    },
+    "elements/switch_block/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-RedBlock.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "1ad4a3903b8b3eece60a4c28b3ec415540ea49f0557201f4e8bd834e84b55171"
+    },
+    "elements/switch_block/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-RedDottedLineBlock.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        3,
+        6
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "2ef67b2ff8b5f98a1e16f69ed3708a48169949b2d73ccbd56416806b34dac963"
+    },
+    "elements/switch_block/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-BlueBlock.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "79af5d469834e1d49766c96b764398b0e67fe5a4c6f16fd128cf358fa7d11eab"
+    },
+    "elements/switch_block/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM2-NSMBU-BlueDottedLineBlock.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        3,
+        6
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "6b4d6869dc9a228168e34bd4039dc0d4075a065d01bca577aedfaa99f2077ecb"
+    },
+    "elements/falling_block/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-DonutBlock.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        60,
+        60
+      ],
+      "sha256": "1fcd5074806ecc8fffd2d3774af6713a3f676a4931d658cfae8f31ef9f5593f6"
+    },
+    "elements/saw/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Grinder.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        149,
+        149
+      ],
+      "sha256": "ed855a137850b97e0955c65890235bb0aabeda7faaacd19a531ad655662e7e42"
+    },
+    "elements/door/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105733943/c00474f03f66f03d22ca3e1bbf724340.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "3749b4317ebab02c477f9f69d5a91d13050ef06c6b9568f96e12998cc5980dbf"
+    },
+    "elements/door/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105733943/6ec6d298848b783cc9bb126d9a801636.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "af6bd1330a85ba770f0ef4ca9d79ba3fd7527dd6088b26b170edd096e5adba99"
+    },
+    "elements/door/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105733943/0bcb7a14f62639d2d53f47f853e1d4fe.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "3c7c4ed892371df7d8d7b4b865a7b88055eff403c7eb9a5fdc3366453f704ed4"
+    },
+    "elements/door/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105733943/1efc5007b28b9408383524d7abaa3a65.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "aaa47955cda3878bef26d8c32662af05c1212d0121016fe6d11d7fe2a3da37b7"
+    },
+    "elements/door/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105733943/c04bfbec799850715a816ef320c269cf.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "49350f7edb6dfd4709318a15c65a8788a3e1a3ce72fa5e9b099f8c3cfe36ea57"
+    },
+    "elements/door/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105733943/d2fe68f80fc0ce83a4c69474a3a63411.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "235e0a13637a5fd3ef2007b573cd03f4622e3ae4551b2a6b8df7c5b5182cc53d"
+    },
+    "elements/pipe/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-WarpPipe.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        120,
+        120
+      ],
+      "sha256": "ec647f72766dca92e74fdec2bc097af8c9daefdf24f03b992727edb10190cf38"
+    },
+    "elements/cannon/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-BillBlaster.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        78,
+        154
+      ],
+      "sha256": "53198cedb8af4e660af7acbb5a44b11fbd5ed9f913dcda377b7851232307adde"
+    },
+    "elements/conveyor_belt/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/c633bc5a3a325e4c0bcee8c2ae764a05.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          61,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "0bbd251c807f25a4946b7fdce03b30f0afb3d4583ec68dacbc2b82d80aa5bdfc"
+    },
+    "elements/conveyor_belt/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f99c41e13f18491c7fbbb31b43cbcfab.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          61,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "e925880691f0c24629445130c7be56aa9b0705cba802ae19fe8846963ebea556"
+    },
+    "elements/conveyor_belt/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/47f9f37c1fa6ac5776143f3a93dd034b.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          60,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "907ad6db2d7d31b7861bb6f68bdf0de3cb02ea267c232951f8fd89852a13c74a"
+    },
+    "elements/conveyor_belt/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/1e803f8a7d3e62b73b69af914a690d83.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          59,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "c476e45a978bb9afb02f2412d77598e609bdf8ff172ae0e0fa1345eb7d86bd66"
+    },
+    "elements/conveyor_belt/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/bbc19d62e5bf7ff8271e74dd66d8893b.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          56,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "b2f047dc8d17689fc18da256b8d7571fc78aabc40a32b2ed3e4008ba68c76534"
+    },
+    "elements/conveyor_belt/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f7c8a5418b652c24b3e5a1ecaa698d0e.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          59,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "29aed516e2fcd28ebfd95e9d8e043ce9604b3cfdc5c7c6d81fbb148412ecee92"
+    },
+    "elements/conveyor_belt/006.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/64c43bf4287f204089816308e9249de8.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          60,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "70ccd05b02a29d6435da78d1fdcd6c7beca420b06203d8c2e4353285a6bbfd9c"
+    },
+    "elements/conveyor_belt/007.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/898e63032296d8f6b7146a0db46fa1b8.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": [
+          61,
+          0,
+          64,
+          57
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        57
+      ],
+      "sha256": "72e5406d1ce05f56fce72757c85e6cfbf38df5385e88ba2d09ee147bf68e1bb7"
+    },
+    "elements/mushroom/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "bbdc1d295f7c66bdb75e2fe917c7243fd38df13c8c75ee3a49cc0c68789b7a62"
+    },
+    "elements/mushroom/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 1,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "157de893e142add08038c9194f21d49a453a0560bb42b76bdca98e05a785ac89"
+    },
+    "elements/mushroom/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 2,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "382e116745f319088995be54deb5b4c7681ccc8517fcdcd209b5e8d632e7d1e5"
+    },
+    "elements/mushroom/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 3,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "4c9fd0d11cb03ecf806b79a1d28983ca35c2dee9eb105e37401852c5f17c1b96"
+    },
+    "elements/mushroom/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 4,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "06ef85dac6a4942f3a8c56092941448045f72b78e24db59b929f63cd156341da"
+    },
+    "elements/mushroom/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 5,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "012fc28b2454b5a6ddc083d267f035b1ee35f4c4f96f59ac12b361cb334d4890"
+    },
+    "elements/mushroom/006.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 6,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "5643e1dbd350b3af2a5b2941df2a597c3793968365922d46f572ab502d2cd87c"
+    },
+    "elements/mushroom/007.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 7,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "d1fba9a7ef395f5832b3f0654630dfc4064b7e93fe7a587d69af7a260468662d"
+    },
+    "elements/mushroom/008.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 8,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "36aef83a64b3194514594691624295c82963a00e28024988c8f05c0cad57ff53"
+    },
+    "elements/mushroom/009.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 9,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "f51074e82a296b706aad0229091ef68a4465026a1e86fbd02875b795e67a3e7f"
+    },
+    "elements/mushroom/010.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 10,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "9a8657816315f0bd597ce71ad743990f379f0cd07a936da81533e5de219c45b7"
+    },
+    "elements/mushroom/011.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 11,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "e8cf0d5f38b778ed63e4adde9f0487d10ab65a0e1d33f8f19cd31d92aa26499a"
+    },
+    "elements/mushroom/012.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 12,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "247e6e58eef8bc6b64f66a7a366975b4c210007f4ec9342356be4f76e1c31cfc"
+    },
+    "elements/mushroom/013.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 13,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "e9338efdc63de0340bb9d189d4d4c80f21ae85b01a9d97fa25e0fe64b935e4e8"
+    },
+    "elements/mushroom/014.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 14,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "5a6fc3e1743300ac9291bd4d0e2ecaecbe3087320afbdd8f5db5e1e83e2fb5c8"
+    },
+    "elements/mushroom/015.png": {
+      "source": {
+        "path": "assets/_downloads/objects/SMM-NSMBU-Mushroom.gif",
+        "sourceFrame": 15,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        92,
+        90
+      ],
+      "sha256": "925baf7fea009e50a7753bcaf8fa77b7fd57d7c458c847b0c15aa41ae9d83496"
+    },
+    "fx/coin_pop/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "d1cdedc7d7f10f3fc0884a45804cc51ef1dc58a35da4d22d16a8ed480bd1dd6c"
+    },
+    "fx/coin_pop/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 1,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "877b6a7810162853c2bd34df3ed5d674ddb54655d9838386c9ca494e80a5d35a"
+    },
+    "fx/coin_pop/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 2,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "bb9fdd00260a135fca7389a0aad80326a2938ff632c4446b9c30c2ea25c0435b"
+    },
+    "fx/coin_pop/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 3,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "c80ffe613462292bded8fe0a0f089ea4ebebd55e16bbe906d4426f89b5c8c122"
+    },
+    "fx/coin_pop/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 4,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "f0b35a98f923c80f7da183c73d772ae3c0a23f68ce726fe0cd882abf47e3e807"
+    },
+    "fx/coin_pop/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 5,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "2a596839d6ca7272c955b63efb03806cf54d8b5e600fc226d5b849a93fd89ebf"
+    },
+    "fx/coin_pop/006.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 6,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "22f590a00dc220426fb825fa9deb6e8ecded72f067ce8b7eda7d771d7273e9f5"
+    },
+    "fx/coin_pop/007.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 7,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "59f50c681d8fea86f437dee339969d71def399e914a4b52b35bccd914a5aa0d3"
+    },
+    "fx/coin_pop/008.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 8,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "232c399df7598191377d431ce70674efdad0ab2d1cb5d44122a7d83bc9f2710b"
+    },
+    "fx/coin_pop/009.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 9,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "d5ca2810e9b3f42a326ae35be4881d00e989dc1aed86932f942dbe5ef8cf2acb"
+    },
+    "fx/coin_pop/010.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 10,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "6d31185def4426e708e35d57394d5180e6557a451446bb0009d57ea0b7b55e7a"
+    },
+    "fx/coin_pop/011.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 11,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "4968bc8aa3f2524e5fb89e9fb774b7a023246cd670480804937a2004b46872fc"
+    },
+    "fx/coin_pop/012.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 12,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "a895b729bd0e876580739e5be34d8cf4f61867d6b7fbcea53302a20bb98ef880"
+    },
+    "fx/coin_pop/013.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 13,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "70edee119f9942f0f37c7cee9bd6f63689b141830a3f4612f56cc8a59682ba04"
+    },
+    "fx/coin_pop/014.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 14,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "937dfdc1cf9fdbc5b7d2ffa4af6cd5c17e6ef137c3e92e7f310f1506db5b1d87"
+    },
+    "fx/coin_pop/015.png": {
+      "source": {
+        "path": "assets/_downloads/objects/NSMBUCoin.gif",
+        "sourceFrame": 15,
+        "decimate": 1,
+        "rect": null
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        52,
+        60
+      ],
+      "sha256": "4333f167c04f218ce719db5fa1f63bff65d0afe203d32b64a28ac0e985fc1ef0"
+    },
+    "fx/star/000.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/ac7ef1b1c19251c941c676fe8cd8edbf.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        1
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "49937e5ce15621bc661d06c6242f84028102a177b9ba1913a319670615653c6e"
+    },
+    "fx/star/001.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/7d3003176d2340bb9c286e7edca46a0b.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        0
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "56ff1b9f1ca7fd87764965db6e3577669e3d0cb1aaad19b4e49dbd484c4e1269"
+    },
+    "fx/star/002.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/10bb61d0a0ee8d546aae9a31ff09cd53.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        1
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "02691dae76a1af64f42c646580d87cae158e8d61da4ccc0b5b195e50ae4e6691"
+    },
+    "fx/star/003.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/4e2266d99d0281a3e49d65aab0b12c97.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        2
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "9347819af3f01957fcf14191c684b71d4a51f6828fddaff64f71d9ba1807e88f"
+    },
+    "fx/star/004.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/1c162afc964b68fa99e058fdae0c0abc.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        2
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "257f9cfbfadeac3a5e2b8b2cd48003aa031485e4d8b2914dcb3520a2b57c922d"
+    },
+    "fx/star/005.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/110b4650c3a103234fccf202266f6a67.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        3
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "ca2259b1b7af186d71cab9670730ad67badc19a4097a8d071874a3105812b5a5"
+    },
+    "fx/star/006.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/5bf28e2a5ae06440e1ecead5dcb88fb6.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        3,
+        5
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "6de7f7dab7aa31abe6b536fa206e3650cfe875b5d10a96fb6254e142f61b6916"
+    },
+    "fx/star/007.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/31fd0648245f3e6b8e1e067b6264f932.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        2,
+        5
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "1e109b23a3a20a433e06187d94089003e49fbcb8b6e969f70451b3f853c553a0"
+    },
+    "fx/star/008.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f193042c9bae549622c6fcdf980bf78c.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        1,
+        6
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "251d8b6975a40c465bee36b654a63e53787af28ae044badb9768be25b84f26dd"
+    },
+    "fx/star/009.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/2e432643729b84f0cc09ec6d127534f3.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        6
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "a9e52274c350a66ee238b40f6ee6bf777196f5b0846f585c0f8011c8b111f4d9"
+    },
+    "fx/star/010.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/50ba2e472505c6e1e79ab55d9114cc28.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        7
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "dac88ef799bea8668cd3ee2eaaa3733bb690365174723d3e9dc00e847d963459"
+    },
+    "fx/star/011.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/70a286193aa8c6a0cf6636402073ebe7.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        0,
+        7
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "66386c7f349b3e3e6acc1c1daaacb1a85ab35374341cd0f7ee3e0df2981c5a9b"
+    },
+    "fx/star/012.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/f8738c2f7dcc90478be25d8e33721b90.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        1,
+        6
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "d090796fa027f07727b80b8506309ecbcbeec982b8978838de0f161fc1a50924"
+    },
+    "fx/star/013.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/8c51a2cb6bb07a46624c21de2ba73e1d.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        2,
+        6
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "d3f9bff27b4efdb1ae342429b7ab987f52e81623d08c7add64d73f5fa4ff18f2"
+    },
+    "fx/star/014.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/12f42c90019155bf163535a621082ebc.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        2,
+        5
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "f832d63079de767c8575ab248713b9d7a238f64e003167470d41b616cc3fff5c"
+    },
+    "fx/star/015.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/9f34a1a5c44dd2ce58895cde628f3ad1.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        3,
+        4
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "3880e8df96b5b9ab2be81cd6aa3afd80a8f54be9e158576a24eb7be76f3985a6"
+    },
+    "fx/star/016.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/9ecf96550387cfe8e9b1d33150efc866.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        3,
+        2
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "df83b22c973b78b95409b2f18120d4dd2f3741d5b2b86bca8c3f391b194ad57a"
+    },
+    "fx/star/017.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/e89eb5bb774c073044581d56ad0848b2.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        3,
+        2
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "4b7c936b3d4cc9bdd68ae705ca558b54435dc654d3dc39dfea94eb11c2850819"
+    },
+    "fx/star/018.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/1da24621a6cb46800e8853da199a4d51.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        3,
+        1
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "76d0ea53cefa28ff848a3d780cd03e820f737fac403381880a195102fe9b05da"
+    },
+    "fx/star/019.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/d0299ed79682022231c5027453694e52.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        3,
+        1
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "f6fd856657a54641f0cf49da0a3ca038befa154105e61174bfc027b52b22fada"
+    },
+    "fx/star/020.png": {
+      "source": {
+        "path": "assets/_downloads/objects/scratch/105789235/a86a41ccd303e4d4917ebe971647ce2f.png",
+        "sourceFrame": 0,
+        "decimate": 2,
+        "rect": null
+      },
+      "offset": [
+        4,
+        1
+      ],
+      "canvas": [
+        98,
+        94
+      ],
+      "sha256": "3716cefe3d624cb8e69abfb291995a8a6d1ff7cac14b3b095663d7a33b2cdb4e"
+    },
+    "fx/brick_debris/000.png": {
+      "source": {
+        "path": "assets/_downloads/mario/tiles/21847-0.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": [
+          0,
+          320,
+          64,
+          64
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "783bf9570ddc1b25673d7876627065b4ef37a506697b3ab95064766e7aed90ee"
+    },
+    "fx/brick_debris/001.png": {
+      "source": {
+        "path": "assets/_downloads/mario/tiles/21847-0.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": [
+          64,
+          320,
+          64,
+          64
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "ed1456e638d5b0c054c62d18095088938e505c84c7bf0d750effeb7645a819d6"
+    },
+    "fx/brick_debris/002.png": {
+      "source": {
+        "path": "assets/_downloads/mario/tiles/21847-0.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": [
+          128,
+          320,
+          64,
+          64
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "08ad4d066606c562ba4031ba664d57058b90cb82bcdf9643a5bd8cd5c279159a"
+    },
+    "fx/brick_debris/003.png": {
+      "source": {
+        "path": "assets/_downloads/mario/tiles/21847-0.png",
+        "sourceFrame": 0,
+        "decimate": 1,
+        "rect": [
+          192,
+          320,
+          64,
+          64
+        ]
+      },
+      "offset": [
+        0,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "sha256": "63f71c66ad04ca1877abc2e95161622a7090259c5401384ace2f502a47cfa970"
+    }
+  }
+}

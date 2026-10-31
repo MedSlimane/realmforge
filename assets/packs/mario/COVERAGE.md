@@ -1,15 +1,17 @@
 # Mario pack coverage
 
+Character fidelity is checked separately by `npm run validate`; nine named poses do not establish nine authentic poses.
+
 | Element | File |
 |---|---|
 | `spikes` | `hazards/spikes.png` |
 | `lava` | `hazards/lava.png` |
-| `falling_block` | `hazards/falling_block.png` |
-| `saw` | `hazards/saw.png` |
+| `falling_block` | `objects/elements/falling_block/default.png` |
+| `saw` | `objects/elements/saw/default.png` |
 | `crate` | `dynamic/crate.png` |
-| `spring` | `dynamic/spring.png` |
+| `spring` | `objects/elements/spring/default.png` |
 | `spring_extended` | `dynamic/spring_extended.png` |
-| `conveyor_belt` | `dynamic/conveyor_belt.png` |
+| `conveyor_belt` | `objects/elements/conveyor_belt/default.png` |
 | `chain_link` | `dynamic/chain_link.png` |
 | `pendulum_ball` | `dynamic/pendulum_ball.png` |
 | `seesaw` | `dynamic/seesaw.png` |
@@ -24,19 +26,19 @@
 | `powerup_double_jump` | `items/powerup_double_jump.png` |
 | `powerup_dash` | `items/powerup_dash.png` |
 | `start` | `flow/start.png` |
-| `checkpoint` | `flow/checkpoint.png` |
+| `checkpoint` | `objects/elements/checkpoint/default.png` |
 | `checkpoint_active` | `flow/checkpoint_active.png` |
-| `door` | `flow/door.png` |
+| `door` | `objects/elements/door/default.png` |
 | `door_open` | `flow/door_open.png` |
 | `locked_door` | `flow/locked_door.png` |
-| `switch` | `flow/switch.png` |
+| `switch` | `objects/elements/switch/default.png` |
 | `switch_on` | `flow/switch_on.png` |
-| `switch_block` | `flow/switch_block.png` |
+| `switch_block` | `objects/elements/switch_block/default.png` |
 | `switch_block_off` | `flow/switch_block_off.png` |
-| `pswitch` | `flow/pswitch.png` |
-| `goal` | `flow/goal.png` |
+| `pswitch` | `objects/elements/pswitch/default.png` |
+| `goal` | `objects/elements/goal/default.png` |
 | `goal_wave` | `flow/goal_wave.png` |
-| `pipe` | `flow/pipe.png` |
+| `pipe` | `objects/elements/pipe/default.png` |
 | `hard_block` | `tiles/shared/hard_block.png` |
 | `used_block` | `tiles/shared/used_block.png` |
 | `ice` | `tiles/shared/ice.png` |
@@ -109,10 +111,10 @@
 | `shell` | `enemies/shell.png` |
 | `flyer` | `enemies/flyer.png` |
 | `jumper` | `enemies/jumper.png` |
-| `cannon` | `enemies/cannon.png` |
+| `cannon` | `objects/elements/cannon/default.png` |
 | `bullet_bill` | `enemies/bullet_bill.png` |
 | `seesaw_pivot` | `dynamic/seesaw_pivot.png` |
-| `mushroom` | `items/mushroom.png` |
+| `mushroom` | `objects/elements/mushroom/default.png` |
 | `grass_inner` | `dynamic/grass_inner.png` |
 | `grass_bottom_left` | `dynamic/grass_bottom_left.png` |
 | `grass_bottom_right` | `dynamic/grass_bottom_right.png` |
@@ -362,10 +364,10 @@
 | `background_snow` | `backgrounds/snow/snow_0.png` |
 | `background_castle` | `backgrounds/castle/castle_1.png` |
 | `ground` | `tiles/grass/grass_ground.png` |
-| `brick` | `tiles/grass/grass_brick.png` |
-| `question` | `tiles/grass/grass_question.png` |
-| `question-block` | `tiles/grass/grass_question.png` |
-| `question_block` | `tiles/grass/grass_question.png` |
+| `brick` | `objects/elements/brick/default.png` |
+| `question` | `objects/elements/question_block/default.png` |
+| `question-block` | `objects/elements/question_block/default.png` |
+| `question_block` | `objects/elements/question_block/default.png` |
 | `one-way` | `tiles/grass/grass_one_way.png` |
 | `one-way-platform` | `tiles/grass/grass_one_way.png` |
 | `one_way` | `tiles/grass/grass_one_way.png` |
@@ -398,3 +400,18 @@
 | `keyLockDoor` | `flow/locked_door.png` |
 | `lockedDoor` | `flow/locked_door.png` |
 | `switch-block` | `flow/switch_block.png` |
+| `p_switch` | `objects/elements/pswitch/default.png` |
+
+## Character fidelity (current delivery)
+
+| Character | Walk frames | Run frames | Fallback |
+|---|---:|---:|---|
+| `mario` | 4 | 4 | wallSlide holds wall-contact/jump capture; distinct slide pose unavailable |
+| `mario_small` | 3 | 3 | NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable |
+| `luigi` | 3 | 3 | NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable |
+| `luigi_native_walk` | 3 | 3 | NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable |
+| `luigi_small` | 3 | 3 | NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable |
+| `green` | 3 | 3 | NSMB Wii captures; genuine NSMBU form not obtained; wallSlide holds wall-contact/jump capture; distinct slide pose unavailable; skid uses run-transition pose; braking capture unavailable |
+| `pink` | 4 | 4 | wallSlide holds wall-contact/jump capture; distinct slide pose unavailable |
+| `purple` | 4 | 4 | wallSlide holds wall-contact/jump capture; distinct slide pose unavailable |
+| `beige` | 4 | 4 | wallSlide holds wall-contact/jump capture; distinct slide pose unavailable |

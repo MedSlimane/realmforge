@@ -1,0 +1,132 @@
+{
+  "frames": {
+    "door_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    },
+    "door_001": {
+      "frame": {
+        "x": 78,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    },
+    "door_002": {
+      "frame": {
+        "x": 156,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    },
+    "door_003": {
+      "frame": {
+        "x": 234,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    },
+    "door_004": {
+      "frame": {
+        "x": 312,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    },
+    "door_005": {
+      "frame": {
+        "x": 390,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 468,
+      "h": 154
+    },
+    "scale": "1"
+  }
+}

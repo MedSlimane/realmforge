@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "checkpoint_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 171
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 106,
+        "h": 171
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 171
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 106,
+      "h": 171
+    },
+    "scale": "1"
+  }
+}

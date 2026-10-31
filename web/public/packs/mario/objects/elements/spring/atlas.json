@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "spring_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 77
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 77
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 78,
+      "h": 77
+    },
+    "scale": "1"
+  }
+}

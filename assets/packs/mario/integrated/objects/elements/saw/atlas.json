@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "saw_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 149,
+        "h": 149
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 149,
+        "h": 149
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 149,
+        "h": 149
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 149,
+      "h": 149
+    },
+    "scale": "1"
+  }
+}

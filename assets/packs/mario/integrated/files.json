@@ -1,0 +1,218 @@
+{
+  "objects/elements/spring/default.png": {
+    "path": "integrated/objects/elements/spring/default.png",
+    "sha256": "2913c0c2461373daa0c4eafb1b8baf5637ef5916573d32b317600393df2e58a7"
+  },
+  "objects/elements/spring/atlas.png": {
+    "path": "integrated/objects/elements/spring/atlas.png",
+    "sha256": "2913c0c2461373daa0c4eafb1b8baf5637ef5916573d32b317600393df2e58a7"
+  },
+  "objects/elements/spring/atlas.json": {
+    "path": "integrated/objects/elements/spring/atlas.json",
+    "sha256": "868516e302ce21e0564c49d2399866606e5e95c4e0bc89174c83b53d26256caf"
+  },
+  "objects/elements/checkpoint/default.png": {
+    "path": "integrated/objects/elements/checkpoint/default.png",
+    "sha256": "8e65762d71ba2c3bd456c94194862b2bd05fa1448e15b4f1de1107169b37a0f9"
+  },
+  "objects/elements/checkpoint/atlas.png": {
+    "path": "integrated/objects/elements/checkpoint/atlas.png",
+    "sha256": "8e65762d71ba2c3bd456c94194862b2bd05fa1448e15b4f1de1107169b37a0f9"
+  },
+  "objects/elements/checkpoint/atlas.json": {
+    "path": "integrated/objects/elements/checkpoint/atlas.json",
+    "sha256": "1cada363bdfdd68c3c8420f03dc3abd0233f23aafcf72e0777a6c0d6b9af6b81"
+  },
+  "objects/elements/goal/default.png": {
+    "path": "integrated/objects/elements/goal/default.png",
+    "sha256": "80de3c225194468e3c6ea57686abf231c3e98fc840c603c05d275e29a5ec1cef"
+  },
+  "objects/elements/goal/atlas.png": {
+    "path": "integrated/objects/elements/goal/atlas.png",
+    "sha256": "80de3c225194468e3c6ea57686abf231c3e98fc840c603c05d275e29a5ec1cef"
+  },
+  "objects/elements/goal/atlas.json": {
+    "path": "integrated/objects/elements/goal/atlas.json",
+    "sha256": "8d9b70b955dbdcf041c41a0fb14dfb1db33f49402da61fdd11a48fe6d8ebc8b0"
+  },
+  "objects/elements/brick/default.png": {
+    "path": "integrated/objects/elements/brick/default.png",
+    "sha256": "f788101c651dc4095f0adfe501fdab0eac9bb9f0cbe168014ee9f8d8f4266c92"
+  },
+  "objects/elements/brick/atlas.png": {
+    "path": "integrated/objects/elements/brick/atlas.png",
+    "sha256": "f788101c651dc4095f0adfe501fdab0eac9bb9f0cbe168014ee9f8d8f4266c92"
+  },
+  "objects/elements/brick/atlas.json": {
+    "path": "integrated/objects/elements/brick/atlas.json",
+    "sha256": "448e2a4dcbfbd2af00d9bf15407cd9c9daebf4f2ad1f29aa9c7ccccc895e3d55"
+  },
+  "objects/elements/question_block/default.png": {
+    "path": "integrated/objects/elements/question_block/default.png",
+    "sha256": "89e162b1c9b150846187f1cae013b2cefeb440b1af9800556935a97a6bf29666"
+  },
+  "objects/elements/question_block/atlas.png": {
+    "path": "integrated/objects/elements/question_block/atlas.png",
+    "sha256": "b81a851d792bde87a7ca6e4685a8b7fb4182d589c97a8420330a3a2ac307dbac"
+  },
+  "objects/elements/question_block/atlas.json": {
+    "path": "integrated/objects/elements/question_block/atlas.json",
+    "sha256": "6568d4eeb089216a06a20c39f6041b0fb0238b1d8eb805fbc99e847c984186de"
+  },
+  "objects/elements/pswitch/default.png": {
+    "path": "integrated/objects/elements/pswitch/default.png",
+    "sha256": "80dd3146e3124bfb4caa089c7343e7f49a29eb6f7e8cb68dfcdc92a01037fa33"
+  },
+  "objects/elements/pswitch/atlas.png": {
+    "path": "integrated/objects/elements/pswitch/atlas.png",
+    "sha256": "9e7d2e2dc113f58806ff742ad904a01f7292bceeb31028dc71cf0b719bdf741f"
+  },
+  "objects/elements/pswitch/atlas.json": {
+    "path": "integrated/objects/elements/pswitch/atlas.json",
+    "sha256": "6328e8280860001588fb6f2103a853d12a486db4a6a3d394c42c827d51d63ac4"
+  },
+  "objects/elements/switch/default.png": {
+    "path": "integrated/objects/elements/switch/default.png",
+    "sha256": "a7bdd6a4dd82266cb2faf4370d7671c0a7ccc49d57da2361206958fd5d72f40f"
+  },
+  "objects/elements/switch/atlas.png": {
+    "path": "integrated/objects/elements/switch/atlas.png",
+    "sha256": "8dee29430c80bc3b0c816cd2f69ebc1769c81362b07d9e868631d0e3abec94c1"
+  },
+  "objects/elements/switch/atlas.json": {
+    "path": "integrated/objects/elements/switch/atlas.json",
+    "sha256": "1b38aeebda585f7264977666d1cc0a33606f59306ee1fcd0ae84924cd2857e17"
+  },
+  "objects/elements/switch_block/default.png": {
+    "path": "integrated/objects/elements/switch_block/default.png",
+    "sha256": "1ad4a3903b8b3eece60a4c28b3ec415540ea49f0557201f4e8bd834e84b55171"
+  },
+  "objects/elements/switch_block/atlas.png": {
+    "path": "integrated/objects/elements/switch_block/atlas.png",
+    "sha256": "1ff66b9e739eecdd5b72b625d8a93c37df182adc600d6d9cf0bd6800605034e1"
+  },
+  "objects/elements/switch_block/atlas.json": {
+    "path": "integrated/objects/elements/switch_block/atlas.json",
+    "sha256": "e5ff2b389d654676a2605a6ff121ca59a9a55145d83827c994e08b81c4142aac"
+  },
+  "objects/elements/falling_block/default.png": {
+    "path": "integrated/objects/elements/falling_block/default.png",
+    "sha256": "1fcd5074806ecc8fffd2d3774af6713a3f676a4931d658cfae8f31ef9f5593f6"
+  },
+  "objects/elements/falling_block/atlas.png": {
+    "path": "integrated/objects/elements/falling_block/atlas.png",
+    "sha256": "1fcd5074806ecc8fffd2d3774af6713a3f676a4931d658cfae8f31ef9f5593f6"
+  },
+  "objects/elements/falling_block/atlas.json": {
+    "path": "integrated/objects/elements/falling_block/atlas.json",
+    "sha256": "3ae7d271cd6ce5a5ffa20f9f1e33f34c800ec2714f373516bc8ddad495b45c4f"
+  },
+  "objects/elements/saw/default.png": {
+    "path": "integrated/objects/elements/saw/default.png",
+    "sha256": "646a184ab9bae4b56b0fded7e998b108d6dff12bb8fd51a660864576c99d8295"
+  },
+  "objects/elements/saw/atlas.png": {
+    "path": "integrated/objects/elements/saw/atlas.png",
+    "sha256": "646a184ab9bae4b56b0fded7e998b108d6dff12bb8fd51a660864576c99d8295"
+  },
+  "objects/elements/saw/atlas.json": {
+    "path": "integrated/objects/elements/saw/atlas.json",
+    "sha256": "ccc80bcdc8f958de46d1a490f2cea19cdc83e1e41ea13819166a2e7f21577ff1"
+  },
+  "objects/elements/door/default.png": {
+    "path": "integrated/objects/elements/door/default.png",
+    "sha256": "3749b4317ebab02c477f9f69d5a91d13050ef06c6b9568f96e12998cc5980dbf"
+  },
+  "objects/elements/door/atlas.png": {
+    "path": "integrated/objects/elements/door/atlas.png",
+    "sha256": "8bda9dce81ca802947acadd2df93ac56397cb2f7a5aee4d3543da7ca5a3a2c62"
+  },
+  "objects/elements/door/atlas.json": {
+    "path": "integrated/objects/elements/door/atlas.json",
+    "sha256": "95219f497c8ec1692f4694c8cda9597424a28106d8c2ae4ed2dcea3e8385d3aa"
+  },
+  "objects/elements/pipe/default.png": {
+    "path": "integrated/objects/elements/pipe/default.png",
+    "sha256": "7cd6fdf8bf8724563a476f43bd02de6f89a7582534bea565065cc78ee3aa546f"
+  },
+  "objects/elements/pipe/atlas.png": {
+    "path": "integrated/objects/elements/pipe/atlas.png",
+    "sha256": "7cd6fdf8bf8724563a476f43bd02de6f89a7582534bea565065cc78ee3aa546f"
+  },
+  "objects/elements/pipe/atlas.json": {
+    "path": "integrated/objects/elements/pipe/atlas.json",
+    "sha256": "fd87fe7bfea5c5ce01b5c861143aefdcf3c685189c5bf7780f2339a1aa7a54be"
+  },
+  "objects/elements/cannon/default.png": {
+    "path": "integrated/objects/elements/cannon/default.png",
+    "sha256": "53198cedb8af4e660af7acbb5a44b11fbd5ed9f913dcda377b7851232307adde"
+  },
+  "objects/elements/cannon/atlas.png": {
+    "path": "integrated/objects/elements/cannon/atlas.png",
+    "sha256": "53198cedb8af4e660af7acbb5a44b11fbd5ed9f913dcda377b7851232307adde"
+  },
+  "objects/elements/cannon/atlas.json": {
+    "path": "integrated/objects/elements/cannon/atlas.json",
+    "sha256": "b5e99eafb8e94b83f2597fbedfb64041901922b84df0ba8b498e23f33d3de542"
+  },
+  "objects/elements/conveyor_belt/default.png": {
+    "path": "integrated/objects/elements/conveyor_belt/default.png",
+    "sha256": "0bbd251c807f25a4946b7fdce03b30f0afb3d4583ec68dacbc2b82d80aa5bdfc"
+  },
+  "objects/elements/conveyor_belt/atlas.png": {
+    "path": "integrated/objects/elements/conveyor_belt/atlas.png",
+    "sha256": "99bb0bf4dc646f2707f3f24cff05f2ffe87217d70a6da2d98c019d9915b3ae69"
+  },
+  "objects/elements/conveyor_belt/atlas.json": {
+    "path": "integrated/objects/elements/conveyor_belt/atlas.json",
+    "sha256": "c9d980c675731a5abcc4f745b3a249c3cf70607b4d7c4a6e491518c29fb5a039"
+  },
+  "objects/elements/mushroom/default.png": {
+    "path": "integrated/objects/elements/mushroom/default.png",
+    "sha256": "bbdc1d295f7c66bdb75e2fe917c7243fd38df13c8c75ee3a49cc0c68789b7a62"
+  },
+  "objects/elements/mushroom/atlas.png": {
+    "path": "integrated/objects/elements/mushroom/atlas.png",
+    "sha256": "fa68c56fa568456e639ed5c3630fb12d2b7daf643288f5813f0d07949fe7bed0"
+  },
+  "objects/elements/mushroom/atlas.json": {
+    "path": "integrated/objects/elements/mushroom/atlas.json",
+    "sha256": "99cd0a929c511259a44d38ba9d41835361db90c8c1208c9cb37a81071aadc599"
+  },
+  "objects/fx/coin_pop/default.png": {
+    "path": "integrated/objects/fx/coin_pop/default.png",
+    "sha256": "d1cdedc7d7f10f3fc0884a45804cc51ef1dc58a35da4d22d16a8ed480bd1dd6c"
+  },
+  "objects/fx/coin_pop/atlas.png": {
+    "path": "integrated/objects/fx/coin_pop/atlas.png",
+    "sha256": "4f56e3bc2df90788d739ef2181cd36fee339235b86c7110ad78d9e856ee6e2ba"
+  },
+  "objects/fx/coin_pop/atlas.json": {
+    "path": "integrated/objects/fx/coin_pop/atlas.json",
+    "sha256": "404b10defb4b10243ed0c640c5099f90c0a216ac7b5ab4289f72125f211457f4"
+  },
+  "objects/fx/star/default.png": {
+    "path": "integrated/objects/fx/star/default.png",
+    "sha256": "49937e5ce15621bc661d06c6242f84028102a177b9ba1913a319670615653c6e"
+  },
+  "objects/fx/star/atlas.png": {
+    "path": "integrated/objects/fx/star/atlas.png",
+    "sha256": "36e0f46f6f0bde7f7d5e969a5ba77395da4a06a6565f09248b1855eb9410bbc9"
+  },
+  "objects/fx/star/atlas.json": {
+    "path": "integrated/objects/fx/star/atlas.json",
+    "sha256": "8aa4cd6dd9c352a88f4566b9bbbf2df623066b67fd900656f3f907a0ce440517"
+  },
+  "objects/fx/brick_debris/default.png": {
+    "path": "integrated/objects/fx/brick_debris/default.png",
+    "sha256": "783bf9570ddc1b25673d7876627065b4ef37a506697b3ab95064766e7aed90ee"
+  },
+  "objects/fx/brick_debris/atlas.png": {
+    "path": "integrated/objects/fx/brick_debris/atlas.png",
+    "sha256": "c1204ce22b020cf2b9ba88742a9e964036881e9c4def22068a54927cabf89a18"
+  },
+  "objects/fx/brick_debris/atlas.json": {
+    "path": "integrated/objects/fx/brick_debris/atlas.json",
+    "sha256": "4d47d60bc64676795ff2e73e23a92566d020e329674d73420188e5db12362ae9"
+  }
+}

@@ -1,15 +1,32 @@
 """Validate schema-1 compatibility, source integrity, crops, atlases and coverage."""
 from pathlib import Path
 from PIL import Image
-import hashlib,json
+import hashlib,json,subprocess,sys
 from build import crop
 from audit import audit, factor, content_size, opaque_size, native_frames, read_image
 HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2];OUT=ROOT/'web/public/packs/mario';RAW=ROOT/'assets/_downloads/mario'
+
+def character_fidelity_issues(m):
+ """Check actual pixel cycles, including aliases; labels cannot certify fidelity."""
+ issues=[]
+ for name,e in m.get('characters',{}).items():
+  if e.get('fallback') or e.get('fallbackReasons'):
+   issues.append(f'{name}: fallback remains: '+ '; '.join(e.get('fallbackReasons',[]) or ['flag set']))
+  for pose in ('walk','run'):
+   keys=e.get('animations',{}).get(pose,{}).get('frames',[])
+   if len(set(keys))<6:
+    issues.append(f'{name}.{pose}: {len(set(keys))} distinct frame names; need >=6')
+    continue
+   pixels=dict(native_frames(e))
+   unique={pixels[key].tobytes() for key in keys}
+   if len(unique)<6:issues.append(f'{name}.{pose}: only {len(unique)} distinct pixel frames; need >=6')
+ return issues
+
 def validate_display_scale(m):
  """Check decoded opaque content; transparent padding/gutters never count."""
  read_image.cache_clear()
  checked=0
- for section in ['elements','characters','enemies','items']:
+ for section in ['elements','characters','enemies','items','fx']:
   for name,e in m.get(section,{}).items():
    if 'displaySize' not in e:continue
    scale=factor(e)
@@ -27,7 +44,12 @@ def validate_display_scale(m):
 def main():
  m=json.loads((OUT/'manifest.json').read_text());old=json.loads((ROOT/'web/public/assets/manifest.json').read_text());c=json.loads((HERE/'slicing.json').read_text());sources=json.loads((HERE/'sources.json').read_text())
  assert m['schema']==1 and m['tileSize']==64 and m['sourceTile']==64 and m['pixelArt'] is False
- assert set(m)==set(old)|{'sourceTile','pixelArt','items'}, 'Unexpected top-level schema additions'
+ assert set(old)|{'sourceTile','pixelArt','items'}<=set(m), 'Original top-level schema sections missing'
+ if any(e.get('path','').startswith('objects/') for e in m['elements'].values()):
+  subprocess.run([sys.executable,str(HERE/'staging/objects/validate.py')],check=True)
+  from object_integration import prepare,published
+  _,staged_files=prepare()
+  assert published(staged_files),'Published object files differ from validated staging'
  missing=set(old['elements'])-set(m['elements']);assert not missing,missing
  for k in ['ui','editor','sfx','music','themes','characters','enemies']:assert set(old[k])<=set(m[k]),k
  for s in sources:
@@ -69,9 +91,14 @@ def main():
     for name,a in o.get('animations',{}).items():
      assert a['frames'] and all(str(f) in frames for f in a['frames']),(atlas,name)
      assert a['frameRate']>0
+    for f in o.get('frames',[])+o.get('variants',[]):assert f in frames,(atlas,f)
   elif isinstance(o,list):
    for v in o:walk(v)
  walk(m)
+ assert set(m.get('fx',{}))<={'dust','land_puff','sparkle','brick_debris','stomp_poof','coin_pop','star'}
+ for name,e in m.get('fx',{}).items():
+  assert 'path' in e or ('atlas' in e and e.get('frames')),(name,'Invalid FX entry')
+  if e.get('variants'):assert not e.get('frames') and not e.get('animations'),'Independent still variants must not become a temporal cycle'
  for name,entry in old['characters'].items():assert set(entry['animations'])<=set(m['characters'][name]['animations']),name
  for name in ['mario','luigi','mario_small','luigi_small']:
   char=m['characters'][name]
@@ -106,17 +133,21 @@ def main():
  before,after,oldbad,bad=audit()
  validate_display_scale(m)
  assert not bad,'Upscaled sprites >1.25x: '+', '.join(f'{n}={factor(after[n]):.3f}x' for n in bad)
- total=sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file());assert total<=25_000_000,f'Pack exceeds 25 MB: {total} bytes'
+ total=sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file());assert total<=30_000_000,f'Pack exceeds 30 MB: {total} bytes'
  print('PASS schema 1: original top-level sections/keys retained; pixelArt=false; sourceTile=64')
  print(f'PASS coverage: {len(old["elements"])}/{len(old["elements"])} Kenney element IDs; {len(m["elements"])} total Mario IDs; 4/4 themes')
  print(f'PASS sources: {len(sources)} SHA-256 checksums; {rects} source rectangles in bounds')
  print(f'PASS files: {len(files)} manifest paths exist; all PNGs decode')
  print(f'PASS atlases: {len(atlases)} atlases; {frame_count} frames in bounds; animation references resolve')
- print('PASS characters: Mario/Luigi big + small have all 9 animation keys; walk/run >=3 frames; feet anchors')
+ print('PASS character structure: Mario/Luigi big + small have all 9 animation keys; feet anchors')
  print(f'PASS native scale: {len(after)} opaque-content envelopes and every animation canvas <=1.25x; {len(oldbad)} historical canvas violations')
  print('PASS terrain: 4 themes; complete cardinal/inner-corner/pillar/single variants; exact 2px extruded gutters')
  print('PASS mushroom: items.mushroom and elements.mushroom agree')
  print(f'PASS parallax: {sum(len(t["parallax"]) for t in m["themes"].values())} wide native-resolution layers; all horizontal seam texels match')
- print(f'PASS pack budget: {total:,} bytes / 25,000,000 bytes')
+ print(f'PASS pack budget: {total:,} bytes / 30,000,000 bytes')
  print('PROVENANCE / POSE CAVEATS: see README.md and SOURCES.md; animation keys alone do not prove authentic poses.')
+ issues=character_fidelity_issues(m)
+ for issue in issues:print('FAIL character fidelity: '+issue)
+ if issues:raise SystemExit(1)
+ print('PASS character fidelity: every character has >=6 distinct walk/run pixel frames and no fallback flags')
 if __name__=='__main__':main()

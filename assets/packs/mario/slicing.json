@@ -4106,7 +4106,11 @@
           20
         ]
       },
-      "note": "NSMBU raster captures credited to PolskyGamer, Scratch project 839078033. Cropped extracted PNGs; pose scales normalized only by downsampling. Distinct fall capture."
+      "note": "NSMBU raster captures credited to PolskyGamer, Scratch project 839078033. Cropped extracted PNGs; pose scales normalized only by downsampling. Distinct fall capture.",
+      "fallback": true,
+      "fallbackReasons": [
+        "wallSlide holds wall-contact/jump capture; distinct slide pose unavailable"
+      ]
     },
     "mario_small": {
       "path": "characters/mario_small/idle.png",
@@ -4327,7 +4331,12 @@
         "x": 0.5,
         "y": 1
       },
-      "note": "Authentic NSMB Wii raster captures shared by PolskyGamer (project 784192278); same-style fallback, NOT an NSMBU rip. Original ripper credited as Keira Sanchez. Distinct Fall capture; wallSlide holds the wall-jump capture. "
+      "note": "Authentic NSMB Wii raster captures shared by PolskyGamer (project 784192278); same-style fallback, NOT an NSMBU rip. Original ripper credited as Keira Sanchez. Distinct Fall capture; wallSlide holds the wall-jump capture. ",
+      "fallback": true,
+      "fallbackReasons": [
+        "NSMB Wii captures; genuine NSMBU form not obtained",
+        "wallSlide holds wall-contact/jump capture; distinct slide pose unavailable"
+      ]
     },
     "luigi": {
       "path": "characters/luigi/idle.png",
@@ -4548,7 +4557,13 @@
         "x": 0.5,
         "y": 1
       },
-      "note": "Authentic NSMB Wii raster captures shared by PolskyGamer (project 797092569); same-style fallback, NOT an NSMBU rip. Original ripper not stated by this collection. Distinct Fall capture; wallSlide holds the wall-jump capture. Skid reuses a run-transition pose; a separate braking capture was not found."
+      "note": "Authentic NSMB Wii raster captures shared by PolskyGamer (project 797092569); same-style fallback, NOT an NSMBU rip. Original ripper not stated by this collection. Distinct Fall capture; wallSlide holds the wall-jump capture. Skid reuses a run-transition pose; a separate braking capture was not found.",
+      "fallback": true,
+      "fallbackReasons": [
+        "NSMB Wii captures; genuine NSMBU form not obtained",
+        "wallSlide holds wall-contact/jump capture; distinct slide pose unavailable",
+        "skid uses run-transition pose; braking capture unavailable"
+      ]
     },
     "seesaw_pivot": {
       "path": "dynamic/seesaw_pivot.png",
@@ -23158,7 +23173,13 @@
         "x": 0.5,
         "y": 1
       },
-      "note": "Authentic NSMB Wii raster captures shared by PolskyGamer (project 797092569); same-style fallback, NOT an NSMBU rip. Original ripper not stated by this collection. Distinct Fall capture; wallSlide holds the wall-jump capture. Skid reuses a run-transition pose; a separate braking capture was not found."
+      "note": "Authentic NSMB Wii raster captures shared by PolskyGamer (project 797092569); same-style fallback, NOT an NSMBU rip. Original ripper not stated by this collection. Distinct Fall capture; wallSlide holds the wall-jump capture. Skid reuses a run-transition pose; a separate braking capture was not found.",
+      "fallback": true,
+      "fallbackReasons": [
+        "NSMB Wii captures; genuine NSMBU form not obtained",
+        "wallSlide holds wall-contact/jump capture; distinct slide pose unavailable",
+        "skid uses run-transition pose; braking capture unavailable"
+      ]
     }
   },
   "characters": {

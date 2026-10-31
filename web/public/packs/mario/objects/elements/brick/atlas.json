@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "brick_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 120,
+        "h": 120
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 120
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 120,
+      "h": 120
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,883 @@
+{
+  "schema": 1,
+  "elements": {
+    "spring": {
+      "manifestKey": "elements.spring",
+      "path": "elements/spring/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/spring/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-Spring.png",
+        "imageUrl": "https://www.mariowiki.com/images/5/55/SMM-NSMBU-Spring.png",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "==Summary==\n{{aboutfile|[[Trampoline]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}"
+      },
+      "canvas": {
+        "w": 78,
+        "h": 77
+      },
+      "note": "Genuine normal-state still; compressed and extended source states unavailable.",
+      "missingAnimations": [
+        "compress",
+        "extend"
+      ]
+    },
+    "checkpoint": {
+      "manifestKey": "elements.checkpoint",
+      "path": "elements/checkpoint/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/checkpoint/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1.25,
+        "h": 2.02
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-Checkpoint-Flag.png",
+        "imageUrl": "https://www.mariowiki.com/images/6/64/SMM-NSMBU-Checkpoint-Flag.png",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile|[[Checkpoint Flag]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+      },
+      "canvas": {
+        "w": 106,
+        "h": 171
+      },
+      "note": "Inactive Bowser checkpoint only. No invented recoloured Mario flag.",
+      "missingAnimations": [
+        "active"
+      ]
+    },
+    "goal": {
+      "manifestKey": "elements.goal",
+      "path": "elements/goal/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/goal/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1.54,
+        "h": 5
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:NSMBU_Flagpole.png",
+        "imageUrl": "https://www.mariowiki.com/images/f/f1/NSMBU_Flagpole.png",
+        "game": "New Super Mario Bros. U",
+        "ripper": "Mario Wiki uploader Nintendo101; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A [[Goal Pole]] as seen in ''[[New Super Mario Bros. U]]''\n}}\n[[Category:New Super Mario Bros. U assets]]"
+      },
+      "canvas": {
+        "w": 312,
+        "h": 1015
+      },
+      "note": "Native tall pole and Mario flag still. No wave loop supplied.",
+      "missingAnimations": [
+        "wave"
+      ]
+    },
+    "brick": {
+      "manifestKey": "elements.brick",
+      "path": "elements/brick/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/brick/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:NSMBU_Ground_Big_Brick_Block.png",
+        "imageUrl": "https://www.mariowiki.com/images/3/39/NSMBU_Ground_Big_Brick_Block.png",
+        "game": "New Super Mario Bros. U",
+        "ripper": "Mario Wiki uploader Alexo; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile\n|1=Sprite of a [[Mega Block]] in ''[[New Super Mario Bros. U]]''\n|2=The Spriter's Resource\n|3=Nintendo\n}}\n[[Category:New Super Mario Bros. U assets]]"
+      },
+      "canvas": {
+        "w": 120,
+        "h": 120
+      },
+      "note": "Native 120px Mega Block sprite down-displayed to a one-tile brick; no resize in source files.",
+      "missingAnimations": []
+    },
+    "question_block": {
+      "manifestKey": "elements.question_block",
+      "path": "elements/question_block/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/question_block/000.png",
+            "elements/question_block/001.png",
+            "elements/question_block/002.png",
+            "elements/question_block/003.png",
+            "elements/question_block/004.png",
+            "elements/question_block/005.png",
+            "elements/question_block/006.png",
+            "elements/question_block/007.png",
+            "elements/question_block/008.png",
+            "elements/question_block/009.png",
+            "elements/question_block/010.png",
+            "elements/question_block/011.png",
+            "elements/question_block/012.png",
+            "elements/question_block/013.png",
+            "elements/question_block/014.png",
+            "elements/question_block/015.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation"
+        },
+        "used": {
+          "frames": [
+            "elements/question_block/016.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://scratch.mit.edu/projects/105789235/",
+        "game": "Super Mario Maker (NSMBU style), collection labelled NSMBU",
+        "ripper": "Random Talking Bush (credited in MarioTheBest project notes); image collection shared by MarioTheBest",
+        "method": "Extract PNG image costumes only; no Scratch code reused. Verify exact 2x2 pixel replication and decimate by 2 to restore native pixels. Original costume order preserved. Playback rate is a chosen presentation rate, not a verified game clock."
+      },
+      "canvas": {
+        "w": 64,
+        "h": 64
+      },
+      "note": "16 genuine native 64px question-symbol scroll frames. Used state is Mario Wiki native Big Empty Block; see per-frame source lock. No captured bump poses.",
+      "missingAnimations": [
+        "bump"
+      ]
+    },
+    "pswitch": {
+      "manifestKey": "elements.pswitch",
+      "path": "elements/pswitch/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/pswitch/000.png",
+            "elements/pswitch/001.png",
+            "elements/pswitch/002.png",
+            "elements/pswitch/003.png",
+            "elements/pswitch/004.png",
+            "elements/pswitch/005.png",
+            "elements/pswitch/006.png",
+            "elements/pswitch/007.png",
+            "elements/pswitch/008.png",
+            "elements/pswitch/009.png",
+            "elements/pswitch/010.png",
+            "elements/pswitch/011.png"
+          ],
+          "frameRate": 14.634146341463415,
+          "kind": "animation",
+          "frameDurationsMs": [
+            80,
+            60,
+            60,
+            100,
+            60,
+            60,
+            60,
+            60,
+            60,
+            100,
+            60,
+            60
+          ]
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM2-NSMBU-PSwitch.gif",
+        "imageUrl": "https://www.mariowiki.com/images/5/55/SMM2-NSMBU-PSwitch.gif",
+        "game": "Super Mario Maker 2 (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile\n|1=A [[P Switch]] in ''[[Super Mario Maker 2]]''\n|2=[https://www.spriters-resource.com/resources/sheet_icons/146/149248.gif]\n|4=Compressed\n}}\n[[Category:Super Mario Maker 2 assets]]"
+      },
+      "canvas": {
+        "w": 82,
+        "h": 91
+      },
+      "note": "Real P-switch highlight cycle; this GIF never depresses. Existing pack key pswitch corresponds to requested p_switch.",
+      "missingAnimations": [
+        "pressed"
+      ]
+    },
+    "switch": {
+      "manifestKey": "elements.switch",
+      "path": "elements/switch/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/switch/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "on": {
+          "frames": [
+            "elements/switch/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "off": {
+          "frames": [
+            "elements/switch/001.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM2-NSMBU-OnSwitch.png",
+        "imageUrl": "https://www.mariowiki.com/images/4/46/SMM2-NSMBU-OnSwitch.png",
+        "game": "Super Mario Maker 2 (NSMBU style)",
+        "ripper": "Mario Wiki uploader Trig Jegman; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile\n|1=An ON Switch in ''[[Super Mario Maker 2]]''\n|2=[https://www.nintendo.co.jp/switch/baaqa/pc/assets/images/make/parts01_slide_thumb04_28_off.png]\n}}\n[[Category:Super Mario Maker 2 assets]]"
+      },
+      "canvas": {
+        "w": 60,
+        "h": 60
+      },
+      "note": "Two genuine still states, not an invented interpolated transition. OFF image source is separately pinned.",
+      "missingAnimations": []
+    },
+    "switch_block": {
+      "manifestKey": "elements.switch_block",
+      "path": "elements/switch_block/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/switch_block/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "on": {
+          "frames": [
+            "elements/switch_block/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "off": {
+          "frames": [
+            "elements/switch_block/001.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "blue_on": {
+          "frames": [
+            "elements/switch_block/002.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "blue_off": {
+          "frames": [
+            "elements/switch_block/003.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM2-NSMBU-RedBlock.png",
+        "imageUrl": "https://www.mariowiki.com/images/a/a8/SMM2-NSMBU-RedBlock.png",
+        "game": "Super Mario Maker 2 (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "==Summary==\n{{aboutfile\n|1=A red [[Dotted-Line Block]] in ''[[Super Mario Maker 2]]''\n|2=The Spriters Resource\n}}"
+      },
+      "canvas": {
+        "w": 60,
+        "h": 60
+      },
+      "note": "Solid and dotted red/blue still states. Not a flashing animation.",
+      "missingAnimations": []
+    },
+    "falling_block": {
+      "manifestKey": "elements.falling_block",
+      "path": "elements/falling_block/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/falling_block/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-DonutBlock.png",
+        "imageUrl": "https://www.mariowiki.com/images/a/a5/SMM-NSMBU-DonutBlock.png",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile|[[Donut Block]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+      },
+      "canvas": {
+        "w": 60,
+        "h": 60
+      },
+      "note": "Donut idle only; shake is gameplay movement, no fabricated sprite cycle.",
+      "missingAnimations": [
+        "shake"
+      ]
+    },
+    "saw": {
+      "manifestKey": "elements.saw",
+      "path": "elements/saw/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/saw/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1.5,
+        "h": 1.5
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-Grinder.png",
+        "imageUrl": "https://www.mariowiki.com/images/7/7a/SMM-NSMBU-Grinder.png",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile|[[Grinder]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+      },
+      "canvas": {
+        "w": 149,
+        "h": 149
+      },
+      "note": "149px captured grinder still. No pre-rotated frames manufactured.",
+      "missingAnimations": [
+        "spin"
+      ]
+    },
+    "door": {
+      "manifestKey": "elements.door",
+      "path": "elements/door/000.png",
+      "anims": {
+        "closed": {
+          "frames": [
+            "elements/door/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "open": {
+          "frames": [
+            "elements/door/000.png",
+            "elements/door/001.png",
+            "elements/door/002.png",
+            "elements/door/003.png",
+            "elements/door/004.png",
+            "elements/door/005.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation",
+          "repeat": 0
+        },
+        "close": {
+          "frames": [
+            "elements/door/005.png",
+            "elements/door/004.png",
+            "elements/door/003.png",
+            "elements/door/002.png",
+            "elements/door/001.png",
+            "elements/door/000.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation",
+          "repeat": 0
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "source": {
+        "url": "https://scratch.mit.edu/projects/105733943/",
+        "game": "Super Mario Maker (NSMBU style), collection labelled NSMBU",
+        "ripper": "Random Talking Bush (credited in MarioTheBest project notes); image collection shared by MarioTheBest",
+        "method": "Extract PNG image costumes only; no Scratch code reused. Verify exact 2x2 pixel replication and decimate by 2 to restore native pixels. Original costume order preserved. Playback rate is a chosen presentation rate, not a verified game clock."
+      },
+      "canvas": {
+        "w": 78,
+        "h": 154
+      },
+      "note": "Actual six-position opening cycle and original closing poses. No warping or generated in-between frames.",
+      "missingAnimations": []
+    },
+    "pipe": {
+      "manifestKey": "elements.pipe",
+      "path": "elements/pipe/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/pipe/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 2,
+        "h": 2
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-WarpPipe.png",
+        "imageUrl": "https://www.mariowiki.com/images/3/3f/SMM-NSMBU-WarpPipe.png",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile\n|1=[[Warp Pipe]] from ''[[Super Mario Maker]]'' (''New Super Mario Bros. U'' style)\n}}\n[[Category:Super Mario Maker assets]]"
+      },
+      "canvas": {
+        "w": 120,
+        "h": 120
+      },
+      "note": "Native 120px pipe, displayed at 128px (1.067x; below 1.25x limit).",
+      "missingAnimations": []
+    },
+    "cannon": {
+      "manifestKey": "elements.cannon",
+      "path": "elements/cannon/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/cannon/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 2
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-BillBlaster.png",
+        "imageUrl": "https://www.mariowiki.com/images/b/b5/SMM-NSMBU-BillBlaster.png",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile|[[Bill Blaster]]|''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)}}\n[[Category:Super Mario Maker assets]]"
+      },
+      "canvas": {
+        "w": 78,
+        "h": 154
+      },
+      "note": "Bill Blaster idle still. Fire smoke candidate in ignored research has unverified rip attribution and is not integrated.",
+      "missingAnimations": [
+        "fire"
+      ]
+    },
+    "conveyor_belt": {
+      "manifestKey": "elements.conveyor_belt",
+      "path": "elements/conveyor_belt/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/conveyor_belt/000.png",
+            "elements/conveyor_belt/001.png",
+            "elements/conveyor_belt/002.png",
+            "elements/conveyor_belt/003.png",
+            "elements/conveyor_belt/004.png",
+            "elements/conveyor_belt/005.png",
+            "elements/conveyor_belt/006.png",
+            "elements/conveyor_belt/007.png"
+          ],
+          "frameRate": 16,
+          "kind": "animation"
+        },
+        "scroll": {
+          "frames": [
+            "elements/conveyor_belt/000.png",
+            "elements/conveyor_belt/001.png",
+            "elements/conveyor_belt/002.png",
+            "elements/conveyor_belt/003.png",
+            "elements/conveyor_belt/004.png",
+            "elements/conveyor_belt/005.png",
+            "elements/conveyor_belt/006.png",
+            "elements/conveyor_belt/007.png"
+          ],
+          "frameRate": 16,
+          "kind": "animation"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 0.890625
+      },
+      "source": {
+        "url": "https://scratch.mit.edu/projects/105789235/",
+        "game": "Super Mario Maker (NSMBU style), collection labelled NSMBU",
+        "ripper": "Random Talking Bush (credited in MarioTheBest project notes); image collection shared by MarioTheBest",
+        "method": "Extract PNG image costumes only; no Scratch code reused. Verify exact 2x2 pixel replication and decimate by 2 to restore native pixels. Original costume order preserved. Playback rate is a chosen presentation rate, not a verified game clock."
+      },
+      "canvas": {
+        "w": 64,
+        "h": 57
+      },
+      "note": "Eight genuine scroll frames. Restore exact native pixels, then crop aligned 64x57 centre segments; no belt translated to synthesize frames.",
+      "missingAnimations": []
+    },
+    "mushroom": {
+      "manifestKey": "elements.mushroom",
+      "path": "elements/mushroom/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "elements/mushroom/000.png",
+            "elements/mushroom/001.png",
+            "elements/mushroom/002.png",
+            "elements/mushroom/003.png",
+            "elements/mushroom/004.png",
+            "elements/mushroom/005.png",
+            "elements/mushroom/006.png",
+            "elements/mushroom/007.png",
+            "elements/mushroom/008.png",
+            "elements/mushroom/009.png",
+            "elements/mushroom/010.png",
+            "elements/mushroom/011.png",
+            "elements/mushroom/012.png",
+            "elements/mushroom/013.png",
+            "elements/mushroom/014.png",
+            "elements/mushroom/015.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "displaySize": {
+        "w": 1,
+        "h": 1
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:SMM-NSMBU-Mushroom.gif",
+        "imageUrl": "https://www.mariowiki.com/images/7/7d/SMM-NSMBU-Mushroom.gif",
+        "game": "Super Mario Maker (NSMBU style)",
+        "ripper": "Mario Wiki uploader MatiasNTRM; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile|1=[[Super Mushroom]]|2=''[[Super Mario Maker]]'' (''[[New Super Mario Bros. U]]'' style)|5=[https://www.mariowiki.com/File:SMM-NSMBU-SuperMushroom.png SMM-NSMBU-SuperMushroom.png]}}"
+      },
+      "canvas": {
+        "w": 92,
+        "h": 90
+      },
+      "note": "Genuine 16-frame wobble cycle, not an emerge capture. Emerge motion must be supplied by gameplay.",
+      "missingAnimations": [
+        "emerge"
+      ]
+    }
+  },
+  "fx": {
+    "coin_pop": {
+      "manifestKey": "fx.coin_pop",
+      "path": "fx/coin_pop/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "fx/coin_pop/000.png",
+            "fx/coin_pop/001.png",
+            "fx/coin_pop/002.png",
+            "fx/coin_pop/003.png",
+            "fx/coin_pop/004.png",
+            "fx/coin_pop/005.png",
+            "fx/coin_pop/006.png",
+            "fx/coin_pop/007.png",
+            "fx/coin_pop/008.png",
+            "fx/coin_pop/009.png",
+            "fx/coin_pop/010.png",
+            "fx/coin_pop/011.png",
+            "fx/coin_pop/012.png",
+            "fx/coin_pop/013.png",
+            "fx/coin_pop/014.png",
+            "fx/coin_pop/015.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation"
+        },
+        "spin": {
+          "frames": [
+            "fx/coin_pop/000.png",
+            "fx/coin_pop/001.png",
+            "fx/coin_pop/002.png",
+            "fx/coin_pop/003.png",
+            "fx/coin_pop/004.png",
+            "fx/coin_pop/005.png",
+            "fx/coin_pop/006.png",
+            "fx/coin_pop/007.png",
+            "fx/coin_pop/008.png",
+            "fx/coin_pop/009.png",
+            "fx/coin_pop/010.png",
+            "fx/coin_pop/011.png",
+            "fx/coin_pop/012.png",
+            "fx/coin_pop/013.png",
+            "fx/coin_pop/014.png",
+            "fx/coin_pop/015.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 0.75,
+        "h": 0.875
+      },
+      "source": {
+        "url": "https://www.mariowiki.com/File:NSMBUCoin.gif",
+        "imageUrl": "https://www.mariowiki.com/images/4/4c/NSMBUCoin.gif",
+        "game": "New Super Mario Bros. U",
+        "ripper": "Mario Wiki uploader Cheese Head; original ripper not identified in file metadata",
+        "method": "Original image downloaded by headless Playwright Chromium; lossless RGBA extraction, no enlargement.",
+        "sourceSummary": "== Summary ==\n{{aboutfile\n|1=Sprite of a [[Coin]] in [[New Super Mario Bros. U]]\n|2=The Spriter's Resource\n}}\n[[Category:New Super Mario Bros. U assets]]"
+      },
+      "canvas": {
+        "w": 52,
+        "h": 60
+      },
+      "note": "Actual 16-frame coin spin usable as the sprite of a coin-pop effect. Pop trajectory is renderer movement; no captured rise/burst claimed.",
+      "missingAnimations": []
+    },
+    "star": {
+      "manifestKey": "fx.star",
+      "path": "fx/star/000.png",
+      "anims": {
+        "idle": {
+          "frames": [
+            "fx/star/000.png",
+            "fx/star/001.png",
+            "fx/star/002.png",
+            "fx/star/003.png",
+            "fx/star/004.png",
+            "fx/star/005.png",
+            "fx/star/006.png",
+            "fx/star/007.png",
+            "fx/star/008.png",
+            "fx/star/009.png",
+            "fx/star/010.png",
+            "fx/star/011.png",
+            "fx/star/012.png",
+            "fx/star/013.png",
+            "fx/star/014.png",
+            "fx/star/015.png",
+            "fx/star/016.png",
+            "fx/star/017.png",
+            "fx/star/018.png",
+            "fx/star/019.png",
+            "fx/star/020.png"
+          ],
+          "frameRate": 20,
+          "kind": "animation"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 0.75,
+        "h": 0.8
+      },
+      "source": {
+        "url": "https://scratch.mit.edu/projects/105789235/",
+        "game": "Super Mario Maker (NSMBU style), collection labelled NSMBU",
+        "ripper": "Random Talking Bush (credited in MarioTheBest project notes); image collection shared by MarioTheBest",
+        "method": "Extract PNG image costumes only; no Scratch code reused. Verify exact 2x2 pixel replication and decimate by 2 to restore native pixels. Original costume order preserved. Playback rate is a chosen presentation rate, not a verified game clock."
+      },
+      "canvas": {
+        "w": 98,
+        "h": 94
+      },
+      "note": "Actual 21-frame Super Star wobble, usable as a decorative star effect. This is the power-up sprite, not an invincibility-particle rip.",
+      "missingAnimations": []
+    },
+    "brick_debris": {
+      "manifestKey": "fx.brick_debris",
+      "path": "fx/brick_debris/000.png",
+      "anims": {
+        "piece_0": {
+          "frames": [
+            "fx/brick_debris/000.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "piece_1": {
+          "frames": [
+            "fx/brick_debris/001.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "piece_2": {
+          "frames": [
+            "fx/brick_debris/002.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        },
+        "piece_3": {
+          "frames": [
+            "fx/brick_debris/003.png"
+          ],
+          "frameRate": 0,
+          "kind": "still"
+        }
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "displaySize": {
+        "w": 0.45,
+        "h": 0.45
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/wizulus/smm2viewer/0e9ee7b7e93eb7a7697bb0eb675251fe644f2f74/src/assets/img/Tile/21847-0.png",
+        "game": "Super Mario Maker 2 (NSMBU tileset)",
+        "ripper": "Original ripper not credited by smm2viewer mirror",
+        "method": "Lossless crop of four actual debris cells from pinned native tileset. Pieces are independent static particle variants, never played as an animation."
+      },
+      "canvas": {
+        "w": 64,
+        "h": 64
+      },
+      "note": "Four native fragment variants; select a piece for each particle. No brick was quartered or hand-painted to invent debris.",
+      "missingAnimations": []
+    }
+  },
+  "notes": [
+    "STAGING INPUT ONLY: the characters integrator must publish frames or assemble atlases; every path here is relative to staging/objects, not web/public.",
+    "Nintendo proprietary imagery, authorized by the team only for its private class demo. No Nintendo copyright licence is claimed.",
+    "Single-frame states are explicit stills. Missing named animations are omitted; do not alias a still as an animation.",
+    "Source Scratch rasters were enlarged 2x before upload. Exact replicated pixels are decimated back to their original native grid; this pass never upscales.",
+    "Existing pack pswitch corresponds to the frozen p_switch object name. Existing falling_block and saw keys mean donut and grinder.",
+    "See REPORT.md for unavailable states and unpromoted effect candidates."
+  ]
+}

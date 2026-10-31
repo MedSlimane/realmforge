@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "cannon_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 78,
+        "h": 154
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 154
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 78,
+      "h": 154
+    },
+    "scale": "1"
+  }
+}

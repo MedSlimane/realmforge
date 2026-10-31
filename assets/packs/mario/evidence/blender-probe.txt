@@ -1,0 +1,10 @@
+$ /Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-expr <operator RNA lookup>
+BLENDER_VERSION 5.2.1 LTS
+COLLADA_IMPORT unavailable
+FBX_IMPORT available
+
+The exact Python expression used was:
+import bpy; print("BLENDER_VERSION", bpy.app.version_string)
+for name, op in [("COLLADA_IMPORT", bpy.ops.wm.collada_import), ("FBX_IMPORT", bpy.ops.import_scene.fbx)]:
+    try: op.get_rna_type(); print(name, "available")
+    except KeyError: print(name, "unavailable")

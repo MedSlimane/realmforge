@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "goal_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 1015
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 312,
+        "h": 1015
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 1015
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 312,
+      "h": 1015
+    },
+    "scale": "1"
+  }
+}

@@ -4,13 +4,57 @@ mirror repeats are performed. There is no AI art, pixel upscaling, or copied gam
 """
 from pathlib import Path
 from PIL import Image, ImageOps
-import copy, json, math, base64, io, re
+import copy, json, math, base64, io, re, sys
 from functools import lru_cache
 HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2]
 RAW=ROOT/'assets/_downloads/mario';OUT=ROOT/'web/public/packs/mario'
+FULL_BUILD='--full' in sys.argv
+
+def owned_output(path):
+ """This parallel pass owns character/enemy files and the manifest only."""
+ try:relative=path.relative_to(OUT)
+ except ValueError:return True
+ return FULL_BUILD or relative.as_posix()=='manifest.json' or relative.parts[0] in ('characters','enemies')
 
 def write_json(path,value):
+ if not owned_output(path):return
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,indent=2)+'\n')
+
+def integrate_staged(m,folder=None):
+ """Prepare a completed inbox and merge only its verified published files.
+
+ --publish-objects is the narrow publication option after ownership approval.
+ A partially written inbox must never replace working entries.
+ """
+ folder=folder or HERE/'staging/objects'
+ if not (folder/'DONE').is_file():
+  print('STAGING: objects/DONE absent; existing object art retained')
+  return
+ fragment=json.loads((folder/'objects.json').read_text())
+ if any('anims' in e for e in fragment.get('elements',{}).values()):
+  from object_integration import prepare,publish,published
+  fragment,files=prepare(folder)
+  if '--publish-objects' in sys.argv:publish(files)
+  if not published(files):
+   print('STAGING BLOCKED: reviewed atlases prepared in assets/packs/mario/integrated; public objects/ publication requires ownership approval')
+   return
+ assert fragment.get('schema',1)==1,'Staged objects must retain schema 1'
+ assert set(fragment)<= {'schema','elements','fx','notes'},'Unsupported staged section'
+ for section in ('elements','fx'):
+  entries=fragment.get(section,{})
+  assert isinstance(entries,dict),f'Staged {section} must be a mapping'
+  for name,e in entries.items():
+   assert isinstance(e,dict) and ('path' in e or 'atlas' in e),(section,name)
+   for key in ('path','image','atlas'):
+    if key not in e:continue
+    path=Path(e[key]);assert not path.is_absolute() and '..' not in path.parts,(section,name,key)
+    assert (OUT/path).is_file(),f'Object owner has not published {path}'
+  m.setdefault(section,{}).update(copy.deepcopy(entries))
+ if 'mushroom' in fragment.get('elements',{}):m.setdefault('items',{})['mushroom']=copy.deepcopy(m['elements']['mushroom'])
+ if 'cannon' in fragment.get('elements',{}):m.setdefault('enemies',{})['cannon']=copy.deepcopy(m['elements']['cannon'])
+ for alias,target in [('question','question_block'),('question-block','question_block'),('p_switch','pswitch')]:
+  if target in fragment.get('elements',{}):m['elements'][alias]={**copy.deepcopy(m['elements'][target]),'aliasOf':target}
+ print(f'STAGING: integrated {len(fragment.get("elements",{}))} object entries and {len(fragment.get("fx",{}))} fx entries')
 
 @lru_cache(maxsize=128)
 def source_image(source,embedded=-1,frame=0):
@@ -50,7 +94,9 @@ def extrude(im,padding=2):
  return out
 
 def save(im,path):
- p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True);im.save(p,optimize=True)
+ p=OUT/path
+ if not owned_output(p):return
+ p.parent.mkdir(parents=True,exist_ok=True);im.save(p,optimize=True)
 
 def make_asset(id,spec):
  raw=[crop(r) for r in spec['frames']]
@@ -62,7 +108,7 @@ def make_asset(id,spec):
   f=Image.new('RGBA',(w,h));f.alpha_composite(im,((w-im.width)//2,h-im.height));frames.append(f)
  save(frames[0],spec['path'])
  entry={'texture':f'mario-{id}','path':spec['path'],'width':w,'height':h,'source':spec['frames'][0]['source'],'pack':'mario-nsmbu'}
- for key in ['displaySize','anchor','note']:
+ for key in ['displaySize','anchor','note','fallback','fallbackReasons']:
   if key in spec:entry[key]=spec[key]
  if spec.get('characterHeight'):
   # Native idle artwork is exactly 1 or 2 gameplay tiles tall; other poses retain scale.
@@ -152,6 +198,7 @@ def build():
    target=entry.get('aliasOf')
    if target not in m['elements']:raise ValueError(f'Uncovered {id} -> {target}')
    m['elements'][id]={**copy.deepcopy(m['elements'][target]),'aliasOf':target}
+ integrate_staged(m)
  # pipe deliberately remains a real pipe rather than the legacy Kenney door alias.
  write_json(OUT/'manifest.json',m)
  write_json(OUT/'credits.json',{'notice':'Nintendo property, used for a private educational class demo only; do not distribute publicly; Kenney CC0 pack remains the public-safe fallback.','provenance':'See assets/packs/mario/SOURCES.md and sources.json for source URLs and SHA-256 checksums.','ancillary':'/assets/credits.json'})
@@ -167,10 +214,14 @@ def build():
    for x in v:referenced(x)
  referenced(m)
  for p in OUT.rglob('*'):
-  if p.is_file() and p.relative_to(OUT).as_posix() not in keep:p.unlink()
+  if p.is_file() and owned_output(p) and p.relative_to(OUT).as_posix() not in keep:p.unlink()
  # Every actual element and compatibility alias is reviewable without reading code.
  lines=['# Mario pack coverage','', '| Element | File |','|---|---|']
+ lines[2:2]=['Character fidelity is checked separately by `npm run validate`; nine named poses do not establish nine authentic poses.', '']
  lines += [f'| `{id}` | `{e["path"]}` |' for id,e in m['elements'].items()]
+ lines += ['', '## Character fidelity (current delivery)', '', '| Character | Walk frames | Run frames | Fallback |', '|---|---:|---:|---|']
+ for name,e in m['characters'].items():
+  lines.append(f'| `{name}` | {len(set(e["animations"]["walk"]["frames"]))} | {len(set(e["animations"]["run"]["frames"]))} | '+('; '.join(e.get('fallbackReasons',[])) or 'none flagged')+' |')
  (HERE/'COVERAGE.md').write_text('\n'.join(lines)+'\n')
  print(f'Built {len(m["elements"])} element IDs, {len(m["characters"])} character keys, {len(m["enemies"])} enemies, {len(m["themes"])} themes and {sum(len(t["parallax"]) for t in m["themes"].values())} parallax layers.')
 if __name__=='__main__':build()

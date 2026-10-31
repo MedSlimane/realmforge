@@ -1,0 +1,2 @@
+PASS prepared object/FX native-scale audit: 18 entries; every frame and opaque envelope <=1.25x. Public files not written.
+PASS proposed schema-1 integration: 397 element IDs; 15 object + 3 FX replacements; mushroom/cannon consumers synchronized; aliases preserved; debris remains independent stills. No public files written.

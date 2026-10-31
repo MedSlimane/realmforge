@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "falling_block_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 60,
+        "h": 60
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 60
+      }
+    }
+  },
+  "meta": {
+    "image": "atlas.png",
+    "size": {
+      "w": 60,
+      "h": 60
+    },
+    "scale": "1"
+  }
+}

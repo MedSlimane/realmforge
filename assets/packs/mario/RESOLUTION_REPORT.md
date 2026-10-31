@@ -43,3 +43,74 @@ Started with SOURCES.md, existing research metadata and downloaded images. Direc
 Do not mark “exact NSMBU fidelity” complete. Record the two sourced coin cycles, actual locked-door state, content-based audit and remaining caveats in `docs/CHECKLIST.md`; add the three source-page credits to the shared asset credits as appropriate. These shared files were deliberately not edited. Physics and Kenney work require their owners' evidence. No commits, staging or pushes were performed by this pass.
 
 Validation commands and real output are in `VALIDATION.txt`. `PREVIEW.png` includes all sourced coin frames as well as the full pack. `pack-sha256.json` records final output hashes and the repeated build/preview check.
+
+## Character-model follow-up — 31 October 2026
+
+**Blocked: no replacement character/enemy art and no renders delivered.** Chromium
+1243 returned HTTP 403 for the NSMBU model site, Mario page, Luigi model archive,
+and the actual Goomba PNG download. The configured browser and source URLs were
+used, not only curl. See `SOURCES.md` and `evidence/` for the exact requests.
+The indexed Mario uploader explicitly states that animations are not included.
+No compatible original animation download was found in the reviewed listings or
+GitHub/web results. Installed Blender 5.2.1 LTS also lacks a Collada importer;
+FBX import is available. No hand-keyframed animation or fabricated render was used.
+
+| Gap | This follow-up result |
+|---|---|
+| Big Mario nine authentic poses and >=6-frame walk/run | **Open**: existing 4-frame cycles retained; wall-slide is a held contact capture. |
+| Small Mario | **Open**: Wii fallback retained, 3-frame walk/run. |
+| Big/small Luigi | **Open**: genuine Luigi Wii captures retained, 3-frame walk/run; skid and wall-slide substitutes remain. No recolour. |
+| Goomba walk/stomp | **Open**: current high-resolution still retained. TSR 238649 is specifically a Goomba sheet and its actual PNG is blocked. |
+| Paragoomba wing cycle | **Open**: current native still retained; no sourced wing cycle. |
+| Koopa walk/shell spin | Existing 4-frame walk/6-frame shell cycle retained; no newly sourced replacement. |
+| Spiny/jumper | Existing 12-frame cycle retained; no newly sourced replacement. |
+| Bill Blaster/Bullet Bill | Existing artwork retained; indexed models were not downloaded or rendered. |
+
+Character entries now disclose `fallback: true` and concrete `fallbackReasons`.
+The validator checks **every** character key, including compatibility aliases,
+for >=6 distinct walk/run frame names **and decoded pixel frames**, and rejects
+fallback flags. Consequently `npm run validate` must fail until the art gaps are
+actually fixed. Regression tests reject renamed identical stills and flagged
+fallbacks even when a long cycle is present. This intentionally replaces the
+old misleading nine-keys/three-frame success criterion.
+
+The build only writes `characters/`, `enemies/`, and `manifest.json` in the public
+pack during this parallel pass; it does not delete another agent's object/FX
+output. A completed `staging/objects/objects.json` manifest fragment is merged
+only behind its DONE marker (see `INTEGRATION.md`). `PREVIEW.png` is regenerated
+inside this owned source directory. The original runtime preview is left alone.
+
+Coordinator checklist request: keep “Exact NSMBU fidelity” unchecked. Record the
+blocked model-download/animation investigation and stricter failing fidelity
+check. Do not claim any newly completed character or enemy replacement. No shared
+checklist, AGENTS.md, staging/commit/index, or push is performed by this agent.
+
+### Completed object staging: prepared; publication pending ownership clarification
+
+DONE arrived after **403 seconds**, before the requested 30-minute deadline.
+The source agent's validator was independently run and passed: 15 object entries,
+3 FX entries, 114 pixel-matched RGBA PNGs, 70 original source checksums, 10 real
+sequences and 22 labelled still states. See `staging/objects/REPORT.md` for every
+source, missing state and original timing limitation.
+
+`object_integration.py` prepares 54 files in `integrated/objects/` plus a runtime
+manifest fragment. Every packed atlas frame is compared byte-for-byte with the
+locked staged PNG. No filtering, interpolation, recolouring or source enlargement
+is performed. Four debris pieces remain independent still variants, with no
+synthetic idle cycle. Genuine sequences retain their source order and supplied
+rate; P-switch per-frame durations are retained as additive metadata (the current
+Phaser consumer uses its average FPS). This is not a claim of exact variable-rate
+playback. Single-frame named object states carry `kind: still`; they are not
+claimed as motion cycles.
+
+Public publication needs a new `web/public/packs/mario/objects/` directory, which
+is outside the user's explicit character/enemy/manifest ownership list. The object
+agent owns staging only. An asynchronous ownership question has been raised; no
+public object paths are written while that question remains unanswered. To publish
+the concrete prepared result after authorization, run `npm run build -- --publish-objects`.
+The build then merges actual runtime entries, synchronizes cannon/mushroom consumers,
+and adds question/P-switch compatibility aliases. Missing dust, land-puff, sparkle
+and stomp-poof keys remain absent for procedural fallback.
+
+The currently served pack retains its prior object entries until publication.
+Do not mark the object staging as integrated merely because preparation passed.

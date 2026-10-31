@@ -1,0 +1,7 @@
+PASS: 15 object entries + 3 fx entries; 114 source-matched RGBA PNGs.
+PASS: 10 real animation sequences; 22 explicitly labelled still states; consistent canvases per entry.
+PASS: 70 original files SHA-256 verified; 51 outputs restore verified exact 2x source duplication.
+PASS: max opaque-content display scale 1.2075x <= 1.25x; zero source enlargement, recolouring, synthetic frames or pixel mismatches.
+PASS: total staging 1,076,230 bytes <= 12,000,000 bytes.
+PASS: repeated preparation produced identical descriptors, source lock and all 114 PNGs.
+Content SHA-256: 2ed01db0c1f6e847af3d28b8723dc9983987ef8d2cc2297df2f5d3f409042cad

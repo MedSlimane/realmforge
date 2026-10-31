@@ -47,5 +47,5 @@ for theme,t in m['themes'].items():
   composition.alpha_composite(strip)
   paste(strip,(M+i*260,y,250,100));text(M+i*260,y+102,f'{i}: factor {l["scrollFactor"]}')
  y+=130;paste(composition,(M,y,W-2*M,310));y+=340
-canvas=canvas.crop((0,0,W,y+20));canvas.save(OUT/'PREVIEW.png',optimize=True)
+canvas=canvas.crop((0,0,W,y+20));canvas.save(HERE/'PREVIEW.png',optimize=True)
 print(f'PREVIEW.png: {canvas.width}x{canvas.height}; {len(m["elements"])} element IDs, {char_rows} character animation strips, 4 stacked backgrounds')

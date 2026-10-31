@@ -224,3 +224,39 @@ The SHA-256 covers the downloaded source file, including an SVG wrapper where it
 ## Ancillary public-safe assets
 
 Unchanged UI/editor and audio references remain `/assets/` CC0 content, documented by `assets/CREDITS.md` and `/assets/credits.json`. No existing Kenney file is modified.
+
+## Character-model research — this parallel pass (31 October 2026)
+
+No source bytes from this research were accepted into the pack. Nintendo retains
+all image/model rights; these listings grant no licence.
+
+- [NSMBU Mario, DogToon64, 332841](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/332841/): 46 listed items, DAE models/textures. The uploader answers **No** to the animations question (25 May 2022). Chromium page request returned HTTP 403.
+- [NSMBU Luigi, DogToon64, 329038](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/329038/): 44 listed items, DAE models/textures; no listed animation clips. Chromium requests to the listing and its `media/assets/326/329038.zip?updated=1755507876` download both returned HTTP 403.
+- [NSMBU Goomba model, 334169](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/334169/), [Bill Blaster, 334215](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/334215/), [Bullet Bill, BzarrTehAxolotl, 334217](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/334217/): indexed candidates, not successful downloads. Bullet Bill lists DAE/textures rather than clips.
+- [SMM2 Goomba (NSMBU), DogToon64, 238649](https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/): **Goomba**, not a Mario/Luigi sheet. Indexed dimensions 994×1249. The listing and its actual `media/assets/235/238649.png?updated=1755492174` URL returned HTTP 403 in the configured Chromium 1243 browser.
+- [NSMBU Deluxe Models Resource listing](https://models.spriters-resource.com/nintendo_switch/newsupermariobrosudeluxe/page-1/): indexed playable models are Toadette and Peachette, not another Mario/Luigi animation set.
+- [SMM2 Models Resource listing](https://models.spriters-resource.com/nintendo_switch/supermariomaker2/page-1/): indexed NSMBU characters are Story Mode Toad and Yoshi; no Mario/Luigi clips found. GitHub/web queries for NSMBU BFRES animations found tools/format notes, not a verified downloadable source clip set.
+
+Browser snapshots are in `evidence/page-2026-10-31T20-*.yml`. No CAPTCHA,
+login or access-control bypass was attempted. Blender import support was checked
+with actual operator RNA lookup; Collada is unavailable in the installed 5.2.1
+LTS, FBX is available. No models were imported and no renders were delivered.
+
+## Completed object handoff (prepared, publication pending)
+
+The object agent delivered `staging/objects/DONE` after 403 seconds. Its
+[`REPORT.md`](staging/objects/REPORT.md) gives source-page credits and missing
+states; [`source-lock.json`](staging/objects/source-lock.json) pins all 70 original
+files, 114 extracted outputs, source frame indices, crop rectangles and exact
+native-grid restoration. Its validator was independently run successfully.
+
+The Scratch question-block, conveyor, door and Super Star images contained exact
+2× duplicated pixel blocks upstream. Staging restores their original native grid;
+they are not described as native HD. Generated integration atlases preserve every
+staged pixel byte. No new copyright licence is claimed. Source credit is preserved
+in each prepared runtime entry's additive `provenance` field.
+
+The three FX entries are a real coin spin (not a captured pop trajectory), a Super
+Star wobble (not a captured invincibility particle), and four independent actual
+brick-fragment cells (not temporal animation frames). Dust, land-puff, sparkle and
+stomp-poof sources were not obtained. These remain renderer fallbacks.
