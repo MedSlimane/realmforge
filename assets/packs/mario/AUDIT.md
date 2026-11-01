@@ -109,7 +109,7 @@ The frozen baseline only recorded canvas dimensions; its factors are historical 
 | `elements.castle_used_block` | 64×64 → 64.0×64.0 | 1.000× | 128×128 → 64.0×64.0 | 0.500× | PASS; Official block artwork from the NSMBU gallery; earlier-game artwork reused in NSMBU. Perspective artwork, not an untouched game texture. |
 | `elements.castle_ice` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS |
 | `elements.castle_slime` | 64×64 → 64.0×64.0 | 1.000× | 60×60 → 64.0×64.0 | 1.067× | PASS; NSMBU green mushroom-platform surface stands for sticky terrain; no native NSMBU slime/jelly rip found. |
-| `elements.walker` | 21×19 → 64.0×64.0 | 3.368× | 104×122 → 64.0×64.0 | 0.615× | PASS; Native NSMBU Goomba render from Super Mario Wiki. Static pose; no fabricated walk/stomp frames. |
+| `elements.walker` | 21×19 → 64.0×64.0 | 3.368× | 120×100 → 76.8×64.0 | 0.640× | PASS; Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale. |
 | `elements.shell` | 234×276 → 64.0×96.0 | 0.348× | 234×276 → 64.0×96.0 | 0.348× | PASS |
 | `elements.flyer` | 48×40 → 64.0×64.0 | 1.600× | 85×97 → 64.0×64.0 | 0.753× | PASS; Authentic NSMBU Paragoomba replaces low-resolution composite Koopa + wings. |
 | `elements.jumper` | 190×184 → 64.0×64.0 | 0.348× | 190×184 → 64.0×64.0 | 0.348× | PASS |
@@ -160,7 +160,7 @@ The frozen baseline only recorded canvas dimensions; its factors are historical 
 | `characters.pink` | 34×35 → 136.0×140.0 | 4.000× | 181×160 → 135.7×120.0 | 0.750× | PASS; Schema-1 compatibility name mapped to mario; not a separate character rip. |
 | `characters.purple` | 34×35 → 136.0×140.0 | 4.000× | 181×160 → 135.7×120.0 | 0.750× | PASS; Schema-1 compatibility name mapped to mario; not a separate character rip. |
 | `characters.beige` | 34×35 → 136.0×140.0 | 4.000× | 181×160 → 135.7×120.0 | 0.750× | PASS; Schema-1 compatibility name mapped to mario; not a separate character rip. |
-| `enemies.walker` | 21×19 → 64.0×64.0 | 3.368× | 104×122 → 64.0×64.0 | 0.615× | PASS; Native NSMBU Goomba render from Super Mario Wiki. Static pose; no fabricated walk/stomp frames. |
+| `enemies.walker` | 21×19 → 64.0×64.0 | 3.368× | 120×100 → 76.8×64.0 | 0.640× | PASS; Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale. |
 | `enemies.shell` | 234×276 → 64.0×96.0 | 0.348× | 234×276 → 64.0×96.0 | 0.348× | PASS |
 | `enemies.flyer` | 48×40 → 64.0×64.0 | 1.600× | 85×97 → 64.0×64.0 | 0.753× | PASS; Authentic NSMBU Paragoomba replaces low-resolution composite Koopa + wings. |
 | `enemies.jumper` | 190×184 → 64.0×64.0 | 0.348× | 190×184 → 64.0×64.0 | 0.348× | PASS |
@@ -412,7 +412,9 @@ The frozen baseline only recorded canvas dimensions; its factors are historical 
 | `elements.castle_mask_239` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.castle_mask_255` | — | — | 60×60 → 64.0×64.0 | 1.067× | PASS; 47-mask autotile assembled from native 30px quadrants; no upsampling. |
 | `elements.p_switch` | — | — | 82×91 → 64.0×64.0 | 0.780× | PASS; Real P-switch highlight cycle; this GIF never depresses. Existing pack key pswitch corresponds to requested p_switch. |
+| `elements.goomba` | — | — | 120×100 → 76.8×64.0 | 0.640× | PASS; Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale. |
 | `characters.luigi_small` | — | — | 76×108 → 49.0×69.7 | 0.645× | PASS; Authentic NSMB Wii raster captures shared by PolskyGamer (project 797092569); same-style fallback, NOT an NSMBU rip. Original ripper not stated by this collection. Distinct Fall capture; wallSlide holds the wall-jump capture. Skid reuses a run-transition pose; a separate braking capture was not found. |
+| `enemies.goomba` | — | — | 120×100 → 76.8×64.0 | 0.640× | PASS; Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale. |
 | `items.mushroom` | — | — | 92×90 → 64.0×64.0 | 0.711× | PASS; Genuine 16-frame wobble cycle, not an emerge capture. Emerge motion must be supplied by gameplay. |
 | `fx.coin_pop` | — | — | 52×60 → 48.0×56.0 | 0.933× | PASS; Actual 16-frame coin spin usable as the sprite of a coin-pop effect. Pop trajectory is renderer movement; no captured rise/burst claimed. |
 | `fx.star` | — | — | 98×94 → 48.0×51.2 | 0.545× | PASS; Actual 21-frame Super Star wobble, usable as a decorative star effect. This is the power-up sprite, not an invincibility-particle rip. |
@@ -512,7 +514,68 @@ Opaque display dimensions include the real fraction of each fixed canvas occupie
 | `elements.pswitch/pswitch_011` | 82×91 | 64.0×64.0 | 0.780× |
 | `elements.goal/goal_000` | 312×1015 | 98.6×320.0 | 0.316× |
 | `elements.pipe/pipe_000` | 120×120 | 128.0×128.0 | 1.067× |
-| `elements.walker/walker_0` | 104×122 | 64.0×64.0 | 0.615× |
+| `elements.walker/goomba_walk_00` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_walk_01` | 82×96 | 52.5×61.4 | 0.640× |
+| `elements.walker/goomba_walk_02` | 84×94 | 53.8×60.2 | 0.640× |
+| `elements.walker/goomba_walk_03` | 85×95 | 54.4×60.8 | 0.640× |
+| `elements.walker/goomba_walk_04` | 84×99 | 53.8×63.4 | 0.640× |
+| `elements.walker/goomba_walk_05` | 84×99 | 53.8×63.4 | 0.640× |
+| `elements.walker/goomba_walk_06` | 84×100 | 53.8×64.0 | 0.640× |
+| `elements.walker/goomba_walk_07` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_walk_08` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_walk_09` | 81×96 | 51.8×61.4 | 0.640× |
+| `elements.walker/goomba_walk_10` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_walk_11` | 84×100 | 53.8×64.0 | 0.640× |
+| `elements.walker/goomba_walk_12` | 84×99 | 53.8×63.4 | 0.640× |
+| `elements.walker/goomba_walk_13` | 84×100 | 53.8×64.0 | 0.640× |
+| `elements.walker/goomba_walk_14` | 81×96 | 51.8×61.4 | 0.640× |
+| `elements.walker/goomba_walk_15` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_00` | 82×96 | 52.5×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_01` | 84×94 | 53.8×60.2 | 0.640× |
+| `elements.walker/goomba_source_group_b_02` | 84×94 | 53.8×60.2 | 0.640× |
+| `elements.walker/goomba_source_group_b_03` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_04` | 84×93 | 53.8×59.5 | 0.640× |
+| `elements.walker/goomba_source_group_b_05` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_06` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_07` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_08` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_b_09` | 82×95 | 52.5×60.8 | 0.640× |
+| `elements.walker/goomba_source_group_b_10` | 85×96 | 54.4×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_00` | 81×94 | 51.8×60.2 | 0.640× |
+| `elements.walker/goomba_source_group_c_01` | 81×96 | 51.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_02` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_03` | 85×96 | 54.4×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_04` | 84×92 | 53.8×58.9 | 0.640× |
+| `elements.walker/goomba_source_group_c_05` | 84×93 | 53.8×59.5 | 0.640× |
+| `elements.walker/goomba_source_group_c_06` | 84×97 | 53.8×62.1 | 0.640× |
+| `elements.walker/goomba_source_group_c_07` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_08` | 84×98 | 53.8×62.7 | 0.640× |
+| `elements.walker/goomba_source_group_c_09` | 81×98 | 51.8×62.7 | 0.640× |
+| `elements.walker/goomba_source_group_c_10` | 81×98 | 51.8×62.7 | 0.640× |
+| `elements.walker/goomba_source_group_c_11` | 81×98 | 51.8×62.7 | 0.640× |
+| `elements.walker/goomba_source_group_c_12` | 84×97 | 53.8×62.1 | 0.640× |
+| `elements.walker/goomba_source_group_c_13` | 84×96 | 53.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_14` | 84×97 | 53.8×62.1 | 0.640× |
+| `elements.walker/goomba_source_group_c_15` | 84×93 | 53.8×59.5 | 0.640× |
+| `elements.walker/goomba_source_group_c_16` | 84×92 | 53.8×58.9 | 0.640× |
+| `elements.walker/goomba_source_group_c_17` | 82×96 | 52.5×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_18` | 81×96 | 51.8×61.4 | 0.640× |
+| `elements.walker/goomba_source_group_c_19` | 81×94 | 51.8×60.2 | 0.640× |
+| `elements.walker/goomba_source_group_c_20` | 81×94 | 51.8×60.2 | 0.640× |
+| `elements.walker/goomba_stomp_00` | 105×40 | 67.2×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_01` | 112×40 | 71.7×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_02` | 120×40 | 76.8×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_03` | 112×40 | 71.7×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_04` | 105×40 | 67.2×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_05` | 111×40 | 71.0×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_06` | 114×40 | 73.0×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_07` | 117×40 | 74.9×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_08` | 113×40 | 72.3×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_09` | 112×38 | 71.7×24.3 | 0.640× |
+| `elements.walker/goomba_stomp_10` | 112×38 | 71.7×24.3 | 0.640× |
+| `elements.walker/goomba_stomp_11` | 112×40 | 71.7×25.6 | 0.640× |
+| `elements.walker/goomba_stomp_12` | 109×44 | 69.8×28.2 | 0.640× |
+| `elements.walker/goomba_stomp_13` | 106×44 | 67.8×28.2 | 0.640× |
 | `elements.shell/shell_0` | 174×274 | 47.6×95.3 | 0.348× |
 | `elements.shell/shell_1` | 234×268 | 64.0×93.2 | 0.348× |
 | `elements.shell/shell_2` | 206×276 | 56.3×96.0 | 0.348× |
@@ -715,5 +778,5 @@ Opaque display dimensions include the real fraction of each fixed canvas occupie
 ## Result
 
 - Historical canvas baseline: **50/159** entries above 1.25×.
-- Current opaque-content audit: **0/411** entries above 1.25×.
+- Current opaque-content audit: **0/413** entries above 1.25×.
 - Remaining semantic substitutions are disclosed in README.md and RESOLUTION_REPORT.md.

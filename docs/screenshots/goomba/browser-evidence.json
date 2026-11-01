@@ -1,0 +1,7175 @@
+{
+  "samples": [
+    {
+      "at": 4315.5,
+      "physicsFrame": 39,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 472.40000000000043,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4323.9000000059605,
+      "physicsFrame": 40,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 472.20000000000044,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4332.200000017881,
+      "physicsFrame": 40,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 472.20000000000044,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4340.600000023842,
+      "physicsFrame": 41,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 472.00000000000045,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4348.700000017881,
+      "physicsFrame": 41,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 472.00000000000045,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4357.4000000059605,
+      "physicsFrame": 42,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.80000000000047,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4365.5,
+      "physicsFrame": 42,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.80000000000047,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4374.100000023842,
+      "physicsFrame": 43,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.6000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4382.200000017881,
+      "physicsFrame": 43,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.6000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4391.100000023842,
+      "physicsFrame": 44,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.4000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4398.800000011921,
+      "physicsFrame": 44,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.4000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4407.100000023842,
+      "physicsFrame": 45,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.2000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4415.5,
+      "physicsFrame": 45,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.2000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4423.9000000059605,
+      "physicsFrame": 46,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.0000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4432,
+      "physicsFrame": 46,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 471.0000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4440.4000000059605,
+      "physicsFrame": 47,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.8000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4448.9000000059605,
+      "physicsFrame": 47,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.8000000000005,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4456.300000011921,
+      "physicsFrame": 48,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.60000000000053,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4465.600000023842,
+      "physicsFrame": 48,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.60000000000053,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4473.9000000059605,
+      "physicsFrame": 49,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.40000000000055,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4482,
+      "physicsFrame": 49,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.40000000000055,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4490.5,
+      "physicsFrame": 50,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.20000000000056,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4499,
+      "physicsFrame": 50,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.20000000000056,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4506.700000017881,
+      "physicsFrame": 51,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.00000000000057,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4515.4000000059605,
+      "physicsFrame": 51,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 470.00000000000057,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4523.9000000059605,
+      "physicsFrame": 52,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.8000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4532,
+      "physicsFrame": 52,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.8000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4540.4000000059605,
+      "physicsFrame": 53,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.6000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4548.600000023842,
+      "physicsFrame": 53,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.6000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4557.300000011921,
+      "physicsFrame": 54,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.4000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4565.300000011921,
+      "physicsFrame": 54,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.4000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4573.9000000059605,
+      "physicsFrame": 55,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.2000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4582,
+      "physicsFrame": 55,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.2000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4590.600000023842,
+      "physicsFrame": 56,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.0000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4598.700000017881,
+      "physicsFrame": 56,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 469.0000000000006,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4607.200000017881,
+      "physicsFrame": 57,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.80000000000064,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4614.9000000059605,
+      "physicsFrame": 57,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.80000000000064,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4623.9000000059605,
+      "physicsFrame": 58,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.60000000000065,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4632.200000017881,
+      "physicsFrame": 58,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.60000000000065,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4640.700000017881,
+      "physicsFrame": 59,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.40000000000066,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4648.600000023842,
+      "physicsFrame": 59,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.40000000000066,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4657.100000023842,
+      "physicsFrame": 60,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.20000000000067,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4665.5,
+      "physicsFrame": 60,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.20000000000067,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4672.9000000059605,
+      "physicsFrame": 61,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.0000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4682.200000017881,
+      "physicsFrame": 61,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 468.0000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4690.5,
+      "physicsFrame": 62,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.8000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4698.800000011921,
+      "physicsFrame": 62,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.8000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4707.100000023842,
+      "physicsFrame": 63,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.6000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4715.5,
+      "physicsFrame": 63,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.6000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4723.9000000059605,
+      "physicsFrame": 64,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.4000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4732.100000023842,
+      "physicsFrame": 64,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.4000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4740.600000023842,
+      "physicsFrame": 65,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.2000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4748.800000011921,
+      "physicsFrame": 65,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.2000000000007,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4757,
+      "physicsFrame": 66,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.00000000000074,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4765.200000017881,
+      "physicsFrame": 66,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 467.00000000000074,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4773.800000011921,
+      "physicsFrame": 67,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.80000000000075,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4781.100000023842,
+      "physicsFrame": 67,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.80000000000075,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4790.600000023842,
+      "physicsFrame": 68,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.60000000000076,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4798.800000011921,
+      "physicsFrame": 68,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.60000000000076,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4806.600000023842,
+      "physicsFrame": 69,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.4000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4815.5,
+      "physicsFrame": 69,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.4000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4823.9000000059605,
+      "physicsFrame": 70,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.2000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4832,
+      "physicsFrame": 70,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.2000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4840.100000023842,
+      "physicsFrame": 71,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.0000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4848,
+      "physicsFrame": 71,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 466.0000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4857.200000017881,
+      "physicsFrame": 72,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.8000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4865.300000011921,
+      "physicsFrame": 72,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.8000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4873.800000011921,
+      "physicsFrame": 73,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.6000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4882.100000023842,
+      "physicsFrame": 73,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.6000000000008,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4890.4000000059605,
+      "physicsFrame": 74,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.40000000000083,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4898.700000017881,
+      "physicsFrame": 74,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.40000000000083,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4907.300000011921,
+      "physicsFrame": 75,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.20000000000084,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4914.600000023842,
+      "physicsFrame": 75,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.20000000000084,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4924,
+      "physicsFrame": 76,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.00000000000085,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4932,
+      "physicsFrame": 76,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 465.00000000000085,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4940.4000000059605,
+      "physicsFrame": 77,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.80000000000086,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4948.700000017881,
+      "physicsFrame": 77,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.80000000000086,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4957.300000011921,
+      "physicsFrame": 78,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.6000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4965.100000023842,
+      "physicsFrame": 78,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.6000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4973.9000000059605,
+      "physicsFrame": 79,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.4000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4982,
+      "physicsFrame": 79,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.4000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4990.4000000059605,
+      "physicsFrame": 80,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.2000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 4998.800000011921,
+      "physicsFrame": 80,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.2000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5006.200000017881,
+      "physicsFrame": 81,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.0000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5015.4000000059605,
+      "physicsFrame": 81,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 464.0000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5023.800000011921,
+      "physicsFrame": 82,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.8000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5031.9000000059605,
+      "physicsFrame": 82,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.8000000000009,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5040.4000000059605,
+      "physicsFrame": 83,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.60000000000093,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5048.800000011921,
+      "physicsFrame": 83,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.60000000000093,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5057.300000011921,
+      "physicsFrame": 84,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.40000000000094,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5065.200000017881,
+      "physicsFrame": 84,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.40000000000094,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5073.800000011921,
+      "physicsFrame": 85,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.20000000000095,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5082,
+      "physicsFrame": 85,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.20000000000095,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5090.5,
+      "physicsFrame": 86,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.00000000000097,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5098.600000023842,
+      "physicsFrame": 86,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 463.00000000000097,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5107.200000017881,
+      "physicsFrame": 87,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.800000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5115.5,
+      "physicsFrame": 87,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.800000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5123.700000017881,
+      "physicsFrame": 88,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.600000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5132,
+      "physicsFrame": 88,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.600000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5140.700000017881,
+      "physicsFrame": 89,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.400000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5148.700000017881,
+      "physicsFrame": 89,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.400000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5157.200000017881,
+      "physicsFrame": 90,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.200000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5164.600000023842,
+      "physicsFrame": 90,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.200000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5173.800000011921,
+      "physicsFrame": 91,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.000000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5182,
+      "physicsFrame": 91,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 462.000000000001,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5190.4000000059605,
+      "physicsFrame": 92,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.80000000000103,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5198.700000017881,
+      "physicsFrame": 92,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.80000000000103,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5207.200000017881,
+      "physicsFrame": 93,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.60000000000105,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5214.9000000059605,
+      "physicsFrame": 93,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.60000000000105,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5223.9000000059605,
+      "physicsFrame": 94,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.40000000000106,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5232.100000023842,
+      "physicsFrame": 94,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.40000000000106,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5240.5,
+      "physicsFrame": 95,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.20000000000107,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5248.600000023842,
+      "physicsFrame": 95,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.20000000000107,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5257.100000023842,
+      "physicsFrame": 96,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.0000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5265.300000011921,
+      "physicsFrame": 96,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 461.0000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5273.800000011921,
+      "physicsFrame": 97,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.8000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5282.100000023842,
+      "physicsFrame": 97,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.8000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5289.700000017881,
+      "physicsFrame": 98,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.6000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5298.5,
+      "physicsFrame": 98,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.6000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5307.200000017881,
+      "physicsFrame": 99,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.4000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5315.4000000059605,
+      "physicsFrame": 99,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.4000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5323.100000023842,
+      "physicsFrame": 100,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.2000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5332.600000023842,
+      "physicsFrame": 100,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.2000000000011,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5340.4000000059605,
+      "physicsFrame": 101,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.00000000000114,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5348.9000000059605,
+      "physicsFrame": 101,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 460.00000000000114,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5356.4000000059605,
+      "physicsFrame": 102,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.80000000000115,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5365.4000000059605,
+      "physicsFrame": 102,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.80000000000115,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5373.800000011921,
+      "physicsFrame": 103,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.60000000000116,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5381.9000000059605,
+      "physicsFrame": 103,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.60000000000116,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5390.600000023842,
+      "physicsFrame": 104,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.40000000000117,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5398.800000011921,
+      "physicsFrame": 104,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.40000000000117,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5407,
+      "physicsFrame": 105,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.2000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5415.5,
+      "physicsFrame": 105,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.2000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5423.700000017881,
+      "physicsFrame": 106,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.0000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5431.9000000059605,
+      "physicsFrame": 106,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 459.0000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5440.5,
+      "physicsFrame": 107,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.8000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5448.5,
+      "physicsFrame": 107,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.8000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5457.100000023842,
+      "physicsFrame": 108,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.6000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5465.300000011921,
+      "physicsFrame": 108,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.6000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5473.800000011921,
+      "physicsFrame": 109,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.4000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5482,
+      "physicsFrame": 109,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.4000000000012,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5490.200000017881,
+      "physicsFrame": 110,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.20000000000124,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5498.600000023842,
+      "physicsFrame": 110,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.20000000000124,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5507,
+      "physicsFrame": 111,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.00000000000125,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5515.300000011921,
+      "physicsFrame": 111,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 458.00000000000125,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5523.800000011921,
+      "physicsFrame": 112,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.80000000000126,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5532.100000023842,
+      "physicsFrame": 112,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.80000000000126,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5540.700000017881,
+      "physicsFrame": 113,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.6000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5548.800000011921,
+      "physicsFrame": 113,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.6000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5557.4000000059605,
+      "physicsFrame": 114,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.4000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5565.4000000059605,
+      "physicsFrame": 114,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.4000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5574,
+      "physicsFrame": 115,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.2000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5582.100000023842,
+      "physicsFrame": 115,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.2000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5590.600000023842,
+      "physicsFrame": 116,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.0000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5598.800000011921,
+      "physicsFrame": 116,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 457.0000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5607.300000011921,
+      "physicsFrame": 117,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.8000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5615.5,
+      "physicsFrame": 117,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.8000000000013,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5624.100000023842,
+      "physicsFrame": 118,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.60000000000133,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5632.100000023842,
+      "physicsFrame": 118,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.60000000000133,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5640.700000017881,
+      "physicsFrame": 119,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.40000000000134,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5649,
+      "physicsFrame": 119,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.40000000000134,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5657.200000017881,
+      "physicsFrame": 120,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.20000000000135,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5665.5,
+      "physicsFrame": 120,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.20000000000135,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5673.9000000059605,
+      "physicsFrame": 121,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.00000000000136,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5682.200000017881,
+      "physicsFrame": 121,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 456.00000000000136,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5690.700000017881,
+      "physicsFrame": 122,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.8000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5698.700000017881,
+      "physicsFrame": 122,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.8000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5707.4000000059605,
+      "physicsFrame": 123,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.6000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5715.800000011921,
+      "physicsFrame": 123,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.6000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5742.600000023842,
+      "physicsFrame": 124,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.4000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5742.9000000059605,
+      "physicsFrame": 125,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.2000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5749.100000023842,
+      "physicsFrame": 125,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.2000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5757.600000023842,
+      "physicsFrame": 126,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.0000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5766.800000011921,
+      "physicsFrame": 126,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 455.0000000000014,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5774,
+      "physicsFrame": 127,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 454.80000000000143,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5790.5,
+      "physicsFrame": 127,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 454.80000000000143,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5791.200000017881,
+      "physicsFrame": 128,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 454.60000000000144,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5798.9000000059605,
+      "physicsFrame": 128,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 454.60000000000144,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5806.700000017881,
+      "physicsFrame": 129,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 454.40000000000146,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5815.600000023842,
+      "physicsFrame": 129,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 454.40000000000146,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5882.5,
+      "physicsFrame": 133,
+      "player": {
+        "x": 224.00000000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.6000000000015,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5889.800000011921,
+      "physicsFrame": 134,
+      "player": {
+        "x": 224.15625000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.4000000000015,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5898.700000017881,
+      "physicsFrame": 134,
+      "player": {
+        "x": 224.15625000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.4000000000015,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5907.100000023842,
+      "physicsFrame": 135,
+      "player": {
+        "x": 224.46875000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.2000000000015,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5915.4000000059605,
+      "physicsFrame": 135,
+      "player": {
+        "x": 224.46875000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.2000000000015,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5923.700000017881,
+      "physicsFrame": 136,
+      "player": {
+        "x": 224.93750000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.00000000000153,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5932,
+      "physicsFrame": 136,
+      "player": {
+        "x": 224.93750000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 453.00000000000153,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 5998.4000000059605,
+      "physicsFrame": 140,
+      "player": {
+        "x": 228.37500000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 452.2000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6007.100000023842,
+      "physicsFrame": 141,
+      "player": {
+        "x": 229.62500000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 452.0000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6015.100000023842,
+      "physicsFrame": 141,
+      "player": {
+        "x": 229.62500000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 452.0000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6023.800000011921,
+      "physicsFrame": 142,
+      "player": {
+        "x": 231.03125000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.8000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6031.9000000059605,
+      "physicsFrame": 142,
+      "player": {
+        "x": 231.03125000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.8000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6040.300000011921,
+      "physicsFrame": 143,
+      "player": {
+        "x": 232.59375000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.6000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6047.800000011921,
+      "physicsFrame": 143,
+      "player": {
+        "x": 232.59375000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_12",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.6000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6056.700000017881,
+      "physicsFrame": 144,
+      "player": {
+        "x": 234.31250000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.4000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6065.5,
+      "physicsFrame": 144,
+      "player": {
+        "x": 234.31250000000003,
+        "y": 736.0000000000001,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.4000000000016,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6074,
+      "physicsFrame": 145,
+      "player": {
+        "x": 236.18750000000003,
+        "y": 720.0000000000001,
+        "vy": -1024,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.20000000000164,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6081.4000000059605,
+      "physicsFrame": 145,
+      "player": {
+        "x": 236.18750000000003,
+        "y": 720.0000000000001,
+        "vy": -1024,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.20000000000164,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6090.200000017881,
+      "physicsFrame": 146,
+      "player": {
+        "x": 238.21875000000003,
+        "y": 704.5000000000001,
+        "vy": -992,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.00000000000165,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6097.9000000059605,
+      "physicsFrame": 146,
+      "player": {
+        "x": 238.21875000000003,
+        "y": 704.5000000000001,
+        "vy": -992,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 451.00000000000165,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6106.300000011921,
+      "physicsFrame": 147,
+      "player": {
+        "x": 240.40625000000003,
+        "y": 689.5000000000001,
+        "vy": -960,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 450.80000000000166,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6182.5,
+      "physicsFrame": 151,
+      "player": {
+        "x": 250.71875000000003,
+        "y": 634.5000000000001,
+        "vy": -832,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 450.0000000000017,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6190.600000023842,
+      "physicsFrame": 152,
+      "player": {
+        "x": 253.68750000000003,
+        "y": 622.0000000000001,
+        "vy": -800,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.8000000000017,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6198.9000000059605,
+      "physicsFrame": 152,
+      "player": {
+        "x": 253.68750000000003,
+        "y": 622.0000000000001,
+        "vy": -800,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.8000000000017,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6206.4000000059605,
+      "physicsFrame": 153,
+      "player": {
+        "x": 256.8125,
+        "y": 610.0000000000001,
+        "vy": -768,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.6000000000017,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6215.4000000059605,
+      "physicsFrame": 153,
+      "player": {
+        "x": 256.8125,
+        "y": 610.0000000000001,
+        "vy": -768,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_14",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.6000000000017,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6224.200000017881,
+      "physicsFrame": 154,
+      "player": {
+        "x": 260.09375,
+        "y": 598.5000000000001,
+        "vy": -736,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.40000000000174,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6232.4000000059605,
+      "physicsFrame": 154,
+      "player": {
+        "x": 260.09375,
+        "y": 598.5000000000001,
+        "vy": -736,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.40000000000174,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6239.5,
+      "physicsFrame": 155,
+      "player": {
+        "x": 263.53125,
+        "y": 587.5000000000001,
+        "vy": -704,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.20000000000175,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6247.800000011921,
+      "physicsFrame": 155,
+      "player": {
+        "x": 263.53125,
+        "y": 587.5000000000001,
+        "vy": -704,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.20000000000175,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6257.600000023842,
+      "physicsFrame": 156,
+      "player": {
+        "x": 267.125,
+        "y": 577.0000000000001,
+        "vy": -672,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.00000000000176,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6264.5,
+      "physicsFrame": 156,
+      "player": {
+        "x": 267.125,
+        "y": 577.0000000000001,
+        "vy": -672,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 449.00000000000176,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6274.200000017881,
+      "physicsFrame": 157,
+      "player": {
+        "x": 270.875,
+        "y": 567.0000000000001,
+        "vy": -640,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 448.8000000000018,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6281.4000000059605,
+      "physicsFrame": 157,
+      "player": {
+        "x": 270.875,
+        "y": 567.0000000000001,
+        "vy": -640,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 448.8000000000018,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6290.600000023842,
+      "physicsFrame": 158,
+      "player": {
+        "x": 274.78125,
+        "y": 557.5000000000001,
+        "vy": -608,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 448.6000000000018,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6298.600000023842,
+      "physicsFrame": 158,
+      "player": {
+        "x": 274.78125,
+        "y": 557.5000000000001,
+        "vy": -608,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_15",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 448.6000000000018,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6307.100000023842,
+      "physicsFrame": 159,
+      "player": {
+        "x": 278.84375,
+        "y": 548.5000000000001,
+        "vy": -576,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 448.4000000000018,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6382.5,
+      "physicsFrame": 163,
+      "player": {
+        "x": 296.65625,
+        "y": 517.5000000000001,
+        "vy": -448,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.60000000000184,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6390,
+      "physicsFrame": 164,
+      "player": {
+        "x": 301.5,
+        "y": 511.0000000000001,
+        "vy": -416,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.40000000000185,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6398.300000011921,
+      "physicsFrame": 164,
+      "player": {
+        "x": 301.5,
+        "y": 511.0000000000001,
+        "vy": -416,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.40000000000185,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6407.300000011921,
+      "physicsFrame": 165,
+      "player": {
+        "x": 306.5,
+        "y": 505.0000000000001,
+        "vy": -384,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.20000000000186,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6415.300000011921,
+      "physicsFrame": 165,
+      "player": {
+        "x": 306.5,
+        "y": 505.0000000000001,
+        "vy": -384,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.20000000000186,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6423.700000017881,
+      "physicsFrame": 166,
+      "player": {
+        "x": 311.65625,
+        "y": 499.5000000000001,
+        "vy": -352,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.0000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6432,
+      "physicsFrame": 166,
+      "player": {
+        "x": 311.65625,
+        "y": 499.5000000000001,
+        "vy": -352,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 447.0000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6440.300000011921,
+      "physicsFrame": 167,
+      "player": {
+        "x": 316.96875,
+        "y": 494.5000000000001,
+        "vy": -320,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.8000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6448.700000017881,
+      "physicsFrame": 167,
+      "player": {
+        "x": 316.96875,
+        "y": 494.5000000000001,
+        "vy": -320,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.8000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6456.4000000059605,
+      "physicsFrame": 168,
+      "player": {
+        "x": 322.4375,
+        "y": 490.0000000000001,
+        "vy": -288,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.6000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6464.700000017881,
+      "physicsFrame": 168,
+      "player": {
+        "x": 322.4375,
+        "y": 490.0000000000001,
+        "vy": -288,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.6000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6473.800000011921,
+      "physicsFrame": 169,
+      "player": {
+        "x": 328.0625,
+        "y": 486.0000000000001,
+        "vy": -256,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.4000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6482,
+      "physicsFrame": 169,
+      "player": {
+        "x": 328.0625,
+        "y": 486.0000000000001,
+        "vy": -256,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.4000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6490.4000000059605,
+      "physicsFrame": 170,
+      "player": {
+        "x": 333.84375,
+        "y": 482.5000000000001,
+        "vy": -224,
+        "mode": "jump"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 446.2000000000019,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6566.200000017881,
+      "physicsFrame": 174,
+      "player": {
+        "x": 356.96875,
+        "y": 486.0000000000001,
+        "vy": 224,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 445.40000000000197,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6574,
+      "physicsFrame": 175,
+      "player": {
+        "x": 362.75,
+        "y": 491.2500000000001,
+        "vy": 336,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 445.200000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6582.600000023842,
+      "physicsFrame": 175,
+      "player": {
+        "x": 362.75,
+        "y": 491.2500000000001,
+        "vy": 336,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 445.200000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6590.700000017881,
+      "physicsFrame": 176,
+      "player": {
+        "x": 368.53125,
+        "y": 498.2500000000001,
+        "vy": 448,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 445.000000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6598,
+      "physicsFrame": 176,
+      "player": {
+        "x": 368.53125,
+        "y": 498.2500000000001,
+        "vy": 448,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 445.000000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6607.600000023842,
+      "physicsFrame": 177,
+      "player": {
+        "x": 374.3125,
+        "y": 507.0000000000001,
+        "vy": 560,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.800000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6615.9000000059605,
+      "physicsFrame": 177,
+      "player": {
+        "x": 374.3125,
+        "y": 507.0000000000001,
+        "vy": 560,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.800000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6624.700000017881,
+      "physicsFrame": 178,
+      "player": {
+        "x": 380.09375,
+        "y": 517.5000000000001,
+        "vy": 672,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.600000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6631,
+      "physicsFrame": 178,
+      "player": {
+        "x": 380.09375,
+        "y": 517.5000000000001,
+        "vy": 672,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_03",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.600000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6640.9000000059605,
+      "physicsFrame": 179,
+      "player": {
+        "x": 385.875,
+        "y": 529.7500000000001,
+        "vy": 784,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.400000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6647.800000011921,
+      "physicsFrame": 179,
+      "player": {
+        "x": 385.875,
+        "y": 529.7500000000001,
+        "vy": 784,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.400000000002,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6656.300000011921,
+      "physicsFrame": 180,
+      "player": {
+        "x": 391.65625,
+        "y": 543.7500000000001,
+        "vy": 896,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.20000000000203,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6665.600000023842,
+      "physicsFrame": 181,
+      "player": {
+        "x": 397.4375,
+        "y": 559.5000000000001,
+        "vy": 1008,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.00000000000205,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6673.5,
+      "physicsFrame": 181,
+      "player": {
+        "x": 397.4375,
+        "y": 559.5000000000001,
+        "vy": 1008,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.00000000000205,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6681.700000017881,
+      "physicsFrame": 181,
+      "player": {
+        "x": 397.4375,
+        "y": 559.5000000000001,
+        "vy": 1008,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_04",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 444.00000000000205,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6748.200000017881,
+      "physicsFrame": 185,
+      "player": {
+        "x": 420.5625,
+        "y": 623.5000000000001,
+        "vy": 1024,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 443.2000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6757.200000017881,
+      "physicsFrame": 186,
+      "player": {
+        "x": 426.34375,
+        "y": 639.5000000000001,
+        "vy": 1024,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 443.0000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6765.300000011921,
+      "physicsFrame": 186,
+      "player": {
+        "x": 426.34375,
+        "y": 639.5000000000001,
+        "vy": 1024,
+        "mode": "fall"
+      },
+      "enemyEnabled": true,
+      "sprites": [
+        {
+          "frame": "goomba_walk_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 443.0000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6778.300000011921,
+      "physicsFrame": 187,
+      "player": {
+        "x": 432.125,
+        "y": 655.5,
+        "vy": -768,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6785.4000000059605,
+      "physicsFrame": 188,
+      "player": {
+        "x": 437.90625,
+        "y": 645.75,
+        "vy": -624,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6794.600000023842,
+      "physicsFrame": 188,
+      "player": {
+        "x": 437.90625,
+        "y": 645.75,
+        "vy": -624,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6799.100000023842,
+      "physicsFrame": 188,
+      "player": {
+        "x": 437.90625,
+        "y": 645.75,
+        "vy": -624,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6809.5,
+      "physicsFrame": 189,
+      "player": {
+        "x": 443.6875,
+        "y": 638.25,
+        "vy": -480,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6815.200000017881,
+      "physicsFrame": 189,
+      "player": {
+        "x": 443.6875,
+        "y": 638.25,
+        "vy": -480,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_00",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6826,
+      "physicsFrame": 190,
+      "player": {
+        "x": 449.46875,
+        "y": 633,
+        "vy": -336,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6841.800000011921,
+      "physicsFrame": 190,
+      "player": {
+        "x": 449.46875,
+        "y": 633,
+        "vy": -336,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6856.4000000059605,
+      "physicsFrame": 191,
+      "player": {
+        "x": 455.25,
+        "y": 630,
+        "vy": -192,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_01",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6870.9000000059605,
+      "physicsFrame": 192,
+      "player": {
+        "x": 461.03125,
+        "y": 629.25,
+        "vy": -48,
+        "mode": "jump"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6877.700000017881,
+      "physicsFrame": 193,
+      "player": {
+        "x": 466.8125,
+        "y": 630.75,
+        "vy": 96,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6882.600000023842,
+      "physicsFrame": 193,
+      "player": {
+        "x": 466.8125,
+        "y": 630.75,
+        "vy": 96,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6892,
+      "physicsFrame": 194,
+      "player": {
+        "x": 472.59375,
+        "y": 634.5,
+        "vy": 240,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 6899.700000017881,
+      "physicsFrame": 194,
+      "player": {
+        "x": 472.59375,
+        "y": 634.5,
+        "vy": 240,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_02",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7015.4000000059605,
+      "physicsFrame": 201,
+      "player": {
+        "x": 513.0625,
+        "y": 719,
+        "vy": 1024,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7024,
+      "physicsFrame": 202,
+      "player": {
+        "x": 518.84375,
+        "y": 735,
+        "vy": 1024,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_05",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7032.200000017881,
+      "physicsFrame": 202,
+      "player": {
+        "x": 518.84375,
+        "y": 735,
+        "vy": 1024,
+        "mode": "fall"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7040.9000000059605,
+      "physicsFrame": 203,
+      "player": {
+        "x": 524.421875,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7048.800000011921,
+      "physicsFrame": 203,
+      "player": {
+        "x": 524.421875,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7056.5,
+      "physicsFrame": 204,
+      "player": {
+        "x": 529.796875,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_06",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7065.5,
+      "physicsFrame": 205,
+      "player": {
+        "x": 534.96875,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_07",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7132.100000023842,
+      "physicsFrame": 208,
+      "player": {
+        "x": 549.265625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7140.700000017881,
+      "physicsFrame": 209,
+      "player": {
+        "x": 553.625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_08",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7149,
+      "physicsFrame": 209,
+      "player": {
+        "x": 553.625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7156.300000011921,
+      "physicsFrame": 210,
+      "player": {
+        "x": 557.78125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7165.600000023842,
+      "physicsFrame": 210,
+      "player": {
+        "x": 557.78125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7173.600000023842,
+      "physicsFrame": 211,
+      "player": {
+        "x": 561.734375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7182.100000023842,
+      "physicsFrame": 211,
+      "player": {
+        "x": 561.734375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7190.5,
+      "physicsFrame": 212,
+      "player": {
+        "x": 565.484375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_09",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7198.600000023842,
+      "physicsFrame": 212,
+      "player": {
+        "x": 565.484375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7207.100000023842,
+      "physicsFrame": 213,
+      "player": {
+        "x": 569.03125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7215.300000011921,
+      "physicsFrame": 213,
+      "player": {
+        "x": 569.03125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7225.800000011921,
+      "physicsFrame": 214,
+      "player": {
+        "x": 572.375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7232,
+      "physicsFrame": 214,
+      "player": {
+        "x": 572.375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_10",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7242.100000023842,
+      "physicsFrame": 215,
+      "player": {
+        "x": 575.515625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7248,
+      "physicsFrame": 215,
+      "player": {
+        "x": 575.515625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7258.700000017881,
+      "physicsFrame": 216,
+      "player": {
+        "x": 578.453125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_11",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7332.4000000059605,
+      "physicsFrame": 220,
+      "player": {
+        "x": 588.171875,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7340.300000011921,
+      "physicsFrame": 221,
+      "player": {
+        "x": 590.09375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7348.700000017881,
+      "physicsFrame": 221,
+      "player": {
+        "x": 590.09375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7357.4000000059605,
+      "physicsFrame": 222,
+      "player": {
+        "x": 591.8125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": [
+        {
+          "frame": "goomba_stomp_13",
+          "sx": 0.64,
+          "sy": 0.64,
+          "originX": 0.5,
+          "originY": 1,
+          "x": 442.8000000000021,
+          "y": 768.0500000055556
+        }
+      ]
+    },
+    {
+      "at": 7365.600000023842,
+      "physicsFrame": 222,
+      "player": {
+        "x": 591.8125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7374.200000017881,
+      "physicsFrame": 223,
+      "player": {
+        "x": 593.328125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7382.200000017881,
+      "physicsFrame": 223,
+      "player": {
+        "x": 593.328125,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7392.200000017881,
+      "physicsFrame": 224,
+      "player": {
+        "x": 594.640625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7399.300000011921,
+      "physicsFrame": 224,
+      "player": {
+        "x": 594.640625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7407.300000011921,
+      "physicsFrame": 225,
+      "player": {
+        "x": 595.75,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7415.9000000059605,
+      "physicsFrame": 225,
+      "player": {
+        "x": 595.75,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7423,
+      "physicsFrame": 226,
+      "player": {
+        "x": 596.65625,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7440.5,
+      "physicsFrame": 227,
+      "player": {
+        "x": 597.359375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7449.5,
+      "physicsFrame": 227,
+      "player": {
+        "x": 597.359375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7458.9000000059605,
+      "physicsFrame": 228,
+      "player": {
+        "x": 597.859375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7467.800000011921,
+      "physicsFrame": 228,
+      "player": {
+        "x": 597.859375,
+        "y": 735,
+        "vy": 0,
+        "mode": "walk"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7619.9000000059605,
+      "physicsFrame": 237,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7631.100000023842,
+      "physicsFrame": 238,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7632.9000000059605,
+      "physicsFrame": 238,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7640.5,
+      "physicsFrame": 239,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7647.700000017881,
+      "physicsFrame": 239,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7666.4000000059605,
+      "physicsFrame": 240,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7673.800000011921,
+      "physicsFrame": 241,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    },
+    {
+      "at": 7682.200000017881,
+      "physicsFrame": 241,
+      "player": {
+        "x": 598.25,
+        "y": 735,
+        "vy": 0,
+        "mode": "idle"
+      },
+      "enemyEnabled": false,
+      "sprites": []
+    }
+  ],
+  "animations": [
+    {
+      "event": "animationupdate",
+      "at": 4390.5,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_09",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 471.6000000000005,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4473.700000017881,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_10",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 470.60000000000053,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4557,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_11",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 469.6000000000006,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4640.300000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_12",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 468.60000000000065,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4723.600000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_13",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 467.6000000000007,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4806.4000000059605,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_14",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 466.60000000000076,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4890.300000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_15",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 465.6000000000008,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 4973.800000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_00",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 464.6000000000009,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5057.100000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_01",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 463.60000000000093,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5140.300000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_02",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 462.600000000001,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5223.700000017881,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_03",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 461.60000000000105,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5307.100000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_04",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 460.6000000000011,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5390.5,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_05",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 459.60000000000116,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5473.700000017881,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_06",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 458.6000000000012,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5557.100000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_07",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 457.6000000000013,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5640.300000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_08",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 456.60000000000133,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5742.300000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_09",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 455.6000000000014,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5806.5,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_10",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 454.60000000000144,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5889.5,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_11",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 453.6000000000015,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 5998.200000017881,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_12",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 453.00000000000153,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6056.5,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_13",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 451.6000000000016,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6182.100000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_14",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 450.80000000000166,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6224.100000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_15",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 449.6000000000017,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6306.9000000059605,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_00",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 448.6000000000018,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6389.800000011921,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_01",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 447.60000000000184,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6473.600000023842,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_02",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 446.6000000000019,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6565.9000000059605,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_03",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 446.2000000000019,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6640.700000017881,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_04",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 444.600000000002,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6748,
+      "key": "mario-walker:walk",
+      "frame": "goomba_walk_05",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 444.00000000000205,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "destroy",
+      "at": 6774.200000017881,
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6825.800000011921,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_01",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 6870.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_02",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7015.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_03",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7015.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_04",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7015.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_05",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7032.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_06",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7065.300000011921,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_07",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7132,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_08",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7148.800000011921,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_09",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7198.5,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_10",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7241.800000011921,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_11",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7332.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_12",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationupdate",
+      "at": 7332.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_13",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "animationcomplete",
+      "at": 7365.200000017881,
+      "key": "mario-walker:stomp",
+      "frame": "goomba_stomp_13",
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    },
+    {
+      "event": "destroy",
+      "at": 7365.4000000059605,
+      "sx": 0.64,
+      "sy": 0.64,
+      "x": 442.8000000000021,
+      "y": 768.0500000055556
+    }
+  ],
+  "inputs": [
+    {
+      "name": "ArrowRight",
+      "down": true,
+      "at": 5884.100000023842
+    },
+    {
+      "name": "Space",
+      "down": true,
+      "at": 6057.100000023842
+    },
+    {
+      "name": "Space",
+      "down": false,
+      "at": 6559.800000011921
+    },
+    {
+      "name": "ArrowRight",
+      "down": false,
+      "at": 6561.5
+    }
+  ],
+  "started": 4310.5,
+  "fixture": {
+    "schema": 1,
+    "meta": {
+      "name": "Goomba walk and stomp fixture",
+      "theme": "grass",
+      "timeLimit": 300,
+      "music": "grass_01"
+    },
+    "size": {
+      "w": 24,
+      "h": 14,
+      "tile": 64
+    },
+    "layers": {
+      "terrain": "0*288,1*48"
+    },
+    "entities": [
+      {
+        "id": 1,
+        "type": "walker",
+        "x": 7,
+        "y": 11,
+        "props": {
+          "speed": 0.2,
+          "direction": -1
+        }
+      },
+      {
+        "id": 2,
+        "type": "goal",
+        "x": 22,
+        "y": 11
+      }
+    ],
+    "spawn": {
+      "x": 3,
+      "y": 11
+    },
+    "goal": {
+      "x": 22,
+      "y": 11
+    }
+  },
+  "animationDuration": 583.3333333333334,
+  "captures": [
+    {
+      "name": "capture-frames/000.png",
+      "at": 5884
+    },
+    {
+      "name": "capture-frames/001.png",
+      "at": 6061.100000023842
+    },
+    {
+      "name": "capture-frames/002.png",
+      "at": 6250.700000017881
+    },
+    {
+      "name": "capture-frames/003.png",
+      "at": 6445.5
+    },
+    {
+      "name": "capture-frames/004.png",
+      "at": 6629.100000023842
+    },
+    {
+      "name": "capture-frames/005.png",
+      "at": 6820.5
+    },
+    {
+      "name": "capture-frames/006.png",
+      "at": 7201.200000017881
+    },
+    {
+      "name": "capture-frames/007.png",
+      "at": 7395.200000017881
+    }
+  ],
+  "url": "http://127.0.0.1:8080/play/1",
+  "method": "Real PlayScene level fixture; ArrowRight + Space keyboard input; unmodified fixed 60Hz controller and Matter enemy collision. Observation only: no activate(), stompVisuals(), finish(), or synthetic animation completion calls."
+}

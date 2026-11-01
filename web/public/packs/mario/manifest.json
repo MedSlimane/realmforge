@@ -2850,39 +2850,68 @@
     },
     "walker": {
       "texture": "mario-walker",
-      "path": "enemies/walker.png",
-      "width": 104,
-      "height": 122,
-      "source": "hires/wiki/goomba.png",
-      "pack": "mario-nsmbu",
+      "path": "enemies/goomba-import/goomba.png",
+      "image": "enemies/goomba-import/atlas.png",
+      "atlas": "enemies/goomba-import/atlas.json",
+      "width": 120,
+      "height": 100,
+      "frame": "goomba_walk_00",
       "displaySize": {
-        "w": 1,
+        "w": 1.2,
         "h": 1
       },
       "anchor": {
         "x": 0.5,
         "y": 1
       },
-      "note": "Native NSMBU Goomba render from Super Mario Wiki. Static pose; no fabricated walk/stomp frames.",
-      "image": "enemies/walker/atlas.png",
-      "atlas": "enemies/walker/atlas.json",
-      "frame": "walker_0",
       "animations": {
         "walk": {
           "frames": [
-            "walker_0"
+            "goomba_walk_00",
+            "goomba_walk_01",
+            "goomba_walk_02",
+            "goomba_walk_03",
+            "goomba_walk_04",
+            "goomba_walk_05",
+            "goomba_walk_06",
+            "goomba_walk_07",
+            "goomba_walk_08",
+            "goomba_walk_09",
+            "goomba_walk_10",
+            "goomba_walk_11",
+            "goomba_walk_12",
+            "goomba_walk_13",
+            "goomba_walk_14",
+            "goomba_walk_15"
           ],
-          "frameRate": 10,
+          "frameRate": 12,
           "repeat": -1
         },
         "stomp": {
           "frames": [
-            "walker_0"
+            "goomba_stomp_00",
+            "goomba_stomp_01",
+            "goomba_stomp_02",
+            "goomba_stomp_03",
+            "goomba_stomp_04",
+            "goomba_stomp_05",
+            "goomba_stomp_06",
+            "goomba_stomp_07",
+            "goomba_stomp_08",
+            "goomba_stomp_09",
+            "goomba_stomp_10",
+            "goomba_stomp_11",
+            "goomba_stomp_12",
+            "goomba_stomp_13"
           ],
-          "frameRate": 1,
+          "frameRate": 24,
           "repeat": 0
         }
-      }
+      },
+      "source": "goomba-import/source/goomba-tsr-238649.png",
+      "sourceUrl": "https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/",
+      "pack": "mario-nsmbu",
+      "note": "Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale."
     },
     "shell": {
       "texture": "mario-shell",
@@ -8319,6 +8348,71 @@
         }
       },
       "aliasOf": "pswitch"
+    },
+    "goomba": {
+      "texture": "mario-walker",
+      "path": "enemies/goomba-import/goomba.png",
+      "image": "enemies/goomba-import/atlas.png",
+      "atlas": "enemies/goomba-import/atlas.json",
+      "width": 120,
+      "height": 100,
+      "frame": "goomba_walk_00",
+      "displaySize": {
+        "w": 1.2,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "animations": {
+        "walk": {
+          "frames": [
+            "goomba_walk_00",
+            "goomba_walk_01",
+            "goomba_walk_02",
+            "goomba_walk_03",
+            "goomba_walk_04",
+            "goomba_walk_05",
+            "goomba_walk_06",
+            "goomba_walk_07",
+            "goomba_walk_08",
+            "goomba_walk_09",
+            "goomba_walk_10",
+            "goomba_walk_11",
+            "goomba_walk_12",
+            "goomba_walk_13",
+            "goomba_walk_14",
+            "goomba_walk_15"
+          ],
+          "frameRate": 12,
+          "repeat": -1
+        },
+        "stomp": {
+          "frames": [
+            "goomba_stomp_00",
+            "goomba_stomp_01",
+            "goomba_stomp_02",
+            "goomba_stomp_03",
+            "goomba_stomp_04",
+            "goomba_stomp_05",
+            "goomba_stomp_06",
+            "goomba_stomp_07",
+            "goomba_stomp_08",
+            "goomba_stomp_09",
+            "goomba_stomp_10",
+            "goomba_stomp_11",
+            "goomba_stomp_12",
+            "goomba_stomp_13"
+          ],
+          "frameRate": 24,
+          "repeat": 0
+        }
+      },
+      "source": "goomba-import/source/goomba-tsr-238649.png",
+      "sourceUrl": "https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/",
+      "pack": "mario-nsmbu",
+      "note": "Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale."
     }
   },
   "characters": {
@@ -9234,39 +9328,68 @@
   "enemies": {
     "walker": {
       "texture": "mario-walker",
-      "path": "enemies/walker.png",
-      "width": 104,
-      "height": 122,
-      "source": "hires/wiki/goomba.png",
-      "pack": "mario-nsmbu",
+      "path": "enemies/goomba-import/goomba.png",
+      "image": "enemies/goomba-import/atlas.png",
+      "atlas": "enemies/goomba-import/atlas.json",
+      "width": 120,
+      "height": 100,
+      "frame": "goomba_walk_00",
       "displaySize": {
-        "w": 1,
+        "w": 1.2,
         "h": 1
       },
       "anchor": {
         "x": 0.5,
         "y": 1
       },
-      "note": "Native NSMBU Goomba render from Super Mario Wiki. Static pose; no fabricated walk/stomp frames.",
-      "image": "enemies/walker/atlas.png",
-      "atlas": "enemies/walker/atlas.json",
-      "frame": "walker_0",
       "animations": {
         "walk": {
           "frames": [
-            "walker_0"
+            "goomba_walk_00",
+            "goomba_walk_01",
+            "goomba_walk_02",
+            "goomba_walk_03",
+            "goomba_walk_04",
+            "goomba_walk_05",
+            "goomba_walk_06",
+            "goomba_walk_07",
+            "goomba_walk_08",
+            "goomba_walk_09",
+            "goomba_walk_10",
+            "goomba_walk_11",
+            "goomba_walk_12",
+            "goomba_walk_13",
+            "goomba_walk_14",
+            "goomba_walk_15"
           ],
-          "frameRate": 10,
+          "frameRate": 12,
           "repeat": -1
         },
         "stomp": {
           "frames": [
-            "walker_0"
+            "goomba_stomp_00",
+            "goomba_stomp_01",
+            "goomba_stomp_02",
+            "goomba_stomp_03",
+            "goomba_stomp_04",
+            "goomba_stomp_05",
+            "goomba_stomp_06",
+            "goomba_stomp_07",
+            "goomba_stomp_08",
+            "goomba_stomp_09",
+            "goomba_stomp_10",
+            "goomba_stomp_11",
+            "goomba_stomp_12",
+            "goomba_stomp_13"
           ],
-          "frameRate": 1,
+          "frameRate": 24,
           "repeat": 0
         }
-      }
+      },
+      "source": "goomba-import/source/goomba-tsr-238649.png",
+      "sourceUrl": "https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/",
+      "pack": "mario-nsmbu",
+      "note": "Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale."
     },
     "shell": {
       "texture": "mario-shell",
@@ -9473,6 +9596,71 @@
           "kind": "still"
         }
       }
+    },
+    "goomba": {
+      "texture": "mario-walker",
+      "path": "enemies/goomba-import/goomba.png",
+      "image": "enemies/goomba-import/atlas.png",
+      "atlas": "enemies/goomba-import/atlas.json",
+      "width": 120,
+      "height": 100,
+      "frame": "goomba_walk_00",
+      "displaySize": {
+        "w": 1.2,
+        "h": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "animations": {
+        "walk": {
+          "frames": [
+            "goomba_walk_00",
+            "goomba_walk_01",
+            "goomba_walk_02",
+            "goomba_walk_03",
+            "goomba_walk_04",
+            "goomba_walk_05",
+            "goomba_walk_06",
+            "goomba_walk_07",
+            "goomba_walk_08",
+            "goomba_walk_09",
+            "goomba_walk_10",
+            "goomba_walk_11",
+            "goomba_walk_12",
+            "goomba_walk_13",
+            "goomba_walk_14",
+            "goomba_walk_15"
+          ],
+          "frameRate": 12,
+          "repeat": -1
+        },
+        "stomp": {
+          "frames": [
+            "goomba_stomp_00",
+            "goomba_stomp_01",
+            "goomba_stomp_02",
+            "goomba_stomp_03",
+            "goomba_stomp_04",
+            "goomba_stomp_05",
+            "goomba_stomp_06",
+            "goomba_stomp_07",
+            "goomba_stomp_08",
+            "goomba_stomp_09",
+            "goomba_stomp_10",
+            "goomba_stomp_11",
+            "goomba_stomp_12",
+            "goomba_stomp_13"
+          ],
+          "frameRate": 24,
+          "repeat": 0
+        }
+      },
+      "source": "goomba-import/source/goomba-tsr-238649.png",
+      "sourceUrl": "https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/",
+      "pack": "mario-nsmbu",
+      "note": "Nintendo; SMM2 NSMBU Goomba ripped by DogToon64 (TSR 238649). Native lossless crops; 16 walk + 14 flattened stomp frames. Actions inferred visually; sheet has no action labels or timing. Authored playback: 12 / 24 fps. Smaller than previous still; no enlargement. Common 120x100 canvas; 76.8x64 display keeps uniform 0.64x pixel scale."
     }
   },
   "themes": {

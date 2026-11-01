@@ -1,0 +1,16 @@
+{
+  "source": "source/goomba-tsr-238649.png",
+  "sourceSha256": "ba3f122c226d4ece1cfef057dc7b32d99c5eaf456d5cb7f0c3f6c7f8429f567b",
+  "sourceSize": [994, 1249],
+  "cellWidth": 120,
+  "cellHeight": 106,
+  "columnStride": 122,
+  "left": 2,
+  "canvas": [120, 100],
+  "sequences": {
+    "walk": {"rows": [[2, 8], [110, 8]], "frameRate": 12, "repeat": -1, "interpretation": "Walking, inferred visually; not labelled on sheet."},
+    "source_group_b": {"rows": [[273, 8], [381, 3]], "frameRate": 12, "repeat": 0, "interpretation": "Unlabelled second diffuse group; action unconfirmed, not wired to gameplay."},
+    "source_group_c": {"rows": [[544, 8], [652, 8], [760, 5]], "frameRate": 12, "repeat": 0, "interpretation": "Unlabelled third diffuse group; action unconfirmed, not wired to gameplay."},
+    "stomp": {"rows": [[978, 8], [1086, 6]], "frameRate": 24, "repeat": 0, "interpretation": "Flattened stomp/death, inferred visually; not labelled on sheet."}
+  }
+}

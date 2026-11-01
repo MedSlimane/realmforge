@@ -1,0 +1,1 @@
+PASS: contact sheet (832, 1194); 18 renders placed at 1:1; no resampling

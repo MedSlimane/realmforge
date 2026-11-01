@@ -1,0 +1,534 @@
+[
+  {
+    "character": "Mario",
+    "source_file": "/Users/slimane/Downloads/realmforge-rips/Wii U - New Super Mario Bros. U _ New Super Luigi U - Playable Characters - Mario.zip",
+    "sha256": "acf85fce8461fd652889b00124c0bbc484ee29f30f3a145c17d541645a0c5efb",
+    "bytes": 449314,
+    "files": [
+      {
+        "member": "Mario/Mario/lm_01p.png",
+        "file": "extracted/mario/Mario/Mario/lm_01p.png",
+        "bytes": 3429,
+        "sha256": "ad53322707f3ad0b02b7f7e4cd3ee72dd658a5fdd9bef0d13fab0eda29dfcb31"
+      },
+      {
+        "member": "Mario/Mario/lm_02p.png",
+        "file": "extracted/mario/Mario/Mario/lm_02p.png",
+        "bytes": 2193,
+        "sha256": "32ade1c97fa02f4ccfb745d0d196359402829234203cddf81d91cade388a04da"
+      },
+      {
+        "member": "Mario/Mario/MB_model.dae",
+        "file": "extracted/mario/Mario/Mario/MB_model.dae",
+        "bytes": 166910,
+        "sha256": "8054e744b410b011e7651aa946f7079fc3d641b4efa59b05f35b29d9fb1acb92"
+      },
+      {
+        "member": "Mario/Mario/MC_model.dae",
+        "file": "extracted/mario/Mario/Mario/MC_model.dae",
+        "bytes": 29670,
+        "sha256": "e87a4a1d58a071c94802a440fb0ccd564c3317f94e7fbff322b6723bc79a99bb"
+      },
+      {
+        "member": "Mario/Mario/MH_model.dae",
+        "file": "extracted/mario/Mario/Mario/MH_model.dae",
+        "bytes": 144468,
+        "sha256": "3c223090910d290add12344cc069251a1d2db71903052da4c2cead2516550276"
+      },
+      {
+        "member": "Mario/Mario/MMB_model.dae",
+        "file": "extracted/mario/Mario/Mario/MMB_model.dae",
+        "bytes": 279543,
+        "sha256": "5fe6ba6e1d1fd03d3c6227aea28fd80f99d1be77e72b897a772c2cf1fb5c86b8"
+      },
+      {
+        "member": "Mario/Mario/MMH_model.dae",
+        "file": "extracted/mario/Mario/Mario/MMH_model.dae",
+        "bytes": 113442,
+        "sha256": "8b8759363bc04f0f66a3825522bc5927920ea831c7585c8710a7d0ce3912ad70"
+      },
+      {
+        "member": "Mario/Mario/P.png",
+        "file": "extracted/mario/Mario/Mario/P.png",
+        "bytes": 1428,
+        "sha256": "1fba9f4c33a286ddc7cde6fd374ab7b12bc07f97aabe5473e7fb687aa97e1e07"
+      },
+      {
+        "member": "Mario/Mario/player_body.0.png",
+        "file": "extracted/mario/Mario/Mario/player_body.0.png",
+        "bytes": 8532,
+        "sha256": "8d98ca844403a17140aecdbc840b896c608528fe2cfd934b6967de34e75335d8"
+      },
+      {
+        "member": "Mario/Mario/player_body.1.png",
+        "file": "extracted/mario/Mario/Mario/player_body.1.png",
+        "bytes": 8556,
+        "sha256": "57b3531574934781ac0cf162957ae61e3a9d50692cba3c1c97c8019b5371d54d"
+      },
+      {
+        "member": "Mario/Mario/player_body.2.png",
+        "file": "extracted/mario/Mario/Mario/player_body.2.png",
+        "bytes": 8659,
+        "sha256": "2747f4442ded8bb57f729725e414d57da7071bd67729215d401f91e8119549cb"
+      },
+      {
+        "member": "Mario/Mario/player_eye.0.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.0.png",
+        "bytes": 2581,
+        "sha256": "ec334b25e0c89e3560be516647b7e80eb11ff60d95b8ac40cab52e021b711a4d"
+      },
+      {
+        "member": "Mario/Mario/player_eye.1.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.1.png",
+        "bytes": 2529,
+        "sha256": "488a04f0de6559c0c2f1d570957d5200ba140d0e47b9f1207d0b4afd2ecd78f8"
+      },
+      {
+        "member": "Mario/Mario/player_eye.2.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.2.png",
+        "bytes": 2137,
+        "sha256": "d197def146cbeb832b66224323a208a1d8a0d08fe16c27ef86e29df76f89d81a"
+      },
+      {
+        "member": "Mario/Mario/player_eye.3.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.3.png",
+        "bytes": 2546,
+        "sha256": "8f6132b7db555667a5bf60682ce62da939776748852ba2bfb2f13eb1fb7210f8"
+      },
+      {
+        "member": "Mario/Mario/player_eye.4.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.4.png",
+        "bytes": 2604,
+        "sha256": "4d0145617f84564c66794309cbf4c11773fd3032355270ae7cd49b5fd172854f"
+      },
+      {
+        "member": "Mario/Mario/player_eye.5.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.5.png",
+        "bytes": 1829,
+        "sha256": "20f76f61666dfe0b47a4499166b1e6ac74129ac2e124fda66b6da3e89080be3f"
+      },
+      {
+        "member": "Mario/Mario/player_eye.6.png",
+        "file": "extracted/mario/Mario/Mario/player_eye.6.png",
+        "bytes": 2376,
+        "sha256": "9bb9d888ae60addf06a0f45025f244dff64f259724c6ebd30ce29a9dbcadcd57"
+      },
+      {
+        "member": "Mario/Mario/player_head.0.png",
+        "file": "extracted/mario/Mario/Mario/player_head.0.png",
+        "bytes": 9481,
+        "sha256": "66a0f08bde0ee5d0f7e095f3f992924e0bee5cb8ceb31b8356338bd47148852e"
+      },
+      {
+        "member": "Mario/Mario/player_head.1.png",
+        "file": "extracted/mario/Mario/Mario/player_head.1.png",
+        "bytes": 8831,
+        "sha256": "b8dcd04ab4595754cf6bb018c31428aebd0d1ba7930b80c475c735712747dece"
+      },
+      {
+        "member": "Mario/Mario/player_head.2.png",
+        "file": "extracted/mario/Mario/Mario/player_head.2.png",
+        "bytes": 8350,
+        "sha256": "32e7b1c577c2eebc01f477dfef17d2a7620db89e2b29242380f5904c8a9d7589"
+      },
+      {
+        "member": "Mario/Mario/player_mbody.0.png",
+        "file": "extracted/mario/Mario/Mario/player_mbody.0.png",
+        "bytes": 7689,
+        "sha256": "777ea819f92e68a2e19f1b987a942458adc92113f7ffef16a80dd4782634ee98"
+      },
+      {
+        "member": "Mario/Mario/player_mbody.1.png",
+        "file": "extracted/mario/Mario/Mario/player_mbody.1.png",
+        "bytes": 7610,
+        "sha256": "6d018f857ec9cf4d672db4e6ea76ddb6511ba5d8618e902cd84addd72307a981"
+      },
+      {
+        "member": "Mario/Mario/player_mbody_spc.png",
+        "file": "extracted/mario/Mario/Mario/player_mbody_spc.png",
+        "bytes": 7163,
+        "sha256": "f5051a8ef616069dcb29b2ea433f0bf09455ff354bc615a8e191072cec245e6a"
+      },
+      {
+        "member": "Mario/Mario/player_mhead.0.png",
+        "file": "extracted/mario/Mario/Mario/player_mhead.0.png",
+        "bytes": 7662,
+        "sha256": "88a3c23f7955d6f6344bd7675911803b6650e327161e74f5a8c749ab7a70c65b"
+      },
+      {
+        "member": "Mario/Mario/player_mhead.1.png",
+        "file": "extracted/mario/Mario/Mario/player_mhead.1.png",
+        "bytes": 8151,
+        "sha256": "d1b4b1253a0d6c59da266c4e478a8977b999678ee7a0d98db43f84039ccfbdfc"
+      },
+      {
+        "member": "Mario/Mario/player_mhead_spc.png",
+        "file": "extracted/mario/Mario/Mario/player_mhead_spc.png",
+        "bytes": 6365,
+        "sha256": "f86b713702421a35a842d22dd805eb9694e4f187bf4aee1e605d09a48dc7da83"
+      },
+      {
+        "member": "Mario/Mario/player_pbody.png",
+        "file": "extracted/mario/Mario/Mario/player_pbody.png",
+        "bytes": 4111,
+        "sha256": "7531f22ffa9dca5d2cc6b4c94406d798b8b3b3189149569013dc8152babec246"
+      },
+      {
+        "member": "Mario/Mario/player_phead.png",
+        "file": "extracted/mario/Mario/Mario/player_phead.png",
+        "bytes": 5262,
+        "sha256": "36c056b0f941cd5494a670417badd86680d34fbf7bf8dd75d9438001d2c18f5f"
+      },
+      {
+        "member": "Mario/Mario/player_plbody.png",
+        "file": "extracted/mario/Mario/Mario/player_plbody.png",
+        "bytes": 5606,
+        "sha256": "484201f2896e1e37285ebe0695929723985ab2e58d2d417bdb6a6b91e28c3beb"
+      },
+      {
+        "member": "Mario/Mario/player_plface.png",
+        "file": "extracted/mario/Mario/Mario/player_plface.png",
+        "bytes": 7360,
+        "sha256": "1cf4254b707ccc46f8f77878305db8372a4d855ec70807adcafb7069725473ba"
+      },
+      {
+        "member": "Mario/Mario/player_plhead.png",
+        "file": "extracted/mario/Mario/Mario/player_plhead.png",
+        "bytes": 7360,
+        "sha256": "1cf4254b707ccc46f8f77878305db8372a4d855ec70807adcafb7069725473ba"
+      },
+      {
+        "member": "Mario/Mario/PLMB_model.dae",
+        "file": "extracted/mario/Mario/Mario/PLMB_model.dae",
+        "bytes": 257852,
+        "sha256": "df47a0e8c93b2932ba5454150d54fb5aa30551cb8737a8210d6d4545b3089d5a"
+      },
+      {
+        "member": "Mario/Mario/PLMH_model.dae",
+        "file": "extracted/mario/Mario/Mario/PLMH_model.dae",
+        "bytes": 129565,
+        "sha256": "8a217790808b919afd118afb10202e8ac4428007c065af23ee668440cd74605e"
+      },
+      {
+        "member": "Mario/Mario/PMB_model.dae",
+        "file": "extracted/mario/Mario/Mario/PMB_model.dae",
+        "bytes": 146175,
+        "sha256": "b5be989cf6a4d76393b25cd3121149a03a561ed7f43ddb5155cc983be953c907"
+      },
+      {
+        "member": "Mario/Mario/PMH_model.dae",
+        "file": "extracted/mario/Mario/Mario/PMH_model.dae",
+        "bytes": 79714,
+        "sha256": "6bf8cc2f39686ec441737e00295ef2e048e1a36236819e8b9da91eebdb37b7a8"
+      },
+      {
+        "member": "Mario/Mario/puropera_env.png",
+        "file": "extracted/mario/Mario/Mario/puropera_env.png",
+        "bytes": 2900,
+        "sha256": "62dd27b32f1816e9bc629981125ded07b5ad9edbd5ca3280e9345540d60c297f"
+      },
+      {
+        "member": "Mario/Mario/p_env.png",
+        "file": "extracted/mario/Mario/Mario/p_env.png",
+        "bytes": 2315,
+        "sha256": "73b87e686f32a412631892133f3cc79ef314dab13f2cf585d6fc759e8d356014"
+      },
+      {
+        "member": "Mario/Mario/P_mask.png",
+        "file": "extracted/mario/Mario/Mario/P_mask.png",
+        "bytes": 1305,
+        "sha256": "b8ecc2f9a294536caa7fb657fe6f4a442e15bc28c677296cbcf2623c101ccf09"
+      },
+      {
+        "member": "Mario/Mario/SMB_model.dae",
+        "file": "extracted/mario/Mario/Mario/SMB_model.dae",
+        "bytes": 231116,
+        "sha256": "753825bfb5d7eaaadd0a9c995afc9bf5829148629e819a1927370cfb0cb45246"
+      },
+      {
+        "member": "Mario/Mario/SMC_model.dae",
+        "file": "extracted/mario/Mario/Mario/SMC_model.dae",
+        "bytes": 30337,
+        "sha256": "200aa4532986969eabf6d44e67e4dc69b44407f7fe98e90ff05ffb9763b629d5"
+      },
+      {
+        "member": "Mario/Mario/SMH_model.dae",
+        "file": "extracted/mario/Mario/Mario/SMH_model.dae",
+        "bytes": 148796,
+        "sha256": "6c846b9a3691ab0bb7ea8681f5675f1ca6c597d49a89c60d5199448e681c117f"
+      },
+      {
+        "member": "Mario/Mario/star_env.png",
+        "file": "extracted/mario/Mario/Mario/star_env.png",
+        "bytes": 1936,
+        "sha256": "5e314173b8042606adba1acc2b835d9f22ea5b839d17cf88841f363fbddd4c15"
+      },
+      {
+        "member": "Mario/README.txt",
+        "file": "extracted/mario/Mario/README.txt",
+        "bytes": 147,
+        "sha256": "d133edd6cc60b9279e8823df308e89d35103ad5727b1bd341b5ec3c3f7a6f351"
+      }
+    ]
+  },
+  {
+    "character": "Luigi",
+    "source_file": "/Users/slimane/Downloads/realmforge-rips/Wii U - New Super Mario Bros. U _ New Super Luigi U - Playable Characters - Luigi.zip",
+    "sha256": "30241c7a016e5d15efe9a91f5ac79528dd672e07108a78e901cdcafb15438114",
+    "bytes": 432777,
+    "files": [
+      {
+        "member": "Luigi/Luigi/LB_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/LB_model.dae",
+        "bytes": 174027,
+        "sha256": "1bbb750eae7ff240fe68b43cd3bd9dc02f30ce74f969e73e11afc0a792d2a3c6"
+      },
+      {
+        "member": "Luigi/Luigi/LC_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/LC_model.dae",
+        "bytes": 22508,
+        "sha256": "afae065bb5e861b17d78427a3c8a5421264eb99e518a3a3c532aad345539399f"
+      },
+      {
+        "member": "Luigi/Luigi/LH_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/LH_model.dae",
+        "bytes": 142356,
+        "sha256": "5a06cba422c3366d93c7b35f8b060fce46232461313853d2d0b012fcb2dbfd8f"
+      },
+      {
+        "member": "Luigi/Luigi/lm_01p.png",
+        "file": "extracted/luigi/Luigi/Luigi/lm_01p.png",
+        "bytes": 3429,
+        "sha256": "ad53322707f3ad0b02b7f7e4cd3ee72dd658a5fdd9bef0d13fab0eda29dfcb31"
+      },
+      {
+        "member": "Luigi/Luigi/lm_02p.png",
+        "file": "extracted/luigi/Luigi/Luigi/lm_02p.png",
+        "bytes": 2193,
+        "sha256": "32ade1c97fa02f4ccfb745d0d196359402829234203cddf81d91cade388a04da"
+      },
+      {
+        "member": "Luigi/Luigi/MLB_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/MLB_model.dae",
+        "bytes": 287751,
+        "sha256": "c5bb4916135eb99b561c0224253545393c2ec5757833463485a33026b4932fad"
+      },
+      {
+        "member": "Luigi/Luigi/MLH_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/MLH_model.dae",
+        "bytes": 114382,
+        "sha256": "8219face05aaf799c7cfb10f38b32ed4e746a3bef7ac60c795e77088519ed0f0"
+      },
+      {
+        "member": "Luigi/Luigi/P.png",
+        "file": "extracted/luigi/Luigi/Luigi/P.png",
+        "bytes": 1428,
+        "sha256": "1fba9f4c33a286ddc7cde6fd374ab7b12bc07f97aabe5473e7fb687aa97e1e07"
+      },
+      {
+        "member": "Luigi/Luigi/player_body.0.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_body.0.png",
+        "bytes": 7855,
+        "sha256": "daf2c60f6b1043c4109b777bbb40b500454a925b603a76860de02ac4086e285d"
+      },
+      {
+        "member": "Luigi/Luigi/player_body.1.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_body.1.png",
+        "bytes": 8025,
+        "sha256": "e907acaf9ca5c84418d3f8b9cae657e1527b5459f6c3e0eabde0896019eab9ae"
+      },
+      {
+        "member": "Luigi/Luigi/player_body.2.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_body.2.png",
+        "bytes": 7864,
+        "sha256": "7145f1b6010639866f9c0052ad8732341c224bdc19d0bb21f1bbfd9ef2b12a2a"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.0.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.0.png",
+        "bytes": 2091,
+        "sha256": "953888830c09a18b61d02644688fd36d59e7956d393c08819f7d68ab35f5efe6"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.1.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.1.png",
+        "bytes": 1953,
+        "sha256": "1aaa5309e06b91de2d7c3d341e87183ea8795c482bef328a2f5f268bf27206d6"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.2.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.2.png",
+        "bytes": 1592,
+        "sha256": "4b92539232fae0113da527b1a4664d4d407572ad84809df4a9fc67f716d17b90"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.3.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.3.png",
+        "bytes": 2127,
+        "sha256": "2c51b5f5fab46b7c75efae0d53c3f8256c7dee3b1d3615381f050d59124190f3"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.4.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.4.png",
+        "bytes": 2191,
+        "sha256": "e534162e07bcecba4687ce32ad70f24319c4c69d8e588b61f250e4d627e7d40d"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.5.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.5.png",
+        "bytes": 1765,
+        "sha256": "3532a6d217ec47a8f4deecaa673b04c8056851a99cca5574f508547ca43c8f48"
+      },
+      {
+        "member": "Luigi/Luigi/player_eye.6.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_eye.6.png",
+        "bytes": 1932,
+        "sha256": "8283477bf031042331c592a77d7df3ebd3681f74e4dc5d5f1a1eb29f38a65f56"
+      },
+      {
+        "member": "Luigi/Luigi/player_head.0.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_head.0.png",
+        "bytes": 8812,
+        "sha256": "9561d7181e5ea6d8411013814f20d59b65b8e2bbf5939907fd86e8f5ec297c32"
+      },
+      {
+        "member": "Luigi/Luigi/player_head.1.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_head.1.png",
+        "bytes": 8158,
+        "sha256": "9bcfaeafcf6218dabf63f069940993a383653fe327df39805137263ddd1c2e76"
+      },
+      {
+        "member": "Luigi/Luigi/player_head.2.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_head.2.png",
+        "bytes": 7999,
+        "sha256": "d5f969e72565517b56bd97bae58786e860cd571cd24710309b71f7563d5044aa"
+      },
+      {
+        "member": "Luigi/Luigi/player_mbody.0.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_mbody.0.png",
+        "bytes": 7760,
+        "sha256": "23a208248f13278b4fcb7aae8aeae341e771fd9b88d9c59d4993b284bb493886"
+      },
+      {
+        "member": "Luigi/Luigi/player_mbody.1.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_mbody.1.png",
+        "bytes": 7751,
+        "sha256": "1a55ba8f50d4a357e7cf81b813c475925cfad7e55e193741c579e759e92b1878"
+      },
+      {
+        "member": "Luigi/Luigi/player_mhead.0.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_mhead.0.png",
+        "bytes": 6572,
+        "sha256": "a50d3e0d21fbfa8a5351f928245d4cc08b141f3a38c9c01691f17d527d9bff81"
+      },
+      {
+        "member": "Luigi/Luigi/player_mhead.1.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_mhead.1.png",
+        "bytes": 6945,
+        "sha256": "351223216b0c35cd907bbaeffb3a8fe9007125a6d62f38d94176ea061e75f356"
+      },
+      {
+        "member": "Luigi/Luigi/player_pbody.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_pbody.png",
+        "bytes": 4897,
+        "sha256": "65d7a07795388d4221868da7babdd5699f99de4f0f45ffaf9dc69326207a28dc"
+      },
+      {
+        "member": "Luigi/Luigi/player_phead.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_phead.png",
+        "bytes": 3913,
+        "sha256": "157babfcdb52d29a71e5cf6a4c9361bad39485252a37ca315c5673b5d83a3f93"
+      },
+      {
+        "member": "Luigi/Luigi/player_plbody.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_plbody.png",
+        "bytes": 5892,
+        "sha256": "344fc00c6786a2b9d3afb5f4a566b7695fe99f1c85cd6cffb37958f815538b9f"
+      },
+      {
+        "member": "Luigi/Luigi/player_plface.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_plface.png",
+        "bytes": 8812,
+        "sha256": "9561d7181e5ea6d8411013814f20d59b65b8e2bbf5939907fd86e8f5ec297c32"
+      },
+      {
+        "member": "Luigi/Luigi/player_plhead.png",
+        "file": "extracted/luigi/Luigi/Luigi/player_plhead.png",
+        "bytes": 6034,
+        "sha256": "916e4d49d91d7633a428ea95acab31550312f1fd9d916b26a3a4fdfb12334907"
+      },
+      {
+        "member": "Luigi/Luigi/PLB_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/PLB_model.dae",
+        "bytes": 147219,
+        "sha256": "ed2e479f8d8806a4f02d8f8132432f7237cf2d0fdc0102bfa62336a49e1d26c2"
+      },
+      {
+        "member": "Luigi/Luigi/PLH_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/PLH_model.dae",
+        "bytes": 106063,
+        "sha256": "b4a9dc0bdb8cffc2c920f606ee98c84453af92cc7b140371716c6fa2041c9fa1"
+      },
+      {
+        "member": "Luigi/Luigi/PLLB_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/PLLB_model.dae",
+        "bytes": 267787,
+        "sha256": "667b8fd35b23378dcfad9e98b10941ff6834b59c0a4cc59ffae029f7a59fd85a"
+      },
+      {
+        "member": "Luigi/Luigi/PLLH_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/PLLH_model.dae",
+        "bytes": 136340,
+        "sha256": "f00585bb573f6eddf22ca1e7ba35995488d9426407e4c1136f4feefd105408d9"
+      },
+      {
+        "member": "Luigi/Luigi/puropera_env.png",
+        "file": "extracted/luigi/Luigi/Luigi/puropera_env.png",
+        "bytes": 2900,
+        "sha256": "62dd27b32f1816e9bc629981125ded07b5ad9edbd5ca3280e9345540d60c297f"
+      },
+      {
+        "member": "Luigi/Luigi/p_env.png",
+        "file": "extracted/luigi/Luigi/Luigi/p_env.png",
+        "bytes": 2315,
+        "sha256": "73b87e686f32a412631892133f3cc79ef314dab13f2cf585d6fc759e8d356014"
+      },
+      {
+        "member": "Luigi/Luigi/P_mask.png",
+        "file": "extracted/luigi/Luigi/Luigi/P_mask.png",
+        "bytes": 1305,
+        "sha256": "b8ecc2f9a294536caa7fb657fe6f4a442e15bc28c677296cbcf2623c101ccf09"
+      },
+      {
+        "member": "Luigi/Luigi/SLB_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/SLB_model.dae",
+        "bytes": 159770,
+        "sha256": "38c76c5881e396fad10f6f712fd191300858b218254ba5339ea46ec1cc6f7feb"
+      },
+      {
+        "member": "Luigi/Luigi/SLC_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/SLC_model.dae",
+        "bytes": 22440,
+        "sha256": "133705d9f8e116fa5b07a9ab505a18a731f5d260f57166cd5c54308883b95235"
+      },
+      {
+        "member": "Luigi/Luigi/SLH_model.dae",
+        "file": "extracted/luigi/Luigi/Luigi/SLH_model.dae",
+        "bytes": 144795,
+        "sha256": "89cb6f0d9cd7e5792963b934c6f18e7e061d1f4eb50a5f4e2b1e2fb97dcd9fb3"
+      },
+      {
+        "member": "Luigi/Luigi/star_env.png",
+        "file": "extracted/luigi/Luigi/Luigi/star_env.png",
+        "bytes": 1936,
+        "sha256": "5e314173b8042606adba1acc2b835d9f22ea5b839d17cf88841f363fbddd4c15"
+      },
+      {
+        "member": "Luigi/README.txt",
+        "file": "extracted/luigi/Luigi/README.txt",
+        "bytes": 147,
+        "sha256": "aa39d30da1b9792e21aeac656b3b27e1d14eee249ca1ec5985fd65ab7109ce95"
+      }
+    ]
+  }
+]

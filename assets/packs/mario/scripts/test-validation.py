@@ -1,13 +1,12 @@
-"""Regression probes for the requested hard failure, without mutating the pack."""
-import copy,json,unittest,tempfile
+"""Scale/import regression probes, including two real reproducible pack builds."""
+import copy,json,unittest,tempfile,subprocess,sys,hashlib
 from unittest.mock import patch
 from PIL import Image
 from validate import OUT,validate_display_scale,character_fidelity_issues
 from audit import content_size
-from build import crop,integrate_staged,HERE
+from build import crop,integrate_staged,HERE,build_goomba_import,integrate_goomba,retained_import_output,published_art_matches
 class NativeScaleValidation(unittest.TestCase):
- @classmethod
- def setUpClass(cls):cls.manifest=json.loads((OUT/'manifest.json').read_text())
+ def setUp(self):self.manifest=json.loads((OUT/'manifest.json').read_text())
  def test_real_pack_passes(self):self.assertGreater(validate_display_scale(self.manifest),400)
  def test_character_fidelity_rejects_renamed_identical_frames(self):
   im=Image.new('RGBA',(64,120),(255,0,0,255));keys=[f'frame_{i}' for i in range(6)]
@@ -42,6 +41,70 @@ class NativeScaleValidation(unittest.TestCase):
    folder=Path(path);(folder/'DONE').touch()
    (folder/'objects.json').write_text(json.dumps({'fx':{'dust':{'path':'missing-staged-art.png'}}}))
    with self.assertRaisesRegex(AssertionError,'Object owner has not published'):integrate_staged({},folder)
+ def test_goomba_merge_retains_unrelated_entries_and_aliases(self):
+  m=copy.deepcopy(self.manifest);before=copy.deepcopy(m)
+  integrate_goomba(m)
+  fragment=json.loads((HERE/'goomba-import/manifest-fragment.json').read_text())
+  for section in ('elements','enemies'):
+   for name,entry in fragment[section].items():self.assertEqual(m[section][name],entry)
+   for name,entry in before[section].items():
+    if name not in fragment[section]:self.assertEqual(m[section][name],entry)
+  for section in set(before)-set(fragment):self.assertEqual(m[section],before[section])
+ def test_goomba_build_runs_pinned_import_when_source_exists(self):
+  with patch('build.subprocess.run') as run:
+   build_goomba_import()
+   run.assert_called_once_with([sys.executable,str(HERE/'goomba-import/build.py')],check=True)
+ def test_goomba_and_inspection_deliverables_survive_two_real_rebuilds(self):
+  protected=[p for folder in ('enemies/goomba-import','characters/model-preview') for p in (OUT/folder).rglob('*') if p.is_file()]
+  before={p:hashlib.sha256(p.read_bytes()).hexdigest() for p in protected}
+  previous=json.loads((OUT/'manifest.json').read_text())
+  for iteration in range(2):
+   result=subprocess.run([sys.executable,str(HERE/'scripts/build.py')],capture_output=True,text=True)
+   self.assertEqual(result.returncode,0,result.stdout+result.stderr)
+   self.assertIn('GOOMBA: final entry-by-entry merge',result.stdout)
+   manifest=json.loads((OUT/'manifest.json').read_text())
+   fragment=json.loads((HERE/'goomba-import/manifest-fragment.json').read_text())
+   for section,entries in fragment.items():
+    for name,entry in entries.items():self.assertEqual(manifest[section][name],entry)
+   for section,values in previous.items():
+    if section in fragment:
+     for name,entry in values.items():
+      if name not in fragment[section]:self.assertEqual(manifest[section][name],entry)
+    else:self.assertEqual(manifest[section],values)
+   if iteration==0:first=manifest
+   else:self.assertEqual(manifest,first)
+   for p,digest in before.items():
+    self.assertTrue(retained_import_output(p));self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),digest)
+ def test_published_objects_allow_only_encoding_changes_not_pixel_changes(self):
+  from pathlib import Path
+  with tempfile.TemporaryDirectory(dir=HERE) as path:
+   root=Path(path);source=root/'source.png';target=root/'published.png'
+   image=Image.new('RGBA',(8,8),(31,50,90,128))
+   image.save(source,compress_level=0);image.save(target,compress_level=9)
+   files={'published.png':{'path':str(source.relative_to(HERE)),'sha256':hashlib.sha256(source.read_bytes()).hexdigest()}}
+   with patch('build.OUT',root):
+    self.assertTrue(published_art_matches(files))
+    image.putpixel((3,4),(1,2,3,4));image.save(target)
+    self.assertFalse(published_art_matches(files))
+ def test_reviewed_object_files_are_preserved_while_verifying_current_staging(self):
+  paths=[p for folder in (HERE/'integrated',OUT/'objects') for p in folder.rglob('*') if p.is_file()]
+  before={p:hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+  m={};integrate_staged(m)
+  self.assertEqual({p:hashlib.sha256(p.read_bytes()).hexdigest() for p in paths},before)
+  for section in ('elements','fx'):
+   for name,entry in json.loads((HERE/'integrated/manifest-fragment.json').read_text())[section].items():
+    self.assertEqual(m[section][name],entry)
+ def test_goomba_source_native_aspect_ratio_for_every_runtime_frame(self):
+  fragment=json.loads((HERE/'goomba-import/manifest-fragment.json').read_text())
+  e=fragment['elements']['walker'];atlas=json.loads((OUT/e['atlas']).read_text())
+  self.assertEqual(e['anchor'],{'x':0.5,'y':1})
+  self.assertEqual(len(e['animations']['walk']['frames']),16)
+  self.assertEqual(len(e['animations']['stomp']['frames']),14)
+  for animation in e['animations'].values():
+   for name in animation['frames']:
+    frame=atlas['frames'][name]['sourceSize']
+    sx=64*e['displaySize']['w']/frame['w'];sy=64*e['displaySize']['h']/frame['h']
+    self.assertAlmostEqual(sx,sy);self.assertAlmostEqual(sx,0.64)
  def test_rejects_undersized_static_sprite(self):
   m=copy.deepcopy(self.manifest);e=m['elements']['crate'];e['displaySize']['w']=e['width']*1.26/64
   with self.assertRaisesRegex(AssertionError,'Upscaled sprite elements.crate'):validate_display_scale(m)

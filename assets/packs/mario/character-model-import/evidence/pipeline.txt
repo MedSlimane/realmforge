@@ -1,0 +1,13 @@
+RUN /Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-exit-code 1 --python-expr import bpy; print('BLENDER_VERSION', bpy.app.version_string); print('COLLADA_IMPORT_OPERATORS', [x for x in dir(bpy.ops.wm) if 'collada' in x.lower()])
+PASS: blender-probe.txt
+RUN /private/tmp/realmforge-character-model-venv/bin/python /Users/slimane/realmforge/assets/packs/mario/character-model-import/extract_inspect.py --downloads /Users/slimane/Downloads/realmforge-rips
+PASS: inspection.txt
+RUN /private/tmp/realmforge-character-model-venv/bin/python /Users/slimane/realmforge/assets/packs/mario/character-model-import/prepare_previews.py
+PASS: preparation.txt
+RUN /Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-exit-code 1 --python /Users/slimane/realmforge/assets/packs/mario/character-model-import/render_previews.py
+PASS: render.txt
+RUN /private/tmp/realmforge-character-model-venv/bin/python /Users/slimane/realmforge/assets/packs/mario/character-model-import/validate.py
+PASS: validation.txt
+RUN /private/tmp/realmforge-character-model-venv/bin/python /Users/slimane/realmforge/assets/packs/mario/character-model-import/create_contact_sheet.py
+PASS: contact-sheet.txt
+PASS: pipeline complete; inspection-only output; no gameplay animation or manifest fragment

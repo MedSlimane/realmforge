@@ -4,8 +4,9 @@ mirror repeats are performed. There is no AI art, pixel upscaling, or copied gam
 """
 from pathlib import Path
 from PIL import Image, ImageOps
-import copy, json, math, base64, io, re, sys
+import copy, json, math, base64, io, re, sys, subprocess, hashlib
 from functools import lru_cache
+from tempfile import TemporaryDirectory
 HERE=Path(__file__).resolve().parents[1];ROOT=HERE.parents[2]
 RAW=ROOT/'assets/_downloads/mario';OUT=ROOT/'web/public/packs/mario'
 FULL_BUILD='--full' in sys.argv
@@ -20,6 +21,19 @@ def write_json(path,value):
  if not owned_output(path):return
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,indent=2)+'\n')
 
+def published_art_matches(files):
+ """Verify pinned prepared files against published art, allowing PNG encoding changes."""
+ if not files:return False
+ for relative,record in files.items():
+  source=HERE/record['path'];target=OUT/relative
+  if not source.is_file() or not target.is_file():return False
+  if hashlib.sha256(source.read_bytes()).hexdigest()!=record['sha256']:return False
+  if hashlib.sha256(target.read_bytes()).hexdigest()==record['sha256']:continue
+  if source.suffix!='.png':return False
+  with Image.open(source) as a,Image.open(target) as b:
+   if a.size!=b.size or a.convert('RGBA').tobytes()!=b.convert('RGBA').tobytes():return False
+ return True
+
 def integrate_staged(m,folder=None):
  """Prepare a completed inbox and merge only its verified published files.
 
@@ -32,12 +46,16 @@ def integrate_staged(m,folder=None):
   return
  fragment=json.loads((folder/'objects.json').read_text())
  if any('anims' in e for e in fragment.get('elements',{}).values()):
-  from object_integration import prepare,publish,published
-  fragment,files=prepare(folder)
-  if '--publish-objects' in sys.argv:publish(files)
-  if not published(files):
-   print('STAGING BLOCKED: reviewed atlases prepared in assets/packs/mario/integrated; public objects/ publication requires ownership approval')
-   return
+  from object_integration import prepare,publish
+  # Verify current staged sources in a disposable directory. Re-encoding with a
+  # different Pillow/zlib must neither overwrite reviewed files nor drop entries.
+  with TemporaryDirectory(prefix='.object-verify-',dir=HERE) as destination:
+   fragment,files=prepare(folder,Path(destination))
+   if '--publish-objects' in sys.argv:publish(files)
+   if not published_art_matches(files):
+    print('STAGING BLOCKED: reviewed atlases differ from public objects/; publication requires ownership approval')
+    return
+   print('STAGING: published object bytes/RGBA verified; existing files retained')
  assert fragment.get('schema',1)==1,'Staged objects must retain schema 1'
  assert set(fragment)<= {'schema','elements','fx','notes'},'Unsupported staged section'
  for section in ('elements','fx'):
@@ -55,6 +73,36 @@ def integrate_staged(m,folder=None):
  for alias,target in [('question','question_block'),('question-block','question_block'),('p_switch','pswitch')]:
   if target in fragment.get('elements',{}):m['elements'][alias]={**copy.deepcopy(m['elements'][target]),'aliasOf':target}
  print(f'STAGING: integrated {len(fragment.get("elements",{}))} object entries and {len(fragment.get("fx",{}))} fx entries')
+
+def build_goomba_import():
+ """Rebuild downloaded art before the shared pack, using the pinned local source."""
+ folder=HERE/'goomba-import'
+ if (folder/'source/goomba-tsr-238649.png').is_file():
+  subprocess.run([sys.executable,str(folder/'build.py')],check=True)
+
+def integrate_goomba(m):
+ """Final entry-level override: retain all unrelated art and compatibility aliases."""
+ path=HERE/'goomba-import/manifest-fragment.json'
+ if not path.is_file():return
+ fragment=json.loads(path.read_text())
+ assert set(fragment)=={'elements','enemies'},'Unsupported Goomba fragment section'
+ for section in ('elements','enemies'):
+  entries=fragment[section]
+  assert isinstance(entries,dict),'Goomba entries must be a mapping'
+  for name,entry in entries.items():
+   for key in ('path','image','atlas'):
+    relative=Path(entry[key])
+    assert not relative.is_absolute() and '..' not in relative.parts,(section,name,key)
+    assert (OUT/relative).is_file(),f'Goomba import missing {relative}'
+   m.setdefault(section,{})[name]=copy.deepcopy(entry)
+ print('GOOMBA: final entry-by-entry merge (elements/enemies walker + goomba)')
+
+def retained_import_output(path):
+ """Retain import evidence and the superseded walker files for inspection."""
+ relative=path.relative_to(OUT)
+ return any(relative.is_relative_to(folder) for folder in (
+  Path('enemies/goomba-import'),Path('characters/model-preview'),
+  Path('enemies/walker'),Path('enemies/walker.png')))
 
 @lru_cache(maxsize=128)
 def source_image(source,embedded=-1,frame=0):
@@ -137,6 +185,7 @@ def make_asset(id,spec):
  return entry
 
 def build():
+ build_goomba_import()
  c=json.loads((HERE/'slicing.json').read_text());old=json.loads((ROOT/'web/public/assets/manifest.json').read_text())
  m={k:copy.deepcopy(old[k]) for k in ['schema','tileSize','ui','editor','sfx','music']}
  m.update({'baseUrl':'/packs/mario/','license':'Nintendo proprietary; private educational class demo only. Ancillary Kenney UI/audio: CC0-1.0.','pixelArt':False,'sourceTile':64,'elements':{},'characters':{},'enemies':{},'themes':{},'credits':'credits.json'})
@@ -199,6 +248,7 @@ def build():
    if target not in m['elements']:raise ValueError(f'Uncovered {id} -> {target}')
    m['elements'][id]={**copy.deepcopy(m['elements'][target]),'aliasOf':target}
  integrate_staged(m)
+ integrate_goomba(m)
  # pipe deliberately remains a real pipe rather than the legacy Kenney door alias.
  write_json(OUT/'manifest.json',m)
  write_json(OUT/'credits.json',{'notice':'Nintendo property, used for a private educational class demo only; do not distribute publicly; Kenney CC0 pack remains the public-safe fallback.','provenance':'See assets/packs/mario/SOURCES.md and sources.json for source URLs and SHA-256 checksums.','ancillary':'/assets/credits.json'})
@@ -214,7 +264,7 @@ def build():
    for x in v:referenced(x)
  referenced(m)
  for p in OUT.rglob('*'):
-  if p.is_file() and owned_output(p) and p.relative_to(OUT).as_posix() not in keep:p.unlink()
+  if p.is_file() and owned_output(p) and not retained_import_output(p) and p.relative_to(OUT).as_posix() not in keep:p.unlink()
  # Every actual element and compatibility alias is reviewable without reading code.
  lines=['# Mario pack coverage','', '| Element | File |','|---|---|']
  lines[2:2]=['Character fidelity is checked separately by `npm run validate`; nine named poses do not establish nine authentic poses.', '']

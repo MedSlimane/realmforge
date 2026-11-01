@@ -1,0 +1,164 @@
+[
+  {
+    "file": "mario-big-side-bind-preview.png",
+    "alpha_bbox": [
+      67,
+      35,
+      125,
+      157
+    ]
+  },
+  {
+    "file": "mario-big-front-bind-preview.png",
+    "alpha_bbox": [
+      34,
+      35,
+      158,
+      157
+    ]
+  },
+  {
+    "file": "mario-small-side-bind-preview.png",
+    "alpha_bbox": [
+      75,
+      66,
+      118,
+      127
+    ]
+  },
+  {
+    "file": "mario-small-front-bind-preview.png",
+    "alpha_bbox": [
+      57,
+      66,
+      135,
+      127
+    ]
+  },
+  {
+    "file": "mario-mmb-side-bind-preview.png",
+    "alpha_bbox": [
+      60,
+      35,
+      132,
+      157
+    ]
+  },
+  {
+    "file": "mario-pmb-side-bind-preview.png",
+    "alpha_bbox": [
+      61,
+      35,
+      131,
+      157
+    ]
+  },
+  {
+    "file": "mario-plmb-side-bind-preview.png",
+    "alpha_bbox": [
+      66,
+      35,
+      126,
+      157
+    ]
+  },
+  {
+    "file": "mario-mc-cap-part-side-bind-preview.png",
+    "alpha_bbox": [
+      68,
+      65,
+      124,
+      127
+    ]
+  },
+  {
+    "file": "mario-smc-cap-part-side-bind-preview.png",
+    "alpha_bbox": [
+      67,
+      65,
+      125,
+      127
+    ]
+  },
+  {
+    "file": "luigi-big-side-bind-preview.png",
+    "alpha_bbox": [
+      71,
+      35,
+      120,
+      157
+    ]
+  },
+  {
+    "file": "luigi-big-front-bind-preview.png",
+    "alpha_bbox": [
+      47,
+      35,
+      145,
+      157
+    ]
+  },
+  {
+    "file": "luigi-small-side-bind-preview.png",
+    "alpha_bbox": [
+      75,
+      65,
+      118,
+      127
+    ]
+  },
+  {
+    "file": "luigi-small-front-bind-preview.png",
+    "alpha_bbox": [
+      67,
+      65,
+      125,
+      127
+    ]
+  },
+  {
+    "file": "luigi-mlb-side-bind-preview.png",
+    "alpha_bbox": [
+      64,
+      35,
+      127,
+      157
+    ]
+  },
+  {
+    "file": "luigi-plb-side-bind-preview.png",
+    "alpha_bbox": [
+      66,
+      35,
+      126,
+      157
+    ]
+  },
+  {
+    "file": "luigi-pllb-side-bind-preview.png",
+    "alpha_bbox": [
+      69,
+      35,
+      122,
+      157
+    ]
+  },
+  {
+    "file": "luigi-lc-cap-part-side-bind-preview.png",
+    "alpha_bbox": [
+      71,
+      65,
+      122,
+      127
+    ]
+  },
+  {
+    "file": "luigi-slc-cap-part-side-bind-preview.png",
+    "alpha_bbox": [
+      67,
+      65,
+      125,
+      127
+    ]
+  }
+]

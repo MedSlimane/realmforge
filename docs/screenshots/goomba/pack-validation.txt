@@ -1,0 +1,14 @@
+PASS: 15 object entries + 3 fx entries; 114 source-matched RGBA PNGs.
+PASS: 10 real animation sequences; 22 explicitly labelled still states; consistent canvases per entry.
+PASS: 70 original files SHA-256 verified; 51 outputs restore verified exact 2x source duplication.
+PASS: max opaque-content display scale 1.2075x <= 1.25x; zero source enlargement, recolouring, synthetic frames or pixel mismatches.
+PASS: total staging 1,076,230 bytes <= 12,000,000 bytes.
+PREPARED staging: 15 object entries + 3 FX entries; 54 files; all atlas frames match staged RGBA bytes
+Traceback (most recent call last):
+  File "/Users/slimane/realmforge/assets/packs/mario/scripts/validate.py", line 153, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/slimane/realmforge/assets/packs/mario/scripts/validate.py", line 52, in main
+    assert published(staged_files),'Published object files differ from validated staging'
+           ~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: Published object files differ from validated staging

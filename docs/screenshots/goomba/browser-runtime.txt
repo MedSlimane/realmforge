@@ -1,0 +1,100 @@
+### Result
+{
+  "fixture": "Goomba walk and stomp fixture",
+  "enemyEnabled": false,
+  "physicsFrame": 3604,
+  "playerMode": "idle",
+  "stompDuration": 583.3333333333334,
+  "atlas": [
+    {
+      "name": "goomba_walk_00",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_01",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_02",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_03",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_04",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_05",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_06",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_07",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_08",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_09",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_10",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_11",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_12",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_13",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_14",
+      "w": 120,
+      "h": 100
+    },
+    {
+      "name": "goomba_walk_15",
+      "w": 120,
+      "h": 100
+    }
+  ]
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({fixture:window.__play.doc.meta.name,enemyEnabled:window.__play.runtime.elements.get(1).enabled,physicsFrame:window.__play.frame,playerMode:window.__play.player.state.mode,stompDuration:window.__play.anims.get(\'mario-walker:stomp\').duration,atlas:[...Array(16)].map((_,i)=>{const f=window.__play.textures.getFrame(\'mario-walker\',\'goomba_walk_\'+String(i).padStart(2,\'0\'));return {name:f.name,w:f.realWidth,h:f.realHeight}})}))');
+```
+### Page
+- Page URL: http://127.0.0.1:8080/play/1
+- Page Title: RealmForge — Build. Publish. Earn.
+- Console: 22 errors, 2 warnings
+### Events
+- New console entries: .playwright-cli/console-2026-11-01T11-39-27-551Z.log#L131-L141

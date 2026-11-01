@@ -1,0 +1,44 @@
+{
+  "source": {
+    "downloadedFile": "Nintendo Switch - Super Mario Maker 2 - New Super Mario Bros. U_ Enemies - Goomba (NSMBU).png",
+    "originalDirectory": "/Users/slimane/Downloads/realmforge-rips",
+    "copy": "source/goomba-tsr-238649.png",
+    "sha256": "ba3f122c226d4ece1cfef057dc7b32d99c5eaf456d5cb7f0c3f6c7f8429f567b",
+    "size": [
+      994,
+      1249
+    ],
+    "url": "https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/",
+    "sheetCredit": [
+      "Goomba [NSMBU] from Super Mario Maker 2 ripped by DogToon64.",
+      "If used, give credit to Nintendo.",
+      "Credit to DogToon64 is optional, but would be nice."
+    ],
+    "timing": "Not supplied; rates are author-selected, not claimed original game timing.",
+    "rights": "Nintendo. Private educational demo restriction; not CC0 or an open licence."
+  },
+  "previousOutput": {
+    "file": "reference/previous-walker.png",
+    "originalFile": "web/public/packs/mario/enemies/walker.png",
+    "sha256": "68aa26977fe78fb799fa081fbeea5fd0b3e19be7c10ece859d7a329b0ab931fc",
+    "canvas": [
+      104,
+      122
+    ],
+    "opaqueXYXY": [
+      0,
+      0,
+      104,
+      122
+    ]
+  },
+  "previousOriginalSource": {
+    "file": "assets/_downloads/mario/hires/wiki/goomba.png",
+    "sha256": "d2082794e455f5489b715cdfdc8a783e147dd6b6b3c2e7d20a3671d5a3f47b70",
+    "nativeSize": [
+      208,
+      243
+    ],
+    "note": "Existing slicing.json downsamples this original to the 104x122 current output."
+  }
+}

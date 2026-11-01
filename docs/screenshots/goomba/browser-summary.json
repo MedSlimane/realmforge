@@ -1,0 +1,33 @@
+{
+  "samples": 310,
+  "walkFrames": 16,
+  "stompFrames": 14,
+  "durationMs": 583.3333333333334,
+  "observedStompMs": 586.9000000059605,
+  "scalePairs": [
+    [
+      0.64,
+      0.64
+    ]
+  ],
+  "anchors": [
+    [
+      0.5,
+      1
+    ]
+  ],
+  "gifFrames": 8,
+  "gifMs": 1660,
+  "final": {
+    "at": 7682.200000017881,
+    "physicsFrame": 241,
+    "player": {
+      "x": 598.25,
+      "y": 735,
+      "vy": 0,
+      "mode": "idle"
+    },
+    "enemyEnabled": false,
+    "sprites": []
+  }
+}

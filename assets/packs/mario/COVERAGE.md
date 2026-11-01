@@ -107,7 +107,7 @@ Character fidelity is checked separately by `npm run validate`; nine named poses
 | `castle_used_block` | `tiles/castle/castle_used_block.png` |
 | `castle_ice` | `tiles/castle/castle_ice.png` |
 | `castle_slime` | `tiles/castle/castle_slime.png` |
-| `walker` | `enemies/walker.png` |
+| `walker` | `enemies/goomba-import/goomba.png` |
 | `shell` | `enemies/shell.png` |
 | `flyer` | `enemies/flyer.png` |
 | `jumper` | `enemies/jumper.png` |
@@ -401,6 +401,7 @@ Character fidelity is checked separately by `npm run validate`; nine named poses
 | `lockedDoor` | `flow/locked_door.png` |
 | `switch-block` | `flow/switch_block.png` |
 | `p_switch` | `objects/elements/pswitch/default.png` |
+| `goomba` | `enemies/goomba-import/goomba.png` |
 
 ## Character fidelity (current delivery)
 

@@ -1,0 +1,1698 @@
+{
+  "canvas": [
+    120,
+    100
+  ],
+  "anchor": {
+    "x": 0.5,
+    "y": 1
+  },
+  "sequences": {
+    "walk": {
+      "rows": [
+        [
+          2,
+          8
+        ],
+        [
+          110,
+          8
+        ]
+      ],
+      "frameRate": 12,
+      "repeat": -1,
+      "interpretation": "Walking, inferred visually; not labelled on sheet.",
+      "frames": [
+        "goomba_walk_00",
+        "goomba_walk_01",
+        "goomba_walk_02",
+        "goomba_walk_03",
+        "goomba_walk_04",
+        "goomba_walk_05",
+        "goomba_walk_06",
+        "goomba_walk_07",
+        "goomba_walk_08",
+        "goomba_walk_09",
+        "goomba_walk_10",
+        "goomba_walk_11",
+        "goomba_walk_12",
+        "goomba_walk_13",
+        "goomba_walk_14",
+        "goomba_walk_15"
+      ]
+    },
+    "source_group_b": {
+      "rows": [
+        [
+          273,
+          8
+        ],
+        [
+          381,
+          3
+        ]
+      ],
+      "frameRate": 12,
+      "repeat": 0,
+      "interpretation": "Unlabelled second diffuse group; action unconfirmed, not wired to gameplay.",
+      "frames": [
+        "goomba_source_group_b_00",
+        "goomba_source_group_b_01",
+        "goomba_source_group_b_02",
+        "goomba_source_group_b_03",
+        "goomba_source_group_b_04",
+        "goomba_source_group_b_05",
+        "goomba_source_group_b_06",
+        "goomba_source_group_b_07",
+        "goomba_source_group_b_08",
+        "goomba_source_group_b_09",
+        "goomba_source_group_b_10"
+      ]
+    },
+    "source_group_c": {
+      "rows": [
+        [
+          544,
+          8
+        ],
+        [
+          652,
+          8
+        ],
+        [
+          760,
+          5
+        ]
+      ],
+      "frameRate": 12,
+      "repeat": 0,
+      "interpretation": "Unlabelled third diffuse group; action unconfirmed, not wired to gameplay.",
+      "frames": [
+        "goomba_source_group_c_00",
+        "goomba_source_group_c_01",
+        "goomba_source_group_c_02",
+        "goomba_source_group_c_03",
+        "goomba_source_group_c_04",
+        "goomba_source_group_c_05",
+        "goomba_source_group_c_06",
+        "goomba_source_group_c_07",
+        "goomba_source_group_c_08",
+        "goomba_source_group_c_09",
+        "goomba_source_group_c_10",
+        "goomba_source_group_c_11",
+        "goomba_source_group_c_12",
+        "goomba_source_group_c_13",
+        "goomba_source_group_c_14",
+        "goomba_source_group_c_15",
+        "goomba_source_group_c_16",
+        "goomba_source_group_c_17",
+        "goomba_source_group_c_18",
+        "goomba_source_group_c_19",
+        "goomba_source_group_c_20"
+      ]
+    },
+    "stomp": {
+      "rows": [
+        [
+          978,
+          8
+        ],
+        [
+          1086,
+          6
+        ]
+      ],
+      "frameRate": 24,
+      "repeat": 0,
+      "interpretation": "Flattened stomp/death, inferred visually; not labelled on sheet.",
+      "frames": [
+        "goomba_stomp_00",
+        "goomba_stomp_01",
+        "goomba_stomp_02",
+        "goomba_stomp_03",
+        "goomba_stomp_04",
+        "goomba_stomp_05",
+        "goomba_stomp_06",
+        "goomba_stomp_07",
+        "goomba_stomp_08",
+        "goomba_stomp_09",
+        "goomba_stomp_10",
+        "goomba_stomp_11",
+        "goomba_stomp_12",
+        "goomba_stomp_13"
+      ]
+    }
+  },
+  "frames": {
+    "goomba_walk_00": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        2,
+        2,
+        122,
+        108
+      ],
+      "sourceContentXYXY": [
+        18,
+        6,
+        102,
+        102
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "724da67f1f56b1f39de18e70f8a374cdb244c75acfbc797d0f73bdab6b1af4cd",
+      "contentRgbaSha256": "aaa1a604d30ce766ccadae1db091eafd138a6e83c6018221efb7eb1ba9d286e1"
+    },
+    "goomba_walk_01": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        124,
+        2,
+        244,
+        108
+      ],
+      "sourceContentXYXY": [
+        142,
+        6,
+        224,
+        102
+      ],
+      "nativeOpaqueSize": [
+        82,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "88f316a52b810427856c8a5b73ef1260533004370fae60e26964a552728f0466",
+      "contentRgbaSha256": "4241c754721707c025a1d21ab4ab0bddbc4efba760a7a5d93c7fe11388a84a41"
+    },
+    "goomba_walk_02": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        246,
+        2,
+        366,
+        108
+      ],
+      "sourceContentXYXY": [
+        266,
+        6,
+        350,
+        100
+      ],
+      "nativeOpaqueSize": [
+        84,
+        94
+      ],
+      "canvasOffset": [
+        18,
+        6
+      ],
+      "rgbaSha256": "c8d556ca075e0e4c00140fb5a97305b7730e69853a01b9c221be237478aea19e",
+      "contentRgbaSha256": "8e8af1c016c7bafe496c517708691f1a03ef788f189a3d1629a37ed9bd94d445"
+    },
+    "goomba_walk_03": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        368,
+        2,
+        488,
+        108
+      ],
+      "sourceContentXYXY": [
+        391,
+        5,
+        476,
+        100
+      ],
+      "nativeOpaqueSize": [
+        85,
+        95
+      ],
+      "canvasOffset": [
+        17,
+        5
+      ],
+      "rgbaSha256": "5ee8f65d19f66287401557e2898c292d41a24cb3ca1523c809325493c46fe491",
+      "contentRgbaSha256": "64f61ec72f6d794f1627b4437c20c28596952a6c95a822df11a6e531e41df0fe"
+    },
+    "goomba_walk_04": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        490,
+        2,
+        610,
+        108
+      ],
+      "sourceContentXYXY": [
+        514,
+        2,
+        598,
+        101
+      ],
+      "nativeOpaqueSize": [
+        84,
+        99
+      ],
+      "canvasOffset": [
+        18,
+        1
+      ],
+      "rgbaSha256": "2680da2db195cffe964e83a7a294f6f2e5d32a0563d349d6f6826d4a105c95b3",
+      "contentRgbaSha256": "b4ad67c52e23416937bbe8fd85ad97f3f06c87104b5709deb4a92d7d36bd9258"
+    },
+    "goomba_walk_05": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        612,
+        2,
+        732,
+        108
+      ],
+      "sourceContentXYXY": [
+        636,
+        2,
+        720,
+        101
+      ],
+      "nativeOpaqueSize": [
+        84,
+        99
+      ],
+      "canvasOffset": [
+        18,
+        1
+      ],
+      "rgbaSha256": "b69900e0d96e54a75dd20a873354ba29bce3d17e24d85d98384123ba112a6b2b",
+      "contentRgbaSha256": "973a9b2dc068b81eca824b5902258db91ec23fc657d5e514d39a1fb18438d6af"
+    },
+    "goomba_walk_06": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        734,
+        2,
+        854,
+        108
+      ],
+      "sourceContentXYXY": [
+        754,
+        2,
+        838,
+        102
+      ],
+      "nativeOpaqueSize": [
+        84,
+        100
+      ],
+      "canvasOffset": [
+        18,
+        0
+      ],
+      "rgbaSha256": "7321173cd5ada724a9430b1f039fc53a6a16b460f3d9012e28252ed133461e83",
+      "contentRgbaSha256": "bb1e6c0c39b1bb7ee0936c63919eebe875fa67d3aff25a235415cc2f5960deb8"
+    },
+    "goomba_walk_07": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        856,
+        2,
+        976,
+        108
+      ],
+      "sourceContentXYXY": [
+        872,
+        6,
+        956,
+        102
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "f0299451f8a3686823b8a34dc29786e36661392b0f27caa5c13065a5d9f3f358",
+      "contentRgbaSha256": "6a0a13db1d23e161412cba2d307f89c29faacc7ce04d9d0926d4b0f7f3fd2a53"
+    },
+    "goomba_walk_08": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        2,
+        110,
+        122,
+        216
+      ],
+      "sourceContentXYXY": [
+        18,
+        114,
+        102,
+        210
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "d79a68c781da1ea24a993f0ff3589503f529e55950be87df3a142e8c8d452db8",
+      "contentRgbaSha256": "d221406bca7439eec4e9d6b1bd812c5a06ab0d50d22aaaa94035ab2afe102402"
+    },
+    "goomba_walk_09": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        124,
+        110,
+        244,
+        216
+      ],
+      "sourceContentXYXY": [
+        140,
+        114,
+        221,
+        210
+      ],
+      "nativeOpaqueSize": [
+        81,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "b266601a5df8d5ade88377bb70d2734568c92731c3199e89b637a92627252453",
+      "contentRgbaSha256": "91c318349f25d44d7abfa61cef690b3547068f5e2d2bb9c8d8f212fc2e131368"
+    },
+    "goomba_walk_10": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        246,
+        110,
+        366,
+        216
+      ],
+      "sourceContentXYXY": [
+        262,
+        114,
+        346,
+        210
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "b906142f0a3492e593c13889f09398ac2f08042d643095c7771728f747c556ec",
+      "contentRgbaSha256": "974b9687c85898504ab3b36e27ecbfcfb8c338ae6248720c062eaad1b2dea0c6"
+    },
+    "goomba_walk_11": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        368,
+        110,
+        488,
+        216
+      ],
+      "sourceContentXYXY": [
+        388,
+        110,
+        472,
+        210
+      ],
+      "nativeOpaqueSize": [
+        84,
+        100
+      ],
+      "canvasOffset": [
+        18,
+        0
+      ],
+      "rgbaSha256": "d1d103e0f852e4b70b3ecbaa7acad19bde43ed6d82eb7e3a7bfbe65c1dd44862",
+      "contentRgbaSha256": "6d7e140e7226eca161e17a7470d0b009351a16d5791cad6351687cced04ec2b6"
+    },
+    "goomba_walk_12": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        490,
+        110,
+        610,
+        216
+      ],
+      "sourceContentXYXY": [
+        510,
+        110,
+        594,
+        209
+      ],
+      "nativeOpaqueSize": [
+        84,
+        99
+      ],
+      "canvasOffset": [
+        18,
+        1
+      ],
+      "rgbaSha256": "d71c99708de1a120e13a4137476cc66d8f6b52b786d15c84c3605c6b1fc19203",
+      "contentRgbaSha256": "aa9bdfb2d2da5104813e78b32b6bfc9ce8c76b8b1d7a3e32a30f5479d171916c"
+    },
+    "goomba_walk_13": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        612,
+        110,
+        732,
+        216
+      ],
+      "sourceContentXYXY": [
+        632,
+        110,
+        716,
+        210
+      ],
+      "nativeOpaqueSize": [
+        84,
+        100
+      ],
+      "canvasOffset": [
+        18,
+        0
+      ],
+      "rgbaSha256": "973d5908aa3151e2f70b5ae0cf23cd35f2934143f4d252bc393a19b89bbfcd26",
+      "contentRgbaSha256": "c381ef8d4f235e1b8c14552bab11a68bce186890b670fe366f8b7a9451f06147"
+    },
+    "goomba_walk_14": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        734,
+        110,
+        854,
+        216
+      ],
+      "sourceContentXYXY": [
+        753,
+        114,
+        834,
+        210
+      ],
+      "nativeOpaqueSize": [
+        81,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "51b2dda007146db596b990e5575ad47f09ff7bea9cebd4eda6f5348585b5f6b7",
+      "contentRgbaSha256": "c129d34a615a0abecc62d7c00ccbf08c1410d58446c6b9404336d35a4c1c303e"
+    },
+    "goomba_walk_15": {
+      "sequence": "walk",
+      "sourceCellXYXY": [
+        856,
+        110,
+        976,
+        216
+      ],
+      "sourceContentXYXY": [
+        872,
+        114,
+        956,
+        210
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "52276d9da7f4e64fe64b9d4671a87c5ef27f0d4e05b3cd12b0b01d20ff846ecc",
+      "contentRgbaSha256": "e977ca7a9ccf4f64ec125767462cb2f7d3532e18c260476b5d4edb7ddae663a3"
+    },
+    "goomba_source_group_b_00": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        2,
+        273,
+        122,
+        379
+      ],
+      "sourceContentXYXY": [
+        21,
+        277,
+        103,
+        373
+      ],
+      "nativeOpaqueSize": [
+        82,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "94370ca1404a01dfa1a5554fc50d16248fdb3ded3a0d8c44084601b082a737a8",
+      "contentRgbaSha256": "e8b3b95950e35b3f9d985c886efe13255272e206b82da71d557238ff5f03bbaf"
+    },
+    "goomba_source_group_b_01": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        124,
+        273,
+        244,
+        379
+      ],
+      "sourceContentXYXY": [
+        140,
+        277,
+        224,
+        371
+      ],
+      "nativeOpaqueSize": [
+        84,
+        94
+      ],
+      "canvasOffset": [
+        18,
+        6
+      ],
+      "rgbaSha256": "422df92a345b1d9bbf759c3d8b577c535a6de6971ee4e0984cc549a108afd822",
+      "contentRgbaSha256": "15279025aee0937b11a63e14a7ea4a3b023aa6e94f4649c3b8da8b58367f740a"
+    },
+    "goomba_source_group_b_02": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        246,
+        273,
+        366,
+        379
+      ],
+      "sourceContentXYXY": [
+        262,
+        277,
+        346,
+        371
+      ],
+      "nativeOpaqueSize": [
+        84,
+        94
+      ],
+      "canvasOffset": [
+        18,
+        6
+      ],
+      "rgbaSha256": "b3232649c518efb757261e8754859f49c9281de14298531ed7ed201386a0d8ed",
+      "contentRgbaSha256": "d88642b8709b3a42bf1c4b894067fd35db8e5da9c837ad12a44fbd44453884ca"
+    },
+    "goomba_source_group_b_03": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        368,
+        273,
+        488,
+        379
+      ],
+      "sourceContentXYXY": [
+        384,
+        277,
+        468,
+        373
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "79aae16def8a1833bd0566e2adcaa55be4ae5a1c6638dd1a4c5441a0312d09c1",
+      "contentRgbaSha256": "05ad7443b41ba66806388ec3bc022158b827146963df0e1810abaf666dd139f8"
+    },
+    "goomba_source_group_b_04": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        490,
+        273,
+        610,
+        379
+      ],
+      "sourceContentXYXY": [
+        506,
+        277,
+        590,
+        370
+      ],
+      "nativeOpaqueSize": [
+        84,
+        93
+      ],
+      "canvasOffset": [
+        18,
+        7
+      ],
+      "rgbaSha256": "c2fda62c70cf0cfbf7fb105f6a1287f2cde6c25981c10fc2d7df27608b1d026d",
+      "contentRgbaSha256": "7a184cc8981ed27b536f246ff8038c2e190fa48353b29cc80ce1c9f84ef5441f"
+    },
+    "goomba_source_group_b_05": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        612,
+        273,
+        732,
+        379
+      ],
+      "sourceContentXYXY": [
+        628,
+        277,
+        712,
+        373
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "da8ae27afde7b2def8bd39c90e7a3bda0a0b357965cd3664ac6ab225f2feb57e",
+      "contentRgbaSha256": "bbaade556ba608fb313a95c895f2d631c5905829770d1552856ab5bf904e30b9"
+    },
+    "goomba_source_group_b_06": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        734,
+        273,
+        854,
+        379
+      ],
+      "sourceContentXYXY": [
+        750,
+        277,
+        834,
+        373
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "d9c9eda0aff22b1e3166fe23a9ee3de169b75149cf765427c1135210e2283fbe",
+      "contentRgbaSha256": "54a5a74b1381815c46d16a958857e4d103817fefddd2755c84aff966edc7f86f"
+    },
+    "goomba_source_group_b_07": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        856,
+        273,
+        976,
+        379
+      ],
+      "sourceContentXYXY": [
+        872,
+        277,
+        956,
+        373
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "606a460cebfbf3a51f2d29dd7ac13e45afbea2906c8752731123898120f9a1bd",
+      "contentRgbaSha256": "9c1ef3de604a10a2fd8073f4cbe219f7a09cc643206c7fe2c0d16a3b9ec7ace0"
+    },
+    "goomba_source_group_b_08": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        2,
+        381,
+        122,
+        487
+      ],
+      "sourceContentXYXY": [
+        18,
+        385,
+        102,
+        481
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "41d1d8805224e3c8af2ac75e459ced2f16e77ecaa4399fc0aff3c6251aef5c22",
+      "contentRgbaSha256": "4c46167612590380b7b243b6851db65242d91efe4ce4f5e6ea4c356236d84b71"
+    },
+    "goomba_source_group_b_09": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        124,
+        381,
+        244,
+        487
+      ],
+      "sourceContentXYXY": [
+        143,
+        385,
+        225,
+        480
+      ],
+      "nativeOpaqueSize": [
+        82,
+        95
+      ],
+      "canvasOffset": [
+        19,
+        5
+      ],
+      "rgbaSha256": "850e286d57d57dd72b9b3cdd5e712261da1f5e9be1cbbb529b1b20dddd5f7ad3",
+      "contentRgbaSha256": "33bcf1a49153e466a41ae36bce71db549338f0d982c813fcdc630e2279e284f2"
+    },
+    "goomba_source_group_b_10": {
+      "sequence": "source_group_b",
+      "sourceCellXYXY": [
+        246,
+        381,
+        366,
+        487
+      ],
+      "sourceContentXYXY": [
+        262,
+        385,
+        347,
+        481
+      ],
+      "nativeOpaqueSize": [
+        85,
+        96
+      ],
+      "canvasOffset": [
+        17,
+        4
+      ],
+      "rgbaSha256": "49b2d80bdceea6eb067d0d3c2441adb177679d6a3323ac5f8ae4adb0f68c7681",
+      "contentRgbaSha256": "a6bad87caea4eb420516dbb9ee3ecc2cb60460a32871d50997a61fcc23bce10a"
+    },
+    "goomba_source_group_c_00": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        2,
+        544,
+        122,
+        650
+      ],
+      "sourceContentXYXY": [
+        21,
+        548,
+        102,
+        642
+      ],
+      "nativeOpaqueSize": [
+        81,
+        94
+      ],
+      "canvasOffset": [
+        19,
+        6
+      ],
+      "rgbaSha256": "176287dad333614961adf7abe6540919ebe65b0f5d12de2470196336ebc68966",
+      "contentRgbaSha256": "67df2ca6c9045da85c716c8408f14b5139e671e7d4c1b3ed4e939fc87f01da3c"
+    },
+    "goomba_source_group_c_01": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        124,
+        544,
+        244,
+        650
+      ],
+      "sourceContentXYXY": [
+        143,
+        548,
+        224,
+        644
+      ],
+      "nativeOpaqueSize": [
+        81,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "d9a1a53d7f2a92f32db9f3d5c8148c17b74b474b879a6be6e5a2d6430fa91ca6",
+      "contentRgbaSha256": "77f5933e3607c4ba147bcab05b7cc16f88314f2367e52a323ae3d5563740a3aa"
+    },
+    "goomba_source_group_c_02": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        246,
+        544,
+        366,
+        650
+      ],
+      "sourceContentXYXY": [
+        262,
+        548,
+        346,
+        644
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "a6a71440f2bcde89d50a3d454de399d585afa9b6c37e2141e3fd143d9427129a",
+      "contentRgbaSha256": "22daa3b7da07c186e023e1dd738d468f741a574f18fc8f983fe11d08c2fd749f"
+    },
+    "goomba_source_group_c_03": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        368,
+        544,
+        488,
+        650
+      ],
+      "sourceContentXYXY": [
+        384,
+        548,
+        469,
+        644
+      ],
+      "nativeOpaqueSize": [
+        85,
+        96
+      ],
+      "canvasOffset": [
+        17,
+        4
+      ],
+      "rgbaSha256": "36789448d87c510533881fb4477cd4ac60f1f717e3a128796e01706c6fd6efbb",
+      "contentRgbaSha256": "6b20bf4aa837281c242ead101198548ddbdcce0ad3abdeda16c517d1a9ec9fc3"
+    },
+    "goomba_source_group_c_04": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        490,
+        544,
+        610,
+        650
+      ],
+      "sourceContentXYXY": [
+        510,
+        548,
+        594,
+        640
+      ],
+      "nativeOpaqueSize": [
+        84,
+        92
+      ],
+      "canvasOffset": [
+        18,
+        8
+      ],
+      "rgbaSha256": "f087d4b410fe6307450a378beb68f1a7f05077d35508d0f360a4ed666b739f90",
+      "contentRgbaSha256": "07d88a4f919fb94a03a79aa7cfcd45e9581f019f1894427ad0db32f92212e6c7"
+    },
+    "goomba_source_group_c_05": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        612,
+        544,
+        732,
+        650
+      ],
+      "sourceContentXYXY": [
+        632,
+        551,
+        716,
+        644
+      ],
+      "nativeOpaqueSize": [
+        84,
+        93
+      ],
+      "canvasOffset": [
+        18,
+        7
+      ],
+      "rgbaSha256": "d4cafdd41d96f7e36648684da5a7225ebd91420618a7c0f015357b0a0b4f8e8b",
+      "contentRgbaSha256": "dc35029e3cb21b6ac119de69e7f8776c0738c4a7e4d0275205abb770fb7ae19c"
+    },
+    "goomba_source_group_c_06": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        734,
+        544,
+        854,
+        650
+      ],
+      "sourceContentXYXY": [
+        754,
+        551,
+        838,
+        648
+      ],
+      "nativeOpaqueSize": [
+        84,
+        97
+      ],
+      "canvasOffset": [
+        18,
+        3
+      ],
+      "rgbaSha256": "30c392782c2c85f7c30e67e14312e9819fd53c586a3c29793be12de309f430a0",
+      "contentRgbaSha256": "ec1ce345d7415962ec599dd487a97a3a3aa48427afcc7007e4afe7130340674f"
+    },
+    "goomba_source_group_c_07": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        856,
+        544,
+        976,
+        650
+      ],
+      "sourceContentXYXY": [
+        876,
+        552,
+        960,
+        648
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "ba98d96590e8c58e7cd0d91c7c44535672b0da47f9ba80c6719557a4078b9ac1",
+      "contentRgbaSha256": "92f952d330da6c2fa4cc9b36024697879c7091983365632919d01bf73c42598b"
+    },
+    "goomba_source_group_c_08": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        2,
+        652,
+        122,
+        758
+      ],
+      "sourceContentXYXY": [
+        22,
+        660,
+        106,
+        758
+      ],
+      "nativeOpaqueSize": [
+        84,
+        98
+      ],
+      "canvasOffset": [
+        18,
+        2
+      ],
+      "rgbaSha256": "16fb7bd0b6f08bf5141b70f478c560682485a0d0170acfdc10ad9ef2691343b1",
+      "contentRgbaSha256": "ade87fa472b93883b07869c14771531d0d9cd561e0a0cb929f3d91872fcdbc1e"
+    },
+    "goomba_source_group_c_09": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        124,
+        652,
+        244,
+        758
+      ],
+      "sourceContentXYXY": [
+        147,
+        660,
+        228,
+        758
+      ],
+      "nativeOpaqueSize": [
+        81,
+        98
+      ],
+      "canvasOffset": [
+        19,
+        2
+      ],
+      "rgbaSha256": "3bf5f83f969a06f333d9bce28d92724695f80a4c59ee2d3220a6dbbd71d2d07c",
+      "contentRgbaSha256": "c947e77c383e08bf6d72371d73bf722f1705ce9ba9d58ba63183ac45bdad60b0"
+    },
+    "goomba_source_group_c_10": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        246,
+        652,
+        366,
+        758
+      ],
+      "sourceContentXYXY": [
+        269,
+        660,
+        350,
+        758
+      ],
+      "nativeOpaqueSize": [
+        81,
+        98
+      ],
+      "canvasOffset": [
+        19,
+        2
+      ],
+      "rgbaSha256": "5cd4aed40a37883f486712208db6aa4672f8911817ac86eb6d0980d42e67017b",
+      "contentRgbaSha256": "8934ecefda3f294812ec830b4b2995e2e3b8fa06aaa898e833f3fa28708a3085"
+    },
+    "goomba_source_group_c_11": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        368,
+        652,
+        488,
+        758
+      ],
+      "sourceContentXYXY": [
+        391,
+        660,
+        472,
+        758
+      ],
+      "nativeOpaqueSize": [
+        81,
+        98
+      ],
+      "canvasOffset": [
+        19,
+        2
+      ],
+      "rgbaSha256": "5e82ae1d653ce60369b0b54a2177960a3b5764994b9c6607495f57eea8830798",
+      "contentRgbaSha256": "c0702947637b876dc46ebf20ba4be6f8a33f4eb5a983e9b62d3f9bba7b0c72c9"
+    },
+    "goomba_source_group_c_12": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        490,
+        652,
+        610,
+        758
+      ],
+      "sourceContentXYXY": [
+        510,
+        660,
+        594,
+        757
+      ],
+      "nativeOpaqueSize": [
+        84,
+        97
+      ],
+      "canvasOffset": [
+        18,
+        3
+      ],
+      "rgbaSha256": "1dc9ccfc6c90ad7cac0f97573dbc06906c1563ef06f2fde081303a5c2b7dbc46",
+      "contentRgbaSha256": "7df5e7d1fce90fdb0eab88991730bf8e20262aa7a7fd174ae6e9f1fcaed18a8e"
+    },
+    "goomba_source_group_c_13": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        612,
+        652,
+        732,
+        758
+      ],
+      "sourceContentXYXY": [
+        632,
+        660,
+        716,
+        756
+      ],
+      "nativeOpaqueSize": [
+        84,
+        96
+      ],
+      "canvasOffset": [
+        18,
+        4
+      ],
+      "rgbaSha256": "4629525975389699814c6c37871fab18ef9397bd25a3a2caa0f7f85e344785e5",
+      "contentRgbaSha256": "972d370ece166dc9a66e241df77d0648b438790520dfe433ec4efc2481b15ab6"
+    },
+    "goomba_source_group_c_14": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        734,
+        652,
+        854,
+        758
+      ],
+      "sourceContentXYXY": [
+        754,
+        659,
+        838,
+        756
+      ],
+      "nativeOpaqueSize": [
+        84,
+        97
+      ],
+      "canvasOffset": [
+        18,
+        3
+      ],
+      "rgbaSha256": "26080ebed735c671b67600945d4a86c8789f2a5cf2e42b9850cb3a3c39e89dab",
+      "contentRgbaSha256": "811d49f9352f394ef75f43646fbdc2d6e9e3c03b277038ab53c246a8215dfc87"
+    },
+    "goomba_source_group_c_15": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        856,
+        652,
+        976,
+        758
+      ],
+      "sourceContentXYXY": [
+        876,
+        659,
+        960,
+        752
+      ],
+      "nativeOpaqueSize": [
+        84,
+        93
+      ],
+      "canvasOffset": [
+        18,
+        7
+      ],
+      "rgbaSha256": "146c6a26fa36f23e458c4eeb3ef26d410ecfb8e371fe1c11e2b2884d56bc252a",
+      "contentRgbaSha256": "4ee8bd6eea8d496bb5c79ff42a1c8bebab4ae458a02614e09cb333ab986ad868"
+    },
+    "goomba_source_group_c_16": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        2,
+        760,
+        122,
+        866
+      ],
+      "sourceContentXYXY": [
+        22,
+        764,
+        106,
+        856
+      ],
+      "nativeOpaqueSize": [
+        84,
+        92
+      ],
+      "canvasOffset": [
+        18,
+        8
+      ],
+      "rgbaSha256": "947443f127ac95959032312014363d3cc81c61950c7ca29bda3da7b6370fdb1b",
+      "contentRgbaSha256": "39c9fc64f64d02a94c7feac18858c7a2d03d1df6c05fd98b58db13d9d1864125"
+    },
+    "goomba_source_group_c_17": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        124,
+        760,
+        244,
+        866
+      ],
+      "sourceContentXYXY": [
+        143,
+        764,
+        225,
+        860
+      ],
+      "nativeOpaqueSize": [
+        82,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "e0f6a6e3410a9e78b224ffd3980771cc139ea91125db6d7e311010b46aab139b",
+      "contentRgbaSha256": "e2e2382fcd878a0319ea7d1d2b2184077b54703b001f0ed91e5abf3ca48d01e5"
+    },
+    "goomba_source_group_c_18": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        246,
+        760,
+        366,
+        866
+      ],
+      "sourceContentXYXY": [
+        265,
+        764,
+        346,
+        860
+      ],
+      "nativeOpaqueSize": [
+        81,
+        96
+      ],
+      "canvasOffset": [
+        19,
+        4
+      ],
+      "rgbaSha256": "6be88f53e19a92d18c2f9ce3bc8e358e7927e15e0cc3937d5daa2d0e225f192b",
+      "contentRgbaSha256": "c591448b5f99363a5cb93a3e4ffe221a74eee4ff4255dad227629d1ad4daa459"
+    },
+    "goomba_source_group_c_19": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        368,
+        760,
+        488,
+        866
+      ],
+      "sourceContentXYXY": [
+        387,
+        764,
+        468,
+        858
+      ],
+      "nativeOpaqueSize": [
+        81,
+        94
+      ],
+      "canvasOffset": [
+        19,
+        6
+      ],
+      "rgbaSha256": "70aa5888d030410a042de935baa706905a0ef2acbb7e883687db051c6e318186",
+      "contentRgbaSha256": "c67d4f163db4c8b03f38ec69b391d82154d66d122ceb7c48f06ea2cb2bf47140"
+    },
+    "goomba_source_group_c_20": {
+      "sequence": "source_group_c",
+      "sourceCellXYXY": [
+        490,
+        760,
+        610,
+        866
+      ],
+      "sourceContentXYXY": [
+        509,
+        764,
+        590,
+        858
+      ],
+      "nativeOpaqueSize": [
+        81,
+        94
+      ],
+      "canvasOffset": [
+        19,
+        6
+      ],
+      "rgbaSha256": "cc6d7543c16ecf4134ca5a029a0c4c82572d6538b63af8fb5b9308f79bc53458",
+      "contentRgbaSha256": "8ec556469482f5a042cac04b1ca02c48cca55eb2d09b5084b57ed754c20c01bf"
+    },
+    "goomba_stomp_00": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        2,
+        978,
+        122,
+        1084
+      ],
+      "sourceContentXYXY": [
+        10,
+        1038,
+        115,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        105,
+        40
+      ],
+      "canvasOffset": [
+        7,
+        60
+      ],
+      "rgbaSha256": "75db347bfdc95a43490dbe62ecf7e8f6a63955e3377cf22967ade06c22f871bf",
+      "contentRgbaSha256": "ed676fba71fba73bc17cae8927a1466ed71d6fb52909ef1dae208c71857fa0fd"
+    },
+    "goomba_stomp_01": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        124,
+        978,
+        244,
+        1084
+      ],
+      "sourceContentXYXY": [
+        128,
+        1038,
+        240,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        112,
+        40
+      ],
+      "canvasOffset": [
+        4,
+        60
+      ],
+      "rgbaSha256": "fa3bcf2e2a0a99d100673e4d1e106c59b31a57af73b76316c95eb3bf2c2c07d5",
+      "contentRgbaSha256": "df62686df9c0a3cbe67ca8ba5c41c582fbd90fed04e92cfb2096e0237c1d852d"
+    },
+    "goomba_stomp_02": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        246,
+        978,
+        366,
+        1084
+      ],
+      "sourceContentXYXY": [
+        246,
+        1038,
+        366,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        120,
+        40
+      ],
+      "canvasOffset": [
+        0,
+        60
+      ],
+      "rgbaSha256": "ecca9960b6e77c281bbe1bf5f70cd35e9c10d9571b42771974fd82000f445c52",
+      "contentRgbaSha256": "abca38c7e58980943fca271be146b86630ee221c7941728a74b504f30301ecb1"
+    },
+    "goomba_stomp_03": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        368,
+        978,
+        488,
+        1084
+      ],
+      "sourceContentXYXY": [
+        372,
+        1038,
+        484,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        112,
+        40
+      ],
+      "canvasOffset": [
+        4,
+        60
+      ],
+      "rgbaSha256": "e73aff5754f542e5ee325ec97701a12743a4b150f02ddeaf0db5b8052ca4ca3b",
+      "contentRgbaSha256": "a12c212b0809fac09c17faa07f8d56868199a1a48c3e61c7729204cddd14b3db"
+    },
+    "goomba_stomp_04": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        490,
+        978,
+        610,
+        1084
+      ],
+      "sourceContentXYXY": [
+        498,
+        1038,
+        603,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        105,
+        40
+      ],
+      "canvasOffset": [
+        7,
+        60
+      ],
+      "rgbaSha256": "9a2de1afb49e016c4929ffd0931461997be123cc3b598d4b769ae2f7aa3edef4",
+      "contentRgbaSha256": "e41c130f422d857c128ff2ea8a2558aa80f89cede83a0d30248472607a2a9873"
+    },
+    "goomba_stomp_05": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        612,
+        978,
+        732,
+        1084
+      ],
+      "sourceContentXYXY": [
+        616,
+        1038,
+        727,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        111,
+        40
+      ],
+      "canvasOffset": [
+        4,
+        60
+      ],
+      "rgbaSha256": "7578e340c5b97acfbbb51fed0eeb9ed00409ef0dc5b61cfd6b3b3290039beeec",
+      "contentRgbaSha256": "9940141bf31b725b41b5d772d951311a832944c635a01480ad0a4510e506ce3a"
+    },
+    "goomba_stomp_06": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        734,
+        978,
+        854,
+        1084
+      ],
+      "sourceContentXYXY": [
+        737,
+        1038,
+        851,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        114,
+        40
+      ],
+      "canvasOffset": [
+        3,
+        60
+      ],
+      "rgbaSha256": "d518b3f933fa391cd680897da316d75dfc4b44cde352be2d66707b2cf2f97bbb",
+      "contentRgbaSha256": "35fc7c54991506a82de5d99632c68e9dd9c264dd835075ce72b69138765f7c96"
+    },
+    "goomba_stomp_07": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        856,
+        978,
+        976,
+        1084
+      ],
+      "sourceContentXYXY": [
+        859,
+        1038,
+        976,
+        1078
+      ],
+      "nativeOpaqueSize": [
+        117,
+        40
+      ],
+      "canvasOffset": [
+        1,
+        60
+      ],
+      "rgbaSha256": "edf968965757af30b066773445afa756ca71ae2ffd2ea1387b3fda04555af9c9",
+      "contentRgbaSha256": "3f8316a6815514b415b24f7b7fc0ec688192427fab39646192e63560ff6ea73d"
+    },
+    "goomba_stomp_08": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        2,
+        1086,
+        122,
+        1192
+      ],
+      "sourceContentXYXY": [
+        6,
+        1146,
+        119,
+        1186
+      ],
+      "nativeOpaqueSize": [
+        113,
+        40
+      ],
+      "canvasOffset": [
+        3,
+        60
+      ],
+      "rgbaSha256": "2f89567e501e007b7d7c45836e53873a2a3780d16f9a4c58b4a10926eba1d814",
+      "contentRgbaSha256": "d882d6380e33a396f352fc0b7bd98ef27ea7523a4a3c9ffefb57b98018d606d0"
+    },
+    "goomba_stomp_09": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        124,
+        1086,
+        244,
+        1192
+      ],
+      "sourceContentXYXY": [
+        128,
+        1146,
+        240,
+        1184
+      ],
+      "nativeOpaqueSize": [
+        112,
+        38
+      ],
+      "canvasOffset": [
+        4,
+        62
+      ],
+      "rgbaSha256": "e1204fc61b3c1d05711ba576a2b1112dfb93af72b5bace0669757c19c8422fd4",
+      "contentRgbaSha256": "91e1422c33f87b9eec4ef421ec34309b0e537ea40775ad02c5e73d40fe78bfec"
+    },
+    "goomba_stomp_10": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        246,
+        1086,
+        366,
+        1192
+      ],
+      "sourceContentXYXY": [
+        250,
+        1146,
+        362,
+        1184
+      ],
+      "nativeOpaqueSize": [
+        112,
+        38
+      ],
+      "canvasOffset": [
+        4,
+        62
+      ],
+      "rgbaSha256": "8c3f0b013c402cd6fed3d146399beb44d58fac3950770e05c71e88214736c85a",
+      "contentRgbaSha256": "fa7ffc3f9e90756834028e60cc28a864db3fb11d5c3665cf537e6fe34bfcc378"
+    },
+    "goomba_stomp_11": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        368,
+        1086,
+        488,
+        1192
+      ],
+      "sourceContentXYXY": [
+        372,
+        1146,
+        484,
+        1186
+      ],
+      "nativeOpaqueSize": [
+        112,
+        40
+      ],
+      "canvasOffset": [
+        4,
+        60
+      ],
+      "rgbaSha256": "3d0b72e00f16c178df44a6b3db1a2e5ba076da192d38656a21442a4df45ecedc",
+      "contentRgbaSha256": "7bf8295a1bf3bd543b2feb019025f360c044f82237d193754b719d14efa2dec5"
+    },
+    "goomba_stomp_12": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        490,
+        1086,
+        610,
+        1192
+      ],
+      "sourceContentXYXY": [
+        497,
+        1142,
+        606,
+        1186
+      ],
+      "nativeOpaqueSize": [
+        109,
+        44
+      ],
+      "canvasOffset": [
+        5,
+        56
+      ],
+      "rgbaSha256": "5044b6846d3c45b76f8d9d61e9ae2368736468eaf86c739fd8d6fae933c5a6f9",
+      "contentRgbaSha256": "959b4b8c14e988bdf23a8487e1627099de89836db8598cbcea4d3d5adf2e3018"
+    },
+    "goomba_stomp_13": {
+      "sequence": "stomp",
+      "sourceCellXYXY": [
+        612,
+        1086,
+        732,
+        1192
+      ],
+      "sourceContentXYXY": [
+        619,
+        1142,
+        725,
+        1186
+      ],
+      "nativeOpaqueSize": [
+        106,
+        44
+      ],
+      "canvasOffset": [
+        7,
+        56
+      ],
+      "rgbaSha256": "eb16da46fcbee33de1b9d8262a7e4bb13ecc6bf6fb5b922e27323caa27a40796",
+      "contentRgbaSha256": "04f1111296ca72de6c2e9a23286c54bfec7197b060598b89a09157fa9a07bf32"
+    }
+  }
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "mario-big",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-big-side-bind-preview.png",
+    "sha256": "22c6d6e8cec517236a483161efad36ce3e081b51d26dcc8c7191bfc3036af7f5",
+    "camera": "orthographic",
+    "ortho_scale": 54.076528549194336,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -7.106803894042969,
+        -17.219600677490234,
+        -0.008657217025756836
+      ],
+      [
+        8.764294624328613,
+        17.219600677490234,
+        33.7891731262207
+      ]
+    ]
+  },
+  {
+    "id": "mario-big",
+    "view": "front",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-big-front-bind-preview.png",
+    "sha256": "38014a2b2338a5b619661c1f21d34d85d5d5a7b2f443b867f4d598835fc2b6c9",
+    "camera": "orthographic",
+    "ortho_scale": 54.076528549194336,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -7.106803894042969,
+        -17.219600677490234,
+        -0.008657217025756836
+      ],
+      [
+        8.764294624328613,
+        17.219600677490234,
+        33.7891731262207
+      ]
+    ]
+  },
+  {
+    "id": "mario-small",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-small-side-bind-preview.png",
+    "sha256": "17d05198b7bbf78f4407f41f8cd81470e57461f08f875ad00b61d98167fd1514",
+    "camera": "orthographic",
+    "ortho_scale": 73.44957303069532,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -7.329635143280029,
+        -14.7193603515625,
+        0.001398000051267445
+      ],
+      [
+        8.653026580810547,
+        14.719160079956055,
+        22.954389572143555
+      ]
+    ]
+  },
+  {
+    "id": "mario-small",
+    "view": "front",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-small-front-bind-preview.png",
+    "sha256": "fc664803b33ad077aea1ef2792d929e6a9350b8c0287b1bdcfa326d33a1732a4",
+    "camera": "orthographic",
+    "ortho_scale": 73.44957303069532,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -7.329635143280029,
+        -14.7193603515625,
+        0.001398000051267445
+      ],
+      [
+        8.653026580810547,
+        14.719160079956055,
+        22.954389572143555
+      ]
+    ]
+  },
+  {
+    "id": "mario-mmb",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-mmb-side-bind-preview.png",
+    "sha256": "f74b2bf93607a23dda69eb67ca2a728b073b4bdc30791cea2642c02c3a975ff9",
+    "camera": "orthographic",
+    "ortho_scale": 58.18025182262063,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -12.203229904174805,
+        -17.219600677490234,
+        -0.00749000022187829
+      ],
+      [
+        9.110700607299805,
+        17.219600677490234,
+        36.355167388916016
+      ]
+    ]
+  },
+  {
+    "id": "mario-pmb",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-pmb-side-bind-preview.png",
+    "sha256": "8b6a8597f5bc65acd830d8dbba5b6ac77cbdbdd7151e6ef05a8f6d46133cfdf8",
+    "camera": "orthographic",
+    "ortho_scale": 55.32616691552103,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -10.368009567260742,
+        -20.985000610351562,
+        0.002833605045452714
+      ],
+      [
+        9.34393310546875,
+        20.985010147094727,
+        34.581687927246094
+      ]
+    ]
+  },
+  {
+    "id": "mario-plmb",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/mario-plmb-side-bind-preview.png",
+    "sha256": "46fa61d52d37e4278a3950d105c32a8dc67629d80dd6565b4fa7e9704cf82114",
+    "camera": "orthographic",
+    "ortho_scale": 61.64960689842701,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -9.471570014953613,
+        -17.219589233398438,
+        -0.008654000237584114
+      ],
+      [
+        9.129888534545898,
+        17.219589233398438,
+        38.5223503112793
+      ]
+    ]
+  },
+  {
+    "id": "mario-mc-cap-part",
+    "view": "side",
+    "kind": "standalone-bind-part",
+    "file": "web/public/packs/mario/characters/model-preview/mario-mc-cap-part-side-bind-preview.png",
+    "sha256": "434bab9e5ccf0d38d8f1a8d5e93241e667fe008d8406a3c5c239d5e80ceefc62",
+    "camera": "orthographic",
+    "ortho_scale": 45.85167694091797,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -14.376219749450684,
+        -5.813107013702393,
+        -6.676147937774658
+      ],
+      [
+        -1.6299400329589844,
+        5.3511247634887695,
+        7.652501106262207
+      ]
+    ]
+  },
+  {
+    "id": "mario-smc-cap-part",
+    "view": "side",
+    "kind": "standalone-bind-part",
+    "file": "web/public/packs/mario/characters/model-preview/mario-smc-cap-part-side-bind-preview.png",
+    "sha256": "05985a525b36b55d4759b37990be83a4ed63b1937cc2e668af160122c56cb314",
+    "camera": "orthographic",
+    "ortho_scale": 46.275001525878906,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -12.546879768371582,
+        -10.58594036102295,
+        -6.601562976837158
+      ],
+      [
+        1.0566409826278687,
+        0.23620609939098358,
+        7.859375
+      ]
+    ]
+  },
+  {
+    "id": "luigi-big",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-big-side-bind-preview.png",
+    "sha256": "a67adbc40f5fd7775ef1fc2ba8393dc7b6a69d6ea72f63d5185d4892891329ef",
+    "camera": "orthographic",
+    "ortho_scale": 58.04774017333985,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -6.81191873550415,
+        -14.642889976501465,
+        -0.006819725036621094
+      ],
+      [
+        7.451497554779053,
+        14.6428804397583,
+        36.27301788330078
+      ]
+    ]
+  },
+  {
+    "id": "luigi-big",
+    "view": "front",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-big-front-bind-preview.png",
+    "sha256": "c5638d20e395ba78e8fd7cc5b4a7444430d9a45ca6d40eafc18552347ecc725f",
+    "camera": "orthographic",
+    "ortho_scale": 58.04774017333985,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -6.81191873550415,
+        -14.642889976501465,
+        -0.006819725036621094
+      ],
+      [
+        7.451497554779053,
+        14.6428804397583,
+        36.27301788330078
+      ]
+    ]
+  },
+  {
+    "id": "luigi-small",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-small-side-bind-preview.png",
+    "sha256": "bc5774693cbaa41ac6cef80ce2cb0bf27b5eb0e069d909e3c5d6c78b27ee19b3",
+    "camera": "orthographic",
+    "ortho_scale": 75.44474182128906,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -7.750910758972168,
+        -10.99878978729248,
+        -0.04813098907470703
+      ],
+      [
+        8.51123046875,
+        10.998950004577637,
+        23.528350830078125
+      ]
+    ]
+  },
+  {
+    "id": "luigi-small",
+    "view": "front",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-small-front-bind-preview.png",
+    "sha256": "d3561d7b4dd0556b716f773e1686b5a29c65c8ecd8a7de3060a47f7c8e75cfb4",
+    "camera": "orthographic",
+    "ortho_scale": 75.44474182128906,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -7.750910758972168,
+        -10.99878978729248,
+        -0.04813098907470703
+      ],
+      [
+        8.51123046875,
+        10.998950004577637,
+        23.528350830078125
+      ]
+    ]
+  },
+  {
+    "id": "luigi-mlb",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-mlb-side-bind-preview.png",
+    "sha256": "d846144bdebe9e4015647f5e67ffa78ddb222d8477a9a6b089e59a5394a5ae62",
+    "camera": "orthographic",
+    "ortho_scale": 63.436810836195946,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -12.260880470275879,
+        -14.680560111999512,
+        -0.008426999673247337
+      ],
+      [
+        7.9653215408325195,
+        14.680560111999512,
+        39.63957977294922
+      ]
+    ]
+  },
+  {
+    "id": "luigi-plb",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-plb-side-bind-preview.png",
+    "sha256": "2248bee71a8c1b6143b658a4e8155ce9adf6e7f0de946bc5747eeacd2297dcdd",
+    "camera": "orthographic",
+    "ortho_scale": 58.39780616685748,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -9.700228691101074,
+        -18.988330841064453,
+        0.0028283600695431232
+      ],
+      [
+        8.179563522338867,
+        18.98834991455078,
+        36.50145721435547
+      ]
+    ]
+  },
+  {
+    "id": "luigi-pllb",
+    "view": "side",
+    "kind": "assembled-bind-pose",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-pllb-side-bind-preview.png",
+    "sha256": "6f91f37b6bd443a3b64c96b265b836c4c7c3854640bc5332c6f74b9db1b4384a",
+    "camera": "orthographic",
+    "ortho_scale": 65.35643041953445,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 120,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -9.130840301513672,
+        -14.642889976501465,
+        -0.006819000001996756
+      ],
+      [
+        8.448488235473633,
+        14.6428804397583,
+        40.84095001220703
+      ]
+    ]
+  },
+  {
+    "id": "luigi-lc-cap-part",
+    "view": "side",
+    "kind": "standalone-bind-part",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-lc-cap-part-side-bind-preview.png",
+    "sha256": "5c0b709262f7605608f1552b35e05f1acc0fc0d7508f69bc73ab8fe799095ca3",
+    "camera": "orthographic",
+    "ortho_scale": 43.95133514404297,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -11.570119857788086,
+        -6.6372599601745605,
+        -4.736361980438232
+      ],
+      [
+        -0.2678059935569763,
+        3.4537899494171143,
+        8.998430252075195
+      ]
+    ]
+  },
+  {
+    "id": "luigi-slc-cap-part",
+    "view": "side",
+    "kind": "standalone-bind-part",
+    "file": "web/public/packs/mario/characters/model-preview/luigi-slc-cap-part-side-bind-preview.png",
+    "sha256": "2b42a5c03ea08c2c3c5bd354faa027f1c9a3746a8b3c32da0ddfe54ddc15dea1",
+    "camera": "orthographic",
+    "ortho_scale": 43.337501525878906,
+    "resolution": [
+      192,
+      192
+    ],
+    "target_height_px": 60,
+    "actions": 0,
+    "bounds_blender": [
+      [
+        -13.09375,
+        -9.921875,
+        -4.871094226837158
+      ],
+      [
+        -0.6289063096046448,
+        1.020508050918579,
+        8.671875
+      ]
+    ]
+  }
+]

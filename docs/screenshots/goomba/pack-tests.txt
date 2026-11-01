@@ -1,0 +1,30 @@
+test_character_fidelity_rejects_disclosed_fallback_with_long_cycle (__main__.NativeScaleValidation.test_character_fidelity_rejects_disclosed_fallback_with_long_cycle) ... ok
+test_character_fidelity_rejects_renamed_identical_frames (__main__.NativeScaleValidation.test_character_fidelity_rejects_renamed_identical_frames) ... ok
+test_goomba_and_inspection_deliverables_survive_two_real_rebuilds (__main__.NativeScaleValidation.test_goomba_and_inspection_deliverables_survive_two_real_rebuilds) ... ok
+test_goomba_build_runs_pinned_import_when_source_exists (__main__.NativeScaleValidation.test_goomba_build_runs_pinned_import_when_source_exists) ... ok
+test_goomba_merge_retains_unrelated_entries_and_aliases (__main__.NativeScaleValidation.test_goomba_merge_retains_unrelated_entries_and_aliases) ... GOOMBA: final entry-by-entry merge (elements/enemies walker + goomba)
+ok
+test_goomba_source_native_aspect_ratio_for_every_runtime_frame (__main__.NativeScaleValidation.test_goomba_source_native_aspect_ratio_for_every_runtime_frame) ... ok
+test_legacy_one_way_tile_keeps_empty_space_below_deck (__main__.NativeScaleValidation.test_legacy_one_way_tile_keeps_empty_space_below_deck) ... ok
+test_native_coin_frames_are_distinct_and_keep_source_timing (__main__.NativeScaleValidation.test_native_coin_frames_are_distinct_and_keep_source_timing) ... ok
+test_published_objects_allow_only_encoding_changes_not_pixel_changes (__main__.NativeScaleValidation.test_published_objects_allow_only_encoding_changes_not_pixel_changes) ... ok
+test_real_pack_passes (__main__.NativeScaleValidation.test_real_pack_passes) ... ok
+test_rejects_native_pixel_enlargement (__main__.NativeScaleValidation.test_rejects_native_pixel_enlargement) ... ok
+test_rejects_padding_around_entire_animation_cycle (__main__.NativeScaleValidation.test_rejects_padding_around_entire_animation_cycle) ... ok
+test_rejects_transparent_padding_as_resolution (__main__.NativeScaleValidation.test_rejects_transparent_padding_as_resolution) ... ok
+test_rejects_undersized_animation_canvas (__main__.NativeScaleValidation.test_rejects_undersized_animation_canvas) ... ok
+test_rejects_undersized_static_sprite (__main__.NativeScaleValidation.test_rejects_undersized_static_sprite) ... ok
+test_reviewed_object_files_are_preserved_while_verifying_current_staging (__main__.NativeScaleValidation.test_reviewed_object_files_are_preserved_while_verifying_current_staging) ... PREPARED staging: 15 object entries + 3 FX entries; 54 files; all atlas frames match staged RGBA bytes
+STAGING: published object bytes/RGBA verified; existing files retained
+STAGING: integrated 15 object entries and 3 fx entries
+ok
+test_staging_ignores_incomplete_fragment (__main__.NativeScaleValidation.test_staging_ignores_incomplete_fragment) ... STAGING: objects/DONE absent; existing object art retained
+ok
+test_staging_merges_finished_fragment_without_publishing_art (__main__.NativeScaleValidation.test_staging_merges_finished_fragment_without_publishing_art) ... STAGING: integrated 1 object entries and 0 fx entries
+ok
+test_staging_rejects_unpublished_art (__main__.NativeScaleValidation.test_staging_rejects_unpublished_art) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 6.193s
+
+OK

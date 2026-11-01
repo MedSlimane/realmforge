@@ -1,0 +1,141 @@
+[    7201ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:8080/node_modules/.vite/deps/react-dom_client.js?v=c64d9624:22164
+[    7321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[    7322ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[    7454ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ http://127.0.0.1:8080/node_modules/.vite/deps/chunk-XGCM7EK7.js?v=c64d9624:22
+[    7463ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.web3modal.org/appkit/v1/config?projectId=realmforge-local-dev&st=appkit&sv=html-core-1.7.8:0
+[    7463ms] [WARNING] [Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:2959:17)
+    at async FetchUtil.get (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:2973:22)
+    at async Object.fetchProjectConfig (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:6107:22)
+    at async Object.fetchRemoteFeatures (http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9568:26)
+    at async AppKit.initialize (http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9771:27) @ http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9570
+[    7476ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[    7596ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1:0
+[    7596ms] [INFO] [api] /levels/1 unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[    7601ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1/file:0
+[    7601ms] [INFO] [api] /levels/1/file unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[    7605ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1:0
+[    7605ms] [INFO] [api] /levels/1 unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[    7605ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1/file:0
+[    7605ms] [INFO] [api] /levels/1/file unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[    7631ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://127.0.0.1:8080/node_modules/.vite/deps/phaser.js?v=c64d9624:8455
+[    7676ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://127.0.0.1:8080/node_modules/.vite/deps/phaser.js?v=c64d9624:8455
+[    7724ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://pulse.walletconnect.org/e?projectId=realmforge-local-dev&st=appkit&sv=html-core-1.7.8:0
+[    7791ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[    8515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   27916ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[   28804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   29025ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   29332ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   30162ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   47981ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[   50188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   50345ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   50653ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   51258ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   68551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[   71350ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   71531ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   71835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   72446ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   89647ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[   92475ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   92630ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   92936ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[   93546ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  109691ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  113566ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  113720ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  114027ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  114634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  129803ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  134644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  134799ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  135107ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  135713ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  148216ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:8080/node_modules/.vite/deps/react-dom_client.js?v=c64d9624:22164
+[  148361ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  148362ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  148564ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  148576ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ http://127.0.0.1:8080/node_modules/.vite/deps/chunk-XGCM7EK7.js?v=c64d9624:22
+[  148590ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.web3modal.org/appkit/v1/config?projectId=realmforge-local-dev&st=appkit&sv=html-core-1.7.8:0
+[  148591ms] [WARNING] [Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:2959:17)
+    at async FetchUtil.get (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:2973:22)
+    at async Object.fetchProjectConfig (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:6107:22)
+    at async Object.fetchRemoteFeatures (http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9568:26)
+    at async AppKit.initialize (http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9771:27) @ http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9570
+[  148624ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1:0
+[  148624ms] [INFO] [api] /levels/1 unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  148629ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1/file:0
+[  148629ms] [INFO] [api] /levels/1/file unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  148634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1:0
+[  148634ms] [INFO] [api] /levels/1 unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  148634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1/file:0
+[  148634ms] [INFO] [api] /levels/1/file unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  148669ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://127.0.0.1:8080/node_modules/.vite/deps/phaser.js?v=c64d9624:8455
+[  148776ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://127.0.0.1:8080/node_modules/.vite/deps/phaser.js?v=c64d9624:8455
+[  148892ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  148922ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://pulse.walletconnect.org/e?projectId=realmforge-local-dev&st=appkit&sv=html-core-1.7.8:0
+[  149772ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  168366ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  169778ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  169933ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  170235ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  170841ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  188373ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  190845ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  191001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  191307ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  191910ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  208378ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  211919ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  212077ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  212382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  212985ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  228386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  232994ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  233149ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  233452ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  234060ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  248394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  254065ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  254218ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  254524ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  255127ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  268436ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:8080/node_modules/.vite/deps/react-dom_client.js?v=c64d9624:22164
+[  268538ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  268538ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  268600ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ http://127.0.0.1:8080/node_modules/.vite/deps/chunk-XGCM7EK7.js?v=c64d9624:22
+[  268693ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  268824ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1:0
+[  268824ms] [INFO] [api] /levels/1 unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  268829ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1/file:0
+[  268829ms] [INFO] [api] /levels/1/file unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  268835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1:0
+[  268835ms] [INFO] [api] /levels/1 unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  268835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/levels/1/file:0
+[  268835ms] [INFO] [api] /levels/1/file unavailable, using mock data @ http://127.0.0.1:8080/src/api/client.ts:39
+[  268866ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://127.0.0.1:8080/node_modules/.vite/deps/phaser.js?v=c64d9624:8455
+[  268871ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://pulse.walletconnect.org/e?projectId=realmforge-local-dev&st=appkit&sv=html-core-1.7.8:0
+[  268972ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://127.0.0.1:8080/node_modules/.vite/deps/phaser.js?v=c64d9624:8455
+[  268975ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.web3modal.org/appkit/v1/config?projectId=realmforge-local-dev&st=appkit&sv=html-core-1.7.8:0
+[  268975ms] [WARNING] [Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
+    at fetchData (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:2959:17)
+    at async FetchUtil.get (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:2973:22)
+    at async Object.fetchProjectConfig (http://127.0.0.1:8080/node_modules/.vite/deps/chunk-7CCG5M4I.js?v=c64d9624:6107:22)
+    at async Object.fetchRemoteFeatures (http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9568:26)
+    at async AppKit.initialize (http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9771:27) @ http://127.0.0.1:8080/node_modules/.vite/deps/core-SQZIXB3D.js?v=c64d9624:9570
+[  269086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  270522ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  288548ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  290528ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  290685ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  290994ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  291601ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  308560ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0
+[  311609ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  311766ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  312068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  312674ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8545/:0
+[  328568ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8787/health:0

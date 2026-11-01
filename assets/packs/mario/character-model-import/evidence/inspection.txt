@@ -1,0 +1,26 @@
+PASS: 2 original ZIP hashes unchanged; 86 extracted files
+MODELS: 24; animations=0; channels=0
+LB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_body.0.png, player_body.1.png, player_body.2.png, lm_01p.png, lm_02p.png, star_env.png
+LC_model.dae geometries= 1 bones= 1 skins= 1 textures= player_head.0.png, player_head.1.png, player_head.2.png, lm_01p.png, lm_02p.png, star_env.png
+LH_model.dae geometries= 4 bones= 1 skins= 4 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_head.0.png, player_head.1.png, player_head.2.png
+MLB_model.dae geometries= 1 bones= 24 skins= 1 textures= player_mbody.0.png, player_mbody.1.png, lm_01p.png, lm_02p.png, star_env.png, p_env.png
+MLH_model.dae geometries= 3 bones= 1 skins= 3 textures= P.png, lm_01p.png, lm_02p.png, star_env.png, p_env.png, P_mask.png, player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, player_mhead.0.png, player_mhead.1.png
+PLB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_pbody.png, lm_01p.png, lm_02p.png, star_env.png
+PLH_model.dae geometries= 2 bones= 1 skins= 2 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_phead.png
+PLLB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_plbody.png, lm_01p.png, lm_02p.png, star_env.png
+PLLH_model.dae geometries= 4 bones= 2 skins= 4 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_plface.png, player_plhead.png, puropera_env.png
+SLB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_body.0.png, player_body.1.png, player_body.2.png, lm_01p.png, lm_02p.png, star_env.png
+SLC_model.dae geometries= 1 bones= 1 skins= 1 textures= player_head.0.png, player_head.1.png, player_head.2.png, lm_01p.png, lm_02p.png, star_env.png
+SLH_model.dae geometries= 4 bones= 1 skins= 4 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_head.0.png, player_head.1.png, player_head.2.png
+MB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_body.0.png, player_body.1.png, player_body.2.png, lm_01p.png, lm_02p.png, star_env.png
+MC_model.dae geometries= 1 bones= 1 skins= 1 textures= player_head.0.png, player_head.1.png, player_head.2.png, lm_01p.png, lm_02p.png, star_env.png
+MH_model.dae geometries= 4 bones= 1 skins= 4 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_head.0.png, player_head.1.png, player_head.2.png
+MMB_model.dae geometries= 1 bones= 24 skins= 1 textures= player_mbody.0.png, player_mbody.1.png, lm_01p.png, lm_02p.png, star_env.png, p_env.png
+MMH_model.dae geometries= 3 bones= 1 skins= 3 textures= P.png, lm_01p.png, lm_02p.png, star_env.png, p_env.png, P_mask.png, player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, player_mhead.0.png, player_mhead.1.png
+PLMB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_plbody.png, lm_01p.png, lm_02p.png, star_env.png
+PLMH_model.dae geometries= 4 bones= 2 skins= 4 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_plface.png, player_plhead.png, puropera_env.png
+PMB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_pbody.png, lm_01p.png, lm_02p.png, star_env.png
+PMH_model.dae geometries= 2 bones= 1 skins= 2 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_phead.png
+SMB_model.dae geometries= 1 bones= 17 skins= 1 textures= player_body.0.png, player_body.1.png, player_body.2.png, lm_01p.png, lm_02p.png, star_env.png
+SMC_model.dae geometries= 1 bones= 1 skins= 1 textures= player_head.0.png, player_head.1.png, player_head.2.png, lm_01p.png, lm_02p.png, star_env.png
+SMH_model.dae geometries= 4 bones= 1 skins= 4 textures= player_eye.0.png, player_eye.1.png, player_eye.2.png, player_eye.3.png, player_eye.4.png, player_eye.5.png, player_eye.6.png, lm_01p.png, lm_02p.png, star_env.png, player_head.0.png, player_head.1.png, player_head.2.png

@@ -260,3 +260,39 @@ The three FX entries are a real coin spin (not a captured pop trajectory), a Sup
 Star wobble (not a captured invincibility particle), and four independent actual
 brick-fragment cells (not temporal animation frames). Dust, land-puff, sparkle and
 stomp-poof sources were not obtained. These remain renderer fallbacks.
+
+## Downloaded imports integrated 1 November 2026 — supersedes acquisition blockers above
+
+**Nintendo; ripped by DogToon64**. The manually downloaded SMM2 NSMBU-style
+Goomba sheet is [TSR asset 238649](https://www.spriters-resource.com/nintendo_switch/supermariomaker2/asset/238649/),
+not a direct Wii U NSMBU rip. The pinned 994×1249 RGBA original has SHA-256
+`ba3f122c226d4ece1cfef057dc7b32d99c5eaf456d5cb7f0c3f6c7f8429f567b`.
+The sheet requires Nintendo credit; DogToon64's requested optional ripper credit
+is retained. Nintendo proprietary imagery: private educational demo only.
+
+`goomba-import/` retains source, crop recipe, 62 exact native crops, atlas,
+inspection previews and hashes. Only the inferred walk (16 frames, authored
+12 fps) and already-flattened stomp (14 frames, authored 24 fps) are mapped to
+real gameplay. The sheet has no action/timing labels; groups B/C remain unmapped.
+The 85×100 maximum walk envelope is smaller than the old 104×122 served still,
+not a resolution upgrade. All runtime frames keep the shared 120×100 canvas,
+uniform 0.64 display scale at a 64px tile, and bottom-center anchor. Stomp plays
+to animation completion (~583 ms), without an extra squash or 220 ms cutoff.
+
+The shared builder runs the pinned Goomba builder first when its local source
+exists, then merges `goomba-import/manifest-fragment.json` **entry by entry as
+its final manifest override**. Both elements/enemies walker and goomba aliases
+survive rebuilds; unrelated entries remain. Cleanup preserves all import
+inspection files and model previews. Browser proof on a real PlayScene fixture
+is in `docs/screenshots/goomba/`; no synthetic finish event is gameplay evidence.
+
+The downloaded [Mario 332841](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/332841/)
+and [Luigi 329038](https://models.spriters-resource.com/wii_u/newsupermariobrosu/asset/329038/)
+archives are also **Nintendo, ripped by DogToon64**. Their exact hashes, original
+members, geometry/skin checks and credits are in
+`character-model-import/{source-lock.json,MODEL_REPORT.md,CREDITS.md}`. The
+18 reproducible PNGs are bind-pose **inspection stills only** and remain outside
+the runtime manifest. All 24 DAE models have zero animation/clip/channel/sampler
+elements; original compatible timed skeletal clips and a verified evaluator
+remain missing. Downloading static rigs did not resolve character animation
+fidelity. Paragoomba motion and the other fidelity gaps remain open.

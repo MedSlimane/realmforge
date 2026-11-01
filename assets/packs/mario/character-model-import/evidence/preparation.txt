@@ -1,0 +1,2 @@
+PASS: pycollada 0.9.3; 24 models, source skin bind identities/weights verified
+PASS: 14 preview entries; all diffuse image bindings exist; source MIRROR/WRAP/CLAMP preserved per axis

@@ -1,0 +1,13 @@
+test_directory_and_regular_file_allowed (__main__.ArchiveSafety.test_directory_and_regular_file_allowed) ... ok
+test_symlink_rejected (__main__.ArchiveSafety.test_symlink_rejected) ... ok
+test_traversal_absolute_windows_and_case_collisions (__main__.ArchiveSafety.test_traversal_absolute_windows_and_case_collisions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+PASS: 2 original ZIPs and 86 extracted source files match SHA-256 locks
+PASS: 24 DAE files; 0 animations, animation clips, channels or animation samplers
+PASS: source diffuse textures, per-corner UV/normal counts and skin bind identities
+PASS: 18 RGBA 192x192 orthographic stills; alpha background; no clipping; 60/120px height budgets; no actions/manifest fragment
+PASS: repeated Blender render has identical SHA-256 for all 18 PNGs

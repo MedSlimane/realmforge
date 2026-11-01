@@ -1,0 +1,4378 @@
+[
+  {
+    "file": "extracted/luigi/Luigi/Luigi/LB_model.dae",
+    "sha256": "1bbb750eae7ff240fe68b43cd3bd9dc02f30ce74f969e73e11afc0a792d2a3c6",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_body.0",
+        "path": "player_body.0.png"
+      },
+      {
+        "id": "player_body.1",
+        "path": "player_body.1.png"
+      },
+      {
+        "id": "player_body.2",
+        "path": "player_body.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_all_root",
+        "name": "luigi_all_root",
+        "sid": "luigi_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "luigi_all_root",
+        "matrix": "0 0 1 0 1 0 0 12.71857 0 1 0 -0.843567 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 4E-06 -8.742278E-08 -0.087598 4E-06 1 1.748456E-13 0.480521 8.742278E-08 -1.748456E-13 -1 1.953947 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 0 0 5.173678 0 -1 8.742278E-08 0 0 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "6.715443E-07 1 0 5.015237 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 -8.742278E-08 -0.087598 2E-06 1 8.742278E-14 0.480521 8.742278E-08 -8.742278E-14 -1 -1.953947 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 0 0 5.173506 0 -1 8.742278E-08 0 0 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 5.015658 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 1.5991 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "-0.007827699 -2.119793E-05 0.9999693 4.86265 7.111263E-06 -1 -2.114292E-05 0.160326 0.9999693 6.945546E-06 0.00782752 2.847206 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.4E-05 -2.2E-05 3.104342 1.4E-05 -1 8.726877E-08 0 -2.2E-05 -8.757678E-08 -1 -3.6E-05 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 3.09283 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "-0.007697523 -1.803664E-05 -0.9999704 4.86266 -0.0001031167 -1 1.883095E-05 0.160326 -0.9999704 0.0001032586 0.007697582 -2.847209 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -0.000206 0.000294 3.104337 -0.000206 -1 5.714078E-08 1.5E-05 0.000294 -1.177048E-07 -0.9999999 8E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 3.092834 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.475914 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715443E-07 -1 0 7.127172 1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "ankle_r1",
+            "ankle_l1",
+            "skl_root",
+            "leg_l1",
+            "leg_l2",
+            "leg_r1",
+            "leg_r2",
+            "spin",
+            "arm_l1",
+            "arm_l2",
+            "wrist_l1",
+            "wrist_r1",
+            "arm_r2",
+            "arm_r1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "911"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/LC_model.dae",
+    "sha256": "afae065bb5e861b17d78427a3c8a5421264eb99e518a3a3c532aad345539399f",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_cap",
+        "name": "luigi_cap",
+        "sid": "luigi_cap",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "luigi_cap"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "129"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/LH_model.dae",
+    "sha256": "5a06cba422c3366d93c7b35f8b060fce46232461313853d2d0b012fcb2dbfd8f",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon3-mesh",
+        "name": "polygon3"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      },
+      {
+        "id": "mat_player_hair",
+        "effect": "#Effect_mat_player_hair"
+      },
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      },
+      {
+        "symbol": "mat_player_hair",
+        "target": "#mat_player_hair"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "38"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "184"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon3-mesh",
+        "geometry": "#polygon3-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "245"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/MLB_model.dae",
+    "sha256": "c5bb4916135eb99b561c0224253545393c2ec5757833463485a33026b4932fad",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_mbody.0",
+        "path": "player_mbody.0.png"
+      },
+      {
+        "id": "player_mbody.1",
+        "path": "player_mbody.1.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "p_env",
+        "path": "p_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_all_root",
+        "name": "luigi_all_root",
+        "sid": "luigi_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "luigi_all_root",
+        "matrix": "0 0 1 0 1 0 0 12.71857 0 1 0 -0.843567 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 4E-06 -8.742278E-08 -0.087598 4E-06 1 1.748456E-13 0.480521 8.742278E-08 -1.748456E-13 -1 1.953947 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 0 0 5.173678 0 -1 8.742278E-08 0 0 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "6.715443E-07 1 0 5.015237 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_legL",
+        "name": "wing_legL",
+        "sid": "wing_legL",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 0 0 -1.1E-05 0 1 0 -3 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 -8.742278E-08 -0.087597 2E-06 1 8.742278E-14 0.480521 8.742278E-08 -8.742278E-14 -1 -1.953947 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 0 0 5.173506 0 -1 8.742278E-08 0 0 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 5.015658 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_legR",
+        "name": "wing_legR",
+        "sid": "wing_legR",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 0 0 0 0 1 0 -3 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 1.5991 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -1.978433E-05 1 4.86265 -1.465378E-08 -1 -1.978433E-05 0.160326 1 -1.465378E-08 1.192093E-07 2.847206 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.4E-05 -7.8E-05 3.104342 1.4E-05 -1 8.687677E-08 0 -7.8E-05 -8.796878E-08 -1 -0.000212 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_armL",
+        "name": "wing_armL",
+        "sid": "wing_armL",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 -3.104303 0 1 0 -3.00004 0 0 1 -3.2E-05 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 3.09283 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -1.978433E-05 -1 4.86266 -1.465378E-08 -1 1.978433E-05 0.160326 -1 1.465378E-08 1.192093E-07 -2.847209 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -0.000102 0.00021 3.104336 -0.000102 -1 7.671278E-08 0.000339 0.00021 -9.813277E-08 -1 -0.000253 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_armR",
+        "name": "wing_armR",
+        "sid": "wing_armR",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 -3.104642 0 1 0 -3 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 3.092834 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.475914 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715443E-07 -1 0 7.127172 1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing",
+        "name": "wing",
+        "sid": "wing",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_tail1",
+        "name": "wing_tail1",
+        "sid": "wing_tail1",
+        "type": "JOINT",
+        "parent": "wing",
+        "matrix": "6.715443E-07 1 0 -2.3 -1 6.715443E-07 0 -5.9 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_tail2",
+        "name": "wing_tail2",
+        "sid": "wing_tail2",
+        "type": "JOINT",
+        "parent": "wing_tail1",
+        "matrix": "1 0 0 2.6 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "wrist_l1",
+            "wrist_r1",
+            "arm_r2",
+            "spin",
+            "arm_r1",
+            "skl_root",
+            "arm_l1",
+            "leg_r1",
+            "leg_r2",
+            "arm_l2",
+            "ankle_r1",
+            "leg_l1",
+            "wing_tail2",
+            "wing_tail1",
+            "leg_l2",
+            "wing",
+            "ankle_l1",
+            "wing_armR",
+            "wing_armL",
+            "wing_legR",
+            "wing_legL"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "2400"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/MLH_model.dae",
+    "sha256": "8219face05aaf799c7cfb10f38b32ed4e746a3bef7ac60c795e77088519ed0f0",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      },
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      }
+    ],
+    "images": [
+      {
+        "id": "P",
+        "path": "P.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "p_env",
+        "path": "p_env.png"
+      },
+      {
+        "id": "P_mask",
+        "path": "P_mask.png"
+      },
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "player_mhead.0",
+        "path": "player_mhead.0.png"
+      },
+      {
+        "id": "player_mhead.1",
+        "path": "player_mhead.1.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_P",
+        "effect": "#Effect_mat_P"
+      },
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_P",
+        "target": "#mat_P"
+      },
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "47"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "38"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "674"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/PLB_model.dae",
+    "sha256": "ed2e479f8d8806a4f02d8f8132432f7237cf2d0fdc0102bfa62336a49e1d26c2",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_pbody",
+        "path": "player_pbody.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_all_root",
+        "name": "luigi_all_root",
+        "sid": "luigi_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "luigi_all_root",
+        "matrix": "0 0 1 0 1 0 0 9.198152 0 1 0 -0.852889 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-0.9994031 0.03454484 -8.740974E-08 0.18583 0.03454484 0.9994035 1.510228E-09 -0.450456 8.740974E-08 -1.510228E-09 -1 3.3 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "0.9988061 -0.04885143 2.136002E-09 2 -0.04885143 -0.9988061 8.739668E-08 0 -2.136002E-09 -8.739668E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "-0.01433876 0.9998972 0 4.811275 -0.9998972 -0.01433876 0 3.3E-05 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-0.9993981 0.0346908 -1.994471E-06 0.18583 0.0346908 0.9993985 3.460532E-08 -0.450456 1.994471E-06 -3.460532E-08 -1 -3.3 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "0.9987931 -0.04912318 2.001545E-06 2 -0.04912318 -0.9987927 3.825837E-08 4E-06 1.997249E-06 -1.365344E-07 -1 5E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "-0.01444532 0.9998956 -1.424393E-06 4.811275 -0.9998956 -0.01444532 -1.403963E-06 -0.000117 -1.424393E-06 1.403963E-06 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 2.45 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -1.132701E-05 1 7.669904 1.330136E-08 -1 -1.132701E-05 -0.058686 1 1.330136E-08 1.192093E-07 4.999621 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.200001E-05 0.000146 5 1.199999E-05 -1 8.829878E-08 0 0.000146 -8.654678E-08 -1 0.000836 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 5.5 0 1 0 -6E-06 0 0 1 4E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.788139E-07 0.0004017127 -1 7.669904 -7.606286E-08 -0.9999999 -0.0004017127 -0.058686 -1 7.606286E-08 1.788139E-07 -5.00006 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -2.799817E-05 0.0001660003 5.49981 -2.800183E-05 -1 2.201961E-05 -6.5E-05 0.0001659997 -2.202426E-05 -1 0.000423 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 5.5 0 1 0 -8.6E-05 0 0 1 0.000515 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.127237 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "0.000368313 -0.9999999 0 10.05791 0.9999999 0.000368313 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "spin",
+            "skl_root",
+            "arm_r1",
+            "arm_r2",
+            "wrist_r1",
+            "ankle_l1",
+            "wrist_l1",
+            "arm_l2",
+            "arm_l1",
+            "ankle_r1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "745"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/PLH_model.dae",
+    "sha256": "b4a9dc0bdb8cffc2c920f606ee98c84453af92cc7b140371716c6fa2041c9fa1",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_phead",
+        "path": "player_phead.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "38"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "535"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/PLLB_model.dae",
+    "sha256": "667b8fd35b23378dcfad9e98b10941ff6834b59c0a4cc59ffae029f7a59fd85a",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_plbody",
+        "path": "player_plbody.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_all_root",
+        "name": "luigi_all_root",
+        "sid": "luigi_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "luigi_all_root",
+        "matrix": "0 0 1 0 1 0 0 12.71857 0 1 0 -0.843567 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 4E-06 -8.742278E-08 -0.087598 4E-06 1 1.748456E-13 0.480521 8.742278E-08 -1.748456E-13 -1 1.953947 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 0 0 5.173678 0 -1 8.742278E-08 0 0 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "6.715443E-07 1 0 5.015237 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 -8.742278E-08 -0.087598 2E-06 1 8.742278E-14 0.480521 8.742278E-08 -8.742278E-14 -1 -1.953947 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 0 0 5.173506 0 -1 8.742278E-08 0 0 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 5.015658 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 1.5991 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -1.978433E-05 1 4.86265 -1.465378E-08 -1 -1.978433E-05 0.160326 1 -1.465378E-08 1.192093E-07 2.847206 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.4E-05 -7.8E-05 3.104342 1.4E-05 -1 8.687677E-08 0 -7.8E-05 -8.796878E-08 -1 -0.000212 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 3.09283 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -1.978433E-05 -1 4.86266 -1.465378E-08 -1 1.978433E-05 0.160326 -1 1.465378E-08 1.192093E-07 -2.847209 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -0.000102 0.00021 3.104336 -0.000102 -1 7.671278E-08 0.000339 0.00021 -9.813277E-08 -1 -0.000253 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 3.092834 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.475914 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715443E-07 -1 0 7.127172 1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "spin",
+            "skl_root",
+            "arm_r2",
+            "wrist_r1",
+            "wrist_l1",
+            "arm_l1",
+            "arm_l2",
+            "arm_r1",
+            "ankle_r1",
+            "ankle_l1",
+            "leg_r2",
+            "leg_r1",
+            "leg_l2",
+            "leg_l1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "1786"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/PLLH_model.dae",
+    "sha256": "f00585bb573f6eddf22ca1e7ba35995488d9426407e4c1136f4feefd105408d9",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon3-mesh",
+        "name": "polygon3"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_plface",
+        "path": "player_plface.png"
+      },
+      {
+        "id": "player_plhead",
+        "path": "player_plhead.png"
+      },
+      {
+        "id": "puropera_env",
+        "path": "puropera_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      },
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_player_plp",
+        "name": "player_plp",
+        "sid": "player_plp",
+        "type": "JOINT",
+        "parent": "player_head",
+        "matrix": "0.9659264 0.2588169 0 -3.665965 -0.2588169 0.9659264 0 -16.52711 0 0 1 1.7E-05 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "38"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "226"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "329"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon3-mesh",
+        "geometry": "#polygon3-mesh",
+        "joint_names": [
+          [
+            "player_plp"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "142"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/SLB_model.dae",
+    "sha256": "38c76c5881e396fad10f6f712fd191300858b218254ba5339ea46ec1cc6f7feb",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_body.0",
+        "path": "player_body.0.png"
+      },
+      {
+        "id": "player_body.1",
+        "path": "player_body.1.png"
+      },
+      {
+        "id": "player_body.2",
+        "path": "player_body.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_all_root",
+        "name": "luigi_all_root",
+        "sid": "luigi_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "luigi_all_root",
+        "matrix": "0 0 1 0 1 0 0 6.793605 0 1 0 -0.465857 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-0.9999092 0.0134777 2.085254E-06 -0.651653 0.0134777 0.9999094 3.98604E-06 0.302045 -2.031342E-06 4.013782E-06 -1 2.079 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "0.999624 -0.02743142 -3.998425E-06 2.440165 -0.02743142 -0.9996237 1.422826E-07 0 -4.000823E-06 -3.254656E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "6.715443E-07 1 0 2.357659 -1 6.715443E-07 0 -1.5E-05 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-0.9999057 0.01373168 -8.742072E-08 -0.651653 0.01373168 0.9999058 6.002451E-10 0.302045 8.742072E-08 -6.002451E-10 -1 -2.079 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "0.9996099 -0.02794129 1.221472E-09 2.440165 -0.02794129 -0.9996096 8.741425E-08 0 -1.221472E-09 -8.741425E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 2.357659 -1 6.715443E-07 0 0 0 0 1 -1E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 0.611081 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.549721E-07 6.181724E-08 1 2.183534 -8.03624E-08 -1 6.181724E-08 -0.032055 1.3 -6.181724E-08 1.192093E-07 2.835 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1.2 -0.000236 3.999757E-06 1.9656 -0.0002832 -1 -2.058817E-06 2.3E-05 4.800292E-06 2.057873E-06 -1 -3E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 1.6632 0 1 0 2.5E-05 0 0 1 -3E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.549721E-07 6.181724E-08 -1 2.183534 -8.03624E-08 -1 -6.181724E-08 -0.032055 -1.3 6.181724E-08 1.192093E-07 -2.835 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1.2 -7.999999E-06 2.2E-05 1.9656 -9.600001E-06 -1 8.733478E-08 0 2.64E-05 -8.751078E-08 -1 1.5E-05 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 1.6632 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "-0.01543748 -0.9998809 -2.55648E-07 4.204663 0.9998719 -0.01543734 0.004247 0 -0.004246498 6.530737E-05 0.9999909 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "wrist_r1",
+            "arm_r2",
+            "arm_r1",
+            "spin",
+            "arm_l1",
+            "arm_l2",
+            "wrist_l1",
+            "skl_root",
+            "ankle_l1",
+            "leg_r1",
+            "leg_r2",
+            "ankle_r1",
+            "leg_l2",
+            "leg_l1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "819"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/SLC_model.dae",
+    "sha256": "133705d9f8e116fa5b07a9ab505a18a731f5d260f57166cd5c54308883b95235",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_luigi_cap",
+        "name": "luigi_cap",
+        "sid": "luigi_cap",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "luigi_cap"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/luigi/Luigi/Luigi/SLH_model.dae",
+    "sha256": "89cb6f0d9cd7e5792963b934c6f18e7e061d1f4eb50a5f4e2b1e2fb97dcd9fb3",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon3-mesh",
+        "name": "polygon3"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      },
+      {
+        "id": "mat_player_hair",
+        "effect": "#Effect_mat_player_hair"
+      },
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      },
+      {
+        "symbol": "mat_player_hair",
+        "target": "#mat_player_hair"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "38"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "196"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon3-mesh",
+        "geometry": "#polygon3-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "242"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "213"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/MB_model.dae",
+    "sha256": "8054e744b410b011e7651aa946f7079fc3d641b4efa59b05f35b29d9fb1acb92",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_body.0",
+        "path": "player_body.0.png"
+      },
+      {
+        "id": "player_body.1",
+        "path": "player_body.1.png"
+      },
+      {
+        "id": "player_body.2",
+        "path": "player_body.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_all_root",
+        "name": "mario_all_root",
+        "sid": "mario_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "mario_all_root",
+        "matrix": "0 0 1 0 1 0 0 11.05966 0 1 0 -0.852889 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-05 -8.742278E-08 0.18583 2E-05 1 8.742277E-13 0.552983 8.742278E-08 -8.742277E-13 -1 2.59875 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 -8.742278E-14 -2E-06 5.168959 8.742278E-14 -1 8.742278E-08 0 -2E-06 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "-2.189479E-06 1 0 3.614885 -1 -2.189479E-06 0 0 0 0 0.9999999 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 2.058345E-06 0.18583 2E-06 1 -2.058345E-12 0.552983 -2.058345E-06 2.058345E-12 -1 -2.59875 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 -2E-06 -4E-06 5.168959 -2E-06 -1 8.742678E-08 0 -4E-06 -8.741878E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 3.614885 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 1.750368 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 6.181724E-08 1 5.30988 -6.181724E-08 -1 6.181724E-08 -0.058686 1 -6.181724E-08 1.192093E-07 4.0725 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.2E-05 -8.000001E-06 3.52575 1.2E-05 -1 8.737478E-08 0 -7.999999E-06 -8.747077E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 3.375 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 6.181724E-08 -1 5.30988 -6.181724E-08 -1 -6.181724E-08 -0.058686 -1 6.181724E-08 1.192093E-07 -4.0725 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -3.999999E-05 0.000242 3.52575 -4.000001E-05 -1 8.258278E-08 0 0.000242 -9.226277E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 3.375 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.127237 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715443E-07 -1 0 7.697888 1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "spin",
+            "wrist_l1",
+            "arm_l2",
+            "arm_l1",
+            "arm_r1",
+            "arm_r2",
+            "wrist_r1",
+            "skl_root",
+            "ankle_r1",
+            "ankle_l1",
+            "leg_l1",
+            "leg_l2",
+            "leg_r1",
+            "leg_r2"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "872"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/MC_model.dae",
+    "sha256": "e87a4a1d58a071c94802a440fb0ccd564c3317f94e7fbff322b6723bc79a99bb",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_cap",
+        "name": "mario_cap",
+        "sid": "mario_cap",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "mario_cap"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "144"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/MH_model.dae",
+    "sha256": "3c223090910d290add12344cc069251a1d2db71903052da4c2cead2516550276",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon3-mesh",
+        "name": "polygon3"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      },
+      {
+        "id": "mat_player_hair",
+        "effect": "#Effect_mat_player_hair"
+      },
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      },
+      {
+        "symbol": "mat_player_hair",
+        "target": "#mat_player_hair"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "50"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "190"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "258"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon3-mesh",
+        "geometry": "#polygon3-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "213"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/MMB_model.dae",
+    "sha256": "5fe6ba6e1d1fd03d3c6227aea28fd80f99d1be77e72b897a772c2cf1fb5c86b8",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_mbody.0",
+        "path": "player_mbody.0.png"
+      },
+      {
+        "id": "player_mbody.1",
+        "path": "player_mbody.1.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "p_env",
+        "path": "p_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_all_root",
+        "name": "mario_all_root",
+        "sid": "mario_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "mario_all_root",
+        "matrix": "0 0 1 0 1 0 0 11.05966 0 1 0 -0.852889 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-05 -8.742278E-08 0.18583 2E-05 1 8.742277E-13 0.552983 8.742278E-08 -8.742277E-13 -1 2.59875 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 -8.742278E-14 -2E-06 5.168959 8.742278E-14 -1 8.742278E-08 0 -2E-06 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "-2.189479E-06 1 0 3.614885 -1 -2.189479E-06 0 0 0 0 0.9999999 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_legL",
+        "name": "wing_legL",
+        "sid": "wing_legL",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 0 0 0 0 1 0 -3 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 2.058345E-06 0.18583 2E-06 1 -2.058345E-12 0.552983 -2.058345E-06 2.058345E-12 -1 -2.59875 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 -2E-06 -4E-06 5.168959 -2E-06 -1 8.742678E-08 0 -4E-06 -8.741878E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 3.614885 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_legR",
+        "name": "wing_legR",
+        "sid": "wing_legR",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 0 0 0 0 1 0 -3 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 1.750368 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 2.82473E-06 1 5.30988 3.696869E-09 -1 2.82473E-06 -0.058686 1 3.696869E-09 1.192093E-07 4.0725 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.2E-05 -8.000001E-06 3.52575 1.2E-05 -1 8.737478E-08 0 -7.999999E-06 -8.747077E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_armL",
+        "name": "wing_armL",
+        "sid": "wing_armL",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 -3.52575 0 1 0 -3 0 0 1 2.9E-05 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 3.375 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -6.181724E-08 -1 5.30988 6.181724E-08 -1 6.181724E-08 -0.058686 -1 -6.181724E-08 1.192093E-07 -4.0725 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -7.999998E-05 0.000298 3.52575 -8.000001E-05 -1 7.550278E-08 0.000133 0.000298 -9.934278E-08 -0.9999999 -0.000184 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_armR",
+        "name": "wing_armR",
+        "sid": "wing_armR",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 -3.52575 0 1 0 -3 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 3.375 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.127237 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715463E-07 -1 -2.828425E-06 7.697888 1 6.715463E-07 9.094947E-13 0 9.094947E-13 -2.828425E-06 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing",
+        "name": "wing",
+        "sid": "wing",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_tail1",
+        "name": "wing_tail1",
+        "sid": "wing_tail1",
+        "type": "JOINT",
+        "parent": "wing",
+        "matrix": "6.715443E-07 1 0 -2.810024 -1 6.715443E-07 0 -5.89711 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wing_tail2",
+        "name": "wing_tail2",
+        "sid": "wing_tail2",
+        "type": "JOINT",
+        "parent": "wing_tail1",
+        "matrix": "1 0 0 2.6 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "wing_legL",
+            "wing_legR",
+            "wing_armR",
+            "wing",
+            "wing_armL",
+            "spin",
+            "wing_tail2",
+            "wing_tail1",
+            "arm_l1",
+            "wrist_r1",
+            "wrist_l1",
+            "arm_l2",
+            "arm_r1",
+            "arm_r2",
+            "ankle_l1",
+            "leg_l2",
+            "leg_l1",
+            "skl_root",
+            "leg_r1",
+            "leg_r2",
+            "ankle_r1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "2311"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/MMH_model.dae",
+    "sha256": "8b8759363bc04f0f66a3825522bc5927920ea831c7585c8710a7d0ce3912ad70",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      },
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      }
+    ],
+    "images": [
+      {
+        "id": "P",
+        "path": "P.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "p_env",
+        "path": "p_env.png"
+      },
+      {
+        "id": "P_mask",
+        "path": "P_mask.png"
+      },
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "player_mhead.0",
+        "path": "player_mhead.0.png"
+      },
+      {
+        "id": "player_mhead.1",
+        "path": "player_mhead.1.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_P",
+        "effect": "#Effect_mat_P"
+      },
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_P",
+        "target": "#mat_P"
+      },
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "43"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "53"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "668"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/PLMB_model.dae",
+    "sha256": "df47a0e8c93b2932ba5454150d54fb5aa30551cb8737a8210d6d4545b3089d5a",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_plbody",
+        "path": "player_plbody.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_all_root",
+        "name": "mario_all_root",
+        "sid": "mario_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "mario_all_root",
+        "matrix": "0 0 1 0 1 0 0 11.05966 0 1 0 -0.852889 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-05 -8.742278E-08 0.18583 2E-05 1 8.742277E-13 0.552983 8.742278E-08 -8.742277E-13 -1 2.59875 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 -8.742278E-14 -2E-06 5.168959 8.742278E-14 -1 8.742278E-08 0 -2E-06 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "-2.189479E-06 1 0 3.614885 -1 -2.189479E-06 0 0 0 0 0.9999999 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 2.058345E-06 0.18583 2E-06 1 -2.058345E-12 0.552983 -2.058345E-06 2.058345E-12 -1 -2.59875 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 -2E-06 -4E-06 5.168959 -2E-06 -1 8.742678E-08 0 -4E-06 -8.741878E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 3.614885 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 1.750368 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -2.869683E-06 1 5.30988 4.125616E-08 -1 -2.869683E-06 -0.058686 1 4.125616E-08 1.192093E-07 4.0725 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.2E-05 -8.000001E-06 3.52575 1.2E-05 -1 8.737478E-08 0 -7.999999E-06 -8.747077E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 3.375 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -6.181724E-08 -1 5.30988 6.181724E-08 -1 6.181724E-08 -0.058686 -1 -6.181724E-08 1.192093E-07 -4.0725 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -7.999998E-05 0.000298 3.52575 -8.000001E-05 -1 7.550278E-08 0.000133 0.000298 -9.934278E-08 -0.9999999 -0.000184 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 3.375 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.127237 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715463E-07 -1 -2.828425E-06 7.697888 1 6.715463E-07 9.094947E-13 0 9.094947E-13 -2.828425E-06 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "wrist_r1",
+            "arm_r2",
+            "wrist_l1",
+            "arm_l2",
+            "leg_r1",
+            "ankle_r1",
+            "ankle_l1",
+            "leg_l2",
+            "skl_root",
+            "leg_l1",
+            "leg_r2",
+            "spin",
+            "arm_r1",
+            "arm_l1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "1695"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/PLMH_model.dae",
+    "sha256": "8a217790808b919afd118afb10202e8ac4428007c065af23ee668440cd74605e",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon3-mesh",
+        "name": "polygon3"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_plface",
+        "path": "player_plface.png"
+      },
+      {
+        "id": "player_plhead",
+        "path": "player_plhead.png"
+      },
+      {
+        "id": "puropera_env",
+        "path": "puropera_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      },
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_player_plp",
+        "name": "player_plp",
+        "sid": "player_plp",
+        "type": "JOINT",
+        "parent": "player_head",
+        "matrix": "0.9659264 0.2588169 0 -3.476575 -0.2588169 0.9659264 0 -15.89268 0 0 1 -3E-06 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "48"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "203"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "310"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon3-mesh",
+        "geometry": "#polygon3-mesh",
+        "joint_names": [
+          [
+            "player_plp"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "142"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/PMB_model.dae",
+    "sha256": "b5be989cf6a4d76393b25cd3121149a03a561ed7f43ddb5155cc983be953c907",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_pbody",
+        "path": "player_pbody.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_all_root",
+        "name": "mario_all_root",
+        "sid": "mario_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "mario_all_root",
+        "matrix": "0 0 1 -0.034405 1 0 0 8 0 1 0 -0.852889 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-0.9999812 1.092799E-05 -0.00612406 0.18583 -1.492796E-05 0.9999914 0.004221966 0.552983 0.006124052 0.004221978 -0.9999723 3.3 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 -2E-06 -6E-06 2 -2E-06 -1 8.742877E-08 0 -6E-06 -8.741678E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "-3.81166E-05 0.9999812 0.006127689 3.614885 -0.9999911 -1.224861E-05 -0.004221473 0 -0.00422132 -0.006127796 0.9999723 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-0.9999812 2.494047E-05 -0.006129991 0.18583 -9.40634E-07 0.9999914 0.004222008 0.552983 0.006130041 0.004221935 -0.9999723 -3.3 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 2E-06 2E-06 2 2E-06 -1 8.742477E-08 3E-06 2E-06 -8.742078E-08 -1 5E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "1.577402E-06 0.9999812 0.006124945 3.614885 -0.9999911 2.743346E-05 -0.004221353 0 -0.004221441 -0.006124884 0.9999723 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 2.45 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.192093E-07 -1.132701E-05 1 7.669904 1.330136E-08 -1 -1.132701E-05 -0.058686 1 1.330136E-08 1.192093E-07 6.5 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1 1.2E-05 -1.4E-05 5 1.2E-05 -1 8.733878E-08 0 -1.4E-05 -8.750678E-08 -1 3.3E-05 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 5.5 0 1 0 -6E-06 0 0 1 4E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.788139E-07 0.0004017127 -1 7.669904 -7.606286E-08 -0.9999999 -0.0004017127 -0.058686 -1 7.606286E-08 1.788139E-07 -6.5 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1 -2.799811E-05 0.0001720003 5 -2.800189E-05 -1 2.201952E-05 -6.7E-05 0.0001719997 -2.202434E-05 -1 0.000383 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 5.5 0 1 0 -8.6E-05 0 0 1 0.000515 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 4.127237 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "6.715463E-07 -1 -2.828425E-06 10.05791 1 6.715463E-07 9.094947E-13 0 9.094947E-13 -2.828425E-06 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "spin",
+            "skl_root",
+            "arm_l1",
+            "arm_r1",
+            "arm_r2",
+            "wrist_r1",
+            "ankle_l1",
+            "arm_l2",
+            "wrist_l1",
+            "ankle_r1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "753"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/PMH_model.dae",
+    "sha256": "6bf8cc2f39686ec441737e00295ef2e048e1a36236819e8b9da91eebdb37b7a8",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_phead",
+        "path": "player_phead.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "48"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "359"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/SMB_model.dae",
+    "sha256": "753825bfb5d7eaaadd0a9c995afc9bf5829148629e819a1927370cfb0cb45246",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_body.0",
+        "path": "player_body.0.png"
+      },
+      {
+        "id": "player_body.1",
+        "path": "player_body.1.png"
+      },
+      {
+        "id": "player_body.2",
+        "path": "player_body.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_body",
+        "effect": "#Effect_mat_player_body"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_body",
+        "target": "#mat_player_body"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_all_root",
+        "name": "mario_all_root",
+        "sid": "mario_all_root",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_skl_root",
+        "name": "skl_root",
+        "sid": "skl_root",
+        "type": "JOINT",
+        "parent": "mario_all_root",
+        "matrix": "0 0 1 0 1 0 0 6.040895 0 1 0 -0.465857 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l1",
+        "name": "leg_l1",
+        "sid": "leg_l1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 1.6E-05 -8.742278E-08 0.101503 1.6E-05 1 6.993822E-13 0.302045 8.742278E-08 -6.993822E-13 -1 1.419463 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_l2",
+        "name": "leg_l2",
+        "sid": "leg_l2",
+        "type": "JOINT",
+        "parent": "leg_l1",
+        "matrix": "1 -3.8E-05 1.661033E-12 2.823337 -3.8E-05 -1 8.742278E-08 0 -1.661033E-12 -8.742278E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_l1",
+        "name": "ankle_l1",
+        "sid": "ankle_l1",
+        "type": "JOINT",
+        "parent": "leg_l2",
+        "matrix": "6.715443E-07 1 0 1.974486 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r1",
+        "name": "leg_r1",
+        "sid": "leg_r1",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "-1 2E-06 2.058345E-06 0.101503 2E-06 1 -2.058345E-12 0.302045 -2.058345E-06 2.058345E-12 -1 -1.419463 0 0 0 1"
+      },
+      {
+        "id": "Armature_leg_r2",
+        "name": "leg_r2",
+        "sid": "leg_r2",
+        "type": "JOINT",
+        "parent": "leg_r1",
+        "matrix": "1 -2E-06 -4E-06 2.823337 -2E-06 -1 8.742678E-08 0 -4E-06 -8.741878E-08 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_ankle_r1",
+        "name": "ankle_r1",
+        "sid": "ankle_r1",
+        "type": "JOINT",
+        "parent": "leg_r2",
+        "matrix": "6.715443E-07 1 0 1.974486 -1 6.715443E-07 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_spin",
+        "name": "spin",
+        "sid": "spin",
+        "type": "JOINT",
+        "parent": "skl_root",
+        "matrix": "1 0 0 0.956069 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l1",
+        "name": "arm_l1",
+        "sid": "arm_l1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.549721E-07 2.82473E-06 1 2.183534 4.805929E-09 -1 2.82473E-06 -0.032055 1.3 3.696869E-09 1.192093E-07 3.468741 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_l2",
+        "name": "arm_l2",
+        "sid": "arm_l2",
+        "type": "JOINT",
+        "parent": "arm_l1",
+        "matrix": "1.2 1.4E-05 -1.999986E-06 1.524281 1.68E-05 -1 -2.058359E-06 0 -2.400017E-06 2.05833E-06 -1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_l1",
+        "name": "wrist_l1",
+        "sid": "wrist_l1",
+        "type": "JOINT",
+        "parent": "arm_l2",
+        "matrix": "1 0 0 1.4175 0 1 0 2.5E-05 0 0 1 -3E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r1",
+        "name": "arm_r1",
+        "sid": "arm_r1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "1.549721E-07 -6.181724E-08 -1 2.183534 8.03624E-08 -1 6.181724E-08 -0.032055 -1.3 -6.181724E-08 1.192093E-07 -3.469095 0 0 0 1"
+      },
+      {
+        "id": "Armature_arm_r2",
+        "name": "arm_r2",
+        "sid": "arm_r2",
+        "type": "JOINT",
+        "parent": "arm_r1",
+        "matrix": "1.2 8.742278E-14 2E-06 1.524285 -1.049073E-13 -1 8.742278E-08 0 2.4E-06 -8.742278E-08 -1 -2E-06 0 0 0 1"
+      },
+      {
+        "id": "Armature_wrist_r1",
+        "name": "wrist_r1",
+        "sid": "wrist_r1",
+        "type": "JOINT",
+        "parent": "arm_r2",
+        "matrix": "1 0 0 1.4175 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_CapPosition",
+        "name": "CapPosition",
+        "sid": "CapPosition",
+        "type": "JOINT",
+        "parent": "wrist_r1",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      },
+      {
+        "id": "Armature_face_1",
+        "name": "face_1",
+        "sid": "face_1",
+        "type": "JOINT",
+        "parent": "spin",
+        "matrix": "-0.01561711 -0.9998782 -6.372575E-07 4.204663 0.9998691 -0.01561697 0.004247 0 -0.004246492 6.568921E-05 0.9999912 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "wrist_r1",
+            "wrist_l1",
+            "spin",
+            "arm_l1",
+            "arm_l2",
+            "skl_root",
+            "arm_r1",
+            "arm_r2",
+            "leg_r1",
+            "leg_r2",
+            "leg_l1",
+            "leg_l2",
+            "ankle_l1",
+            "ankle_r1"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "1422"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/SMC_model.dae",
+    "sha256": "200aa4532986969eabf6d44e67e4dc69b44407f7fe98e90ff05ffb9763b629d5",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_mario_cap",
+        "name": "mario_cap",
+        "sid": "mario_cap",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "mario_cap"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "145"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "extracted/mario/Mario/Mario/SMH_model.dae",
+    "sha256": "6c846b9a3691ab0bb7ea8681f5675f1ca6c597d49a89c60d5199448e681c117f",
+    "up_axis": null,
+    "unit": null,
+    "animations": 0,
+    "animation_clips": 0,
+    "channels": 0,
+    "samplers": 0,
+    "geometries": [
+      {
+        "id": "polygon1-mesh",
+        "name": "polygon1"
+      },
+      {
+        "id": "polygon2-mesh",
+        "name": "polygon2"
+      },
+      {
+        "id": "polygon0-mesh",
+        "name": "polygon0"
+      },
+      {
+        "id": "polygon3-mesh",
+        "name": "polygon3"
+      }
+    ],
+    "images": [
+      {
+        "id": "player_eye.0",
+        "path": "player_eye.0.png"
+      },
+      {
+        "id": "player_eye.1",
+        "path": "player_eye.1.png"
+      },
+      {
+        "id": "player_eye.2",
+        "path": "player_eye.2.png"
+      },
+      {
+        "id": "player_eye.3",
+        "path": "player_eye.3.png"
+      },
+      {
+        "id": "player_eye.4",
+        "path": "player_eye.4.png"
+      },
+      {
+        "id": "player_eye.5",
+        "path": "player_eye.5.png"
+      },
+      {
+        "id": "player_eye.6",
+        "path": "player_eye.6.png"
+      },
+      {
+        "id": "lm_01p",
+        "path": "lm_01p.png"
+      },
+      {
+        "id": "lm_02p",
+        "path": "lm_02p.png"
+      },
+      {
+        "id": "star_env",
+        "path": "star_env.png"
+      },
+      {
+        "id": "player_head.0",
+        "path": "player_head.0.png"
+      },
+      {
+        "id": "player_head.1",
+        "path": "player_head.1.png"
+      },
+      {
+        "id": "player_head.2",
+        "path": "player_head.2.png"
+      }
+    ],
+    "materials": [
+      {
+        "id": "mat_player_eye",
+        "effect": "#Effect_mat_player_eye"
+      },
+      {
+        "id": "mat_player_face",
+        "effect": "#Effect_mat_player_face"
+      },
+      {
+        "id": "mat_player_hair",
+        "effect": "#Effect_mat_player_hair"
+      },
+      {
+        "id": "mat_player_hat",
+        "effect": "#Effect_mat_player_hat"
+      }
+    ],
+    "material_bindings": [
+      {
+        "symbol": "mat_player_eye",
+        "target": "#mat_player_eye"
+      },
+      {
+        "symbol": "mat_player_face",
+        "target": "#mat_player_face"
+      },
+      {
+        "symbol": "mat_player_hair",
+        "target": "#mat_player_hair"
+      },
+      {
+        "symbol": "mat_player_hat",
+        "target": "#mat_player_hat"
+      }
+    ],
+    "bones": [
+      {
+        "id": "Armature_player_head",
+        "name": "player_head",
+        "sid": "player_head",
+        "type": "JOINT",
+        "parent": "Armature",
+        "matrix": "0.96 0 0 0 0 0.92 0 0 0 0 0.96 0 0 0 0 1"
+      }
+    ],
+    "controllers": [
+      {
+        "id": "Armature_polygon1-mesh",
+        "geometry": "#polygon1-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "48"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon2-mesh",
+        "geometry": "#polygon2-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "211"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon0-mesh",
+        "geometry": "#polygon0-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "258"
+          }
+        ]
+      },
+      {
+        "id": "Armature_polygon3-mesh",
+        "geometry": "#polygon3-mesh",
+        "joint_names": [
+          [
+            "player_head"
+          ]
+        ],
+        "bind_shape_matrix": "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1",
+        "vertex_weights": [
+          {
+            "count": "219"
+          }
+        ]
+      }
+    ]
+  }
+]

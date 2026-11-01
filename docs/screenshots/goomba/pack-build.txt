@@ -1,0 +1,16 @@
+PASS original download unchanged: ba3f122c226d4ece1cfef057dc7b32d99c5eaf456d5cb7f0c3f6c7f8429f567b
+PASS SHA-256: 76 input/output files
+PASS atlas bounds/non-overlap and exact source RGBA: 62 frames, 992x832; feet baseline 100
+PASS walk: 16 frames, 16 unique; native opaque widths 81..85, heights 94..100
+PASS source_group_b: 11 frames, 11 unique; native opaque widths 82..85, heights 93..96
+PASS source_group_c: 21 frames, 21 unique; native opaque widths 81..85, heights 92..98
+PASS stomp: 14 frames, 14 unique; native opaque widths 105..120, heights 38..44
+PASS global uniqueness: 62 distinct native content crops
+PASS aliases: elements/enemies x walker/goomba; existing coverage elements.walker, elements.goomba, enemies.walker, enemies.goomba
+PASS preview GIF: 62 real frames; runtime PNG alpha retained
+PASS lossless build: no resize, recolour, interpolated or repeated animation frames
+PREPARED staging: 15 object entries + 3 FX entries; 54 files; all atlas frames match staged RGBA bytes
+STAGING: published object bytes/RGBA verified; existing files retained
+STAGING: integrated 15 object entries and 3 fx entries
+GOOMBA: final entry-by-entry merge (elements/enemies walker + goomba)
+Built 398 element IDs, 9 character keys, 6 enemies, 4 themes and 21 parallax layers.

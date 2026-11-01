@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "meta": {
+    "name": "Goomba walk and stomp fixture",
+    "theme": "grass",
+    "timeLimit": 300,
+    "music": "grass_01"
+  },
+  "size": {
+    "w": 24,
+    "h": 14,
+    "tile": 64
+  },
+  "layers": {
+    "terrain": "0*288,1*48"
+  },
+  "entities": [
+    {
+      "id": 1,
+      "type": "walker",
+      "x": 7,
+      "y": 11,
+      "props": {
+        "speed": 0.2,
+        "direction": -1
+      }
+    },
+    {
+      "id": 2,
+      "type": "goal",
+      "x": 22,
+      "y": 11
+    }
+  ],
+  "spawn": {
+    "x": 3,
+    "y": 11
+  },
+  "goal": {
+    "x": 22,
+    "y": 11
+  }
+}

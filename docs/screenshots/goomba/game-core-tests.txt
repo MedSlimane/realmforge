@@ -1,0 +1,24 @@
+
+> @realmforge/game-core@0.1.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/game-core
+
+ ✓ test/elements/display.test.ts (4 tests) 7ms
+ ✓ test/controller.test.ts (21 tests) 29ms
+stdout | test/adapterGrowth.test.ts > adapter form resize compound broadphase > reproduces isolated growth at (480,200) with a parent hull enclosing all parts
+isolated growth: {"position":{"x":480,"y":170},"parent":{"min":{"x":452,"y":106},"max":{"x":508,"y":234}},"main":{"min":{"x":456,"y":110},"max":{"x":504,"y":230}}}
+
+ ✓ test/elements/mushroom.test.ts (7 tests) 59ms
+ ✓ test/playerForms.test.ts (13 tests) 61ms
+ ✓ test/elements/elements.test.ts (12 tests) 132ms
+ ✓ test/elements/seesaw.test.ts (14 tests) 373ms
+ ✓ test/adapterGrowth.test.ts (16 tests) 1877ms
+   ✓ grown adapter rider on production seesaws > lands, stands, jumps and re-lands on tilt -1 at tile 32  310ms
+
+ Test Files  7 passed (7)
+      Tests  87 passed (87)
+   Start at  12:43:54
+   Duration  2.78s (transform 568ms, setup 0ms, collect 1.66s, tests 2.54s, environment 1ms, prepare 1.53s)
+

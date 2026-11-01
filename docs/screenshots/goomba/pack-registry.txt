@@ -1,0 +1,1 @@
+PASS real registry: 400 loader records; all 118 legacy IDs resolve; mario-mario_small selected; 9 player animations; 4 layered themes; linear filtering metadata
