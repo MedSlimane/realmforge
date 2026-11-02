@@ -1,0 +1,17 @@
+PASS after-mario-play: 678 rendered frames
+PASS verified-mario-play-flat: 893 rendered frames
+PASS after-mario-editor: 674 rendered frames
+PASS verified-mario-editor-flat: 816 rendered frames
+PASS after-kenney-play: 672 rendered frames
+PASS verified-kenney-play-flat: 866 rendered frames
+PASS after-kenney-editor: 668 rendered frames
+PASS verified-kenney-editor-flat: 822 rendered frames
+PASS verified-mario-play-slope: 662 rendered frames
+PASS verified-mario-play-fall: 326 rendered frames
+PASS verified-mario-play-spring: 263 rendered frames
+PASS verified-mario-play-forms: 286 rendered frames
+PASS verified-kenney-editor-slope: 662 rendered frames
+PASS verified-kenney-editor-fall: 327 rendered frames
+PASS verified-kenney-editor-spring: 262 rendered frames
+PASS verified-kenney-editor-forms: 280 rendered frames
+PASS 16 real-browser trajectories; physical follow, ordinary-jump baseline, same-frame parallax, slopes, vertical travel, forms, resize and canvas identity

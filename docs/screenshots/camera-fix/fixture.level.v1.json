@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "meta": {"name": "Camera regression: flat runway", "theme": "grass", "timeLimit": 300, "music": "grass_01"},
+  "size": {"w": 100, "h": 30, "tile": 64},
+  "layers": {"terrain": "0*2400,1*600"},
+  "entities": [{"id": 1, "type": "goal", "x": 97, "y": 23}],
+  "spawn": {"x": 16, "y": 23},
+  "goal": {"x": 97, "y": 23}
+}

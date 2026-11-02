@@ -1,0 +1,96 @@
+
+> @realmforge/web@0.1.0 test
+> vitest run --run src/game/render/background.test.ts src/game/scenes/PlayScene.camera.test.ts
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/web
+
+ ❯ src/game/render/background.test.ts (3 tests | 2 failed) 6ms
+   × background render phase > uses the scroll from this camera render, after camera follow/clamping 4ms
+     → expected +0 to be close to 25.125, received difference is 25.125, but expected 5e-11
+   × background render phase > covers fractional zoom with integral backing dimensions and does not resize while walking 2ms
+     → expected false to be true // Object.is equality
+   ✓ background render phase > detaches its camera render listener when the scene shuts down 0ms
+ ❯ src/game/scenes/PlayScene.camera.test.ts (2 tests | 2 failed) 6ms
+   × physical player presentation > keeps the feet and height stable when Matter expands the collision bounds during a fall 5ms
+     → expected 250 to be 230 // Object.is equality
+   × physical player presentation > preserves subpixel physical motion rather than rounding separately from the camera 0ms
+     → expected 100 to be 100.25 // Object.is equality
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/game/render/background.test.ts > background render phase > uses the scroll from this camera render, after camera follow/clamping
+AssertionError: expected +0 to be close to 25.125, received difference is 25.125, but expected 5e-11
+ ❯ src/game/render/background.test.ts:30:58
+     28|         cam.scrollX = 100.5; // Camera.preRender follows AFTER scene P…
+     29|         cam.emit('prerender', cam);
+     30|         expect(sprite.tilePositionX * sprite.tileScaleX).toBeCloseTo(2…
+       |                                                          ^
+     31|     });
+     32|     it('covers fractional zoom with integral backing dimensions and do…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+ FAIL  src/game/render/background.test.ts > background render phase > covers fractional zoom with integral backing dimensions and does not resize while walking
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/game/render/background.test.ts:35:83
+     33|         const { cam, sprite, render } = harness();
+     34|         render();
+     35|         expect(Number.isInteger(sprite.width) && Number.isInteger(spri…
+       |                                                                                   ^
+     36|         expect(sprite.width * cam.zoom).toBeGreaterThanOrEqual(cam.wid…
+     37|         expect(sprite.height * cam.zoom).toBeGreaterThanOrEqual(cam.he…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯
+
+ FAIL  src/game/scenes/PlayScene.camera.test.ts > physical player presentation > keeps the feet and height stable when Matter expands the collision bounds during a fall
+AssertionError: expected 250 to be 230 // Object.is equality
+
+- Expected
++ Received
+
+- 230
++ 250
+
+ ❯ src/game/scenes/PlayScene.camera.test.ts:26:27
+     24|     it('keeps the feet and height stable when Matter expands the colli…
+     25|         const still = presentation(0), falling = presentation(20);
+     26|         expect(falling.y).toBe(still.y);
+       |                           ^
+     27|         expect(falling.displayHeight).toBe(still.displayHeight);
+     28|     });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯
+
+ FAIL  src/game/scenes/PlayScene.camera.test.ts > physical player presentation > preserves subpixel physical motion rather than rounding separately from the camera
+AssertionError: expected 100 to be 100.25 // Object.is equality
+
+- Expected
++ Received
+
+- 100.25
++ 100
+
+ ❯ src/game/scenes/PlayScene.camera.test.ts:30:35
+     28|     });
+     29|     it('preserves subpixel physical motion rather than rounding separa…
+     30|         expect(presentation(0).x).toBe(100.25);
+       |                                   ^
+     31|     });
+     32| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯
+
+
+ Test Files  2 failed (2)
+      Tests  4 failed | 1 passed (5)
+   Start at  21:26:50
+   Duration  673ms (transform 165ms, setup 0ms, collect 384ms, tests 12ms, environment 0ms, prepare 91ms)
+

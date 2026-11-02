@@ -1,0 +1,2089 @@
+{
+  "renderedFrames": 11538,
+  "runs": {
+    "baseline-kenney-editor": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "baseline",
+      "count": 599,
+      "counts": {
+        "hud": 49,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 599,
+        "backgroundScale": 599,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 55.26315789473688,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1,
+          "maxParallaxError": 1.2500000000000142,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 171,
+          "scrollY": 0,
+          "foot": 244.375,
+          "height": 10.625,
+          "maxSpriteFootError": 0.5,
+          "maxParallaxError": 1.2500000000000142,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 348,
+          "scrollY": 0,
+          "foot": 254.2049506260139,
+          "height": 16,
+          "maxSpriteFootError": 16,
+          "maxParallaxError": 1.2500000000000284,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "reverse": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 68.00708412260224,
+          "height": 6.75,
+          "maxSpriteFootError": 6.712087354878804,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk",
+            "fall"
+          ]
+        },
+        "settled": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0.21515898455641036,
+          "height": 0,
+          "maxSpriteFootError": 0.3968141180596376,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        }
+      }
+    },
+    "baseline-kenney-play": {
+      "pack": "kenney",
+      "mode": "play",
+      "label": "baseline",
+      "count": 595,
+      "counts": {
+        "hud": 49,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 595,
+        "backgroundScale": 595,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 18.031746031746025,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1,
+          "maxParallaxError": 1,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 185,
+          "scrollY": 112.93650793650795,
+          "foot": 273.125,
+          "height": 20,
+          "maxSpriteFootError": 1,
+          "maxParallaxError": 1.75,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 472,
+          "scrollY": 102,
+          "foot": 241,
+          "height": 16,
+          "maxSpriteFootError": 15.875,
+          "maxParallaxError": 1.5,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk"
+          ]
+        },
+        "reverse": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0.875,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "skid",
+            "walk"
+          ]
+        },
+        "settled": {
+          "scrollX": 32,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0.875,
+          "maxParallaxError": 0.4999999999999716,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        }
+      }
+    },
+    "baseline-mario-editor": {
+      "pack": "mario",
+      "mode": "editor",
+      "label": "baseline",
+      "count": 607,
+      "counts": {
+        "hud": 52,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 3642,
+        "backgroundScale": 3642,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 71.26315789473688,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.9250000000000114,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 189,
+          "scrollY": 0,
+          "foot": 281.25,
+          "height": 20,
+          "maxSpriteFootError": 0.5,
+          "maxParallaxError": 2.6950000000000216,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 445,
+          "scrollY": 0,
+          "foot": 245.375,
+          "height": 16,
+          "maxSpriteFootError": 15.75,
+          "maxParallaxError": 2.6950000000000216,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "reverse": {
+          "scrollX": 12,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0.25,
+          "maxParallaxError": 0.7700000000000955,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "settled": {
+          "scrollX": 89,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0.25,
+          "maxParallaxError": 1.5400000000000205,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "baseline-mario-play": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "baseline",
+      "count": 580,
+      "counts": {
+        "hud": 56,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 3480,
+        "backgroundScale": 3480,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 101.03174603174602,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.9250000000000043,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 185,
+          "scrollY": 120,
+          "foot": 253.125,
+          "height": 11.25,
+          "maxSpriteFootError": 0.5,
+          "maxParallaxError": 2.309999999999995,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 462,
+          "scrollY": 98,
+          "foot": 241,
+          "height": 16,
+          "maxSpriteFootError": 15.875,
+          "maxParallaxError": 2.6950000000000216,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "reverse": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0.125,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "settled": {
+          "scrollX": 48,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0.125,
+          "maxParallaxError": 0.7700000000000387,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        }
+      }
+    },
+    "after-kenney-editor": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "after",
+      "count": 668,
+      "counts": {
+        "hud": 56,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 18.645551688419744,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 155.9580939530614,
+          "scrollY": 0,
+          "foot": 253.125,
+          "height": 11.25,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 493.0852345235574,
+          "scrollY": 0,
+          "foot": 241,
+          "height": 16,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk"
+          ]
+        },
+        "reverse": {
+          "scrollX": 3.2819867927015594,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "skid",
+            "walk"
+          ]
+        },
+        "settled": {
+          "scrollX": 35.26951081519451,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "after-kenney-play": {
+      "pack": "kenney",
+      "mode": "play",
+      "label": "after",
+      "count": 672,
+      "counts": {
+        "hud": 56,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 15.7304943247761,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 8.881784197001252e-16,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 158.43839989066004,
+          "scrollY": 0,
+          "foot": 244.375,
+          "height": 10.625,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 3.552713678800501e-15,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 383.04898121666145,
+          "scrollY": 3.5311418134308497,
+          "foot": 253.36349612545382,
+          "height": 16,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "reverse": {
+          "scrollX": 0.0036663588730334595,
+          "scrollY": 3.5311418134308497,
+          "foot": 70.1985591938776,
+          "height": 6.75,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "fall",
+            "wallSlide"
+          ]
+        },
+        "settled": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "after-mario-editor": {
+      "pack": "mario",
+      "mode": "editor",
+      "label": "after",
+      "count": 674,
+      "counts": {
+        "hud": 57,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 36.06428690855648,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 164.60456750741122,
+          "scrollY": 0,
+          "foot": 241.875,
+          "height": 11.25,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 471.6697581665113,
+          "scrollY": 0,
+          "foot": 245.375,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "reverse": {
+          "scrollX": 1.018187321000596,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "settled": {
+          "scrollX": 54.08432692023598,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "after-mario-play": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "after",
+      "count": 678,
+      "counts": {
+        "hud": 58,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 8.881784197001252e-16,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 8.881784197001252e-16,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 56.950194408135644,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 8.881784197001252e-16,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 171.96738356782993,
+          "scrollY": 0,
+          "foot": 241.875,
+          "height": 11.25,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 468.4576100142073,
+          "scrollY": 14.311700404392695,
+          "foot": 245.375,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "reverse": {
+          "scrollX": 0.5829175418743944,
+          "scrollY": 0.00011707654198289674,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "settled": {
+          "scrollX": 48.43606614671967,
+          "scrollY": 5.098854671814479e-09,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-kenney-editor-fall": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "verified",
+      "count": 327,
+      "counts": {
+        "hud": 27,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "vertical-fall": {
+          "scrollX": 0,
+          "scrollY": 714.1052631578947,
+          "foot": 1470.75,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "fall"
+          ]
+        },
+        "vertical-land": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-kenney-editor-flat": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "verified",
+      "count": 822,
+      "counts": {
+        "hud": 77,
+        "resize": 2,
+        "canvasMutations": 4,
+        "canvasReplacements": 0,
+        "backgroundSize": 2,
+        "backgroundScale": 2,
+        "internalCanvasResizes": 2,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 280.66611607590244,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 386.8042286100614,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 203.9050142018623,
+          "scrollY": 0,
+          "foot": 281.25,
+          "height": 20,
+          "maxSpriteFootError": 0.6185567010309114,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 509.6176901961296,
+          "scrollY": 0,
+          "foot": 293.375,
+          "height": 16,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk"
+          ]
+        },
+        "reverse": {
+          "scrollX": 18.9451663213174,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "skid",
+            "run"
+          ]
+        },
+        "settled": {
+          "scrollX": 78.80379062267366,
+          "scrollY": 80.94132689030414,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}",
+            "{\"x\":233,\"y\":234,\"w\":856,\"h\":566,\"width\":856,\"height\":566,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "resize-small": {
+          "scrollX": 127.78125,
+          "scrollY": 75.43015487892603,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":233,\"y\":234,\"w\":856,\"h\":566,\"width\":856,\"height\":566,\"same\":true}",
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "resize-restored": {
+          "scrollX": 374.68008650969705,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        }
+      }
+    },
+    "verified-kenney-editor-forms": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "verified",
+      "count": 280,
+      "counts": {
+        "hud": 24,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "pickup-grow": {
+          "scrollX": 95.80589518928173,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 60,
+          "maxSpriteFootError": 2.4742268041236457,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "form-jump": {
+          "scrollX": 119.1424671314278,
+          "scrollY": 0,
+          "foot": 237.5625,
+          "height": 16,
+          "maxSpriteFootError": 0.9278350515464808,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "jump"
+          ]
+        },
+        "form-land": {
+          "scrollX": 256.24855510806003,
+          "scrollY": 0,
+          "foot": 251.12097806121142,
+          "height": 16,
+          "maxSpriteFootError": 2.4742268041236457,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-kenney-editor-slope": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "verified",
+      "count": 662,
+      "counts": {
+        "hud": 55,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "slope-up": {
+          "scrollX": 588.5203034691963,
+          "scrollY": 89.41772804377024,
+          "foot": 125.65827303255014,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "slope-reverse": {
+          "scrollX": 76.479312338015,
+          "scrollY": 61.7435166687236,
+          "foot": 125.8065836080616,
+          "height": 16,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "skid",
+            "fall",
+            "wallSlide"
+          ]
+        },
+        "slope-jump": {
+          "scrollX": 7.915998594398843e-07,
+          "scrollY": 1.2715690900222398e-07,
+          "foot": 211.5,
+          "height": 16,
+          "maxSpriteFootError": 0.6185567010309114,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "jump"
+          ]
+        },
+        "slope-land": {
+          "scrollX": 4.13949692301685e-08,
+          "scrollY": 2.1739102323989528,
+          "foot": 227.82563944375283,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-kenney-editor-spring": {
+      "pack": "kenney",
+      "mode": "editor",
+      "label": "verified",
+      "count": 262,
+      "counts": {
+        "hud": 22,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "vertical-launch": {
+          "scrollX": 0,
+          "scrollY": 448.03061198039444,
+          "foot": 879.75,
+          "height": 33.625,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "jump"
+          ]
+        },
+        "vertical-return": {
+          "scrollX": 282.9155717865127,
+          "scrollY": 586.482245690788,
+          "foot": 991,
+          "height": 16,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "walk"
+          ]
+        }
+      }
+    },
+    "verified-kenney-play-flat": {
+      "pack": "kenney",
+      "mode": "play",
+      "label": "verified",
+      "count": 866,
+      "counts": {
+        "hud": 71,
+        "resize": 2,
+        "canvasMutations": 4,
+        "canvasReplacements": 0,
+        "backgroundSize": 2,
+        "backgroundScale": 2,
+        "internalCanvasResizes": 2,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 288.9493137255199,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 397.57927492034094,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 225.39887003287845,
+          "scrollY": 0,
+          "foot": 301.875,
+          "height": 20,
+          "maxSpriteFootError": 0.6185567010309114,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 509.5994202791687,
+          "scrollY": 0,
+          "foot": 306.75,
+          "height": 16,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk"
+          ]
+        },
+        "reverse": {
+          "scrollX": 15.215044026823534,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "skid",
+            "walk",
+            "run"
+          ]
+        },
+        "settled": {
+          "scrollX": 81.73460700908231,
+          "scrollY": 30.125,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}",
+            "{\"x\":25.1953125,\"y\":217.4765625,\"w\":1049,\"h\":576,\"width\":1049,\"height\":576,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "resize-small": {
+          "scrollX": 10.373070824131219,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 0,
+          "canvasSizes": [
+            "{\"x\":25.1953125,\"y\":217.4765625,\"w\":1049,\"h\":576,\"width\":1049,\"height\":576,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "resize-restored": {
+          "scrollX": 101.31611395138589,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 1.2371134020618229,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        }
+      }
+    },
+    "verified-mario-editor-flat": {
+      "pack": "mario",
+      "mode": "editor",
+      "label": "verified",
+      "count": 816,
+      "counts": {
+        "hud": 77,
+        "resize": 2,
+        "canvasMutations": 4,
+        "canvasReplacements": 0,
+        "backgroundSize": 14,
+        "backgroundScale": 14,
+        "internalCanvasResizes": 14,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 328.68332173287945,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 4.263256414560601e-14,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 513.0068652409689,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 194.59107440045887,
+          "scrollY": 0,
+          "foot": 199.375,
+          "height": 13.75,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 495.15595113843915,
+          "scrollY": 0,
+          "foot": 322.3393549508087,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.2737367544323206e-13,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "run",
+            "walk"
+          ]
+        },
+        "reverse": {
+          "scrollX": 5.929876961855371,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.2737367544323206e-13,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "skid",
+            "walk",
+            "run"
+          ]
+        },
+        "settled": {
+          "scrollX": 146.38788135090545,
+          "scrollY": 79.48455141053171,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.2737367544323206e-13,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}",
+            "{\"x\":233,\"y\":234,\"w\":856,\"h\":566,\"width\":856,\"height\":566,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "resize-small": {
+          "scrollX": 127.78125,
+          "scrollY": 76.2301507109687,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":233,\"y\":234,\"w\":856,\"h\":566,\"width\":856,\"height\":566,\"same\":true}",
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "resize-restored": {
+          "scrollX": 134.85363443938923,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.2737367544323206e-13,
+          "canvasSizes": [
+            "{\"x\":285,\"y\":234,\"w\":844,\"h\":716,\"width\":844,\"height\":716,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        }
+      }
+    },
+    "verified-mario-play-fall": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "verified",
+      "count": 326,
+      "counts": {
+        "hud": 28,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "vertical-fall": {
+          "scrollX": 0,
+          "scrollY": 1239.034971555653,
+          "foot": 1465.5,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "idle"
+          ]
+        },
+        "vertical-land": {
+          "scrollX": 0,
+          "scrollY": 0.006168916321030338,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-mario-play-flat": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "verified",
+      "count": 893,
+      "counts": {
+        "hud": 86,
+        "resize": 2,
+        "canvasMutations": 4,
+        "canvasReplacements": 0,
+        "backgroundSize": 14,
+        "backgroundScale": 14,
+        "internalCanvasResizes": 14,
+        "uploads": 0
+      },
+      "phases": {
+        "standing": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle"
+          ]
+        },
+        "walk": {
+          "scrollX": 358.817789265274,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "run": {
+          "scrollX": 395.18302531775987,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "run"
+          ]
+        },
+        "jump": {
+          "scrollX": 258.35350496617707,
+          "scrollY": 0,
+          "foot": 235.625,
+          "height": 16.25,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "land": {
+          "scrollX": 507.1188335488141,
+          "scrollY": 0,
+          "foot": 332.83377463993816,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall",
+            "run",
+            "walk"
+          ]
+        },
+        "reverse": {
+          "scrollX": 3.295712023371834,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk",
+            "run"
+          ]
+        },
+        "settled": {
+          "scrollX": 76.14456458600284,
+          "scrollY": 33.049999999999955,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}",
+            "{\"x\":25.1953125,\"y\":217.4765625,\"w\":1049,\"h\":576,\"width\":1049,\"height\":576,\"same\":true}"
+          ],
+          "modes": [
+            "run",
+            "walk",
+            "idle"
+          ]
+        },
+        "resize-small": {
+          "scrollX": 49.044170552087735,
+          "scrollY": 54.97460317460332,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":25.1953125,\"y\":217.4765625,\"w\":1049,\"h\":576,\"width\":1049,\"height\":576,\"same\":true}",
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "resize-restored": {
+          "scrollX": 126.35116771558432,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.1368683772161603e-13,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "walk"
+          ]
+        }
+      }
+    },
+    "verified-mario-play-forms": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "verified",
+      "count": 286,
+      "counts": {
+        "hud": 26,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "pickup-grow": {
+          "scrollX": 98.65066442204403,
+          "scrollY": 0,
+          "foot": 0,
+          "height": 60,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 2.842170943040401e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "form-jump": {
+          "scrollX": 144.22521925860383,
+          "scrollY": 0,
+          "foot": 190.46875,
+          "height": 12.40625,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump",
+            "fall"
+          ]
+        },
+        "form-land": {
+          "scrollX": 228.99015476991826,
+          "scrollY": 0,
+          "foot": 267.8910150981694,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "walk",
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-mario-play-slope": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "verified",
+      "count": 662,
+      "counts": {
+        "hud": 58,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "slope-up": {
+          "scrollX": 586.0269193360949,
+          "scrollY": 89.038729008779,
+          "foot": 125.60845024346327,
+          "height": 0,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "idle",
+            "walk"
+          ]
+        },
+        "slope-reverse": {
+          "scrollX": 37.77343663406384,
+          "scrollY": 60.8126098207008,
+          "foot": 124.93259369776115,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "skid",
+            "fall",
+            "wallSlide",
+            "walk"
+          ]
+        },
+        "slope-jump": {
+          "scrollX": 1.013866040011635e-07,
+          "scrollY": 8.51787262945436e-09,
+          "foot": 166.5,
+          "height": 9,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "jump"
+          ]
+        },
+        "slope-land": {
+          "scrollX": 2.7764599508373067e-09,
+          "scrollY": 3.062705699294611,
+          "foot": 247.5205201869028,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "idle"
+          ]
+        }
+      }
+    },
+    "verified-mario-play-spring": {
+      "pack": "mario",
+      "mode": "play",
+      "label": "verified",
+      "count": 263,
+      "counts": {
+        "hud": 24,
+        "resize": 0,
+        "canvasMutations": 0,
+        "canvasReplacements": 0,
+        "backgroundSize": 0,
+        "backgroundScale": 0,
+        "internalCanvasResizes": 0,
+        "uploads": 0
+      },
+      "phases": {
+        "vertical-launch": {
+          "scrollX": 0,
+          "scrollY": 479.1020340118289,
+          "foot": 892.625,
+          "height": 33.625,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 1.4210854715202004e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "jump"
+          ]
+        },
+        "vertical-return": {
+          "scrollX": 354.9474725588499,
+          "scrollY": 630.2109072308558,
+          "foot": 1003.7363351095048,
+          "height": 16,
+          "maxSpriteFootError": 0,
+          "maxParallaxError": 5.684341886080802e-14,
+          "canvasSizes": [
+            "{\"x\":29,\"y\":220.6953125,\"w\":1382,\"h\":638,\"width\":1382,\"height\":638,\"same\":true}"
+          ],
+          "modes": [
+            "fall",
+            "walk"
+          ]
+        }
+      }
+    }
+  }
+}

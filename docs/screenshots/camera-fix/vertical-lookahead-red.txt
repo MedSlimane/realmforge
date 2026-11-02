@@ -1,0 +1,35 @@
+
+> @realmforge/web@0.1.0 test
+> vitest run --run src/game/render/PlayerCameraTarget.test.ts
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/web
+
+ ❯ src/game/render/PlayerCameraTarget.test.ts (5 tests | 1 failed) 4ms
+   ✓ platformer camera target > holds the floor baseline through an ordinary running jump and landing 1ms
+   ✓ platformer camera target > escapes the jump band for sustained ascent and descent in tall levels 0ms
+   ✓ platformer camera target > tracks grounded slopes and elevated landings using the new floor baseline 0ms
+   × platformer camera target > starts vertical tracking earlier for fast springs and long falls 2ms
+     → expected 1000 to be less than 1000
+   ✓ platformer camera target > shrinks the escape band in short viewports to keep a jumping player visible 0ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/game/render/PlayerCameraTarget.test.ts > platformer camera target > starts vertical tracking earlier for fast springs and long falls
+AssertionError: expected 1000 to be less than 1000
+ ❯ src/game/render/PlayerCameraTarget.test.ts:39:26
+     37|         const target = new PlayerCameraTarget(100, 1000);
+     38|         target.update(200, 800, false, 720, -36);
+     39|         expect(target.y).toBeLessThan(1000);
+       |                          ^
+     40|         target.update(200, 1500, false, 720, 16);
+     41|         expect(target.y).toBeGreaterThan(1470);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 4 passed (5)
+   Start at  21:33:44
+   Duration  303ms (transform 24ms, setup 0ms, collect 22ms, tests 4ms, environment 0ms, prepare 53ms)
+

@@ -1,0 +1,75 @@
+{
+  "gameBefore": true,
+  "before": {
+    "zoom": 0.65625,
+    "scroll": {
+      "x": 221,
+      "y": 1018
+    },
+    "viewport": {
+      "w": 844,
+      "h": 716
+    },
+    "listeners": 1,
+    "sameCanvas": true,
+    "sameGame": true,
+    "layers": [
+      {
+        "x": 422,
+        "y": 358,
+        "w": 1291,
+        "h": 1096,
+        "tileX": -78.95530726256983,
+        "scale": 2.130952380952381
+      }
+    ]
+  },
+  "zoomed": {
+    "zoom": 0.75,
+    "scroll": {
+      "x": 221,
+      "y": 1018
+    },
+    "viewport": {
+      "w": 844,
+      "h": 716
+    },
+    "listeners": 1,
+    "sameCanvas": true,
+    "sameGame": true,
+    "layers": [
+      {
+        "x": 422,
+        "y": 358,
+        "w": 1130,
+        "h": 959,
+        "tileX": -47.06145251396648,
+        "scale": 1.8645833333333333
+      }
+    ]
+  },
+  "panned": {
+    "zoom": 0.75,
+    "scroll": {
+      "x": 381,
+      "y": 978
+    },
+    "viewport": {
+      "w": 844,
+      "h": 716
+    },
+    "listeners": 1,
+    "sameCanvas": true,
+    "sameGame": true,
+    "layers": [
+      {
+        "x": 422,
+        "y": 358,
+        "w": 1130,
+        "h": 959,
+        "tileX": -25.608938547486034,
+        "scale": 1.8645833333333333
+      }
+    ]
+  }
+}

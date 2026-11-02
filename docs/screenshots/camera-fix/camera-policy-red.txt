@@ -1,0 +1,30 @@
+
+> @realmforge/web@0.1.0 test
+> vitest run --run src/game/render/PlayerCameraTarget.test.ts
+
+
+ RUN  v3.2.7 /Users/slimane/realmforge/web
+
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/game/render/PlayerCameraTarget.test.ts [ src/game/render/PlayerCameraTarget.test.ts ]
+Error: Cannot find module './PlayerCameraTarget' imported from '/Users/slimane/realmforge/web/src/game/render/PlayerCameraTarget.test.ts'
+ ❯ src/game/render/PlayerCameraTarget.test.ts:2:1
+      1| import { describe, expect, it } from 'vitest';
+      2| import { PlayerCameraTarget } from './PlayerCameraTarget';
+       | ^
+      3| 
+      4| // Coordinates are physical body x / foot sensor y, never animation bo…
+
+Caused by: Error: Failed to load url ./PlayerCameraTarget (resolved id: ./PlayerCameraTarget) in /Users/slimane/realmforge/web/src/game/render/PlayerCameraTarget.test.ts. Does the file exist?
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-CkSfqg8D.js:36043:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  21:28:37
+   Duration  261ms (transform 25ms, setup 0ms, collect 0ms, tests 0ms, environment 0ms, prepare 41ms)
+
