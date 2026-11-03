@@ -53,7 +53,7 @@ Node ≥ 22.13 is required (the server uses `node:sqlite`). npm installs can be 
 - **EIP-712 domains:** `RealmForge LevelNFT` / `RealmForge ForgeCoin`, version `"1"`. The typed messages are:
   - `ClearProof(address creator,bytes32 layoutHash,uint256 deadline)`
   - `RunResult(address player,uint256 levelId,uint32 timeMs,bool cleared,uint16 coins,uint256 nonce,uint256 deadline)`
-  - `RaceResult(bytes32 roomId,address[] ranking)`
+  - `RaceResult(bytes32 roomId,address[] ranking,uint256 deadline)`
   - `SeasonResult(uint256 season,address[] players,address[] creators,uint256[] shares)`
 
   A server test checks these strings against `contracts/src` word for word. If you change one side, change both and run both test suites.
