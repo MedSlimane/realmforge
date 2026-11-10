@@ -14,3 +14,4 @@ assets/_downloads/
 *.log
 .agent_prompts/
 .agent_logs/
+.playwright-cli/
